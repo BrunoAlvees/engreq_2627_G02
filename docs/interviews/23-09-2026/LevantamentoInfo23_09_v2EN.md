@@ -28,15 +28,17 @@ A consumer looks for a CSA they like or one nearby and requests a place. If a pl
 
 ### 3.2. CSA Management
 
-The entity responsible for managing the CSA plays an important role in its operation. One of the responsibilities mentioned in the notes is ensuring that payments are made.
+CSA management may be handled by one person or a group/committee. It was stated that a CSA may operate through an association or as a group of people without a separate legal entity.
 
-It was also stated that the organisation responsible for the CSA defines the delivery schedule. The remaining details of that schedule remain to be clarified.
+Management oversees payments, producer deliveries and consumer collections, and defines the delivery schedule. It was also identified as responsible for dealing with situations where the process does not go as planned. Specific procedures for resolving each situation have not yet been defined.
 
 ### 3.3. Commitment to the Producer and Deliveries
 
-It was stated that when someone makes a one-year commitment to a producer, they know that deliveries will not always be the same.
+The usual model described is a subscription to a seasonal produce box over a period, rather than a one-off purchase of a fixed list of products and quantities. Six-month and one-year commitments were given as examples, without establishing a mandatory duration.
 
-This information does not establish that all commitments must last one year, nor does it specify what varies between deliveries.
+The commitment allows the producer to plan production with greater predictability. The co-producer accepts that the contents and size of deliveries may vary with the season and available production.
+
+Deliveries are periodic. Weekly, fortnightly and monthly frequencies were mentioned as possibilities, depending on how the CSA operates.
 
 ### 3.4. Indicators
 
@@ -44,9 +46,11 @@ It was mentioned that some key performance indicators (KPIs) would be of interes
 
 The usefulness of KPIs and reports for organisations associated with CSAs and for researchers was mentioned. The group understood that these would be desirable, but their formal priority still needs to be confirmed with the client.
 
-### 3.5. Production Information
+### 3.5. Offers and Subscriptions
 
-According to the information gathered, producers indicate on the platform what they will produce and when. Consumer selection of quantities was not sufficiently clarified, so no ordering rule is established here.
+Producers indicate on the platform what they will produce and when, creating offers describing what they can supply and their available capacity. Co-producers registered with the CSA select and subscribe to these offers. Quantities used in the explanation are examples, not established system limits.
+
+A common three-month cycle was described, before which producers prepare their offers. This duration was presented as usual practice, not a universal rule. The cycle for organising offers and the duration of the co-producer's commitment should not be treated as necessarily identical.
 
 ### 3.6. Producer Registration and Evidence of Production Practices
 
@@ -56,7 +60,23 @@ It also mentions small producers without certification submitting photographs of
 
 ### 3.7. Relationship Between Producers and Co-producers
 
+Co-producers maintain an ongoing relationship with producers and share part of the responsibility for the production process through their commitment. The relationship involves closeness and knowing the producers, and may include discussing what to produce. Specific rights and obligations still need to be detailed.
+
 Farm visits were described that allow co-producers to learn about production and strengthen their relationship with producers. Co-producers sometimes also help with agricultural activities. This is a business practice mentioned in the interview, not an explicit request for the software to manage visits or these activities.
+
+### 3.8. Distribution and Communication
+
+There is usually a distribution point where producers drop off products and consumers collect their boxes, following the schedule defined by the organisation.
+
+It was emphasised that knowing the schedule does not remove the need for reminders about upcoming distributions. Publishing news in the software to communicate production-related events was also mentioned. Channels, recipients and publishing permissions still need to be defined.
+
+### 3.9. Payments and Invoicing
+
+Payment timing depends on the CSA's rules. It was stated that payment usually takes place at the start of the cycle, allowing the producer to invest in production, although other possibilities were mentioned. Making a commitment in advance does not, by itself, mean that all payments are made in advance.
+
+The entity issuing invoices depends on the CSA's structure. Small CSAs where consumers pay farmers directly and farmers issue the invoices were given as an example. Formally constituted CSAs charging a small commission to cover operating costs were also mentioned. No single invoicing rule was established for all models.
+
+The need to reduce the number of payment operations when multiple co-producers and producers are involved was identified. How payments should be consolidated remains open; monthly payment was not established as a mandatory solution.
 
 ## 4. Information Mentioned but Not Yet Sufficiently Certain
 
@@ -64,15 +84,17 @@ Farm visits were described that allow co-producers to learn about production and
 
 The following points are retained as provisional information, without being treated as agreed rules or features:
 
-- **Communication of problems:** there may have been a reference to displaying news or explanations through the software to communicate problems and harvest delays.
-- **Offers and subscriptions:** there are references to new offers, selection, and subscription. The available information does not establish the workflow, recipients, or a notification or voting requirement.
-- **Issuing invoices:** the response seems to indicate that the issuing entity depends on how the CSA is organised, but the examples were not sufficiently clear. No mandatory issuing entity can be identified.
-- **Consolidating payments:** there appears to be interest in reducing the number of payments by consolidating them. Monthly payment appears as a question, not as a clearly accepted rule.
-- **Meaning of co-producer:** the final explanation suggests a close, ongoing relationship with the producer, which may include discussing what to produce and accepting variability in production. This interpretation still requires confirmation; specific rights and responsibilities remain undefined.
+- **Preferences and substitutions:** there appears to be an intention to record co-producers' preferences and allow occasional box substitutions. Who decides, and the applicable rules and limits, remain unclear; unrestricted product selection is not assumed.
+- **New offers:** communicating the availability of offers was mentioned, but recipients, timing and the mechanism need clarification. No voting process has been established.
+- **Balance across deliveries:** there appears to be an intention to track deliveries over time to ensure a fair balance. Whether this considers weight, value, number of deliveries or another criterion remains undefined.
+- **FAIR's charging model:** a possible model combining a minimum fee with a component linked to usage or transaction volume was discussed. The paying entity, calculation basis and amounts were not clear enough to establish a rule.
+- **Operational details:** subscription formalisation and changes, payment consolidation rules, invoicing for each CSA model, and procedures for production or collection failures remain to be defined.
 
 ## 5. Lecturer's Guidance After the Interview
 
 After the interview, the lecturer highlighted that:
+
+- Initial interviews should favour broad, open questions about processes; more specific technical questions should be explored later with the appropriate participants.
 
 - No questions had been asked about the documents involved in the process, and these documents need to be understood.
 - The stakeholders need to be identified.
