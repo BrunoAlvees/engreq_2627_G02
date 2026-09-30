@@ -26,6 +26,32 @@
 - [ ] 11. Como é que a informação chega às pessoas (novas ofertas, alterações, avisos de entrega)?
 - [ ] 12. Quanto tempo ocupa a organização da CSA e quais são as tarefas mais trabalhosas?
 
+**biogoods**
+
+documentos usados:  exel,
+amap  dois tipos: uniprodutor/muktiprodutor 
+produto: cabaz da quinta 
+subescrição pedriodo de 6 meses 
+pagamentos mensais de 32€ 
+cabaz quinzenal de legumes e futra mais ou mens o 4kg 
+exeções ser possivel colocar exeções pessoa a pessoa 
+
+4 Amap funcionam de forma alternada 
+opção de entrega quinzal ou semanal juntando-se a duas AMAps
+o dia pode ser diferente (normal é a terça) pode difereirr de amap para amap 
+Entrada de cada pessoa na amap é feita por x periodo defenido pode defrtir de amap para amap 
+Balancemanto de entregas , no verão conseguese entrgar cabzes maiores 
 
 
+Pagamaneto é feito logo para o tem~po todo de subescriçãpo ou mensalmente 
 
+Possivel produtos a parte do cabaz com desconto para quem ja tem subescrição ,
+
+entrevenientes , da entrgas direção biogoods 
+assembleias o que se dessidem , 
+
+cada empresa emite a sua fatura ,
+
+exeções quando pessoas estão de ferias ou não vão buscar o produto , oferecer a um amigo doar a alguma entidade , destribuir o seu cabaz pelos outros copodrutores , cabza tem se ser recolhido e tem de ser pago 
+
+lembrar as pessoas para as entrgas 
