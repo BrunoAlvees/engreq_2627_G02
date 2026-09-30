@@ -1,7 +1,7 @@
 # Técnica 2: Análise de documentação e do sistema atual
 
 **Momento:** antes da elicitação (preparar entrevistas) e depois (verificar a cobertura dos requisitos)
-**Responsáveis:**
+**Responsável:** Bruno Alves
 **Estado:** planeada
 
 ## Porquê esta técnica

@@ -1,7 +1,7 @@
 # Technique 2: Document analysis and current system analysis
 
 **Timing:** before elicitation (to prepare interviews) and after (to check requirements coverage)
-**Owners:**
+**Owner:** Bruno Alves
 **Status:** planned
 
 ## Why this technique

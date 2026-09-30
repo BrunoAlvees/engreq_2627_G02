@@ -7,4 +7,4 @@
 | # | Técnica / Technique | Momento / Timing | Ficheiros / Files | Responsável / Owner |
 |---|---|---|---|---|
 | 1 | Análise de concorrência / Competitor analysis | Antes / Before | *(a adicionar / to be added)* | |
-| 2 | Análise de documentação e do sistema atual / Document and current system analysis | Antes + depois / Before + after | [PT](AnaliseDocumentacaoSistemaAtualPT.md) · [EN](AnaliseDocumentacaoSistemaAtualEN.md) | |
+| 2 | Análise de documentação e do sistema atual / Document and current system analysis | Antes + depois / Before + after | [PT](AnaliseDocumentacaoSistemaAtualPT.md) · [EN](AnaliseDocumentacaoSistemaAtualEN.md) | Bruno Alves |
