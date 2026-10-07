@@ -1,0 +1,269 @@
+﻿# Transcricao da sessao de 23/09/2026 (gravacao de um colega do grupo, transcricao automatica com identificacao de oradores)
+# O professor fez o papel de representante da FAIR / especialista em CSA. Partes em PT e EN.
+
+=== Parte 1 ===
+- 10:43da tarde -
+
+Speaker A: It. So the basic guidelines for first contact with an enterprise or a client, you should try to produce broader questions. Okay. Don't ask questions for which the answer would be yes, no, for apocalypse. Okay.
+
+- 10:44da tarde -
+
+Speaker B: Okay.
+
+- 10:45da tarde -
+
+Speaker A: The question should start something like, can you explain the process of.
+
+Speaker B: Yeah, okay.
+
+Speaker A: So that way you will get much more knowledge about the process and the first and it will help you to start your search.
+
+Speaker B: Okay.
+
+Speaker A: Later in the interviews, talk groups, workshops, then you can narrow your questions and go more technical.
+
+Speaker B: Okay.
+
+Speaker A: Things like what operating systems you will accept.
+
+Speaker B: Okay.
+
+Speaker A: But just when you are interviewing the more technical stuff.
+
+Speaker B: Okay. Okay. So our first question would be what are the main difficulties that producers, consumers and organizers currently face and which should this solution prioritize addressing?
+
+- 10:46da tarde -
+
+Speaker A: There are at least two areas that at least areas that the solution should address. One is communication, The consumers are inclusive. And the second is facilitating by unit process. Because CSA can have multiple producers and for sure it has multiple consumers. We call the context of csa, we call this core user because it means. It means that a consumer assumes parts for the responsibility for the pollution process. Okay. So for instance, in such cases, when the first CSA started, it will start a long time ago in Japan, because a group of others were worried about the quality of the building. So they went to some new producers and said, we want to buy all of your milk. Our cafe by one legal process.
+
+- 10:48da tarde -
+
+Speaker B: Okay? Okay.
+
+Speaker A: So it starts in that way. And if you need some money, like tractor or machines, we can help. So they can producers and not consumer.
+
+Speaker B: Okay.
+
+Speaker A: Are you talking about.
+
+=== Parte 2 ===
+- 10:50da tarde -
+
+Speaker A: Post containing. So as KSA delivers problems periodically, like every week, every two weeks, once a month, it depends. And usually the consumers or crop producers, they do not order a specific product. They say, I want to acquire your basket from for six months or one year, okay, in advance. They don't need to buy in the past, but they say to the farmer, I will buy you for one year, for instance. So the farmer already knows what needs to produce in the next year, okay? And for instance, if the laborers a basketball bench tools, he will not. He doesn't need to accomplish a specific order like one kilo of carrots or one kilo of potatoes, because he will deliver what he's producing in that specific time. It's seasonal. So it means that he knows what needs to produce. And there is a commitment between the consumer, the producer and the farm. It's not like going to a supermarket and you say, I want to kill all these and equal this. You pick, you buy, you go. It's a relation that endures for months or years. That's, that's why SESA is a short chain distribution system because the consumers know all the producers by name, okay? There's no needle person in the process, no intermediate art. Okay? So basically the process is the farmer creates his offers, saying, I can offer this, this and this. For instance, olive oil, wine or vegetables or fruits or meat, and say, I can deliver, let's say 40 baskets of vegetables. And the co producers registered in that CSA will say, okay, I will sign for this basket for one minute and that's it. So one creates offers, the other one accepts offer and contracts that, okay? After that you need to solve the problem of communication between the players, saying, the deliver for a week, maybe this, you need to buy this for the next month, okay?
+
+=== Parte 3 ===
+- 10:53da tarde -
+
+Speaker A: Porque esta atividade é um tipo de cooperação que se propõe... Sim, é uma cooperação, sim. Então... E agora a gente quer fazer uma pergunta. Sim? Então, como nós... qual seria o melhor modelo de negócio para esta cooperação para implementar suas faixas? O que seria o melhor jeito para a sociedade? Há diferentes soluções no mercado. um software completamente livre, e geralmente, em situações como essas, o CSA paga uma fee de alívio para o seu apoio. Mas eu não sou muito de acordo com essa solução, porque ela requer muito de pessoas que ajudam a desenvolver a solução e responder as perguntas e criar ideias, por exemplo. Eu acho que o melhor modelo deveria ser baseado no volume de problemas, de transações, e o número de ideias Então, algo como um FII mínimo para cada produtor, mas que pode crescer baseado no volume do modelo. Então, dessa forma, deve ser justo para os pequenos CSEs começarem. E então, quando eles se tornarem adultos, Entretanto,
+
+- 10:56da tarde -
+
+Speaker B: também o setor já foi dando algumas informações às perguntas que nós também aqui tínhamos, não é? A pergunta neste caso que nós tínhamos preparado a seguir era como é que seria um ciclo completo de funcionamento No caso da empresa, posso chamar-lhe de empresa? Não é correto? Só que a pessoa também já falou disso, mais ou menos.
+
+Speaker A: Please keep in mind that routing is a fair solution with the Bob software, or CSAs. A CSA é geralmente apropriada por uma associação e, às vezes, não tem até uma figura legal por trás. É apenas um grupo de pessoas. Mas eles conseguem... Há CSAs trabalhando totalmente baseadas em emails e tudo mais. Se você for, por exemplo, para a França, você pode ter acesso a milhares de computadores e milhares de farmácias. E eles já são responsáveis pela distribuição, transporte e tudo mais. Eles são realmente organizados.
+
+- 10:58da tarde -
+
+Speaker B: No Portugal, o modelo é bastante É rudimentário, ok.
+
+Speaker A: Mas geralmente, o ciclo, digamos que o ciclo, o ciclo mais comum é de três meses, ok? Um para cada sessão. Eu acho que antes do começo do ciclo, cada programa cria sua oferta. Dizendo que nos próximos 3 meses eu oferecerei isto, isto e isto. Ok? Então cria suas ofertas. Notem que, geralmente, as ofertas de um ano para o outro serão quase iguais, porque de janeiro em janeiro, cada ano, pode mudar um pouco, mas não muito. E então, todas as conclusões precisam ser modificadas, dizendo, ok, há algumas ofertas que já são mais ou menos iguais. Por favor, selecione-as. E eles selecionarão os órgãos e as ordens. Eles desbloquearão as ordens e dizerão que as ordens foram feitas. Depois de dois dias. The organization behind the CSA defines the calendar for the deliveries. Usually there is a place where the deliveries happen. So people go there and fix everything. Okay? Traders drop things, consumers pick the basket. Okay?
+
+- 10:59da tarde -
+
+Speaker B: Okay.
+
+Speaker A: Então, há um calendário que todos sabem, mas ele não replaça a necessidade de alertar o computador dizendo que amanhã haverá uma distribuição.
+
+- 11:00da tarde -
+
+Speaker B: Eles precisam ser notificados.
+
+Speaker A: Dependendo das regras do CSA, no começo da cifra ou no final da cifra, normalmente no começo, porque uma das regras é proporcionar condições justas para os agricultores. Então, antes da cifra começar, as pessoas são notificadas sobre o valor do pagamento. Então, o pagamento Ok? Então, o agricultor pode receber o dinheiro e pode investir o dinheiro na cultura que quer investir. Ok?
+
+Speaker B: Ok.
+
+Speaker A: Então, basicamente é isso.
+
+Speaker B: Ok. Obrigado.
+
+Speaker A: Se quiseres fazer em português, é muito fácil, eu te respondo um minuto. Ah, mas será que podes falar em português? Se posso responder em português. É que não conheço muito bem o português.
+
+=== Parte 4 ===
+- 11:01da tarde -
+
+Speaker A: Os produtores, os clientes, os consumidores, como é que eles encontram os produtores e como é que eles candidatam a essa...
+
+Speaker B: Basicamente, tem que existir um ponto de entrada, uma parte do web, das palavras em línguas, às CSAs. De Vale, da Catalunya, de França, etc. Em função da localização, vai ter uma lista, como se fosse uma loja, ou um banco, e vai ver qual é a CSA mais próxima ao que lhe interessa. Na última, até pode lembrar do sítio. mas que trabalham muito até poder dar mais jeito de recolher os produtos noutra localidade. Ok? Então, o
+
+- 11:02da tarde -
+
+Speaker A: que vais fazer? Vocês têm vários.
+
+Speaker B: Muitas vezes eu disse que não vários. E pode ir com alguma mista de espelho. Certo? Quer dizer, eu estava à CSA, a resolucionar e a fazer meios de jantares, ou em universidades. Eu, simplesmente, hoje, vou trabalhar com os carros minutos, não é? Todos os dias,
+
+Speaker A: e ao dia da semana, onde é feita
+
+Speaker B: a
+
+Speaker A: entrega,
+
+Speaker B: são menos. Eles trazem os fichinhos para cá, desenvolvem e tem a sua escolha. Então, ele escolhe a CSA que quer que diga que quer ligar esta CSA. Quando é que posso começar? A partir daí, se está a testar, recebe notificações, vê a escolha que existe. Ele pode sempre ver os produtos que existem. Até para o número 5 entrar no número 5, como a gente pode ver, ele pode entrar no nosso número 5. Se eu for ele afeta, eu desligo. E ele passa a subscrever. A palavra em português é subscrever. Ele subscreve, se afeta, subscreve, passa a subscrevê-lo. Para, acerta. Ok? Basicamente, ele lhe pede que trabalhe.
+
+=== Parte 5 ===
+- 11:04da tarde -
+
+Speaker A: Oitavo direito da Associação de Arquitetos Motores, quero iniciar uma mapa. Uma formulação do uso dos produtos formais dos anos 60, ou, atrair o branco consumidor para o modelo do PCC.
+
+Speaker B: O nosso foco, a nossa defesa, é aplicar a nossa visão através do nível do PCC. A chegada a esse processo, aliás, existe um processo de demanda. e ter a capacidade de comunidade para comunicar para as CSFs. Se houver mais CSFs formarem-se, nós vamos ter vantagem. Espero que o nosso interesse nos tenha alguma coisa e vamos fazer uma boa comunidade para as CSFs, um total CSF.
+
+- 11:05da tarde -
+
+Speaker C: Sim, mas naquilo que eu estou a perguntar, não sei se é o mesmo valor. É, por exemplo, a forma que isto faz. É, por exemplo, jogar um jazz e isto liga ou criar um jogo.
+
+Speaker B: Criar CSI?
+
+Speaker C: Sim.
+
+Speaker B: O nosso objetivo não é o de fazer CSI. Nós conhecemos o software da CSI.
+
+Speaker C: Certo. Mas amigo, não devemos ter uma fórmula para isso. A prioridade comum é substituir uma situação que existe natural e migrar com esses colheres, essas corporativas para outras situações?
+
+- 11:06da tarde -
+
+Speaker B: Não. Existe um tempo tópico, não sequer é uma noção negativa, existe uma possibilidade de existência. Mas quem está aqui para trabalhar tem um projeto muito duro. Então, mas se pensar, se dá para ter que acalorizar, ter 7 anos de CSA. E tem modelos muito variados. Tem modelos de softwares que existem, dispararam-me tudo, que foram feitos amadores, que estavam muito bem relacionados, mas depois é preciso manter o software.
+
+Speaker A: Ok?
+
+Speaker B: Como se eu tivesse apontado um modelo contrário.
+
+Speaker C: Então, estamos a apontar, por algumas razões, um modelo variado, não nacional?
+
+Speaker A: Sim.
+
+Speaker B: O nacional é aquele outro, pessoal.
+
+Speaker C: E a prioridade inicial não é engargar imóveis com eles nunca tiveram o software.
+
+- 11:07da tarde -
+
+Speaker B: É, provavelmente, satisfazer CSAs que têm um doamento da organização. Portanto, acho que temos que facilitar. Porque é perdido. Há muitas CSAs que funcionaram em imóveis absolutamente arrecados. Convivente. que servem de um número muito isolante, de fase ambientalária, e depois põe-lhe a opção de fazer, por exemplo, quando entrega o cabaço de bambus, o cabaço de bambus pode ser de vegetais de folha, de colos, e não sei o que mais, de doentes, de animais, e não
+
+Speaker A: sei o que mais.
+
+Speaker B: E as pessoas não gostam de outros vegetais. As pessoas não gostam de fucho, não gostam de petito, não gostam da terrada, não gostam da terrada deles.
+
+Speaker C: Ok?
+
+- 11:08da tarde -
+
+Speaker B: E, quando esse hábito de pedido, de carvalhas na base do engajamento, as pessoas dizem, o João não gosta de carvalhos para aquecer sempre o petito. Se quisermos esmelar isto, o nosso sistema tem de ter alguma coisa que possa ter os prestígios dos autores e saber pontualmente onde temos de substituir alguns produtos. Não faz sentido entregar cabrales que não conhecemos e que as pessoas não gostam. Não sentimos nenhuma desprezabilidade. É isso. Como em terem conta, nas CSAs existem dois tipos de consumidores. São consumidores que favorizam os produtos biológicos, frios, ou seja, a qualidade. E dizem-me, esta CSA interessa-me, eu vou comer muito melhor do que se comprar em uma loja da especialidade ou no supermercado. E depois há um segundo tipo de cliente, que é o cliente biológico, que diz, eu quero comprar nisto, Porque aqui eu estou a trabalhar diretamente com os agricultores. Estou a portar-te um modelo em que há um desequilíbrio entre o produtor e o distribuidor. Portanto, mas até superficados, com leituras negras, condições de pagamento e tamanho dos lucros e tudo mais alguma coisa. Se faz com que o é ou o mais fraco, o processo seja melhor e mais rápido. Portanto, as ciências têm uma componente ideológica para o ambientalismo. Portanto, há uma parte de eles que são ideológicos. Gostam de um produto, etc. Gostam de fruta, feijas, frutos frescos, mas são ideológicos. Portanto, ainda se trabalha dentro de uma base anodora, se quiser. Portanto, o pós-evento só que é que facilita, por exemplo. Tem mais alguma questão?
+
+- 11:09da tarde -
+
+Speaker C: Sim, temos mais uma questão. Quando algo neste... Entendi a última pergunta, mas não entendi a próxima.
+
+=== Parte 6 ===
+- 11:11da tarde -
+
+Speaker A: O trastor era basicamente sobre quando o ciclo não corre como previsto, no sentido que, por exemplo, ou falta a produção dos agricultores, ou ninguém vai levantar os produtos, ou eles não são enviados por algum motivo, quem é que tem a autoridade para resolver essa situação e como é que ela deve ser resolvida, digamos assim?
+
+Speaker B: Você tem que fazer a gestão da Sessão. Assim que alguém faz a gestão da sessão.
+
+- 11:12da tarde -
+
+Speaker A: tipo um administrador da própria... Pode ser
+
+Speaker B: um comitê, pode ser três pessoas, pode ser uma pessoa... É como um condomínio, há sempre alguém que vai tomar conta daqui.
+
+Speaker A: Ok.
+
+Speaker B: Basicamente, garante-me que os pagamentos existem, que as publicações são feitas, os produtos são levantados e os produtores entregam os produtos. Ok? Esse é um outro, esse é no papel. Na prática, na agricultura, existem ciclos, por acontecer, ciclos de escassez. Todos os anos, sempre. No verão, em bom tempo, há legumes, e frutas, e mates, e não sei o que mais. É fácil fazer um cabagem de 10 kg. No inverno, há couve, e cravas, e tudo mais. Então... Quem, por favor, insumi o nome do doutor, já sabe, à partida, que vai ter entregas, por exemplo, mais pequenas, e mais às vezes vai ter outras entregas maiores. Ok? O pessoal que quer dar contabilidade num valor médio de cavais, pesos, entregas... No final, ao fim de 50 entregas, haja um balanço justo para todos os lados. Mas também há situações que são pontuais, que já vão ter ídolos como o passado e como o futuro. Ok? Uma ligação entre os computadores e os consumidores é muito próxima. Eles sabem. Por exemplo, o software permite-nos levar lá notícias de coisas que aconteceram. Portanto, eles já sabem como é que é o futuro, como funciona o futuro. Certo? Isto, de um lado, nos dá um ponto emocional, do outro lado, nos defende a não.
+
+- 11:13da tarde -
+
+Speaker A: Ok, então é quase como um contacto humano, digamos assim, é mesmo?
+
+- 11:14da tarde -
+
+Speaker B: É, é um contacto de direitos intermediares. O que faz é que essas situações devem ficar estabelecidas e que não dão nenhuma oportunidade a eles de alcançar a batalha.
+
+Speaker A: Ok.
+
+Speaker B: Percebido?
+
+Speaker A: Certo.
+
+Speaker B: Portanto, individualmente, tem que pensar em quantas coisas é que possui um funcionário temporário para resolver essas necessidades.
+
+Speaker A: Ok.
+
+Speaker B: Pelo amor de Deus.
+
+=== Parte 7 ===
+- 11:14da tarde -
+
+Speaker A: We have 100 questions, so. Well, let's start with the first one which is related to the P1 and OBS because there is a specific requirement. So what is, what is a software supposed to be? Like saying how many kilometers were saying CO2 emissions or percentage of waste that
+
+- 11:15da tarde -
+
+Speaker B: is avoided or okay, what, what's, what's the relation between ODS and our startup? Our startup as ideological basement house? Okay, so if you want to look at. In terms of position, marketing position, we are focusing the clients that are some kind of ideological base behind. So that's our alignment. We are focused in developing software that can help to implement the ODS goals. One of the ODS is reducing the poverty, creating a more sustainable society, creating or improving techniques that preserve the natural resources. So typically the producers of CSA are all organic farmers.
+
+- 11:16da tarde -
+
+Speaker A: Okay, my question is.
+
+Speaker B: Yes. For instance, when the farmer creates his own records, when he registers, usually he needs to upload. Upload certifications for grass certification, biological or dentor or there's many certifications and sometimes there's no certification because it's too small to have certifications that he uploads. Pictures of the farm description, how it works, how it produces its own products. For instance, one of the events that usually happen in the context of CSA's visits to the explorations of the farms. So the co producers know how things are usually farmed.
+
+- 11:17da tarde -
+
+Speaker A: Okay.
+
+Speaker B: Sometimes they help to produce once a year or twice a year they visit the farm and they help like whole loops or something like that. So it helps to frame the link between the.
+
+- 11:18da tarde -
+
+Speaker A: Which is fine. But are we making the software metrics of what we were just discussing? Like, I mean it's very simple to understand. I'm a biological farmer, so I. And the ground. Hey, that's okay. But is the software supposed to produce some kind of rewards?
+
+Speaker B: Yeah, I don't know how many deliverance. Some KPIs would be. Yeah, some KPIs would be interesting because sometimes the organizations that all CSAs they have fandoms so they give rewards. Sometimes the CA are connected with the CAD. So there are researchers who want that kind of KPIs and reports. So that kind of KPIs could be a little bit interesting to produce.
+
+- 11:19da tarde -
+
+Speaker A: Interestingly, something like a short,
+
+Speaker B: not the last.
+
+Speaker A: Okay, nice. I have another question. So this close relationship between producers cockpits which entity issues a. Because there's a transaction. So I bought some vegetables. Yeah. And which is the entity that issues the invoice?
+
+- 11:20da tarde -
+
+Speaker B: The inputs.
+
+Speaker A: Invoice.
+
+Speaker B: Invoice. Yeah. It can depend depend on the legal configuration of the cs. Sometimes the CSA is fully registered and charges in the bill. There's a small commission that is important for instance for paying the costs on place or cleaning or power wherever or even the personnel who need to work. That depends on the size.
+
+Speaker A: Okay.
+
+Speaker B: And when, when the CSA is too small people tend to pay straight away to the farmer. So in that cases the farmer produces the invoices. But for instance in a medium sized CSA with let's say 30 cop users and 4 producer something like 100 patents for money. So one thing that you should concern is trying to optimize the payment system the entire solution.
+
+- 11:21da tarde -
+
+Speaker A: So I don't want to make payment
+
+Speaker B: but something concentrated in order to avoid dozens and dozens of things like a
+
+Speaker A: monthly pain and just pay everything at the end of the month.
+
+Speaker B: Probably there are many solutions better than me.
+
+Speaker A: Yeah.
+
+Speaker B: For thinking the solution.
+
+Speaker A: Just trying to, you know, get some direction. Yeah.
+
+=== Parte 8 ===
+- 11:22da tarde -
+
+Speaker A: Porque se não, quando vocês quiserem identificar os interessados, fazer uma entrevista, vocês não sabem quem é que eles são, certo? Portanto, isto é como quem desfia o modelo que a gente tem começado a perceber, às vezes hoje por outro público, certo? Quem é que paga? Como é que paga isto? Como é que a paga? Quem é que é interessado? Quem é que é negociado com os outros? E outra coisa, que é absurdo de menos envolvidinho, isto só porque não está relacionado com o mundo, foi quem é que inventa as fábricas? Certo? Mas deve haver mais coisa. O processo. Os grupos não aparecem magicamente, não sabem, como uma caixa, e vão parar aos braços com o copo do outro. Certo? em perceber o processo, onde está a conta, e quem é que são os potenciais financiados para vocês poderem produzir uma solução de satisfação. Está bem? Estes são os documentos e processos que a gente vai apresentar. António, apresenta-se para as próximas entrevistas. Ok? Os documentos dizem coisas que as pessoas não dizem nas entrevistas. Então, nesta conversa que a gente está a falar, esta é uma conversa. Estratificar, segmentar uma informação ao longo de, se calhar, décadas. Nós olhamos como uma fatura. Uma fatura tem um monte de informação lá. Certo? Há faturas. Há décadas. E elas incluem, então, tempo de cabeçalho, namorada da entrega, namorada do cliente, identificação do cliente, os produtos, linha a linha, o total, a forma de pagamento, tudo isso, dentro do documento. Essa é a informação. Se nós brilhamos numa sociedade de regulação, devemos tentar que as pessoas brilhemos de suporte à nossa propriedade, porque lá está sempre muita regulação. O copo do motor, se quiser, é uma folia do tempo. Mas no processo normal, no supermercado, o que é que acontece? Assim, acontece de haver uma salada de tomate, ok? Você entra no supermercado mais próximo, vai lá, espera os tomates, porque é a melhor espera, a cebola, vem embora a fase de salada, e acabou. Certo? Você não sabe quem é o produtor, não. Não sabe se ele tem filhos, se ele vive longe, se vive perto, e atualmente lá diz-se que não. E é uma transação financeira. Normalmente, a entidade que é mais minima, então o processo foi super metálico, comprou, especificou as condições, disse ao produtor que eu vou lhe pagar xis, ou então até vai dizer, esta semana dá-nos a dois anos para começar, vamos vender o tomate mais barato, ok? O que quer dizer, eu vou te pagar menos ainda do que costumo pagar para tomar. Porque a produção é suportada sempre por um produtor. Certo? E eu vou te pagar em 4 meses, talvez. E espero que fiques muito contente com essas condições. O que acontece? Vocês estão com meus nomes antigos de salada antológica? Certo? Uma CSA, trabalhando numa loja completamente diferente, que é o João de Luís do Marcos, E as pessoas que querem bom respeito de tomates, não vão pagar elas não. E mais que isso, ele vai dizer, eu estou a pensar em cultivar tomates para o próximo ano. E quem é que gosta? Que tipo de tomate é que vocês gostam mais? É o que eu vou pensar em produzir no meu problema regional. Vocês querem? Isto todo. Pode custar-me mais disto de mato, ou de lombo, ou de qualquer coisa. E pode produzir no consumo X por mês disto de mato. Então ele pode cultivar aquilo que sabe que é desse prato que ele vai comer. Ok? Porque sabe-se que vai acontecer alguma coisa? Ele pode estar comendo, não consegue entregar. Ele pode produzir muito mais de mato, pode perceber. Ele vai entregar mais de mato. Mas se tiver membros, eu vou entregar membros. Não há uma relação pessoal, não há uma ligação contactual. Porque há uma ligação humana, se vocês olharem os princípios de Osama Hamouda, traz esta processa de uma base ideológica muito forte. Isso altera. A lógica deste programa vai ser manter o copo do governo. E vai ser co-responsável pela produção do dinheiro. Quer dizer, quem quer, mentalmente, se sinta pequeno... Até pode dizer... Epá, eu gostava de comer pequeno, mas... Ele diz... Até pode dizer, eu gostava de comer mais pequeno, mas não gostei muito mais do que foi. Então as pessoas, dentro da mata, se podem utilizar. Para poder ajudar as pequenas pessoas. Mas, depois, uns 4 anos assim, vão ter comidas mais baratas. Porque, geralmente, se está no dinheiro, há uma cooperativa de produção, em muitos aspectos. Mas, como vocês não gostariam de ver isto, eu disse que vocês gostariam de ver este tema. Porque, se fossem superlegados, não saberiam que nós fazíamos isto.
+

@@ -1,0 +1,537 @@
+﻿# Transcricao reuniao 29/09/2026 (BioGoods) - Whisper large-v3, PT, audio amplificado
+# Gravacao feita longe do orador: ha erros e frases inventadas; confirmar trechos importantes no reuniao_29_09_volume_aumentado.m4a
+
+[00:00:00] Bom, há algum tempo a gente não se conhece, não se conhece a gente não,
+[00:00:04] e nós ficávamos em Tóquio, em Tóquio de Óbvio,
+[00:00:08] e mais ou menos ao mesmo tempo começámos a vender metil, começámos a vender mel,
+[00:00:15] e rapidamente fomos percebendo que havia apetência por parte das pessoas de receber mais variedade de produtos,
+[00:00:22] desde que eles fossem sempre produzidos diretamente por nós, ou seja, não há atribuídos.
+[00:00:27] Quando não dedico a uma relação de possibilidade, é uma relação direta, não há qualquer tipo de intermediário.
+[00:00:33] O que eu produzo, eu vendo diretamente para o consumidor.
+[00:00:36] O que é que isso permite às pessoas?
+[00:00:38] Permite que vão ter produtos mais frescos, no que respeita a tudo o que é que eu estou fazendo,
+[00:00:46] vão ter produtos com maior confiança, que sabem exatamente como é que eles são produzidos,
+[00:00:50] eu posso dar uma aval de tudo e tudo está daqui a tempo, eu sei exatamente o que é que eu levo,
+[00:00:55] E a partir do momento que começam a entrar intermediários na cadeia do consumidor, essa confiança, apesar de haver várias explicações específicas, acaba por se esbater e ganham também em termos de acessibilidade, porque ao não haver intermediários para os consumidores com os seus produtos, de alta qualidade a um preço magnífico.
+[00:01:17] Como as coisas na Amapá já estiveram bem, nós fomos ampliando o nosso conhecimento,
+[00:01:27] do verão, metil, ovos, passamos para conhecer também batata, cebola, abóbora, variados,
+[00:01:34] até que em 2024 tivemos um salto grande, passamos a ser o doutor principal no INEMOS,
+[00:01:41] o profissional que estava na MAP vai ter a necessidade de se indicar a outros projetos
+[00:01:47] e, portanto, nós absorvemos esse lugar e começamos a conhecer inteiramente os cabaços do Brasil.
+[00:01:58] Simultaneamente com este percurso e com a vontade de dar a estreia de tudo o que saía de nós,
+[00:02:02] e de começar cada vez mais a substituir aquilo que era antes a nossa forma de venda,
+[00:02:08] que não se atende ao consumidor final, fomos ampliando a nossa rede.
+[00:02:12] E desde então, nós temos um peso, vamos amar aqui um pouco.
+[00:02:16] Uma é a de hoje em dia, um péssimo de dinâmica é a de hoje, a dinâmica de uma hora alta,
+[00:02:20] que é uma escola, e tem uma dinâmica que todos são muito interessados, porque as pessoas
+[00:02:26] são muito similares, os pais são muito preocupados com a alimentação das crianças,
+[00:02:32] portanto, produziam esta escura e a qualidade dos produtos.
+[00:02:36] Depois surgiu, com o titular de Ciências e Nutrição da UB, ali de Campo Alegre, também uma parceria,
+[00:02:46] que é o Nova Amap, ainda de finais de 4, e este ano criámos uma nova Amap ali nas urnas do Montenegro.
+[00:02:58] As Amap foram surgindo um bocado também como resposta às solicitações, ou seja,
+[00:03:03] Havia pessoas que ouviam falar do projeto, nos contactávamos e gostávamos de ter uma associação para a manifestação eletrónica
+[00:03:12] com a possibilidade de dar acesso aos pais, aos estudantes, aos professores que frequentam a minha instituição
+[00:03:18] a este tipo de recursos, com estes característicos.
+[00:03:23] Agora, para que vocês percebam que tipo de necessidades é que nós podemos ter em termos de software de gestão,
+[00:03:31] atualmente, como é que eu faço a sugestão e o que é que é importante que se houvesse
+[00:03:36] aqui de algo, seja para nós, seja para todas essas outras AMAPs que existem pela Europa
+[00:03:41] ou pelo mundo de fora, para eles que existem aqui uma capacidade ou um potencial de disponibilidade,
+[00:03:49] tem tudo feito numa forma bastante rudimentar. Nós, na biomedicina, temos um Excel para
+[00:03:54] cada uma destas AMAPs, tem que prestar o que é que pedem a cópia que eu tenho, em que
+[00:03:59] em que dados vamos entregar, o valor do custo e os cálculos que são feitos conforme a norma do Excel,
+[00:04:07] que nos dá o valor mensal e mensalmente nós enviamos esse valor para cada um dos colegas.
+[00:04:13] Quando nós éramos em... quando nós éramos aí numa coisa, aproximadamente, já tivemos uma quase sessão
+[00:04:21] e o trabalho lá que vai escalando e cada vez mais complicado.
+[00:04:25] E daí a necessidade de tentar aqui automatizar alguns treinos.
+[00:04:31] Vou explicar também o que é que é que tivemos,
+[00:04:35] porque essa variabilidade também é altamente importante no nível de trabalho que nós temos.
+[00:04:40] Não temos só um produto, nem dois, nem três,
+[00:04:43] para ir de lá para lá, mas às vezes chegam a haver se calhar 15 produtos a serem entregues em cada local
+[00:04:50] e às vezes também não sou só eu, há bocadinho, acho que iniciei essa temática, mas depois vou mexendo,
+[00:04:58] as AMAP podem ser único produtor ou múltiplo produtor.
+[00:05:02] Quando são múltiplo produtor, nós temos vários produtores a fornecer aquele mesmo conjunto de pessoas,
+[00:05:09] pode-se normalmente com alimentos diferentes, mas às vezes até pode haver sobreposição.
+[00:05:14] Vamos imaginar que a minha capacidade de formação é uma exploração pequena.
+[00:05:21] Eu posso unir-me ao outro produtor e quero produzir a mesma coisa para conseguirmos em conjunto abastecer o grupo.
+[00:05:28] Portanto, convém também que o que vem a ser desenvolvido considere esta flexibilidade de ter um ou mais com o mesmo ou variados grupos.
+[00:05:45] Tipicamente, na Zahrap, nós temos um produto base, que é aquele que a maior parte das pessoas encomenda,
+[00:05:54] que é o cabaz da tinta. Mas também existem variantes.
+[00:05:59] Mas antes de irmos nas variantes, é claro que não tem o produto base.
+[00:06:02] O cabaz da tinta é um produto, é um cabaz composto por orquídeos, poços e legumes,
+[00:06:07] que tem um peso estimado a mais de 4 kg e cerca de 8 a 10 variedades.
+[00:06:14] É interessante para as pessoas saberem diante não e antes da entrega o que é que vão receber.
+[00:06:20] Portanto, esta composição também seria interessante para o software pudesse vir a comunicar.
+[00:06:27] Em vez de eu, todas as semanas, enviar um WhatsApp aos meus clientes e dizer
+[00:06:31] olha, o trabalho de hoje leva A, B, C e D,
+[00:06:34] eu gostava que eles pudessem ou receber uma plataforma,
+[00:06:36] ou receber uma mensagem automática,
+[00:06:38] soubessem automaticamente o que é que vão ter.
+[00:06:41] E depois aqui há também uma variante.
+[00:06:43] Embora o cabacho seja cese, ou seja, um cabacho que é igual para as uniformidades dos co-cultores,
+[00:06:52] existe a possibilidade de que se alguém é, por exemplo, intolerante a um determinado alimento,
+[00:06:57] solicitar a sua exclusão. Vamos imaginar que alguém é alérgico a pepino,
+[00:07:03] ou simplesmente não usa porque é intolerante ou não gosta.
+[00:07:07] Então a pessoa pode dizer aquilo que quer mesmo que seja excluído do cabacho.
+[00:07:12] E o que é que eu vou fazer? Eu vou fazer uma substituição.
+[00:07:15] Porque a pessoa não pode simplesmente não receber aquele alimento, ela tem que beber outro.
+[00:07:19] É a substituição.
+[00:07:21] E eu gostava que o software me tivesse a possibilidade de dizer
+[00:07:25] pessoa a pessoa o que é que vão receber.
+[00:07:30] Então, este cabaz é entregue quinzenalmente
+[00:07:37] naqueles locais que eu mencionei.
+[00:07:40] Não são todas na mesma semana.
+[00:07:43] De forma a fazer face ao facto de que na agricultura nós temos que colher todas as semanas,
+[00:07:50] porque apesar de às vezes as pessoas não terem a necessidade de receber fruta fresca cada semana,
+[00:07:57] eu tenho necessidade de a colher, senão ela pode-se estragar, então mais alguns frutos podem estragar.
+[00:08:02] Então o que é que nós fazemos?
+[00:08:03] Nós temos duas colheres que têm quatro e elas funcionam em semanas alternadas.
+[00:08:09] Na semana 1 cada mês eu entrego a MAP A e B, na semana 2 cada mês eu entrego a MAP C e D, na semana 3 eu voltei para virar a A e a B e na semana 4 entregar-se a A e a D novamente.
+[00:08:22] Isto permite-nos, em termos de ser vítimas, equilibrar as poderes e, simultaneamente, fazer com que as pessoas só cresçam com a velocidade que, tipicamente, é preferida, que é, pelo menos, pela nossa experiência, que é a divisão.
+[00:08:43] Em todo caso, quando alguém quer crescer, quer crescer semanalmente, tem sempre a opção de se juntar a duas das nossas AMAPs e aí já pode crescer todas as semanas.
+[00:08:52] semanas. O que mais posso dizer sobre o trabalho? O trabalho tem um... apesar do número de
+[00:09:02] semanas em cada mês às vezes variar, nós temos um dia de entrega fixo, que é terça-feira
+[00:09:08] para todas, mas é uma tendência diferente, e como é que o software também funciona
+[00:09:13] por isso, já houve momentos em que nós entregávamos uma, e na AMAP A entregava a terça, e na
+[00:09:19] e chegava à quinta. Então, o momento em que existia essa distinção.
+[00:09:25] E, como algumas semanas, alguns meses têm mais do que duas terças-feiras,
+[00:09:34] foram quatro terças-feiras, que será o normal,
+[00:09:37] e como eles recebem funcionalmente quatro terças-feiras,
+[00:09:40] originam duas entregas para cada pessoa.
+[00:09:43] Mas, às vezes, aparece um mês em que aparecem três terças-feiras,
+[00:09:46] o mês começou ali nos 31 dias, a segunda ou a terça-feira vai estender-se e apanhar
+[00:09:54] tanto tempo. Mas não obstante isso, as pessoas pagam sempre um dolo fixo por mês. Nós inclusive
+[00:10:02] não cobramos ao cabaço, mas sim ao mês. Nós temos uma subscrição que é imensável.
+[00:10:07] E porquê que a palavra também de subscrição aparece aqui? Porque a entrada de cada pessoa
+[00:10:13] na AMAP não é feita por um período pré-conhecido, nós trabalhamos numa lógica de 6 meses, mas
+[00:10:21] se não temos AMAPs pode ser 3 meses e não temos, pode ser 1 ano. Portanto, isso também
+[00:10:27] deve ser incorporado nos nossos requisitos. E o valor é sempre o mesmo, ok? No meu caso,
+[00:10:37] com um valor de 3 dimensões.
+[00:10:41] Esta questão ali da abundância versus cacete,
+[00:10:43] posso-vos explicar,
+[00:10:45] no caso, acho que não tem impacto no
+[00:10:47] vosso desenvolvimento, se vos tiver curiosidade.
+[00:10:49] O que é que acontece? Como normalmente
+[00:10:51] a natureza é mais abundante no verão,
+[00:10:53] nós conseguimos adicionar
+[00:10:55] cabazos maiores no verão
+[00:10:57] do que no inverno. No inverno há menos
+[00:10:59] variedade e há menos quantidade,
+[00:11:01] então cabazos um bocadinho mais magros
+[00:11:03] vão adicionar o povo no verão.
+[00:11:05] O que acontece? A pessoa, ao longo dos 6 meses que subscreve, tem a garantia de que vai receber, pelo menos, aquela quantidade e aquela variedade dos colegas que vão dar ali os 6 a 8 segundos, ou 8 a 10 segundos, no caso deles.
+[00:11:23] Em cima do cabal base, podem haver outros produtos.
+[00:11:32] No meu caso, pode ser o feijão, os ovos, o frango, o borrego, o lebre, o pólar.
+[00:11:39] Mas eu não queria que esta lista fosse fechada.
+[00:11:41] Hoje ela é isto, amanhã pode ser outra coisa qualquer.
+[00:11:44] São só alguns deles.
+[00:11:46] E às vezes, para além de haver outros estados, existem outros produtores.
+[00:11:52] E esses produtores vão ter outros produtos e outras características nas suas entregas.
+[00:12:02] Então, o que é que vamos explicar?
+[00:12:04] Posso fazer uma pergunta?
+[00:12:09] Pode, claro.
+[00:12:11] Queres mudar a sala?
+[00:12:13] Claro que sim.
+[00:12:15] Não, eu também.
+[00:12:17] Ainda não consegui ser agricultor, não tenho alguma sugestão.
+[00:12:21] Dani, quando tem vários produtores, é possível mostrar os trabalhos ou cada produtor oferece os trabalhos?
+[00:12:28] É uma boa pergunta. Cada produtor oferece um trabalho distinto, mas há mapas aqui no fundo.
+[00:12:34] Mas há, ou seja, aqui nós temos tipicamente um conjunto de produtores que trabalha, entrega no mesmo local, mas que não mostra o trabalho conjunto.
+[00:12:47] Mas lá fora, em particulares, bem em França, muitas vezes o que acontece é que entrei um tabaco com os outros,
+[00:12:54] inclusive existe uma entidade, vamos imaginar que nós temos uma nave com 300 pessoas,
+[00:13:00] vamos ter a tal questão de múltiplos produtores.
+[00:13:05] O que cada produtor e muito faz é, olha, eu vou conseguir entregar 30 tabacos, vou entregar 20,
+[00:13:13] Todos vão ter de entregar um determinado local e há uma entidade, que acaba de ser contratada pela AMAP,
+[00:13:24] para contratá-lo, até fazer parte do corpo da AMAP, que faz a montagem dos cavalos.
+[00:13:31] E, portanto, o cavalo vai ser um cavalo composto por vários produtores.
+[00:13:41] Aqui em Portugal não, lá fora é.
+[00:13:45] E por exemplo, aqui nós fazemos o trabalho de números sozinhos.
+[00:13:53] Mas às vezes acontece na gente, eu escolhi fazer 4 variedades, mas o trabalho de números era 10.
+[00:14:00] Pode haver outros produtores, outros que fazem 6.
+[00:14:03] ou até que devia haver, eu só produzo cenoura, e outros só faço cebola, e outros só faço alface.
+[00:14:11] Foi de fora, ia haver 10 produtores a alimentar muito esse trabalho.
+[00:14:15] Porque o objetivo é subir as necessidades das pessoas.
+[00:14:18] As pessoas querem variedade, ou querem um bar, ou alguma outra coisa.
+[00:14:30] Idealmente sim.
+[00:14:32] O que é que isso não valesse caro? Já foi falado que na Amarvares, a certa altura, nós éramos seis produtores
+[00:14:40] e falava-se nessa questão de ter alguém que, simplesmente, saísse todas as encomendas
+[00:14:46] e dissesse, idealmente, que o produtor só devia produzir.
+[00:14:51] Então, em vez de estar a gerir encomendas, a preparar encomendas, etc.,
+[00:14:55] eu só dizia assim, ok, eu tenho que entregar 50 quilos de polvo amanhã.
+[00:15:00] E eu e a atividade local me deixámos perder muito pouco.
+[00:15:03] O que é que isto tem como objetivo?
+[00:15:06] É a especialização agrícola.
+[00:15:08] Nós acabamos...
+[00:15:10] Uma grande parte do nosso trabalho é gestão agrícola,
+[00:15:13] e não produção.
+[00:15:15] Eu estou a lidar com...
+[00:15:16] No meu caso, eu até gosto imenso de fazer isso.
+[00:15:18] Mas acabam por ir-nos de perto no sistema.
+[00:15:22] Se houver alguém, um software,
+[00:15:25] que nos facilite a vida nessa gestão,
+[00:15:28] é excelente.
+[00:15:31] Mas porquê que não foi feito cá em Portugal?
+[00:15:34] Ah, obrigada, eu podia...
+[00:15:37] Sim, sim.
+[00:15:38] Não, não, obrigada.
+[00:15:39] Porque se verificou que não tinha descala ainda.
+[00:15:42] Éramos poucos.
+[00:15:43] No máximo chegamos a ter 50 lá na ANAP.
+[00:15:46] A altura em que há abaixo a vida de mais gente,
+[00:15:50] uma única ANAP tinha 650 pessoas, foi na altura do COVID.
+[00:15:54] Porque as pessoas privilegiaram o consumo
+[00:15:59] de fontes diretas e próximas, é indefinido o supermercado,
+[00:16:04] por causa dos contactos que iam e da exposição que iam ter.
+[00:16:07] E, de facto, é essa a mapa, unicamente, que tinha mais gente.
+[00:16:12] Mas, também, se encontrava em traus, isto não dava trabalho,
+[00:16:17] 50 não era suficiente para garantir trabalho a uma pessoa ao longo de todo o tempo.
+[00:16:23] Depois o Covid acabou e, felizmente,
+[00:16:26] por perda ou uma redução do número de pessoas e o valor do produto.
+[00:16:33] Só outra questão. A entrega então é feita pelo produtor? Ou seja, o produtor arranja os coprodutores pela AMAP
+[00:16:42] e faz a entrega e a encarregue dele?
+[00:16:45] O transporte até o local?
+[00:16:47] O transporte também está no espaço.
+[00:16:50] Normalmente entreguem num único ponto. Aqueles 4 lados. E cada uma tem associado um único ponto de entrega.
+[00:17:01] Mas até podia haver mais. A MAPS, que no caso não chamávamos, a CCA, foi maior.
+[00:17:09] O campo de base foi de cerca de 200 pessoas. Era a CCA do 3º momento.
+[00:17:15] E eles tinham múltiplos pontos de entrega muito bons, tipo 6.
+[00:17:21] Ou seja, como é tão difícil juntar as pessoas pequenas?
+[00:17:27] Quem está mais sensível a este tipo de consumo, normalmente, é quem vive nas cidades.
+[00:17:32] E nas cidades o trânsito é complicado, seja para produtores como para co-produtores.
+[00:17:37] Então o que aconteceu? Foi-se descentralizando.
+[00:17:40] Criámos múltiplos pontos conforme era mais conveniente para as pessoas.
+[00:17:44] bastava de haver, vamos dizer assim, um mínimo de co-produtores de certa região, 10, 12, 20,
+[00:17:51] para se abrir um ponto novo nesse local.
+[00:17:54] Que, aliás, é um pouco o que a BIOGRO está a fazer aqui no Porto.
+[00:17:58] Simplesmente, nós não chamamos pontos de distribuição numa única AMAP,
+[00:18:02] porque quisemos que elas funcionassem de forma independente.
+[00:18:06] Dessa maneira, o que é que acontece?
+[00:18:09] Cada AMAP define a forma como vai funcionar.
+[00:18:14] Na AMAP Baixa nós temos assembleias anuais, porque a seguinte foi convencionada, entre as partes, produtores e co-produtores.
+[00:18:22] Mas nas outras AMAP, quando nasceram, foi logo convencionado que isso não era alguma necessidade, essa reunião com a Assembleia Geral Anual.
+[00:18:32] E o que é que acontece? Normalmente temos um interlocutor colegiado, que é na Colócias de Nutrição e Direcção,
+[00:18:41] no Infante Aéreo, que é também a direcção, e no Paz, que é no Bonfim, temos um espaço acolhedor que é o Paz,
+[00:18:51] Performance Arts Zone, que também é a direcção que vai assumindo essa interpretação.
+[00:19:00] Portanto, a acolhidação é feita dentro da direcção da Viocruz e a direcção da identidade acolhedora.
+[00:19:09] Mas na Amado Baixa, seja porque já havia múltiplos portores, seja porque ela foi criada nesta moça mais participativa,
+[00:19:19] temos essa Assembleia anual e as Assembleias vão comentar sempre que qualquer uma das partes tem que ter essa ação.
+[00:19:26] O que é a Assembleia?
+[00:19:28] A Assembleia? Sim.
+[00:19:30] Por exemplo, se for necessário...
+[00:19:33] Primeiro, validamos se a qualidade dos produtos está a corresponder com o que as pessoas querem,
+[00:19:39] a variedade dos produtos está a corresponder com o que as pessoas querem,
+[00:19:43] se o horário está bem, o formato está bem.
+[00:19:50] Já há algum momento eu desejava produtos de cor individualizada
+[00:19:56] e depois, como digo, indo para cá baixo, em conjunto, percebemos que era mais interessante
+[00:20:02] Porque às vezes surge uma proposta, por exemplo,
+[00:20:04] mas antes entregava todas as minhas frutas,
+[00:20:06] as nossas frutas, ao longo do ano.
+[00:20:08] Laranja, tangerina, alemão,
+[00:20:10] temos que pedir frutas.
+[00:20:12] E entregava-as de forma individual.
+[00:20:14] Tanto é que o produtor podia dizer
+[00:20:16] que só queria uma determinada fruta.
+[00:20:18] E eu,
+[00:20:20] no início, como isto funciona
+[00:20:22] por subscrição,
+[00:20:24] no início de cada apoiamento,
+[00:20:26] eu digo o que é que eu vou entregar
+[00:20:28] e quando. O que é que acontecia?
+[00:20:30] e dizia vou entregar a laranja na semana A, B e C.
+[00:20:36] E depois a natureza pegava uma partida e entregava a laranja na semana A, B e C
+[00:20:40] porque ela vinha ou antes ou depois e eu tinha que andar ali a alterar aquilo tudo.
+[00:20:44] Então nós também fomos incluir para uma lógica que foi bem aceita por parte do grupo de consumidores
+[00:20:52] que é em vez de trabalhar com a fruta a janela, nós funcionamos com uma lógica de cabaço.
+[00:20:59] Se faz comum. Eu sei que todas as semanas tenho fruta, então eu consigo ser ideal no cabaz.
+[00:21:05] A composição do cabaz não está prometida à cabeça.
+[00:21:08] Portanto, se a laranja não der na semana A, na semana 1, na semana 3, não faz mal.
+[00:21:14] Eles vão receber fruta naquele valor.
+[00:21:21] Se me permite, uma questão na sequência do que falava há bocado, os cabazes multiprodutores,
+[00:21:28] mas havendo um software que automatiza esse tal processo de gestão, que me parece ser o principal interno,
+[00:21:38] eliminando ou pelo menos reduzindo esse problema, há aqui a possibilidade de se contemplar então um cabaz multiprodutor,
+[00:21:46] portanto o software garante essa recolha de perceber o que é que é necessário produzir, o que é que os consumidores pretendem
+[00:21:53] e até distribuir automaticamente toda essa produção.
+[00:21:56] Isso seria ideal, sim. Vamos imaginar que nós conseguimos, aqui, fazer muitos co-produtores, fazer muitos consumidores.
+[00:22:14] Então, a lógica, e a MAP nasceu com esse propósito, a lógica será sempre chamar outros produtores
+[00:22:22] e vai ser preciso articular quem produz o quê, quem entrega o quê e em que semanas, também.
+[00:22:29] Portanto, sim, realmente haverá essa inteligência artificial a ajudar os produtores a organizarem-se.
+[00:22:38] Por exemplo, sei lá, se calhar para todos eles o que é que podem pegar e quando,
+[00:22:42] e haver ali uma distribuição feita com o apoio do software.
+[00:22:48] No caso de produção, de multiprodução, ao bocado disse que a responsabilidade da entrega,
+[00:22:56] do que a responsabilidade das quintas apenas a produzir, mas também disse que eles são
+[00:23:01] responsáveis pela entrega. Por exemplo, quando temos vários produtores, a AMAP deve funcionar
+[00:23:06] como se fosse quase um centro de distribuição para montar os cabazes das quintas.
+[00:23:11] Sim, idealmente nós só deveríamos produzir. Na prática, não, nós fazemos tudo, somos
+[00:23:17] comunitários. Nós publicamos a nossa oferta, recebemos as encomendas, esclarecemos muitas
+[00:23:26] quando elas existem, a seguir nós vamos plantar os produtos, vamos cultivá-los, vamos
+[00:23:33] comer, vamos aprová-los, prepará-los, vamos transportá-los até ao ponto de distribuição,
+[00:23:38] vamos receber o maneiro e fazer a companhia do cliente. Então, se tivesse uma entidade
+[00:23:47] geriátrica, funcionar como centro de distribuição e de gestão, seria o chapéu de todos os
+[00:23:55] e todos os co-produtores.
+[00:23:57] Sim, me abria então o interesse, por exemplo,
+[00:23:59] de um sistema gerido pela AMAP,
+[00:24:02] que não só geria a frente do cliente,
+[00:24:05] do co-produtor nesse caso,
+[00:24:07] e depois a parte de gestão das quintas
+[00:24:10] e da distribuição, construção de cabazes, etc.
+[00:24:13] Sim, isso é tudo. Obrigada.
+[00:24:18] Só ia perguntar uma coisa,
+[00:24:20] porque eu estava a decidir
+[00:24:22] quem é que indica para quem.
+[00:24:24] Neste momento, cada empresa, cada quinta, inicia a sua fatura.
+[00:24:31] Com um potencial de crescimento, a tal AMAP, a entidade criada para fazer a gestão,
+[00:24:42] cada produtor faturaria à AMAP, a AMAP pagava o produtor,
+[00:24:49] e a AMAP é que faz todos os campos de pagamentos com o cliente.
+[00:24:53] E a minha intenção é estar aqui.
+[00:24:55] Mas isso não é o que existe, é o que poderia existir.
+[00:25:00] Eu não sei até onde é que vocês podem levar isto, não é?
+[00:25:04] Mas a questão é que se tratamos de duas formas,
+[00:25:11] que é, uma coisa é quando queremos ir daqui,
+[00:25:14] ou não há nada para fazer ou não é,
+[00:25:16] outra coisa é quando queremos ir agora.
+[00:25:19] Eu, se preciso para responder a este grupo de análises, ao ponto de vista internacional, acho que as pessoas não têm que ir tão longe.
+[00:25:29] Se vocês quiserem botar a ferramenta de uma potencial disponibilidade maior, sim, é necessário que tudo isso.
+[00:25:36] Eu imagino que tudo vocês vão fazer também, se quiser, como é que funciona lá fora.
+[00:25:42] E, se forem aos Estados Unidos, se encontrem um óbvio, nos dizem que os softwares já fazem isso.
+[00:25:49] Eu também não esqueço assim também, mas sei que existe, já vi, e é tudo feito de uma forma mais automática.
+[00:25:58] Mas não concorda em nenhum óbvio, só com as regras?
+[00:26:02] Concordo, sei, mas posso usar isso sim, porque já fiz um tipo de pesquisa, sim, posso usar dois ou três,
+[00:26:09] Então, vou tentar aqui continuar, não obstante isso, temos que ter umas dúvidas,
+[00:26:17] nós temos que produzir aqui uma nova camada de informação.
+[00:26:20] Há uma coisa aqui importante, que é, os computadores, como também fizemos durante aquelas três semanas,
+[00:26:29] puderem sempre ser acabados.
+[00:26:32] Mas acontece que as pessoas que estão de férias, que estão fora, que estão doentes, não podem ir.
+[00:26:38] Então, o que é que eu sinto, por exemplo, porque eu estou a completar e entregar aquele produto.
+[00:26:45] Eu já o plantei, eu já o cultivei, se calhar há vezes até já o pedi.
+[00:26:49] É a visão do próprio mim, olha, hoje não vou poder.
+[00:26:52] Então, se eu ficar com esse cavalo nas mãos, eu vou ter prejuízo.
+[00:26:57] E nós não temos isso e também não temos cada outro desperdício alimentar.
+[00:27:01] Então, existe o princípio da operação normal, que é, nós empregamos sempre, e eles podem sempre,
+[00:27:10] e quando eu digo nós empregamos sempre, podem dizer mas isto é bem complicado,
+[00:27:15] porque no pico do inverno, às vezes, calhar é mais fácil não empregar,
+[00:27:19] mas nós temos que nos botar estratégias que permitam ajudar essa...
+[00:27:27] Como é que fazemos isso?
+[00:27:31] Jogamos pelo pico do produto que entregamos.
+[00:27:33] Se lembrámos que trabalhamos muito mais com produtos que se dão a dar naquela altura,
+[00:27:39] com o que bebemos todo o dia,
+[00:27:41] no inverno não se trabalhava com produtos chamados cheiros,
+[00:27:44] com a batata grossa, a cebola, a abóbora,
+[00:27:47] e usámos essa variedade no trabalho.
+[00:27:50] Qual o presente que os cooperadores têm quando não podem ir?
+[00:27:54] Podem ser um amigo ou um familiar, podem doar a uma entidade com a qual querem praticar a sua liberdade.
+[00:28:05] Dói nessas AMAPs, das quais podemos falar de sistemas em particular, como o protocolo sensível, como o centro comunitário sensível.
+[00:28:13] Podem distribuir e ser capazes de todos os outros membros, somente por causa e parte daquela AMAP, ou seja, dar-lhes o seu computador.
+[00:28:22] podem sortear com os funcionários da instituição ou produtora,
+[00:28:26] ou outra coisa qualquer que o grupo convencione.
+[00:28:32] O que é que é importante?
+[00:28:33] O cabal tem que ser detenido e o cabal tem que ser pago.
+[00:28:39] E é necessário que o software permitisse ao próprio produtor dizer
+[00:28:43] quando é que não vai estar presente e o que é que quer fazer com o seu cabal,
+[00:28:47] em função do leque de possibilidades que é oferecido pelo produtor.
+[00:28:53] Pelo pouco que é o MAP, não é só por pouco, por exemplo, pode haver pessoas que digam, olha, não me importa às vezes comprar mais, e assim a pessoa até lhe pega o dinheiro, e há outra família qualquer que leva o dinheiro nesse momento.
+[00:29:07] por exemplo
+[00:29:10] que tinha aqui umas dúvidas em relação
+[00:29:12] à ligação com os valores
+[00:29:14] que são da MAMAP
+[00:29:16] por exemplo
+[00:29:17] como é que é feito o sistema de subscrição
+[00:29:21] se há algum tipo de compromisso
+[00:29:22] de parte do co-produtor
+[00:29:24] se a subscrição tem que ser contínua
+[00:29:28] se tem por exemplo um contrato de um ano
+[00:29:29] se pode ser
+[00:29:31] se pode aplicar a subscrição a qualquer momento
+[00:29:33] se pode fazer um período de pausa
+[00:29:34] porque
+[00:29:35] como isto é um serviço muito ligado
+[00:29:39] a certos valores morais
+[00:29:40] por exemplo, uma família que possa
+[00:29:42] em determinados meses não estar em condições de continuar
+[00:29:44] a fazer pagamento
+[00:29:45] terá que aderir cada subscrição
+[00:29:48] pode só pôr uma pausa
+[00:29:50] durante alguns meses e depois
+[00:29:52] retomar sem nenhum tipo de proporção
+[00:29:55] isto é uma coisa que interessa
+[00:29:56] ou que...
+[00:29:57] Sim, isto é uma coisa que interessa
+[00:29:59] conforme eu disse anteriormente
+[00:30:02] em todas estas armadas
+[00:30:04] das quais a Piauí é produtora, trabalhamos com um período de 6 meses de subscrição.
+[00:30:13] Mas há outras em que o período pode ser inferior, pode ser de 6 meses, ou podem ser subidos.
+[00:30:18] Há muitas lá fora que trabalham na base online.
+[00:30:21] O que se faz é isso mesmo que planeia-se o ano seguinte.
+[00:30:25] Em setembro é o ano que vai ser dentro da existência das plantações do Piauí.
+[00:30:31] Mas cá, de antes eram três meses, nós já pensámos que nunca se tem, mas é que as pessoas têm alguma dificuldade em se converter para um período tão longo de tempo.
+[00:30:44] Quanto à questão de se ausentar ou de lá viver, assim, sendo sério, que há sempre um espaço para se conversar de parte a parte,
+[00:30:54] e que nós não somos uma grande empresa que está interessada em exibir resoluções contratuais,
+[00:31:06] em resoluções contratuais, cobrar valores até ao final, porque nós vimos já que ele não faz nada disso,
+[00:31:12] e é isto que eu digo aos meus co-produtores, mas eu apelo à ética.
+[00:31:16] Como estava a dizer aqui bem, o mandato tem também por metade um conjunto de valores sociais
+[00:31:22] devemos ver a população entre tantas partes, e posso dizer que é raro alguém que quer sair no meio do filme.
+[00:31:30] Quando alguém quer sair, vamos imaginar que, sei lá, está no lado do país,
+[00:31:35] ou que o seu aglomerado familiar se alterou, porque alguém se educou,
+[00:31:44] alguém se juntou, ou qualquer coisa assim, nós cá estamos a poder falar.
+[00:31:48] Mas essa adaptação é completamente informal, ou seja, a base que rege toda a gente é que deve permanecer durante um período de seis meses.
+[00:32:02] No caso de não poder pontualmente, que é o que é que está, nós oferecemos estas hipóteses.
+[00:32:08] O mais normal, eu estou a perceber que dizem, olha eu não vou pedir, me dá lá uma mão, ou dá lá um pedido, ou até existem noções de amizade entre os co-produtores, porque a rede também vai crescendo um caminho, graças a um pouco à boca, e há alguém que gosta, vai entrar no domínio, então eu estou a dizer, olha eu hoje não vou, mas a pessoa que dá, vai levantar-me o cavalo.
+[00:32:33] Mas, por exemplo, pode haver a possibilidade da parte do co-produtor de se querer mesmo
+[00:32:40] ou de comprometer-se só por três meses, ou só por seis meses, ou até por um ano.
+[00:32:45] O que a questão é, se essa escolha de vocês terem vários co-produtores comprometidos
+[00:32:50] com diferentes períodos de tempo, se afeta muito a vossa operação, se tem um impacto
+[00:32:57] muito grande nas vossas gestão de contas?
+[00:32:59] Tem. Sim. Tem impacto. As plantações estão prontas. Os abelhos estão no campo.
+[00:33:05] O que nós precisamos sempre é que as pessoas sejam especializadas.
+[00:33:09] Se calhar, no caso da laranja e da maçã, o ar que está lá é um grande aparelho.
+[00:33:17] Nós não vamos estar a fazer plantações normais.
+[00:33:21] As pessoas precisam usar plantas.
+[00:33:23] Porque o quanto de plantas? O número de plantas na Terra?
+[00:33:25] Apesar que eu nunca nos vi para 10, 20, 50 pessoas.
+[00:33:28] Se pelo meio, e já aconteceu isto no nosso primeiro ano, em que nós fomos vencedores de produtos,
+[00:33:36] sensivelmente, 40% das pessoas não assistiram no período do verão.
+[00:33:40] Porque era verão e só não viam o que iam aguardar-se os cavalos.
+[00:33:45] E os produtores anteriores não viam isso tão bem estabelecido.
+[00:33:51] E naquela época, claro, se a apresentava muito bom, ou se fez melhor para o vídeo, não sei,
+[00:33:56] o mundo se foi a preparar.
+[00:33:59] O mundo pensou para nós.
+[00:34:02] O que é que nós fizemos?
+[00:34:03] Na altura, o S.O.R. surgiu num convite, está a vir, mas não vai ao mato.
+[00:34:08] E foi aí que começou a se plantar.
+[00:34:10] Ou seja, nós temos um problema.
+[00:34:12] Quando estava antes, as pessoas estavam a estar aqui, a desordem,
+[00:34:15] porque foi assim.
+[00:34:17] Temos aqui esta entidade que nos quer a ver e tem os golos cortados.
+[00:34:21] Não se importa, o som deles nos faz ouvir as orelhas, não foi-nos muito bem ao ar.
+[00:34:27] Mas esta situação é muito delicada.
+[00:34:29] Daí, ser tão importantes como isso.
+[00:34:32] E outra coisa bem importante é a inovação do compromisso.
+[00:34:35] Ser feita atentadamente.
+[00:34:38] Ou seja, idealmente.
+[00:34:40] Não tem que fazer isso.
+[00:34:42] Continuar mais ou menos 3 meses a crescer.
+[00:34:46] Abarcar todos.
+[00:34:48] São 90 dias, alguns são 60, outros são 100 dias.
+[00:34:51] Ou seja, eu quando saio a virar alunos em janeiro, eu tenho que estar a preparar a minha terra agora.
+[00:34:57] E se daqui até lá, se continuar a mudar as ideias, ter a hora final já não quero,
+[00:35:02] eu vou ter já tido trabalho de plantar, de cuidar, etc.
+[00:35:07] E não valeria a pena para as AMAPs, em termos de modelo de negócio,
+[00:35:12] se calhar optar por uma esta um bocado mais rígida desta subscrição,
+[00:35:18] mas orientada por vocês, por exemplo, decidir a contrapartida, desde o início vocês dizem
+[00:35:24] um cliente novo pode subscrever 3 meses, a partir daqui é de 6 meses no mínimo,
+[00:35:29] se quiser pode subscrever o ano todo.
+[00:35:30] Se fizer, pode subscrever o ano todo.
+[00:35:32] E assim...
+[00:35:33] Sim, isso é muito interessante, mas...
+[00:35:35] Sim, mas é uma coisa que vos interessa?
+[00:35:36] Não é nenhum compromisso muito longo.
+[00:35:38] Ok.
+[00:35:40] Essa é a questão.
+[00:35:41] Mas a questão é ótima.
+[00:35:43] Só uma questão.
+[00:35:44] Tinha falado aí que havia...
+[00:35:47] foram convidados para outra AMAP.
+[00:35:49] Não sei se estou a voltar um bocado atrás dentro da apresentação
+[00:35:53] e se a pergunta é um bocado simples ou não, ou...
+[00:35:56] Mas, como é que se formou o MAMBAP, estou a perceber que a Sofia é a produtora, certo?
+[00:36:02] Sim.
+[00:36:03] Pronto.
+[00:36:04] Ou seja, eu gostava de saber como é que começou a cultivar e como é que foi o processo de
+[00:36:09] ou montar o MAMBAP ou criar o MAMBAP e perceber também lá dentro como é que isso funciona
+[00:36:14] porque estão a perceber agora que neste momento, o modelo como está implementado, os produtores
+[00:36:21] Funcionam também com uma distribuição que, tecnicamente, deveria ser feita pela Amap ou por alguém
+[00:36:30] que a Amap contratasse para o fazer, ou seja, os produtores são Amap e o que eu quero saber é
+[00:36:38] se isto inclui todos os produtores, todos têm o mesmo voto na matéria, como é que se juntam, como é que acaba, essas coisas todas.
+[00:36:46] Uma parte é uma organização informal que nasce da vontade dos pais.
+[00:36:55] Para dar um exemplo, os candidatos mexicanos, eles um computador na Mapa Baixa, que é tal
+[00:37:03] que é mais antiga, tinha a fita numa escola.
+[00:37:06] E ele na escola perguntou a uma diretora da escola, que o fazia, que recebia as perguntas
+[00:37:12] as perguntas, suas perguntas, num local assim assado, descreveu a MAP, e a diretora da escola disse
+[00:37:18] isso é um conceito super interessante, gostava de ter uma coisa dessas a funcionar aqui,
+[00:37:22] como é que eu posso fazer isso? E a pessoa só simplesmente me contratou, a mim, os
+[00:37:27] produtores, foi um time alto que estava a tentar ter algum leque de produtos, e combinamos
+[00:37:36] que, e disseste, ok, nós podemos mandar aqui uma MAP, as entregas seriam determinado
+[00:37:41] determinada maturidade, vai incluir os períodos A, B, C e D. Temos períodos de substituição
+[00:37:47] de um determinado período e vamos propor isto aos utentes, no caso, aos utentes da escola.
+[00:37:56] No caso, direcção, aqui é um e-mail a todos os pais da escola e dizem, olha, temos a possibilidade
+[00:38:01] de colocar uma coisa assim que está a funcionar aqui. Alguém está interessado? Pronto, isto
+[00:38:05] A partir daí, a transformação em nutrição foi um bocadinho diferente.
+[00:38:12] Fizemos uma aposentadoria na escola de Sousa.
+[00:38:15] Tivemos uma ação de divulgação a todos os profissionais interessados,
+[00:38:21] professores, alunos e demais.
+[00:38:23] Fizemos um workshop, uma apresentação,
+[00:38:29] em que nós fizemos uma proposta,
+[00:38:32] Nós podemos trabalhar nestes moldes, o que é que vocês acham?
+[00:38:36] Gostam? Gostavam que fosse diferente?
+[00:38:38] E normalmente aqui é uma interação.
+[00:38:40] Vamos imaginar que eles dizem, eu quero um cadastro de 4 quilos, eu quero um cadastro de 6 quilos.
+[00:38:44] Porque as famílias do grupo têm 6 modelos.
+[00:38:50] Ou ao contrário, quero mais pequeno, ou quero muitos, eu só quero fruta.
+[00:38:54] Tudo isso é ajustado a outras partes.
+[00:38:56] E é uma, no caso, nós não somos uma associação formal, formalmente constituída.
+[00:39:04] Por aí também queria saber isso.
+[00:39:06] Mas existem algumas que são.
+[00:39:08] Ou seja, poderia ser uma associação, tipicamente é uma coisa que se tem que interpretar, pode ser ou não ser,
+[00:39:16] mas aqui, mais uma vez, pela questão das casas, os custos que isso impõe, as possibilidades adestivas, nunca se avançam com isso.
+[00:39:21] Normalmente é criado para responder a um desses problemas ou estabelecem a procura de ir para um determinado mercado?
+[00:39:37] A matriz da Mara Alta, na altura, veio resolver um problema.
+[00:39:46] Nós estávamos com um excedente.
+[00:39:48] E precisávamos de...
+[00:39:50] Mas as outras duas, a seguir, não estávamos com problema nenhum.
+[00:39:53] Nós sentíamos que tínhamos a possibilidade de crescer.
+[00:39:56] E, além de querermos crescer, disseram-nos, ok, nós podemos avaliar este modelo,
+[00:40:00] temos que arranjar mais computadores.
+[00:40:03] E acaba por ser uma solução boa criar instituições diferentes, porque a instituição tem o poder grande de educativar as pessoas, não é?
+[00:40:19] Eu estou com medo de não conseguir fazer as questões, porque sei que quero lembrar-me de alguns já.
+[00:40:28] Qual é o processo mais difícil, dentro de todos os processos organizados, qual é o mais difícil que é realizar tudo dentro das mãos?
+[00:40:42] Qual é o processo mais difícil?
+[00:40:47] Não, não creio que haja um que seja particularmente complexo.
+[00:40:58] Se calhar a complexidade também da diversidade das tarefas, ao serem tantas, ao serem várias as tarefas que a gente assumei.
+[00:41:09] Lançar e filmar as encomendas, ler as encomendas, confirmá-las aos co-produtores.
+[00:41:22] O último também é lembrar os co-produtores das datas de entrega, porque as pessoas têm
+[00:41:29] muita gente para se esquecer.
+[00:41:30] É uma coisa super simples.
+[00:41:32] No meu caso é tudo no WhatsApp.
+[00:41:34] Se eu quero ter entrega, mando no WhatsApp, ou individual ou no grupo.
+[00:41:39] Há mapas em que nós comunicamos com um aluno e então as mensagens têm que ser individuais
+[00:41:45] e há outras em que temos um grupo no WhatsApp.
+[00:41:47] O grupo no WhatsApp é muito fácil, é social.
+[00:41:49] Então, depois a vida entrega.
+[00:41:51] Ou os cabazes estão subindo com o levantamento.
+[00:41:54] Então, tem dias tão críticos que a gente se esquece
+[00:41:57] de que aquele dia é o dia de ir buscar o seu cabaz.
+[00:42:00] Não creio que haja alguma questão em particular sobre isso.
+[00:42:05] O advogado mencionou que a entrega do cabaz não é a própria...
+[00:42:13] Mas já está no tribunal, não é?
+[00:42:15] Não tem problema de ser feita pelo próprio co-produtor.
+[00:42:20] o co-produtor, pode ser outra pessoa, a ir levantar o cabar em nome do co-produtor.
+[00:42:25] Sim.
+[00:42:26] Seria, então, relevante para a entidade, haver algum mecanismo para confirmar que o cabar foi levantado?
+[00:42:36] Sim, seria distante. Porque, às vezes, já aconteceu,
+[00:42:41] não tenho a ver se já disse uma coisa distante, já aconteceu, aliás, que diziam
+[00:42:45] Não, eu assistia. Como podemos ficar lá ainda? Alguém não vai buscar.
+[00:42:48] E eu, a melhor coisa que estou a ver é uma pequena sinquieta.
+[00:42:51] E isso foi como um avanço informal, porque alguém conhecido está a passar num local em que eu devia me avisar.
+[00:42:59] Mas, se todos os co-produtores do bando ficassem já até no seu, posso precisar me levar para ver quem está lá.
+[00:43:07] Mas, a minha opinião, seria melhor o programa a dizer quem o mandou, ou o seu próprio co-produtor confirmar-lhe na cabeça?
+[00:43:21] Tem que ser o co-produtor.
+[00:43:22] Porque há locais em que não está lá muito bem.
+[00:43:27] Normalmente não está lá muito bem, mas, por exemplo, as escolas são funcionais da escola.
+[00:43:31] É fácil. Pode chegar um dia e dizer-lhe, olha, a pessoa está lá muito bem.
+[00:43:37] Não é, na mato baixo, por exemplo, eu não tenho salário inteiro, porque não estudei de emprego.
+[00:43:44] Às vezes, só no dia a seguir é que eu sei que há alguém que não levantou.
+[00:43:48] Portanto, aí eu que posso ser co-produtor e aplicar.
+[00:43:52] E, no caso dos dois co-produtores, ficar, mas não levantar à mesma.
+[00:44:01] Podemos, por exemplo, sei lá, fazer uma promoção, pode ser comunitário, não é?
+[00:44:07] O que é que o Estado tem de fazer com que a gente tenha um tratamento?
+[00:44:14] Quer dizer, eu falo de outro lado, é mesmo que há duas hipóteses disso para a relação.
+[00:44:23] Uma é, sendo que são seguidos, não se utilizará bem para ir buscar o trabalho que não há para tratar.
+[00:44:28] Mas como é que a gente vai imaginar, se for só um, e o que é que a gente vai ter de ser,
+[00:44:31] e se calhar, apesar de ser uma doação, se não é o que é que é, e não é o que é que a gente precisa.
+[00:44:35] Então, assim, as pessoas ali não pedirem, ok, perdoar, o cabaço é conseguido.
+[00:44:40] E então, já na organização, tudo a lei entrega, e o cabaço é conseguido, deixe ficar o cabaço.
+[00:44:47] Não, como é que se faz? E há-se um esquecimento.
+[00:44:50] Mas há-se uma coisa, não é?
+[00:44:53] Então, nesse caso...
+[00:44:55] Nesse caso, não se pode fazer a discussão ainda fora, esquece-se de ficar o cabaço.
+[00:44:59] E depois a gente coloca o cabaço.
+[00:45:00] É, mas há-se um esquecimento.
+[00:45:06] Obrigado.
