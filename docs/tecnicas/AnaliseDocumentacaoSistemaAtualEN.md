@@ -2,7 +2,7 @@
 
 **Timing:** before elicitation (to prepare interviews) and after (to check requirements coverage)
 **Owner:** Bruno Alves
-**Status:** planned
+**Status:** in progress
 
 ## Why this technique
 - In the 23/09 session, the lecturer pointed out that no questions had yet been asked about the **documents** involved in the process, and that "documents tell things that people don't say in interviews" (e.g. an invoice contains a header, customer identification, products line by line, total and payment method).
@@ -20,10 +20,10 @@
 ## Documents to collect
 - [ ] Excel file(s) used by BioGoods (anonymised version)
 - [ ] Example of an invoice/receipt issued by a producer
-- [ ] AMAP membership form or contract
-- [ ] AMAP charter of principles
-- [ ] Internal rules of an AMAP
-- [ ] Delivery lists / distribution calendar
+- [x] AMAP membership form or contract: Jul–Dec 2026 order form and AMAP UPTEC Baixa Terms and Conditions
+- [ ] AMAP charter of principles: summarised in the Guide for new co-producers; the full document still needs to be analysed
+- [x] Internal rules of an AMAP: AMAP Porto Guide for new co-producers
+- [x] Delivery lists / distribution calendar: calendar in the Jul–Dec 2026 order form
 - [ ] Relevant legislation (invoicing, GDPR)
 
 ## Method
@@ -40,6 +40,9 @@
 - List of candidate requirements and constraints.
 - Questions for the next interview.
 - Hours logged per team member.
+
+## Results
+- [Analysis of AMAP Porto (UPTEC Baixa) documents](../doc_AMAP/AnaliseDocumentosAMAPEN.md): order form, Terms and Conditions, Guide for new co-producers and Público article (07/10/2026).
 
 ## Work log
 | Date | Member | Task | Hours |
