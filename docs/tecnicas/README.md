@@ -9,7 +9,7 @@
 | 1 | Análise de concorrência / Competitor analysis                                      | Antes / Before                  | *(a adicionar / to be added)*                                                        | Jakob                |
 | 2 | Análise de documentação e do sistema atual / Document and current system analysis | Antes + depois / Before + after | [PT](AnaliseDocumentacaoSistemaAtualPT.md) · [EN](AnaliseDocumentacaoSistemaAtualEN.md) | Bruno Alves          |
 | 3 | Dinâmica de mercado / Market dynamics                                               | Antes / Before                  | *(a adicionar / to be added)*                                                        | João Mata           |
-| 4 | Análise de diferenciação / Differentiation analysis                               | Antes / Before                  | *(a adicionar / to be added)*                                                        | Liane Duarte         |
+| 4 | Análise de diferenciação / Differentiation analysis                               | Antes / Before                  | [PT](AnaliseDiferenciacaoPT.md) · [EN](AnaliseDiferenciacaoEN.md)                       | Liane Duarte         |
 
 ## Foco das análises / Analysis focus
 
