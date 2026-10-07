@@ -62,7 +62,7 @@ No inverno usam-se produtos de conservação (batata-doce, cebola, abóbora) par
 
 ### 3.6. Calendário e entregas
 
-As AMAP funcionam em **semanas alternadas**. Existem quatro AMAP organizadas de forma a que cada uma receba quinzenalmente e o produtor entregue todas as semanas. Esta organização permite, por exemplo, escoar a fruta, que se estraga se não for entregue. Quem quiser receber semanalmente pode juntar-se a duas AMAP.
+As AMAP funcionam em **semanas alternadas**. Existem AMAP organizadas de forma a que cada uma receba quinzenalmente e o produtor entregue todas as semanas. Esta organização permite, por exemplo, escoar a fruta, que se estraga se não for entregue. Quem quiser receber semanalmente pode juntar-se a duas AMAP.
 
 As entregas costumam ser à **terça-feira**, mas tem de ser possível ter outro dia. Já houve AMAP com entregas a dias diferentes (por exemplo, terça e quinta).
 
