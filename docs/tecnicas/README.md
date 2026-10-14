@@ -6,9 +6,9 @@
 
 | # | Técnica / Technique                                                                 | Momento / Timing                | Ficheiros / Files                                                                      | Responsável / Owner |
 | - | ------------------------------------------------------------------------------------ | ------------------------------- | -------------------------------------------------------------------------------------- | -------------------- |
-| 1 | Análise de concorrência / Competitor analysis                                      | Antes / Before                  | *(a adicionar / to be added)*                                                        | Jakob                |
+| 1 | Análise de concorrência / Competitor analysis                                      | Antes / Before                  | [EN](CompetitorAnalysis.md) *(PT a adicionar / PT to be added)*                       | Jakub Piwko          |
 | 2 | Análise de documentação e do sistema atual / Document and current system analysis | Antes + depois / Before + after | [PT](AnaliseDocumentacaoSistemaAtualPT.md) · [EN](AnaliseDocumentacaoSistemaAtualEN.md) | Bruno Alves          |
-| 3 | Dinâmica de mercado / Market dynamics                                               | Antes / Before                  | *(a adicionar / to be added)*                                                        | João Mata           |
+| 3 | Dinâmica de mercado / Market dynamics                                               | Antes / Before                  | [EN](MarketDynamic.md) *(PT a adicionar / PT to be added)*                            | João Mata            |
 | 4 | Análise de diferenciação / Differentiation analysis                               | Antes / Before                  | [PT](AnaliseDiferenciacaoPT.md) · [EN](AnaliseDiferenciacaoEN.md)                       | Liane Duarte         |
 
 ## Foco das análises / Analysis focus

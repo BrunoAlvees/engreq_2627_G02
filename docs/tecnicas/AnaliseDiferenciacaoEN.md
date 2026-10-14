@@ -19,8 +19,8 @@
 
 ## Inputs
 - Summaries and addenda of the 23/09, 29/09 and 06/10 sessions (`docs/interviews`).
-- Analysed documents (`docs/doc_AMAP`): [AMAP Porto Baixa order form](../doc_AMAP/FormularioEncomendas_AMAPPortoBaixa_EN.md) and [Público report on AMAP Porto](../doc_AMAP/ReportagemPublico_AMAPPorto_EN.md).
-- Feature matrix from competitor analysis (technique 1, Jakob) and market dynamics (technique 3, João Mata).
+- Analysed documents (`docs/doc_AMAP`): [AMAP Porto Baixa order form](../doc_AMAP/FormularioEncomendas_AMAPPortoBaixa_PT.md) and [Público report on AMAP Porto](../doc_AMAP/ReportagemPublico_AMAPPorto_PT.md) (both in Portuguese).
+- Feature matrix from competitor analysis (technique 1, Jakub Piwko) and market dynamics (technique 3, João Mata).
 - List of example software (`docs/ExampleSoftwares.md`): GrownBy, Farmigo, CSAware, Local Food Marketplace.
 - Current system described by stakeholders: Excel, Google Forms, email and WhatsApp (technique 2, Bruno Alves).
 
@@ -70,6 +70,23 @@ The techniques README proposed three differentiation hypotheses. Based on the in
 | Seasonal basket balance | **Weakened.** In the 29/09 session, the producer said this probably has no impact on the software. | — |
 | Simplifying payments to multiple producers | **Strengthened.** Each producer has its own rules and the co-producer has no simple way to know how much is owed. | N6, N7, N8 |
 
+## Provisional classification of N10–N19
+
+Before the competitor analysis matrix is available, needs N10–N19 were split into those that look like **baseline requirements** (features common in CSA tools, to be confirmed with technique 1) and those that may lead to **differentiation**.
+
+| Need | Provisional classification | Rationale | Proposal |
+|---|---|---|---|
+| N10 Surplus offers | Possible differentiation | One-off sales exist in online stores, but are not linked to the basket subscription | D4 |
+| N11 Access to the AMAP's rules | Baseline requirement | Simple information page, no differentiating value | — |
+| N12 Early renewal | Baseline requirement | CSA tools manage season/contract renewal | — |
+| N13 Configurable length and extras | Baseline requirement | Contracts and extra products already exist in tools such as AMAPJ and Juntagrico | — |
+| N14 Single- and multi-producer | Baseline requirement, to be confirmed | Depends on how the analysed tools handle several producers in the same AMAP | — |
+| N15 KPIs and reports (SDGs) | To be validated | Client request; still unclear who uses the reports and whether it is in the initial scope | — |
+| N16 Capacity and waiting list | Possible differentiation | Managed by hand in the form today | D4 |
+| N17 Structured ordering | Possible differentiation | Today it goes into free-text comments that someone has to read and copy into Excel | D4 |
+| N18 Producer gaps and reconfirmations | Possible differentiation | Today these are notes in the form, not linked to the delivery calendar | D4 |
+| N19 Personal relationship | Possible differentiation | Commercial platforms treat the co-producer as a shop customer | D5 |
+
 ## Differentiation proposals (draft)
 The following proposals still depend on the competitor analysis. They are not demonstrated competitive advantages or agreed requirements.
 
@@ -102,6 +119,28 @@ The following proposals still depend on the competitor analysis. They are not de
   - The system shall show each co-producer their basket, taking registered exclusions into account.
 - **Validation questions:** is the weight useful for everyone or only some co-producers? Does the producer have time to publish the contents every week?
 
+### D4: Flexible orders and capacity
+- **Need:** N10, N16, N17, N18.
+- **Existing solution or gap:** *to be filled in from the competitor analysis.*
+- **Proposed differentiation:** replace the form's free-text comments with structured options: quantities and dates per product, loose products, maximum capacity per product with a waiting list, a producer calendar showing the deliveries they will miss or where the product is not guaranteed, reconfirmation requests, and surplus offers with limited quantities.
+- **Candidate requirements:**
+  - The system shall allow the producer to set the maximum capacity of each product and put new co-producers on a waiting list when that capacity is reached.
+  - The system shall allow the co-producer to choose the quantity and delivery dates of each product without using free-text comments.
+  - The system shall allow the producer to indicate the deliveries they will miss or where the product is not guaranteed.
+  - The system shall allow the producer to request reconfirmation of infrequent orders.
+  - The system shall allow the producer to publish surplus offers with limited quantities.
+- **Validation questions:** who manages the waiting list, the producer or the AMAP coordination? Which requests appear most often in the comments? Are surpluses allocated first-come first-served or some other way? How far in advance does the producer know they will miss a delivery?
+
+### D5: Software that keeps the personal relationship
+- **Need:** N19.
+- **Existing solution or gap:** *to be filled in from the competitor analysis.*
+- **Proposed differentiation:** treat the personal relationship as a design principle rather than a feature: the software handles management (orders, payments, absences) to free up time for direct contact, shows who the producer is and lets them communicate with their co-producers, without the shop logic (catalogue, cart, commissions) of commercial platforms.
+- **Candidate requirements:**
+  - The system shall allow the producer to introduce themselves to co-producers (farm, production method).
+  - The system shall allow the producer to send news and notices to the co-producers of their AMAP.
+- **Caution:** D1 and D3 automate moments that are personal contact today (confirming collection, finding out what is in the basket). It must be validated that this does not go against this need.
+- **Validation questions:** what would make the AMAP impersonal, in the stakeholders' view? Would they rather keep WhatsApp for informal communication and use the software only for management? Are there moments they do not want automated?
+
 ## Expected results (evidence)
 - Table of needs with market coverage classification.
 - Differentiation grid filled in for partial needs and gaps.
@@ -112,4 +151,5 @@ The following proposals still depend on the competitor analysis. They are not de
 ## Work log
 | Date | Member | Task | Hours |
 |---|---|---|---|
-| 07/10 | Liane Duarte | Objectives, method, needs from interviews and initial proposals | |
+| 07/10 | Liane Duarte | Objectives, method, needs from interviews and initial proposals | 2.0 |
+| 14/10 | Liane Duarte | PT/EN sync, provisional classification of N10–N19, proposals D4 and D5 | 1.0 |
