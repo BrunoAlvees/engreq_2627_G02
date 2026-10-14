@@ -21,10 +21,12 @@
 - [ ] Ficheiro(s) Excel usados pela BioGoods (versão anonimizada)
 - [ ] Exemplo de fatura/recibo emitido por um produtor
 - [x] Ficha ou contrato de adesão à AMAP: formulário de encomendas Jul–Dez 2026 e Termos e Condições da AMAP UPTEC Baixa
-- [ ] Carta de princípios das AMAP: resumida no Guia para novos coprodutores; falta analisar o documento completo
+- [x] Carta de princípios das AMAP e perguntas frequentes da rede nacional (amap.movingcause.org)
 - [x] Regulamento interno de uma AMAP: Guia para novos coprodutores da AMAP Porto
 - [x] Listas de entregas / calendário de distribuição: calendário do formulário Jul–Dez 2026
-- [ ] Legislação relevante (faturação, RGPD)
+- [x] Legislação relevante (faturação, RGPD, pagamentos): pesquisa de 13/10/2026
+- [ ] Nota de pagamento mensal enviada a um coprodutor
+- [ ] Mapa (folha) de distribuição
 
 ## Método
 1. Pedir os documentos à BioGoods e pesquisar documentos públicos (sites de AMAP/CSA, rede AMAP).
@@ -43,6 +45,8 @@
 
 ## Resultados
 - [Análise de documentos da AMAP Porto (UPTEC Baixa)](../doc_AMAP/AnaliseDocumentosAMAPPT.md): formulário de encomendas, Termos e Condições, Guia para novos coprodutores e reportagem do Público (07/10/2026).
+- [Resultados da análise documental](ResultadosAnaliseDocumentalPT.md): fontes, sistema atual, informação a guardar, cruzamento com as entrevistas, restrições legais, requisitos DOC-32 a DOC-41 e perguntas (13/10/2026).
+- [Dúvidas sobre os processos atuais](DuvidasProcessosAtuaisPT.md): dúvidas que ficaram ao modelar a adesão, o ciclo, o dia de entrega e o pagamento (13/10/2026).
 
 ## Registo de trabalho
 | Data | Elemento | Tarefa | Horas |

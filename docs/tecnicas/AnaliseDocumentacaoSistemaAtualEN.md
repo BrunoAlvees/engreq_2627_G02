@@ -21,10 +21,12 @@
 - [ ] Excel file(s) used by BioGoods (anonymised version)
 - [ ] Example of an invoice/receipt issued by a producer
 - [x] AMAP membership form or contract: Jul–Dec 2026 order form and AMAP UPTEC Baixa Terms and Conditions
-- [ ] AMAP charter of principles: summarised in the Guide for new co-producers; the full document still needs to be analysed
+- [x] AMAP charter of principles and FAQ of the national network (amap.movingcause.org)
 - [x] Internal rules of an AMAP: AMAP Porto Guide for new co-producers
 - [x] Delivery lists / distribution calendar: calendar in the Jul–Dec 2026 order form
-- [ ] Relevant legislation (invoicing, GDPR)
+- [x] Relevant legislation (invoicing, GDPR, payments): research on 13/10/2026
+- [ ] Monthly payment note sent to a co-producer
+- [ ] Distribution sheet
 
 ## Method
 1. Request the documents from BioGoods and search for public documents (AMAP/CSA websites, AMAP network).
@@ -43,6 +45,8 @@
 
 ## Results
 - [Analysis of AMAP Porto (UPTEC Baixa) documents](../doc_AMAP/AnaliseDocumentosAMAPEN.md): order form, Terms and Conditions, Guide for new co-producers and Público article (07/10/2026).
+- [Document analysis results](ResultadosAnaliseDocumentalEN.md): sources, current system, information to store, cross-check with interviews, legal constraints, requirements DOC-32 to DOC-41 and questions (13/10/2026).
+- [Open questions about current processes](DuvidasProcessosAtuaisEN.md): questions left after modelling joining, the cycle, delivery day and payment (13/10/2026).
 
 ## Work log
 | Date | Member | Task | Hours |
