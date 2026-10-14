@@ -4,6 +4,8 @@
 
 First version, based on the entities identified in the [document analysis](../../tecnicas/ResultadosAnaliseDocumentalEN.md) (§3) and on requirements RF01–RF08. It shows only the entities, relationships and main attributes. The full data dictionary is left for SRS section 4.2.
 
+**Image (for the SRS):** [imagens/ModeloDominioEN.png](imagens/ModeloDominioEN.png)
+
 ```mermaid
 erDiagram
     AMAP ||--o{ PICKUP_POINT : "has"

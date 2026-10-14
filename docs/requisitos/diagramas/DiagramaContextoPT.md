@@ -4,6 +4,8 @@
 
 Mostra quem usa a FAIR-AMAP, que funcionalidades usa cada ator e com que sistemas externos a plataforma comunica. Os pagamentos e as faturas ficam **fora do sistema**, segundo a proposta de âmbito C6 (a validar).
 
+**Imagem (para o SRS):** [imagens/DiagramaContextoPT.png](imagens/DiagramaContextoPT.png)
+
 ```mermaid
 flowchart LR
     INT([Interessado])

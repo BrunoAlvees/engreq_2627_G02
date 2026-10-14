@@ -4,6 +4,8 @@
 
 Primeira versão, a partir das entidades identificadas na [análise documental](../../tecnicas/ResultadosAnaliseDocumentalPT.md) (§3) e dos requisitos RF01–RF08. Mostra só as entidades, as relações e os atributos principais. O dicionário de dados completo fica para a secção 4.2 do SRS.
 
+**Imagem (para o SRS):** [imagens/ModeloDominioPT.png](imagens/ModeloDominioPT.png)
+
 ```mermaid
 erDiagram
     AMAP ||--o{ PONTO_ENTREGA : "tem"

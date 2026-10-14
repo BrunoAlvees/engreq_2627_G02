@@ -4,6 +4,8 @@
 
 Shows who uses FAIR-AMAP, which features each actor uses and which external systems the platform communicates with. Payments and invoices stay **outside the system**, following scope proposal C6 (to validate).
 
+**Image (for the SRS):** [imagens/DiagramaContextoEN.png](imagens/DiagramaContextoEN.png)
+
 ```mermaid
 flowchart LR
     INT([Prospective member])
