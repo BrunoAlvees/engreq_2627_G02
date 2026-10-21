@@ -1,6 +1,6 @@
 # RF04 – Calendar and deliveries
 
-**Updated on:** 14/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 21/10/2026 · [Conventions and sources](README.md)
 
 ## Description
 Manages the distribution calendar and everything that happens at each delivery: box contents, availability, missing items, absences, collection and forgotten boxes. This is the area with the most problems in the current system: there is no collection confirmation, boxes are left outside after 19:30, and absences and missing items are arranged by message.
@@ -16,11 +16,11 @@ Manages the distribution calendar and everything that happens at each delivery: 
 |---|---|---|---|---|---|
 | RF-ENT-01 | The system shall allow AMAP management to set the distribution place and time (weekday and hours) and change them occasionally (e.g. public holidays). | Management | M | D-A, D-B §3.3, DOC-33, Brainstorm 14/10 | Proposed |
 | RF-ENT-02 | The system shall allow different delivery days per AMAP and a producer serving different AMAPs on alternate weeks. | Management, Producer | M | E-2 §6 | Proposed |
-| RF-ENT-03 | The system shall allow each producer to set their delivery dates for the cycle, within the AMAP's distribution time, with their own frequency and product-specific dates (e.g. Biogoods fortnightly; Quinta da Serrinha in September and December; bread on all dates except two). The co-producer sees in a single calendar the dates of all producers they buy from. | Producer | M | E-3 §2 (producers set the dates), D-A, DOC-03, C1, Brainstorm 14/10 | Proposed |
+| RF-ENT-03 | The system shall allow each producer to set their delivery dates for the cycle, within the AMAP's distribution time, with their own frequency and product-specific dates (e.g. Biogoods fortnightly; Quinta da Serrinha in September and December; bread on all dates except two). The co-producer sees in a single calendar the dates of all producers they buy from. | Producer | M | E-3 §2 (producers set the dates), D-A, DOC-03, C1, Brainstorm 14/10, N18 | Proposed |
 | RF-ENT-04 | The system shall allow several pick-up points in one AMAP. | Management | C | E-2 §6 | Proposed |
 | RF-ENT-05 | The system shall allow the producer to publish the box contents before each delivery. | Producer | M | E-2 §4, N1 | Proposed |
 | RF-ENT-06 | The system shall show each co-producer what they will collect on each date, from all producers, taking exclusions and substitutions into account, with the approximate weight. | Co-producer | M | E-2 §4, E-3 §10, N2, N9 | Proposed |
-| RF-ENT-07 | The system shall allow the producer to confirm a product's availability before delivery (e.g. mushrooms, seasonal breads) and notify the affected co-producers. | Producer | S | D-A, E-3 §3, DOC-12 | Proposed |
+| RF-ENT-07 | The system shall allow the producer to confirm a product's availability before delivery (e.g. mushrooms, seasonal breads) and notify the affected co-producers. | Producer | S | D-A, E-3 §3, DOC-12, N18 | Proposed |
 | RF-ENT-08 | The system shall allow recording missing items in a delivery and the compensation given (discount or substitution in another delivery). | Producer | S | E-3 §7, DOC-34 | Proposed |
 | RF-ENT-09 | The system shall allow spreading a shortage across AMAPs in rotation, instead of partial deliveries within the same AMAP. | Producer | C | E-3 §7 | Proposed |
 | RF-ENT-10 | The system shall allow recording the actual quantity or weight delivered to each co-producer (e.g. meat). | Producer | M | D-A | Proposed |

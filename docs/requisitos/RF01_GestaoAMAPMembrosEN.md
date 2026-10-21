@@ -1,6 +1,6 @@
 # RF01 – AMAP and member management
 
-**Updated on:** 14/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 21/10/2026 · [Conventions and sources](README.md)
 
 ## Description
 Allows creating and configuring independent AMAPs (with one or several producers) and managing each person's path: joining request, trial deliveries, waiting list, registration, personal data and consents. Today, people join by contacting the main producer directly, data arrives through Google Forms and there is no record of each member's status.
@@ -16,10 +16,10 @@ Allows creating and configuring independent AMAPs (with one or several producers
 |---|---|---|---|---|---|
 | RF-MEM-01 | The system shall allow creating an AMAP with a name, pick-up point, distribution day and time, contact and operating rules. | AMAP management, FAIR admin | M | D-A, E-2 §6, DOC-33 | Proposed |
 | RF-MEM-02 | The system shall support several independent AMAPs, each with its own rules, and allow a producer to take part in several AMAPs. | FAIR admin | M | E-2 §1, §11, CA | Proposed |
-| RF-MEM-03 | The system shall support AMAPs with a single producer and AMAPs with several producers, who may offer the same or different products. | AMAP management | M | E-2 §3 | Proposed |
+| RF-MEM-03 | The system shall support AMAPs with a single producer and AMAPs with several producers, who may offer the same or different products. | AMAP management | M | E-2 §3, N14 | Proposed |
 | RF-MEM-04 | The system shall provide a public page for each AMAP (introduction, principles, producers and products, place and time, available places) with a "I want to join" option that starts the joining request. | Prospective member | S | E-1 §3.1, D-C, D-D, Brainstorm 14/10 | Proposed |
 | RF-MEM-05 | The system shall allow a prospective member to request to join an AMAP and record who handles the request (main producer or management). | Prospective member, Management | M | E-1 §3.1, E-4, DOC-38 | Proposed |
-| RF-MEM-06 | The system shall put the prospective member on an ordered waiting list when the AMAP has no places, and notify them when a place becomes available. | System | M | E-1 §3.1, D-A, DV-02, DV-03 | To validate (DV-03) |
+| RF-MEM-06 | The system shall put the prospective member on an ordered waiting list when the AMAP has no places, and notify them when a place becomes available. | System | M | E-1 §3.1, D-A, DV-02, DV-03, N16 | To validate (DV-03) |
 | RF-MEM-07 | The system shall allow trial deliveries before subscribing, with a number configurable per AMAP. | Management, Producer | S | E-4 (2 deliveries), D-C (1 delivery), DOC-23 | To validate (DV-01) |
 | RF-MEM-08 | The system shall store each member's status: prospective, on waiting list, on trial, active or left. | System | M | DOC-38, E-4 | Proposed |
 | RF-MEM-09 | The system shall allow AMAP management to approve or refuse a registration request. | Management | S | D-B §3.2, DOC-22 | Proposed |

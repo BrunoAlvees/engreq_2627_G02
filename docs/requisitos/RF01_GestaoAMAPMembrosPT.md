@@ -1,6 +1,6 @@
 # RF01 – Gestão da AMAP e dos membros
 
-**Atualizado em:** 14/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 21/10/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Permite criar e configurar AMAP independentes (com um ou vários produtores) e gerir o percurso de cada pessoa: pedido de adesão, entregas experimentais, lista de espera, inscrição, dados pessoais e consentimentos. Hoje, a adesão é feita por contacto direto com a produtora principal, os dados chegam por Google Forms e não há registo do estado de cada membro.
@@ -16,10 +16,10 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 |---|---|---|---|---|---|
 | RF-MEM-01 | O sistema deve permitir criar uma AMAP com nome, ponto de entrega, dia e horário de distribuição, contacto e regras de funcionamento. | Gestão da AMAP, Admin FAIR | M | D-A, E-2 §6, DOC-33 | Proposto |
 | RF-MEM-02 | O sistema deve suportar várias AMAP independentes, cada uma com as suas regras, e permitir que um produtor participe em várias AMAP. | Admin FAIR | M | E-2 §1, §11, CA | Proposto |
-| RF-MEM-03 | O sistema deve suportar AMAP com um único produtor e AMAP com vários produtores, que podem oferecer produtos iguais ou diferentes. | Gestão da AMAP | M | E-2 §3 | Proposto |
+| RF-MEM-03 | O sistema deve suportar AMAP com um único produtor e AMAP com vários produtores, que podem oferecer produtos iguais ou diferentes. | Gestão da AMAP | M | E-2 §3, N14 | Proposto |
 | RF-MEM-04 | O sistema deve disponibilizar uma página pública de cada AMAP (apresentação, princípios, produtores e produtos, local e horário, vagas) com a opção "Quero aderir", que inicia o pedido de adesão. | Interessado | S | E-1 §3.1, D-C, D-D, Brainstorm 14/10 | Proposto |
 | RF-MEM-05 | O sistema deve permitir a um interessado pedir a adesão a uma AMAP e registar quem trata o pedido (produtor principal ou gestão). | Interessado, Gestão | M | E-1 §3.1, E-4, DOC-38 | Proposto |
-| RF-MEM-06 | O sistema deve colocar o interessado numa lista de espera ordenada quando a AMAP não tem vagas, e avisá-lo quando houver vaga. | Sistema | M | E-1 §3.1, D-A, DV-02, DV-03 | A validar (DV-03) |
+| RF-MEM-06 | O sistema deve colocar o interessado numa lista de espera ordenada quando a AMAP não tem vagas, e avisá-lo quando houver vaga. | Sistema | M | E-1 §3.1, D-A, DV-02, DV-03, N16 | A validar (DV-03) |
 | RF-MEM-07 | O sistema deve permitir entregas experimentais antes da subscrição, com um número configurável por AMAP. | Gestão, Produtor | S | E-4 (2 entregas), D-C (1 entrega), DOC-23 | A validar (DV-01) |
 | RF-MEM-08 | O sistema deve guardar o estado de cada membro: interessado, em lista de espera, em experiência, ativo ou saído. | Sistema | M | DOC-38, E-4 | Proposto |
 | RF-MEM-09 | O sistema deve permitir à gestão da AMAP aprovar ou recusar um pedido de inscrição. | Gestão | S | D-B §3.2, DOC-22 | Proposto |

@@ -44,6 +44,7 @@ flowchart LR
 ```
 
 ## Notes
+
 - The **co-producer pays the producer directly** (bank transfer, MB Way or cash). The system only calculates, shows and records payments (RF-PAG-03 to 05).
 - The **producer issues invoices in their own software**. The system only records the invoice reference (RF-PAG-07).
 - **AMAP management** may be one person, a committee or several volunteer working groups (D-C §4.5).

@@ -150,8 +150,8 @@ As propostas seguintes ainda dependem da análise de concorrência. Não são va
 - **Requisitos candidatos:**
   - O sistema deve permitir ao produtor apresentar-se aos coprodutores (quinta, modo de produção).
   - O sistema deve permitir ao produtor enviar notícias e avisos aos coprodutores da sua AMAP.
-- **Atenção:** D1 e D3 automatizam momentos que hoje são contacto pessoal (confirmar o levantamento, saber o que vem no cabaz). É preciso validar que isso não contraria esta necessidade.
-- **Perguntas de validação:** o que tornaria a AMAP impessoal, na opinião dos stakeholders? Preferem manter o WhatsApp para a comunicação informal e usar o software só para a gestão? Há momentos que não querem ver automatizados?
+- **Atenção:** a confirmação de levantamento (D1) e a composição do cabaz no sistema (D3) foram pedidas pelos stakeholders (29/09, 06/10), por isso não contrariam esta necessidade. O risco está noutros pontos: as exclusões e preferências são hoje tratadas de forma informal, porque a produtora conhece cada coprodutor, e os sacos com nome tornaram a distribuição viável, mas "desumanizaram um bocadinho" a AMAP (06/10).
+- **Perguntas de validação:** as exclusões e preferências devem ser registadas no sistema ou continuar a ser combinadas diretamente com a produtora? O que tornaria a AMAP impessoal, na opinião dos stakeholders? Preferem manter o WhatsApp para a comunicação informal e usar o software só para a gestão?
 
 ## Resultados esperados (evidências)
 
