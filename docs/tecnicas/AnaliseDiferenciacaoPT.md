@@ -1,5 +1,6 @@
 # Técnica 4: Análise de diferenciação
 
+**Momento:** antes da elicitação (preparar entrevistas), depois da análise de concorrência
 **Responsável:** Liane Duarte
 **Estado:** em curso
 
@@ -21,7 +22,8 @@
 ## Entradas
 
 - Resumos e complementos das sessões de 23/09, 29/09 e 06/10 (`docs/interviews`).
-- Matriz de funcionalidades da análise de concorrência (técnica 1, Jakob) e da dinâmica de mercado (técnica 3, João Mata).
+- Documentos analisados (`docs/doc_AMAP`): [formulário de encomendas da AMAP Porto Baixa](../doc_AMAP/FormularioEncomendas_AMAPPortoBaixa_PT.md) e [reportagem do Público sobre a AMAP Porto](../doc_AMAP/ReportagemPublico_AMAPPorto_PT.md).
+- Matriz de funcionalidades da análise de concorrência (técnica 1, Jakub Piwko) e da dinâmica de mercado (técnica 3, João Mata).
 - Lista de softwares de exemplo (`docs/ExampleSoftwares.md`): GrownBy, Farmigo, CSAware, Local Food Marketplace.
 - Sistema atual descrito pelos stakeholders: Excel, Google Forms, email e WhatsApp (técnica 2, Bruno Alves).
 
@@ -42,33 +44,54 @@ Para cada proposta: **necessidade** → **solução existente ou lacuna** → **
 
 ## Necessidades identificadas até agora
 
-| #   | Necessidade                                                                                                                                    | Origem                               | Cobertura no mercado |
-| --- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ | -------------------- |
-| N1  | Saber a composição do cabaz antes da entrega, sem depender de um WhatsApp semanal                                                            | 29/09 (produtor)                     | *a preencher*      |
-| N2  | Ver**pessoa a pessoa** o que cada coprodutor recebe, com exclusões (alergias, intolerâncias, gostos) e substituições                 | 29/09 (produtor), 06/10 (coprodutor) | *a preencher*      |
-| N3  | Confirmar o levantamento do cabaz, feito pelo próprio coprodutor; hoje o espaço não é vigiado e já ficaram cabazes até ao dia seguinte   | 29/09, 06/10                         | *a preencher*      |
-| N4  | Indicar uma ausência e escolher o destino do cabaz entre opções definidas pela AMAP (amigo, doação, distribuição pelos outros, sorteio) | 29/09, 06/10                         | *a preencher*      |
-| N5  | Lembretes das datas de entrega                                                                                                                 | 29/09, 06/10                         | *a preencher*      |
-| N6  | Consultar o que encomendou e quanto deve; hoje o coprodutor guarda a cópia do formulário e copia as tabelas de preços                       | 06/10 (coprodutor)                   | *a preencher*      |
-| N7  | Regras de pagamento diferentes por produtor (antecipado ou com base no que foi efetivamente entregue) na mesma AMAP                            | 06/10                                | *a preencher*      |
-| N8  | Reduzir o número de operações de pagamento quando há vários produtores e coprodutores                                                     | 23/09 (cliente)                      | *a preencher*      |
-| N9  | Saber quanto pesa o que vai levantar (coprodutores que vão a pé)                                                                             | 06/10                                | *a preencher*      |
-| N10 | Receber ofertas pontuais de excedentes, com gestão de quantidades pelo produtor                                                               | 06/10                                | *a preencher*      |
-| N11 | Acesso fácil às regras da AMAP                                                                                                               | 06/10                                | *a preencher*      |
-| N12 | Renovação antecipada do compromisso (cerca de 3 meses), para planear as culturas                                                             | 29/09 (produtor)                     | *a preencher*      |
-| N13 | Duração da subscrição configurável e lista de produtos extra aberta                                                                       | 29/09                                | *a preencher*      |
-| N14 | AMAP uniprodutor e multiprodutor; cabazes multiprodutor como cenário ideal                                                                    | 29/09                                | *a preencher*      |
-| N15 | Indicadores (KPI) e relatórios para organizações ligadas às CSA e investigadores, alinhados com os ODS                                     | 23/09 (cliente)                      | *a preencher*      |
+| # | Necessidade | Origem | Cobertura no mercado |
+|---|---|---|---|
+| N1 | Saber a composição do cabaz antes da entrega, sem depender de um WhatsApp semanal | 29/09 (produtor) | *a preencher* |
+| N2 | Ver **pessoa a pessoa** o que cada coprodutor recebe, com exclusões (alergias, intolerâncias, gostos) e substituições | 29/09 (produtor), 06/10 (coprodutor) | *a preencher* |
+| N3 | Confirmar o levantamento do cabaz, feito pelo próprio coprodutor; hoje o espaço não é vigiado e já ficaram cabazes até ao dia seguinte | 29/09, 06/10 | *a preencher* |
+| N4 | Indicar uma ausência e escolher o destino do cabaz entre opções definidas pela AMAP (amigo, doação, distribuição pelos outros, sorteio) | 29/09, 06/10 | *a preencher* |
+| N5 | Lembretes das datas de entrega | 29/09, 06/10 | *a preencher* |
+| N6 | Consultar o que encomendou e quanto deve; hoje o coprodutor guarda a cópia do formulário e copia as tabelas de preços | 06/10 (coprodutor), formulário | *a preencher* |
+| N7 | Regras de pagamento diferentes por produtor e até por produto (mensal com nota de pagamento, a cada entrega, carne só depois de pesada) na mesma AMAP | 06/10, formulário | *a preencher* |
+| N8 | Reduzir o número de operações de pagamento quando há vários produtores e coprodutores | 23/09 (cliente) | *a preencher* |
+| N9 | Saber quanto pesa o que vai levantar (coprodutores que vão a pé) | 06/10 | *a preencher* |
+| N10 | Receber ofertas pontuais de excedentes, com gestão de quantidades pelo produtor | 06/10 | *a preencher* |
+| N11 | Acesso fácil às regras da AMAP | 06/10 | *a preencher* |
+| N12 | Renovação antecipada do compromisso (cerca de 3 meses), para planear as culturas | 29/09 (produtor) | *a preencher* |
+| N13 | Duração da subscrição configurável e lista de produtos extra aberta | 29/09 | *a preencher* |
+| N14 | AMAP uniprodutor e multiprodutor; cabazes multiprodutor como cenário ideal | 29/09 | *a preencher* |
+| N15 | Indicadores (KPI) e relatórios para organizações ligadas às CSA e investigadores, alinhados com os ODS; a AMAP Porto já fez um levantamento de quantas pessoas alimenta | 23/09 (cliente), reportagem | *a preencher* |
+| N16 | Capacidade limitada por produto (cabaz de legumes, ovos, carne) e lista de espera para novos membros | formulário | *a preencher* |
+| N17 | Encomendar de forma estruturada o que hoje vai para os comentários livres: outras quantidades, datas parciais (ex.: frango), produtos avulsos em vez de cabaz, preferências | formulário | *a preencher* |
+| N18 | Os produtores indicarem as entregas em que vão falhar ou em que o produto não é garantido (pão, cogumelos), e pedirem reconfirmação de encomendas pouco frequentes (azeite) | formulário | *a preencher* |
+| N19 | Manter a relação pessoal entre produtores e coprodutores; o software não deve tornar a AMAP impessoal | 06/10, reportagem | *a preencher* |
 
 ## Revisão das hipóteses iniciais
 
 O README das técnicas propunha três hipóteses de diferenciação. Face às entrevistas:
 
-| Hipótese                                          | Estado após as entrevistas                                                                                                  | Necessidades relacionadas |
-| -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
-| Gestão de exceções nas recolhas                 | **Reforçada.** Os dois stakeholders referiram problemas no levantamento e nas ausências.                             | N3, N4, N5                |
-| Equilíbrio sazonal dos cabazes                    | **Enfraquecida.** Na sessão de 29/09, a produtora disse que esta questão provavelmente não tem impacto no software. | —                        |
-| Simplificação de pagamentos a vários produtores | **Reforçada.** Cada produtor tem regras próprias e o coprodutor não tem forma simples de saber quanto deve.         | N6, N7, N8                |
+| Hipótese | Estado após as entrevistas | Necessidades relacionadas |
+|---|---|---|
+| Gestão de exceções nas recolhas | **Reforçada.** Os dois stakeholders referiram problemas no levantamento e nas ausências. | N3, N4, N5 |
+| Equilíbrio sazonal dos cabazes | **Enfraquecida.** Na sessão de 29/09, a produtora disse que esta questão provavelmente não tem impacto no software. | — |
+| Simplificação de pagamentos a vários produtores | **Reforçada.** Cada produtor tem regras próprias e o coprodutor não tem forma simples de saber quanto deve. | N6, N7, N8 |
+
+## Classificação provisória de N10–N19
+
+Antes da matriz da análise de concorrência, as necessidades N10–N19 foram separadas entre as que parecem **requisitos base** (funcionalidades comuns em ferramentas de CSA, a confirmar com a técnica 1) e as que podem dar origem a **diferenciação**.
+
+| Necessidade | Classificação provisória | Justificação | Proposta |
+|---|---|---|---|
+| N10 Ofertas de excedentes | Possível diferenciação | Vendas pontuais existem nas lojas online, mas não ligadas à subscrição do cabaz | D4 |
+| N11 Acesso às regras da AMAP | Requisito base | Página de informação simples, sem valor diferenciador | — |
+| N12 Renovação antecipada | Requisito base | As ferramentas de CSA gerem renovação de épocas/contratos | — |
+| N13 Duração configurável e extras | Requisito base | Contratos e produtos extra já existem em ferramentas como AMAPJ e Juntagrico | — |
+| N14 Uniprodutor e multiprodutor | Requisito base, a confirmar | Depende de como as ferramentas analisadas tratam vários produtores na mesma AMAP | — |
+| N15 KPI e relatórios (ODS) | A validar | Pedido do cliente; falta perceber quem usa os relatórios e se entra no âmbito inicial | — |
+| N16 Capacidade e lista de espera | Possível diferenciação | Hoje gerida à mão no formulário | D4 |
+| N17 Encomenda estruturada | Possível diferenciação | Hoje vai para comentários livres que alguém tem de ler e passar para o Excel | D4 |
+| N18 Falhas e reconfirmações do produtor | Possível diferenciação | Hoje são notas no formulário, sem ligação ao calendário de entregas | D4 |
+| N19 Relação pessoal | Possível diferenciação | Plataformas comerciais tratam o coprodutor como cliente de uma loja | D5 |
 
 ## Propostas de diferenciação (rascunho)
 
@@ -89,7 +112,7 @@ As propostas seguintes ainda dependem da análise de concorrência. Não são va
 
 - **Necessidade:** N6, N7, N8.
 - **Solução existente ou lacuna:** *a preencher com a análise de concorrência.*
-- **Diferenciação proposta:** um resumo mensal por coprodutor com o valor devido a cada produtor, calculado segundo as regras de cada um (antecipado ou com base no entregue), e o histórico das encomendas.
+- **Diferenciação proposta:** um resumo mensal por coprodutor com o valor devido a cada produtor, calculado segundo as regras de cada um (mensalidade fixa, a cada entrega ou depois de pesar), e o histórico das encomendas. Hoje cada produtor envia a sua própria nota de pagamento.
 - **Requisitos candidatos:**
   - O sistema deve permitir configurar a regra de pagamento de cada produtor.
   - O sistema deve mostrar ao coprodutor o valor a pagar a cada produtor em cada mês.
@@ -106,6 +129,30 @@ As propostas seguintes ainda dependem da análise de concorrência. Não são va
   - O sistema deve mostrar a cada coprodutor o seu cabaz, tendo em conta as exclusões registadas.
 - **Perguntas de validação:** o peso é útil para todos ou só para alguns coprodutores? O produtor tem tempo para publicar a composição todas as semanas?
 
+### D4: Encomendas flexíveis e capacidade
+
+- **Necessidade:** N10, N16, N17, N18.
+- **Solução existente ou lacuna:** *a preencher com a análise de concorrência.*
+- **Diferenciação proposta:** substituir os comentários livres do formulário por opções estruturadas: quantidades e datas por produto, produtos avulsos, capacidade máxima por produto com lista de espera, calendário do produtor com as entregas em que falha ou em que o produto não é garantido, pedidos de reconfirmação e ofertas de excedentes com quantidade limitada.
+- **Requisitos candidatos:**
+  - O sistema deve permitir ao produtor definir a capacidade máxima de cada produto e colocar novos coprodutores em lista de espera quando essa capacidade é atingida.
+  - O sistema deve permitir ao coprodutor escolher a quantidade e as datas de entrega de cada produto, sem recorrer a comentários livres.
+  - O sistema deve permitir ao produtor indicar as entregas em que não entrega ou em que o produto não é garantido.
+  - O sistema deve permitir ao produtor pedir a reconfirmação de encomendas pouco frequentes.
+  - O sistema deve permitir ao produtor publicar ofertas de excedentes com quantidade limitada.
+- **Perguntas de validação:** quem gere a lista de espera, o produtor ou a coordenação da AMAP? Que pedidos aparecem com mais frequência nos comentários? Os excedentes são atribuídos por ordem de pedido ou de outra forma? Com que antecedência o produtor sabe que vai falhar uma entrega?
+
+### D5: Software que mantém a relação pessoal
+
+- **Necessidade:** N19.
+- **Solução existente ou lacuna:** *a preencher com a análise de concorrência.*
+- **Diferenciação proposta:** tratar a relação pessoal como princípio de desenho e não como funcionalidade: o software trata da gestão (encomendas, pagamentos, ausências) para libertar tempo para o contacto direto, mostra quem é o produtor e permite-lhe comunicar com os seus coprodutores, sem a lógica de loja (catálogo, carrinho, comissões) das plataformas comerciais.
+- **Requisitos candidatos:**
+  - O sistema deve permitir ao produtor apresentar-se aos coprodutores (quinta, modo de produção).
+  - O sistema deve permitir ao produtor enviar notícias e avisos aos coprodutores da sua AMAP.
+- **Atenção:** D1 e D3 automatizam momentos que hoje são contacto pessoal (confirmar o levantamento, saber o que vem no cabaz). É preciso validar que isso não contraria esta necessidade.
+- **Perguntas de validação:** o que tornaria a AMAP impessoal, na opinião dos stakeholders? Preferem manter o WhatsApp para a comunicação informal e usar o software só para a gestão? Há momentos que não querem ver automatizados?
+
 ## Resultados esperados (evidências)
 
 - Tabela de necessidades com a classificação de cobertura no mercado.
@@ -116,6 +163,7 @@ As propostas seguintes ainda dependem da análise de concorrência. Não são va
 
 ## Registo de trabalho
 
-| Data  | Elemento     | Tarefa                                                                | Horas |
-| ----- | ------------ | --------------------------------------------------------------------- | ----- |
-| 07/10 | Liane Duarte | Objetivos, método, necessidades das entrevistas e propostas iniciais |       |
+| Data | Elemento | Tarefa | Horas |
+|---|---|---|---|
+| 07/10 | Liane Duarte | Objetivos, método, necessidades das entrevistas e propostas iniciais | 2.0 |
+| 14/10 | Liane Duarte | Sincronização PT/EN, classificação provisória de N10–N19, propostas D4 e D5 | 1.0 |
