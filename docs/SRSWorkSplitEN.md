@@ -21,7 +21,7 @@ Effort scale: 1 = small (a few paragraphs, or moving existing text), 2 = medium,
 | SRS section | Already in the repo | Effort | Owner |
 |---|---|---|---|
 | Title page, revision history, approval | — | 1 | Leonor |
-| **1 Introduction** (purpose, conventions, scope, references) | conventions in [requisitos/README.md](requisitos/README.md) | 2 | Leonor |
+| **1 Introduction** (purpose, conventions, scope, references) | conventions in [requisitos/README.md](requisitos/README.md) | 2 | Liane (already in progress) |
 | 2.1 Product perspective | [context diagram](requisitos/diagramas/DiagramaContextoEN.md) | 1 | João |
 | 2.2 User classes and characteristics, plus personas | actors table in [requisitos/README.md](requisitos/README.md) | 2 | Jakub |
 | 2.3 Operating environment | — | 1 | Jakub |
@@ -35,7 +35,7 @@ Effort scale: 1 = small (a few paragraphs, or moving existing text), 2 = medium,
 | 7–9 Quality attributes (Safety still missing), i18n, other requirements | [NFR](requisitos/RNF_AtributosQualidadeEN.md) | 4 | Bruno |
 | 10.1 Elicitation process / methodology | — | 2 | Leonor |
 | 10.2 Stakeholders: list and **RACI matrix** | — | 3 | Leonor |
-| 10.3 Applied techniques (summary; details go to the appendix) | 4 techniques in [tecnicas/](tecnicas/README.md) | 2 | Liane |
+| 10.3 Applied techniques (summary; details go to the appendix) | 4 techniques in [tecnicas/](tecnicas/README.md) | 2 | Leonor |
 | 10.4 Effort involved: Task / BA / Hours table | — | 2 | Jakub (collects everyone's hours) |
 | 10.5 Constraints and limitations | — | 1 | Liane |
 | **11 Product backlog:** user stories linked to requirement IDs, estimated hours, priority | — | 6 | Jakub |
@@ -51,10 +51,10 @@ Effort scale: 1 = small (a few paragraphs, or moving existing text), 2 = medium,
 | Member | Points | Role |
 |---|---|---|
 | Bruno | 11 | owner of chapters 3 and 7, Word integrator |
-| Liane | 10 | elicitation process and client contact |
+| Liane | 10 | introduction, elicitation data and client contact |
 | João | 13 | models and diagrams |
 | Jakub | 14 | backlog, effort, users, glossary |
-| Leonor | 14 | introduction, stakeholders, interfaces |
+| Leonor | 14 | elicitation process, stakeholders, interfaces |
 
 ## Notes
 
