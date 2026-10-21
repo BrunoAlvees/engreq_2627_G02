@@ -22,6 +22,7 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 | RNF-SEG-04 | The system shall record who changed orders, deliveries and payments, and when (audit log). | S | Hyp. (C3: disputed amounts) | Proposed |
 | RNF-SEG-05 | The system shall make GDPR compliance possible: producers as joint controllers, FAIR as processor, records of processing activities and breach notification within 72 h. | M | D-B, GDPR arts. 26, 28, 30, 33 | Proposed |
 | RNF-SEG-06 | Personal data shall be erased or anonymised when the retention period for each purpose ends, unless a legal obligation applies (e.g. tax). | S | D-B §3.1, GDPR art. 5 | Proposed |
+| RNF-SEG-07 | Printed labels and sheets shall not show allergies, intolerances or other health data, only the name and the substitutions made. | M | RNF-SEG-03, Brainstorm 14/10 | Proposed |
 
 ## 3. Performance and capacity
 | ID | Requirement | Prio. | Source | Status |
@@ -34,6 +35,7 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 |---|---|---|---|---|
 | RNF-DIS-01 | The system shall be available **99.5%** of the time, with no planned maintenance during distributions or the last days of subscription. | S | Hyp. (D-A: distribution on Tuesdays 17:30–19:30) | To validate |
 | RNF-DIS-02 | A daily backup shall be made, and it shall be possible to restore data with a maximum loss of 24 hours. | S | Hyp. | To validate |
+| RNF-DIS-03 | Collection confirmation shall work with a weak network at the pick-up point: it is stored on the phone and sent when there is a connection. | C | Brainstorm 14/10, Hyp. | Idea (assess during implementation) |
 
 ## 5. Internationalisation and localisation
 | ID | Requirement | Prio. | Source | Status |
