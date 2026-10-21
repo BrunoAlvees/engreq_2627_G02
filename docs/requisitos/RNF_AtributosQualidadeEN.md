@@ -7,11 +7,12 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 ## 1. Usability
 | ID | Requirement | Prio. | Source | Status |
 |---|---|---|---|---|
-| RNF-USA-01 | The system shall be usable on mobile phones and computers (responsive interface), with nothing to install for co-producer functions. | M | Hyp. (E-3: WhatsApp, email and phone notes are used today) | To validate |
+| RNF-USA-01 | The system shall be a responsive web application (mobile and desktop) that requires nothing to be installed, and can be installed on the phone's home screen as a PWA (without going through app stores). | M | E-3 (WhatsApp, email and phone notes are used today); group decision of 21/10 (avoids App Store and Play Store costs and publishing) | Proposed |
 | RNF-USA-02 | A co-producer who has used the system before shall be able to subscribe to a full cycle in **10 minutes** or less, without help. | S | Hyp. | To validate |
 | RNF-USA-03 | The producer's recurring tasks (publishing the box contents, recording a missing item, confirming a payment) shall take **2 minutes** or less each. | S | E-2 §3 ("just produce"), CA ("minimal effort for farmers"), Hyp. (value) | To validate |
 | RNF-USA-04 | The system shall comply with WCAG 2.1, level AA. | S | Hyp. | To validate |
 | RNF-USA-05 | The co-producer shall be able to see what they will collect at the next delivery and how much they owe within **2 clicks** of the home page. | S | E-3 §1, §10, Hyp. (value) | To validate |
+| RNF-USA-06 | The system shall show users, in a simple way, how to install the app on their phone's home screen (instructions for Android and iPhone) and how to turn on notifications. | S | Group decision of 21/10 (RNF-USA-01, RNF-INT-05) | Proposed |
 
 ## 2. Security and data protection
 | ID | Requirement | Prio. | Source | Status |
@@ -50,14 +51,15 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 | RNF-INT-02 | The system shall export data to spreadsheets (CSV/XLSX). | S | E-2 §2 (current Excel) | Proposed |
 | RNF-INT-03 | The system shall be able to send notifications by SMS or WhatsApp. | C | E-3 §12, Hyp. | To validate |
 | RNF-INT-04 | The system shall be able to integrate with a licensed payment provider (e.g. MB Way) able to split one payment among several producers. | S | Group proposal (based on E-5), CA, PSD2, E-1 | Proposed |
+| RNF-INT-05 | The system shall send push notifications to the phone (through the PWA), in addition to email, when the user turns them on. | S | E-2 §2, E-3 §9 (delivery reminders), group decision of 21/10 | Proposed |
 
 ## 7. Design and business constraints
 | ID | Constraint | Prio. | Source | Status |
 |---|---|---|---|---|
 | RNF-RES-01 | The system shall not issue invoices, because that would require software certified by the Tax Authority (AT). Each producer invoices in their own software. | M | Technique 2 results §5, C4 | To validate (C6) |
 | RNF-RES-02 | The system shall not hold co-producers' money directly (PSD2). Collection is centralised: the co-producer makes a single payment, split among producers through a licensed payment provider (group option on 21/10). | M | Group proposal (based on E-5), PSD2, E-1, E-2 §13 | Proposed |
-| RNF-RES-03 | The solution shall respect the AMAP Charter of Principles: it must not act as a commercial intermediary between producer and co-producer. | M | D-C §4.1, D-E, CA | To validate (C6) |
-| RNF-RES-04 | FAIR's pricing model shall not depend on a commission per box or per transaction. | S | CA, D-E; in conflict with E-1 §4 (minimum fee + volume) and E-5 (centralised collection) | To validate (DV-25) |
+| RNF-RES-03 | The solution shall respect the AMAP Charter of Principles: it must not act as a commercial intermediary between producer and co-producer. | M | D-E (Charter of Principles), D-C §4.1, E-2, E-3 §5, CA; group interpretation (technique 2, results §5) | To validate (C6) |
+| RNF-RES-04 | FAIR charges a minimum fee per producer plus a percentage of the payment volume that goes through the platform; the amounts are set by FAIR. | S | Group proposal (based on E-1 §4, E-5); CA and D-E favoured no commission | Proposed |
 | RNF-RES-05 | The solution shall be a platform shared by several AMAPs (multi-AMAP), with each AMAP's data kept separate. | M | CA ("one shared instance for Portuguese AMAPs"), E-2 §1 | Proposed |
-| RNF-RES-06 | The solution shall be maintained by FAIR over time (fixes, security updates and evolution). | S | E-1 (software built by amateurs stops being maintained) | To validate |
-| RNF-RES-07 | Differences between AMAPs (cycle length, delivery days, absence rules, each producer's rules) shall be handled through configuration, without specific development for each AMAP. | M | Principle 1 of the 14/10 brainstorm, E-2 §1, §11 | Proposed |
+| RNF-RES-06 | The solution shall be maintained by FAIR over time (fixes, security updates and evolution). | S | E-1 (software built by amateurs stops being maintained) | Proposed |
+| RNF-RES-07 | Differences between AMAPs and between producers in the same AMAP (cycle length, delivery dates and mode, change deadlines, payment timing, absence rules) shall be handled through configuration, without specific development for each AMAP or producer. | M | Principle 1 of the 14/10 brainstorm, E-2 §1, §11, E-3 §2–§4, §8 | Proposed |

@@ -7,11 +7,12 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 ## 1. Usabilidade
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
-| RNF-USA-01 | O sistema deve poder ser usado em telemóvel e em computador (interface adaptável ao ecrã), sem instalar nada para as funções do coprodutor. | M | Hip. (E-3: hoje usa-se WhatsApp, email e notas no telemóvel) | A validar |
+| RNF-USA-01 | O sistema deve ser uma aplicação web adaptável ao ecrã (telemóvel e computador), sem obrigar a instalar nada, e poder ser instalada no ecrã inicial do telemóvel como PWA (sem passar pelas lojas de aplicações). | M | E-3 (hoje usa-se WhatsApp, email e notas no telemóvel); decisão do grupo de 21/10 (evita os custos e a publicação na App Store e na Play Store) | Proposto |
 | RNF-USA-02 | Um coprodutor que já usou o sistema deve conseguir subscrever um ciclo completo em **10 minutos** ou menos, sem ajuda. | S | Hip. | A validar |
 | RNF-USA-03 | As tarefas recorrentes do produtor (publicar a composição do cabaz, registar uma falta, confirmar um pagamento) devem demorar **2 minutos** ou menos cada. | S | E-2 §3 ("só produzir"), CA ("pouco esforço para os agricultores"), Hip. (valor) | A validar |
 | RNF-USA-04 | O sistema deve cumprir as WCAG 2.1, nível AA. | S | Hip. | A validar |
 | RNF-USA-05 | O coprodutor deve conseguir ver o que vai levantar na próxima entrega e quanto deve no máximo a **2 cliques** da página inicial. | S | E-3 §1, §10, Hip. (valor) | A validar |
+| RNF-USA-06 | O sistema deve mostrar ao utilizador, de forma simples, como instalar a aplicação no ecrã inicial do telemóvel (instruções para Android e iPhone) e como ativar as notificações. | S | Decisão do grupo de 21/10 (RNF-USA-01, RNF-INT-05) | Proposto |
 
 ## 2. Segurança e proteção de dados
 | ID | Requisito | Prior. | Fonte | Estado |
@@ -50,14 +51,15 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 | RNF-INT-02 | O sistema deve exportar dados para folha de cálculo (CSV/XLSX). | S | E-2 §2 (Excel atual) | Proposto |
 | RNF-INT-03 | O sistema deve poder enviar notificações por SMS ou WhatsApp. | C | E-3 §12, Hip. | A validar |
 | RNF-INT-04 | O sistema deve poder integrar-se com um prestador de pagamentos licenciado (ex.: MB Way), capaz de dividir um pagamento por vários produtores. | S | Proposta do grupo (a partir de E-5), CA, PSD2, E-1 | Proposto |
+| RNF-INT-05 | O sistema deve enviar notificações push para o telemóvel (através da PWA), além do email, quando o utilizador as ativar. | S | E-2 §2, E-3 §9 (lembretes de entrega), decisão do grupo de 21/10 | Proposto |
 
 ## 7. Restrições de conceção e de negócio
 | ID | Restrição | Prior. | Fonte | Estado |
 |---|---|---|---|---|
 | RNF-RES-01 | O sistema não deve emitir faturas, porque isso exigiria software certificado pela AT. Cada produtor fatura no seu programa. | M | Resultados técnica 2 §5, C4 | A validar (C6) |
 | RNF-RES-02 | O sistema não deve guardar diretamente o dinheiro dos coprodutores (PSD2). A cobrança é centralizada: o coprodutor faz um só pagamento, dividido pelos produtores através de um prestador de pagamentos licenciado (opção do grupo em 21/10). | M | Proposta do grupo (a partir de E-5), PSD2, E-1, E-2 §13 | Proposto |
-| RNF-RES-03 | A solução deve respeitar a Carta de Princípios das AMAP: não pode atuar como intermediário comercial entre produtor e coprodutor. | M | D-C §4.1, D-E, CA | A validar (C6) |
-| RNF-RES-04 | O modelo de cobrança da FAIR não deve depender de uma comissão por cabaz ou por transação. | S | CA, D-E; em conflito com E-1 §4 (fee mínima + volume) e E-5 (cobrança centralizada) | A validar (DV-25) |
+| RNF-RES-03 | A solução deve respeitar a Carta de Princípios das AMAP: não pode atuar como intermediário comercial entre produtor e coprodutor. | M | D-E (Carta de Princípios), D-C §4.1, E-2, E-3 §5, CA; interpretação do grupo (técnica 2, resultados §5) | A validar (C6) |
+| RNF-RES-04 | A FAIR cobra uma fee mínima por produtor mais uma percentagem sobre o volume de pagamentos que passa pela plataforma; os valores são definidos pela FAIR. | S | Proposta do grupo (a partir de E-1 §4, E-5); CA e D-E preferiam sem comissão | Proposto |
 | RNF-RES-05 | A solução deve ser uma plataforma partilhada por várias AMAP (multi-AMAP), com os dados de cada AMAP separados. | M | CA ("instância comum para as AMAP portuguesas"), E-2 §1 | Proposto |
-| RNF-RES-06 | A solução deve ser mantida pela FAIR ao longo do tempo (correções, atualizações de segurança e evolução). | S | E-1 (softwares de amadores deixam de ser mantidos) | A validar |
-| RNF-RES-07 | As diferenças entre AMAP (duração do ciclo, dias de entrega, regras de ausência, regras de cada produtor) devem ser tratadas por configuração, sem desenvolvimento específico para cada AMAP. | M | Princípio 1 do brainstorm de 14/10, E-2 §1, §11 | Proposto |
+| RNF-RES-06 | A solução deve ser mantida pela FAIR ao longo do tempo (correções, atualizações de segurança e evolução). | S | E-1 (softwares de amadores deixam de ser mantidos) | Proposto |
+| RNF-RES-07 | As diferenças entre AMAP e entre produtores da mesma AMAP (duração do ciclo, datas e modo de entrega, prazos de alteração, momento do pagamento, regras de ausência) devem ser tratadas por configuração, sem desenvolvimento específico para cada AMAP ou produtor. | M | Princípio 1 do brainstorm de 14/10, E-2 §1, §11, E-3 §2–§4, §8 | Proposto |

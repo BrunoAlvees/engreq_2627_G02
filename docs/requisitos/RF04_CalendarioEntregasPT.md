@@ -33,6 +33,7 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 | RF-ENT-17 | O sistema deve permitir a um voluntário, à gestão ou ao produtor confirmar o levantamento em nome de um coprodutor sem telemóvel. | Gestão, Produtor | S | Brainstorm 14/10 | Proposto |
 | RF-ENT-18 | O sistema deve gerar, em PDF A4, etiquetas para os sacos com nome, "Saco x de y", produtor e data, sem dados de saúde. | Sistema, Produtor | S | E-3 §8 ("Nome 1 de 2"), CA (CSAware: etiquetas), Brainstorm 14/10 | Proposto |
 | RF-ENT-19 | **Ideia:** cada etiqueta pode ter um QR code individual. Ao ler o QR, o coprodutor confirma o levantamento desse saco, e o sistema avisa se o saco não for dele. | Coprodutor | C | Brainstorm 14/10; E-3 §9 (pão levado pela pessoa errada); nenhuma solução analisada tem esta funcionalidade | Ideia (avaliar na implementação) |
+| RF-ENT-20 | O sistema deve permitir a cada produtor indicar o seu modo de entrega (ex.: saco identificado deixado no ponto de entrega, entrega em mão, rota por vários pontos) e mostrá-lo ao coprodutor. | Produtor | S | E-3 §8 (sacos com nome; Quinta da Serrinha entrega em mão; rotas de entrega), Brainstorm 21/10 | Proposto |
 
 ## Nota: brainstorm de 14/10 sobre o levantamento
 - **Lá fora** usa-se sobretudo uma **folha impressa** onde cada um marca o seu nome (a "liste d'émargement" das AMAP francesas, gerada pelo Cagette; a folha de registo da Lancaster Farm Fresh, nos EUA). Não encontrámos nenhuma solução com confirmação por QR code.
