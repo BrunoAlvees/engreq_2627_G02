@@ -49,13 +49,13 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 | RNF-INT-01 | O sistema deve enviar notificações por email. | M | D-A, D-C §4.6 | Proposto |
 | RNF-INT-02 | O sistema deve exportar dados para folha de cálculo (CSV/XLSX). | S | E-2 §2 (Excel atual) | Proposto |
 | RNF-INT-03 | O sistema deve poder enviar notificações por SMS ou WhatsApp. | C | E-3 §12, Hip. | A validar |
-| RNF-INT-04 | O sistema deve poder integrar-se com um prestador de pagamentos licenciado (ex.: MB Way), capaz de dividir um pagamento por vários produtores. | S | CA, PSD2, E-1, E-5 | A validar (C6) |
+| RNF-INT-04 | O sistema deve poder integrar-se com um prestador de pagamentos licenciado (ex.: MB Way), capaz de dividir um pagamento por vários produtores. | S | Proposta do grupo (a partir de E-5), CA, PSD2, E-1 | Proposto |
 
 ## 7. Restrições de conceção e de negócio
 | ID | Restrição | Prior. | Fonte | Estado |
 |---|---|---|---|---|
 | RNF-RES-01 | O sistema não deve emitir faturas, porque isso exigiria software certificado pela AT. Cada produtor fatura no seu programa. | M | Resultados técnica 2 §5, C4 | A validar (C6) |
-| RNF-RES-02 | O sistema não deve guardar diretamente o dinheiro dos coprodutores (PSD2). Os pagamentos são feitos diretamente a cada produtor (modelo A) ou, em alternativa, recolhidos num só pagamento e divididos pelos produtores através de um prestador de pagamentos licenciado (modelo B). | M | D-C §4.3, PSD2, E-3 (modelo A); E-1, E-2 §13, E-5 (modelo B) | A validar (C6) |
+| RNF-RES-02 | O sistema não deve guardar diretamente o dinheiro dos coprodutores (PSD2). A cobrança é centralizada: o coprodutor faz um só pagamento, dividido pelos produtores através de um prestador de pagamentos licenciado (opção do grupo em 21/10). | M | Proposta do grupo (a partir de E-5), PSD2, E-1, E-2 §13 | Proposto |
 | RNF-RES-03 | A solução deve respeitar a Carta de Princípios das AMAP: não pode atuar como intermediário comercial entre produtor e coprodutor. | M | D-C §4.1, D-E, CA | A validar (C6) |
 | RNF-RES-04 | O modelo de cobrança da FAIR não deve depender de uma comissão por cabaz ou por transação. | S | CA, D-E; em conflito com E-1 §4 (fee mínima + volume) e E-5 (cobrança centralizada) | A validar (DV-25) |
 | RNF-RES-05 | A solução deve ser uma plataforma partilhada por várias AMAP (multi-AMAP), com os dados de cada AMAP separados. | M | CA ("instância comum para as AMAP portuguesas"), E-2 §1 | Proposto |

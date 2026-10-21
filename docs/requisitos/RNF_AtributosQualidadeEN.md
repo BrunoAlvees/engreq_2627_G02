@@ -49,13 +49,13 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 | RNF-INT-01 | The system shall send notifications by email. | M | D-A, D-C §4.6 | Proposed |
 | RNF-INT-02 | The system shall export data to spreadsheets (CSV/XLSX). | S | E-2 §2 (current Excel) | Proposed |
 | RNF-INT-03 | The system shall be able to send notifications by SMS or WhatsApp. | C | E-3 §12, Hyp. | To validate |
-| RNF-INT-04 | The system shall be able to integrate with a licensed payment provider (e.g. MB Way) able to split one payment among several producers. | S | CA, PSD2, E-1, E-5 | To validate (C6) |
+| RNF-INT-04 | The system shall be able to integrate with a licensed payment provider (e.g. MB Way) able to split one payment among several producers. | S | Group proposal (based on E-5), CA, PSD2, E-1 | Proposed |
 
 ## 7. Design and business constraints
 | ID | Constraint | Prio. | Source | Status |
 |---|---|---|---|---|
 | RNF-RES-01 | The system shall not issue invoices, because that would require software certified by the Tax Authority (AT). Each producer invoices in their own software. | M | Technique 2 results §5, C4 | To validate (C6) |
-| RNF-RES-02 | The system shall not hold co-producers' money directly (PSD2). Payments are made directly to each producer (model A) or, alternatively, collected in a single payment and split among producers through a licensed payment provider (model B). | M | D-C §4.3, PSD2, E-3 (model A); E-1, E-2 §13, E-5 (model B) | To validate (C6) |
+| RNF-RES-02 | The system shall not hold co-producers' money directly (PSD2). Collection is centralised: the co-producer makes a single payment, split among producers through a licensed payment provider (group option on 21/10). | M | Group proposal (based on E-5), PSD2, E-1, E-2 §13 | Proposed |
 | RNF-RES-03 | The solution shall respect the AMAP Charter of Principles: it must not act as a commercial intermediary between producer and co-producer. | M | D-C §4.1, D-E, CA | To validate (C6) |
 | RNF-RES-04 | FAIR's pricing model shall not depend on a commission per box or per transaction. | S | CA, D-E; in conflict with E-1 §4 (minimum fee + volume) and E-5 (centralised collection) | To validate (DV-25) |
 | RNF-RES-05 | The solution shall be a platform shared by several AMAPs (multi-AMAP), with each AMAP's data kept separate. | M | CA ("one shared instance for Portuguese AMAPs"), E-2 §1 | Proposed |
