@@ -1,6 +1,6 @@
 # RF04 – Calendário e entregas
 
-**Atualizado em:** 14/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 21/10/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Gere o calendário de distribuição e tudo o que acontece em cada entrega: composição do cabaz, disponibilidade, faltas, ausências, levantamento e cabazes esquecidos. É a área com mais problemas no sistema atual: não há confirmação de levantamento, os cabazes ficam no exterior depois das 19h30 e as ausências e faltas são combinadas por mensagem.
@@ -16,11 +16,11 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 |---|---|---|---|---|---|
 | RF-ENT-01 | O sistema deve gerar o calendário de entregas do ciclo a partir do dia, do horário, da frequência e do local da AMAP, e permitir alterar datas (ex.: feriados). | Gestão, Produtor | M | D-A, E-3 §2, DOC-02, DOC-33 | A validar (C1: quem aprova?) |
 | RF-ENT-02 | O sistema deve permitir dias de entrega diferentes por AMAP e que um produtor sirva AMAP diferentes em semanas alternadas. | Gestão, Produtor | M | E-2 §6 | Proposto |
-| RF-ENT-03 | O sistema deve permitir ao produtor indicar as datas do calendário a que não vai, e datas próprias para certos produtos (ex.: carne, azeite). | Produtor | M | D-A, DOC-03 | Proposto |
+| RF-ENT-03 | O sistema deve permitir ao produtor indicar as datas do calendário a que não vai, e datas próprias para certos produtos (ex.: carne, azeite). | Produtor | M | D-A, DOC-03, N18 | Proposto |
 | RF-ENT-04 | O sistema deve permitir vários pontos de entrega numa AMAP. | Gestão | C | E-2 §6 | Proposto |
 | RF-ENT-05 | O sistema deve permitir ao produtor publicar a composição do cabaz antes de cada entrega. | Produtor | M | E-2 §4, N1 | Proposto |
 | RF-ENT-06 | O sistema deve mostrar a cada coprodutor o que vai levantar em cada data, de todos os produtores, tendo em conta exclusões e substituições, e o peso aproximado. | Coprodutor | M | E-2 §4, E-3 §10, N2, N9 | Proposto |
-| RF-ENT-07 | O sistema deve permitir ao produtor confirmar a disponibilidade de um produto antes da entrega (ex.: cogumelos, pães sazonais) e avisar os coprodutores afetados. | Produtor | S | D-A, E-3 §3, DOC-12 | Proposto |
+| RF-ENT-07 | O sistema deve permitir ao produtor confirmar a disponibilidade de um produto antes da entrega (ex.: cogumelos, pães sazonais) e avisar os coprodutores afetados. | Produtor | S | D-A, E-3 §3, DOC-12, N18 | Proposto |
 | RF-ENT-08 | O sistema deve permitir registar faltas de produto numa entrega e a compensação dada (desconto ou substituição noutra entrega). | Produtor | S | E-3 §7, DOC-34 | Proposto |
 | RF-ENT-09 | O sistema deve permitir distribuir uma falta por AMAP em rotação, em vez de entregas parciais dentro da mesma AMAP. | Produtor | C | E-3 §7 | Proposto |
 | RF-ENT-10 | O sistema deve permitir registar a quantidade ou o peso real entregue a cada coprodutor (ex.: carne). | Produtor | M | D-A | Proposto |

@@ -138,8 +138,8 @@ The following proposals still depend on the competitor analysis. They are not de
 - **Candidate requirements:**
   - The system shall allow the producer to introduce themselves to co-producers (farm, production method).
   - The system shall allow the producer to send news and notices to the co-producers of their AMAP.
-- **Caution:** D1 and D3 automate moments that are personal contact today (confirming collection, finding out what is in the basket). It must be validated that this does not go against this need.
-- **Validation questions:** what would make the AMAP impersonal, in the stakeholders' view? Would they rather keep WhatsApp for informal communication and use the software only for management? Are there moments they do not want automated?
+- **Caution:** collection confirmation (D1) and basket contents in the system (D3) were requested by the stakeholders (29/09, 06/10), so they do not go against this need. The risk lies elsewhere: exclusions and preferences are currently handled informally, because the producer knows each co-producer, and named bags made distribution viable but made the AMAP "a little dehumanised" (06/10).
+- **Validation questions:** should exclusions and preferences be recorded in the system or keep being agreed directly with the producer? What would make the AMAP impersonal, in the stakeholders' view? Would they rather keep WhatsApp for informal communication and use the software only for management?
 
 ## Expected results (evidence)
 - Table of needs with market coverage classification.
