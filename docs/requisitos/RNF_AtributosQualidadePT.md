@@ -22,6 +22,7 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 | RNF-SEG-04 | O sistema deve registar quem alterou encomendas, entregas e pagamentos, e quando (registo de auditoria). | S | Hip. (C3: valores em disputa) | Proposto |
 | RNF-SEG-05 | O sistema deve permitir cumprir o RGPD: produtores como responsáveis conjuntos, FAIR como subcontratante, registo das atividades de tratamento e notificação de violações em 72 h. | M | D-B, RGPD arts. 26.º, 28.º, 30.º, 33.º | Proposto |
 | RNF-SEG-06 | Os dados pessoais devem ser apagados ou anonimizados quando termina o prazo de conservação de cada finalidade, salvo obrigação legal (ex.: fiscal). | S | D-B §3.1, RGPD art. 5.º | Proposto |
+| RNF-SEG-07 | As etiquetas e folhas impressas não devem mostrar alergias, intolerâncias nem outros dados de saúde, só o nome e as substituições feitas. | M | RNF-SEG-03, Brainstorm 14/10 | Proposto |
 
 ## 3. Desempenho e capacidade
 | ID | Requisito | Prior. | Fonte | Estado |
@@ -34,6 +35,7 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 |---|---|---|---|---|
 | RNF-DIS-01 | O sistema deve estar disponível **99,5%** do tempo e não deve ter manutenções planeadas durante as distribuições nem nos últimos dias de subscrição. | S | Hip. (D-A: distribuição à terça 17h30–19h30) | A validar |
 | RNF-DIS-02 | Deve ser feita uma cópia de segurança diária, e deve ser possível recuperar os dados com uma perda máxima de 24 horas. | S | Hip. | A validar |
+| RNF-DIS-03 | A confirmação de levantamento deve funcionar com rede fraca no local de entrega: fica guardada no telemóvel e é enviada quando houver ligação. | C | Brainstorm 14/10, Hip. | Ideia (avaliar na implementação) |
 
 ## 5. Internacionalização e localização
 | ID | Requisito | Prior. | Fonte | Estado |

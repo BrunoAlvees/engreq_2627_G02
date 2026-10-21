@@ -6,6 +6,13 @@
 
 **EN:** Consolidated list of FAIR-AMAP requirements, organised by **system feature** (the "System features" of the SRS template). It brings together the candidate requirements from the stakeholder sessions and the four elicitation techniques. Each requirement states its **source** so it can be justified in the presentation. This is a **first version for group discussion**: priorities are an initial proposal and no requirement has been validated by the client yet.
 
+## Princípios orientadores / Guiding principles
+Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
+
+1. **PT:** **Cada AMAP tem as suas regras.** O sistema é configurável por AMAP e por produtor e não impõe um modelo único. **EN:** **Each AMAP has its own rules.** The system is configurable per AMAP and per producer and does not impose a single model.
+2. **PT:** **Uma AMAP é feita de pessoas.** A prioridade é o contacto direto entre produtores e coprodutores. A aplicação **simplifica e automatiza** o processo, mas não substitui essa relação: os contactos ficam sempre visíveis. **EN:** **An AMAP is made of people.** The priority is direct contact between producers and co-producers. The app **simplifies and automates** the process but does not replace that relationship: contact details are always visible.
+3. **PT:** **As entregas de uma AMAP não são semanais.** Quem quer receber todas as semanas subscreve duas AMAP (RF-MEM-20). **EN:** **AMAP deliveries are not weekly.** Those who want deliveries every week subscribe to two AMAPs (RF-MEM-20).
+
 ## Ficheiros / Files
 
 | # | Funcionalidade / Feature | Prefixo / Prefix | Ficheiros / Files |
@@ -20,6 +27,7 @@
 | RF08 | Relatórios e indicadores / Reports and indicators | `RF-REL` | [PT](RF08_RelatoriosIndicadoresPT.md) · [EN](RF08_RelatoriosIndicadoresEN.md) |
 | RNF | Atributos de qualidade, interfaces e restrições / Quality attributes, interfaces and constraints | `RNF-*` | [PT](RNF_AtributosQualidadePT.md) · [EN](RNF_AtributosQualidadeEN.md) |
 | — | Diagramas / Diagrams | — | [diagramas/](diagramas/README.md) |
+| — | Perguntas em aberto / Open questions | `PA-nn` | [PT](PerguntasEmAbertoPT.md) · [EN](PerguntasEmAbertoEN.md) |
 
 ## Convenções / Conventions
 
@@ -44,6 +52,7 @@
 |---|---|---|
 | Proposto | Proposed | Tem fonte, ainda não validado com o cliente / Has a source, not yet validated with the client |
 | A validar | To validate | Depende de uma dúvida em aberto (ver coluna Fonte) / Depends on an open question (see Source column) |
+| Ideia | Idea | Proposta do grupo a avaliar na implementação / Group proposal to assess during implementation |
 | Validado | Validated | Confirmado pelo cliente ou stakeholder / Confirmed by the client or stakeholder |
 | Rejeitado | Rejected | Fora do âmbito ou descartado / Out of scope or discarded |
 
@@ -60,6 +69,7 @@
 | CA | [Análise de concorrência](../tecnicas/CompetitorAnalysis.md) (técnica 1) |
 | C-n, DV-nn | Diferenças entre fontes e dúvidas em aberto — [resultados §4.2](../tecnicas/ResultadosAnaliseDocumentalPT.md), [dúvidas](../tecnicas/DuvidasProcessosAtuaisPT.md) |
 | Hip. | Hipótese do grupo, sem fonte de stakeholder (validar) / Group hypothesis, no stakeholder source (to validate) |
+| Brainstorm dd/mm | Ideia surgida num brainstorm do grupo (ver nota no ficheiro da área) / Idea from a group brainstorm (see note in the area file) |
 
 ## Atores / Actors
 | PT | EN | Descrição / Description |

@@ -36,6 +36,8 @@ Estados: **Aberta** · **Respondida** (indicar a fonte) · **Descartada**.
 | DV-15 | O que acontece aos cabazes deixados no exterior depois das 19h30? Quem os recolhe? | Média | Aberta |
 | DV-16 | Nas ausências, quem trata da doação ou da distribuição do cabaz? Que entidades o recebem? | Baixa | Aberta |
 | DV-17 | Quando falta um produto, como e quando é avisado o coprodutor? | Média | Aberta |
+| DV-27 | O produtor imprimiria etiquetas para os sacos todas as semanas? Tem impressora? (RF-ENT-18, RF-ENT-19) | Média | Aberta |
+| DV-28 | Os coprodutores confirmariam o levantamento numa aplicação ou lendo um QR code? Preferem instalar uma app ou abrir um link? (RF-ENT-13, RF-ENT-19) | Média | Aberta |
 
 ## P4. Pagamento mensal
 | ID | Dúvida | Prioridade | Estado |
