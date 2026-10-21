@@ -12,7 +12,7 @@ Based on the LABDSOFT SRS template (v1.1). The goal is a roughly equal **total**
 | **Liane Duarte** | notes from all 3 client sessions, differentiation analysis, order form and Público article transcriptions | large |
 | **João Mata** | market dynamics | small |
 | **Jakub Piwko** | competitor analysis (draft) | small |
-| **Member 5** | no commits yet | none |
+| **Leonor** | no commits yet | none |
 
 ## Remaining work per SRS section
 
@@ -20,8 +20,8 @@ Effort scale: 1 = small (a few paragraphs, or moving existing text), 2 = medium,
 
 | SRS section | Already in the repo | Effort | Owner |
 |---|---|---|---|
-| Title page, revision history, approval | — | 1 | Member 5 |
-| **1 Introduction** (purpose, conventions, scope, references) | conventions in [requisitos/README.md](requisitos/README.md) | 2 | Member 5 |
+| Title page, revision history, approval | — | 1 | Leonor |
+| **1 Introduction** (purpose, conventions, scope, references) | conventions in [requisitos/README.md](requisitos/README.md) | 2 | Leonor |
 | 2.1 Product perspective | [context diagram](requisitos/diagramas/DiagramaContextoEN.md) | 1 | João |
 | 2.2 User classes and characteristics, plus personas | actors table in [requisitos/README.md](requisitos/README.md) | 2 | Jakub |
 | 2.3 Operating environment | — | 1 | Jakub |
@@ -31,10 +31,10 @@ Effort scale: 1 = small (a few paragraphs, or moving existing text), 2 = medium,
 | 3.x Use case diagrams per feature area | to do | 3 | João |
 | 4 Data requirements: data dictionary, reports | [logical data model](requisitos/diagramas/ModeloDominioEN.md) | 3 | João |
 | 5 Domain model: bounded contexts | overview exists | 2 | João |
-| 6 External interfaces, including UI sketches | RNF-INT | 4 | Member 5 |
+| 6 External interfaces, including UI sketches | RNF-INT | 4 | Leonor |
 | 7–9 Quality attributes (Safety still missing), i18n, other requirements | [NFR](requisitos/RNF_AtributosQualidadeEN.md) | 4 | Bruno |
-| 10.1 Elicitation process / methodology | — | 2 | Member 5 |
-| 10.2 Stakeholders: list and **RACI matrix** | — | 3 | Member 5 |
+| 10.1 Elicitation process / methodology | — | 2 | Leonor |
+| 10.2 Stakeholders: list and **RACI matrix** | — | 3 | Leonor |
 | 10.3 Applied techniques (summary; details go to the appendix) | 4 techniques in [tecnicas/](tecnicas/README.md) | 2 | Liane |
 | 10.4 Effort involved: Task / BA / Hours table | — | 2 | Jakub (collects everyone's hours) |
 | 10.5 Constraints and limitations | — | 1 | Liane |
@@ -54,7 +54,7 @@ Effort scale: 1 = small (a few paragraphs, or moving existing text), 2 = medium,
 | Liane | 10 | elicitation process and client contact |
 | João | 13 | models and diagrams |
 | Jakub | 14 | backlog, effort, users, glossary |
-| Member 5 | 14 | introduction, stakeholders, interfaces |
+| Leonor | 14 | introduction, stakeholders, interfaces |
 
 ## Notes
 
