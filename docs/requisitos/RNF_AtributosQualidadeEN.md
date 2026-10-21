@@ -1,6 +1,6 @@
 # NFR – Quality attributes, interfaces and constraints
 
-**Updated on:** 14/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 21/10/2026 · [Conventions and sources](README.md)
 
 Non-functional requirements must be **specific and verifiable** (SRS template). Numerical values marked "Hyp." are group proposals to be discussed and validated. No stakeholder stated them.
 
@@ -49,13 +49,15 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 | RNF-INT-01 | The system shall send notifications by email. | M | D-A, D-C §4.6 | Proposed |
 | RNF-INT-02 | The system shall export data to spreadsheets (CSV/XLSX). | S | E-2 §2 (current Excel) | Proposed |
 | RNF-INT-03 | The system shall be able to send notifications by SMS or WhatsApp. | C | E-3 §12, Hyp. | To validate |
-| RNF-INT-04 | The system shall be able to integrate with a licensed payment provider (e.g. MB Way). | W | CA, PSD2 | To validate (C6) |
+| RNF-INT-04 | The system shall be able to integrate with a licensed payment provider (e.g. MB Way) able to split one payment among several producers. | S | CA, PSD2, E-1, E-5 | To validate (C6) |
 
 ## 7. Design and business constraints
 | ID | Constraint | Prio. | Source | Status |
 |---|---|---|---|---|
 | RNF-RES-01 | The system shall not issue invoices, because that would require software certified by the Tax Authority (AT). Each producer invoices in their own software. | M | Technique 2 results §5, C4 | To validate (C6) |
-| RNF-RES-02 | The system shall not receive or move co-producers' money: payments are made directly to each producer (PSD2). | M | D-C §4.3, PSD2 | To validate (C6) |
+| RNF-RES-02 | The system shall not hold co-producers' money directly (PSD2). Payments are made directly to each producer (model A) or, alternatively, collected in a single payment and split among producers through a licensed payment provider (model B). | M | D-C §4.3, PSD2, E-3 (model A); E-1, E-2 §13, E-5 (model B) | To validate (C6) |
 | RNF-RES-03 | The solution shall respect the AMAP Charter of Principles: it must not act as a commercial intermediary between producer and co-producer. | M | D-C §4.1, D-E, CA | To validate (C6) |
-| RNF-RES-04 | FAIR's pricing model shall not depend on a commission per box or per transaction. | S | CA, D-E; E-1 §4 (minimum fee + volume) | To validate (DV-25) |
+| RNF-RES-04 | FAIR's pricing model shall not depend on a commission per box or per transaction. | S | CA, D-E; in conflict with E-1 §4 (minimum fee + volume) and E-5 (centralised collection) | To validate (DV-25) |
 | RNF-RES-05 | The solution shall be a platform shared by several AMAPs (multi-AMAP), with each AMAP's data kept separate. | M | CA ("one shared instance for Portuguese AMAPs"), E-2 §1 | Proposed |
+| RNF-RES-06 | The solution shall be maintained by FAIR over time (fixes, security updates and evolution). | S | E-1 (software built by amateurs stops being maintained) | To validate |
+| RNF-RES-07 | Differences between AMAPs (cycle length, delivery days, absence rules, each producer's rules) shall be handled through configuration, without specific development for each AMAP. | M | Principle 1 of the 14/10 brainstorm, E-2 §1, §11 | Proposed |

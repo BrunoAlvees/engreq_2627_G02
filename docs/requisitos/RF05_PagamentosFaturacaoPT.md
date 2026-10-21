@@ -1,17 +1,20 @@
 # RF05 – Pagamentos e faturação
 
-**Atualizado em:** 14/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 21/10/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Calcula quanto cada coprodutor deve a cada produtor e acompanha os pagamentos. Na AMAP Porto, cada produtor recebe diretamente, com meios e momentos próprios: quota mensal dos cabazes, carne depois da pesagem, cogumelos a cada entrega. Hoje a BioGoods faz as contas em Excel e envia o valor por mensagem, e o coprodutor não tem forma simples de saber quanto deve.
 
 **Proposta de âmbito (C6, a validar):** o sistema **calcula, mostra e regista** os pagamentos, mas **não recebe dinheiro nem emite faturas**. Isto respeita a Carta de Princípios (sem intermediários) e evita as obrigações de software de faturação certificado e da PSD2.
 
+**Alternativa (E-5, semana de 12/10):** o professor referiu que, neste tipo de aplicação, o dinheiro das subscrições é normalmente **recolhido num só ponto e depois distribuído pelos produtores**, com um **resumo de quem pagou e quanto**. Isto junta-se ao pedido de concentrar os pagamentos (E-1) e ao modelo "possível" descrito pela BioGoods (E-2 §13). Para o sistema não guardar o dinheiro (PSD2), a cobrança centralizada teria de ser feita através de um **prestador de pagamentos licenciado** que divide o valor pelos produtores (RF-PAG-10, RF-PAG-11, RNF-INT-04). A escolha entre pagamentos diretos (modelo A) e cobrança centralizada (modelo B) está em aberto (C6).
+
 ## Sequências estímulo/resposta
 - Chega o início do mês → o sistema gera a nota de pagamento de cada coprodutor por produtor e envia-a.
 - O coprodutor paga por MB Way e marca a nota como paga → o produtor confirma a receção.
 - O produtor regista o peso real da carne entregue → o valor entra na nota seguinte.
 - Uma nota fica por pagar depois do prazo → o sistema avisa o coprodutor e o produtor.
+- *(Modelo B, se for adotado)* O coprodutor faz um só pagamento da subscrição → o prestador de pagamentos divide o valor pelos produtores e cada produtor recebe o resumo de quem pagou e quanto.
 
 ## Requisitos funcionais
 | ID | Requisito | Ator | Prior. | Fonte | Estado |
@@ -25,6 +28,8 @@ Calcula quanto cada coprodutor deve a cada produtor e acompanha os pagamentos. N
 | RF-PAG-07 | O sistema deve permitir ao produtor registar a fatura que emitiu no seu programa (número, data, documento), sem a emitir no sistema. | Produtor | S | D-F, DOC-36, C4 | A validar (C6) |
 | RF-PAG-08 | O sistema deve guardar a taxa de IVA de cada produto e o regime de IVA de cada produtor, e mostrar os preços com IVA incluído. | Produtor | C | D-A, DOC-41 | Proposto |
 | RF-PAG-09 | O sistema deve permitir à gestão da AMAP registar a quota anual de cada membro e o fundo comum, e produzir o relatório anual de contas. | Gestão | C | D-C §4.3, §4.5, DOC-24 | A validar (DV-22) |
-| RF-PAG-10 | O sistema deve permitir concentrar numa só operação os pagamentos de um coprodutor a vários produtores, com a AMAP a receber e a pagar aos produtores. | Gestão | W | E-1 §3.9, E-2 §13 | A validar (C6) |
-| RF-PAG-11 | O sistema deve permitir pagamentos online integrados, através de um prestador de pagamentos licenciado. | Coprodutor | W | E-1 §3.9, PSD2 | A validar (C6) |
+| RF-PAG-10 | O sistema deve permitir concentrar numa só operação os pagamentos de um coprodutor a vários produtores, sendo o valor dividido pelos produtores através de um prestador de pagamentos licenciado (o sistema não guarda o dinheiro). | Coprodutor, Gestão | S | E-1 §3.9, E-2 §13, E-5 | A validar (C6) |
+| RF-PAG-11 | O sistema deve permitir pagamentos online integrados, através de um prestador de pagamentos licenciado. | Coprodutor | S | E-1 §3.9, E-5, PSD2 | A validar (C6) |
 | RF-PAG-12 | O sistema deve emitir faturas em nome do produtor ou da AMAP. | Produtor, Gestão | W | E-1 §3.9, E-2 §13 | A validar (C6) |
+| RF-PAG-13 | O sistema deve gerar, para cada produtor e período, um **resumo dos pagamentos recebidos**: quem pagou, quanto, quando e a que subscrição, produtos ou entregas corresponde. | Sistema, Produtor | S | E-5, E-2 §2 (contas em Excel), DOC-09 | A validar (C6) |
+| RF-PAG-14 | O sistema deve calcular o valor a cobrar pela FAIR a cada produtor ou AMAP, segundo o modelo de cobrança definido (ex.: fee mínima mais uma componente de volume). | Administrador FAIR | C | E-1 §4, E-5 | A validar (DV-25) |

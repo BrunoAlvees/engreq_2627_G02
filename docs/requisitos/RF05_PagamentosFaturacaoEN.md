@@ -1,17 +1,20 @@
 # RF05 – Payments and invoicing
 
-**Updated on:** 14/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 21/10/2026 · [Conventions and sources](README.md)
 
 ## Description
 Calculates how much each co-producer owes each producer and tracks payments. At AMAP Porto, each producer is paid directly, with their own methods and timing: monthly fee for boxes, meat after weighing, mushrooms at each delivery. Today BioGoods does the maths in Excel and sends the amount by message, and the co-producer has no simple way to know how much they owe.
 
 **Scope proposal (C6, to validate):** the system **calculates, shows and records** payments, but **neither handles money nor issues invoices**. This respects the Charter of Principles (no intermediaries) and avoids the obligations of certified invoicing software and PSD2.
 
+**Alternative (E-5, week of 12/10):** the lecturer mentioned that, in this kind of app, subscription money is usually **collected in one place and then distributed among producers**, with a **summary of who paid and how much**. This adds to the request to combine payments (E-1) and to the "possible" model described by BioGoods (E-2 §13). For the system not to hold the money (PSD2), centralised collection would have to go through a **licensed payment provider** that splits the amount among producers (RF-PAG-10, RF-PAG-11, RNF-INT-04). The choice between direct payments (model A) and centralised collection (model B) is open (C6).
+
 ## Stimulus/response sequences
 - The start of the month arrives → the system generates each co-producer's payment note per producer and sends it.
 - The co-producer pays by MB Way and marks the note as paid → the producer confirms receipt.
 - The producer records the actual weight of the meat delivered → the amount goes into the next note.
 - A note is still unpaid after the deadline → the system notifies the co-producer and the producer.
+- *(Model B, if adopted)* The co-producer makes a single subscription payment → the payment provider splits the amount among producers and each producer receives the summary of who paid and how much.
 
 ## Functional requirements
 | ID | Requirement | Actor | Prio. | Source | Status |
@@ -25,6 +28,8 @@ Calculates how much each co-producer owes each producer and tracks payments. At 
 | RF-PAG-07 | The system shall allow the producer to record the invoice they issued in their own software (number, date, document), without issuing it in the system. | Producer | S | D-F, DOC-36, C4 | To validate (C6) |
 | RF-PAG-08 | The system shall store each product's VAT rate and each producer's VAT scheme, and show prices with VAT included. | Producer | C | D-A, DOC-41 | Proposed |
 | RF-PAG-09 | The system shall allow AMAP management to record each member's annual fee and the common fund, and produce the annual financial report. | Management | C | D-C §4.3, §4.5, DOC-24 | To validate (DV-22) |
-| RF-PAG-10 | The system shall allow combining a co-producer's payments to several producers into a single operation, with the AMAP receiving the money and paying the producers. | Management | W | E-1 §3.9, E-2 §13 | To validate (C6) |
-| RF-PAG-11 | The system shall allow integrated online payments through a licensed payment provider. | Co-producer | W | E-1 §3.9, PSD2 | To validate (C6) |
+| RF-PAG-10 | The system shall allow combining a co-producer's payments to several producers into a single operation, with the amount split among producers through a licensed payment provider (the system does not hold the money). | Co-producer, Management | S | E-1 §3.9, E-2 §13, E-5 | To validate (C6) |
+| RF-PAG-11 | The system shall allow integrated online payments through a licensed payment provider. | Co-producer | S | E-1 §3.9, E-5, PSD2 | To validate (C6) |
 | RF-PAG-12 | The system shall issue invoices on behalf of the producer or the AMAP. | Producer, Management | W | E-1 §3.9, E-2 §13 | To validate (C6) |
+| RF-PAG-13 | The system shall generate, for each producer and period, a **summary of payments received**: who paid, how much, when, and which subscription, products or deliveries it covers. | System, Producer | S | E-5, E-2 §2 (Excel calculations), DOC-09 | To validate (C6) |
+| RF-PAG-14 | The system shall calculate the amount FAIR charges each producer or AMAP, according to the defined pricing model (e.g. minimum fee plus a volume-based component). | FAIR administrator | C | E-1 §4, E-5 | To validate (DV-25) |
