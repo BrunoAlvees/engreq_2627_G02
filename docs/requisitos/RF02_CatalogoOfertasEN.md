@@ -1,31 +1,65 @@
 # RF02 – Catalogue and offers
 
-**Updated on:** 21/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 28/10/2026 · [Conventions and sources](README.md)
 
 ## Description
-Allows each producer to keep their catalogue (boxes, extra products and loose products) and to set, for each product, its variants, price type, frequency and capacity. Today the catalogue lives in Google Forms: many options end up in free text and some products exist but are not listed (e.g. dried mushrooms).
+Lets each producer maintain their catalogue (baskets, extra products and one-off items) and set, for each product, the variants, price type, frequency and capacity. Today the catalogue lives in Google Forms: many options end up as free text and some products exist but are not listed (e.g. dried mushrooms).
 
 ## Stimulus/response sequences
 - The producer creates a product and sets its price type and frequency → the product becomes available for the next cycle.
 - The producer reuses the previous cycle's catalogue → the system copies the products and the producer only adjusts prices and dates.
-- A product reaches its capacity → the system stops accepting subscriptions and offers the waiting list.
+- A product's capacity runs out → the system stops accepting subscriptions and offers the waiting list.
 - The producer has a surplus or a new product → they publish a one-off offer, limited to X co-producers or to a quantity per person.
 
 ## Functional requirements
 | ID | Requirement | Actor | Prio. | Source | Status |
 |---|---|---|---|---|---|
-| RF-CAT-01 | The system shall allow the producer to create, edit and deactivate products in their catalogue, without a closed list of products. | Producer | M | E-2 §5, E-3 §11, N13 | Proposed |
-| RF-CAT-02 | The system shall distinguish the product types box, extra and loose. | Producer | M | D-A, E-2 §4–5 | Proposed |
-| RF-CAT-03 | The system shall allow a producer to offer several box types, each with a name, description, approximate weight, number of varieties and price. | Producer | M | E-2 §4, D-A, DOC-07 | Proposed |
-| RF-CAT-04 | The system shall allow product variants (e.g. price tier, size, variety, gluten-free), each with its own price. | Producer | M | D-A, E-3, DOC-06 | Proposed |
-| RF-CAT-05 | The system shall support three price types: fixed monthly fee, price per unit, and price per kg using the actual weight recorded at delivery. | Producer | M | D-A, E-2 §7, DOC-05 | Proposed |
-| RF-CAT-06 | The system shall allow setting each product's frequency: fortnightly, monthly, quarterly, one-off, only in certain months, or on dates chosen by the co-producer. | Producer | M | D-A, E-1 §3.3, DOC-04 | Proposed |
-| RF-CAT-07 | The system shall allow setting a maximum capacity per product and per AMAP, and manage a waiting list when it is reached. | Producer | M | D-A, E-1 §3.5, DOC-08, N16 | Proposed |
-| RF-CAT-08 | The system shall show each product's details: description, certification, storage and shelf life, origin (own production or from another producer) and VAT included. | Co-producer | S | D-A, DOC-16 | Proposed |
-| RF-CAT-09 | The system shall show each producer's profile: description, location, production method, certifications and contacts. | Co-producer | S | D-A, E-1 §3.6, DOC-16, N19 | Proposed |
-| RF-CAT-10 | The system shall allow the producer to publish one-off offers (e.g. surpluses or new products) that co-producers can order outside their subscription. The producer can limit the offer to a maximum number of co-producers (first come, first served) and/or a maximum quantity per person. | Producer, Co-producer | S | E-3 §11, N10, Brainstorm 14/10 | Proposed |
-| RF-CAT-11 | The system shall allow the producer to reuse a previous cycle's catalogue when preparing a new cycle. | Producer | S | E-1 (class 1) | Proposed |
-| RF-CAT-12 | The system shall allow the producer to state alternatives to a product (e.g. dried mushrooms when there are no fresh ones). | Producer | C | E-3 §3, §11 | Proposed |
-| RF-CAT-13 | The system shall avoid duplication between a box and a loose product (e.g. reduce loose blueberries when the box already includes them). | System | C | D-A, DOC-15 | Proposed |
-| RF-CAT-14 | For one-off offers, the system shall allow the producer to set the available quantity, deduct it as orders come in, close the offer when it sells out and adjust the quantity at any time. | Producer | S | E-3 §11, RF-CAT-10, Brainstorm 14/10 | Proposed |
-| RF-CAT-15 | The system shall allow the producer to set a discount on extra products for those who already subscribe to a box. | Producer | C | E-2 (group notes), C9 | To validate (C9, DV-24) |
+| RF-CAT-01 | The system shall allow the producer to manage their catalogue of baskets, extra products and one-off items, without a closed list of products. | Producer | M | E-1 (class 1), E-2 §4–5, E-3 §11, D-A, N13 | Proposed |
+| RF-CAT-02 | The system shall allow the producer to offer several basket types and variants of each product. | Producer | M | E-2 §4, E-3 §3, §11, D-A, DOC-06, DOC-07, DOC-15 | Proposed |
+| RF-CAT-03 | The system shall allow setting each product's price type and frequency. | Producer | M | D-A, E-1 §3.3, E-2 §7, DOC-04, DOC-05, C9 | Proposed |
+| RF-CAT-04 | The system shall allow setting a maximum capacity per product and per AMAP and manage a waiting list when it is reached. | Producer | M | D-A, E-1 §3.5, DOC-08, N16 | Proposed |
+| RF-CAT-05 | The system shall show the co-producer each product's details sheet. | Co-producer | S | D-A, DOC-16 | Proposed |
+| RF-CAT-06 | The system shall allow the producer to publish one-off offers (e.g. surpluses or new products), which co-producers can order outside their subscription. | Producer, Co-producer | S | E-3 §11, N10, Brainstorm 14/10 | Proposed |
+
+## Acceptance criteria
+
+**RF-CAT-01 – Manage the catalogue**
+- The producer creates, edits and deactivates products; there is no closed list (it is one thing today and may be another tomorrow).
+- Each product is one of three types: basket, extra or one-off.
+- When preparing a new cycle, the producer can reuse the previous cycle's catalogue and only adjust prices and dates.
+
+**RF-CAT-02 – Basket types and variants**
+- A producer can offer several basket types (e.g. farm basket, fruit basket), each with a name, description, approximate weight, number of varieties and price.
+- A product can have variants (e.g. price level, size, variety, gluten-free), each with its own price.
+- *(Could)* The producer can state alternatives to a product (e.g. dried mushrooms when there are no fresh ones).
+- *(Could)* The system avoids duplication between basket and one-off items (e.g. reducing one-off blueberries when the basket already includes them).
+
+**RF-CAT-03 – Price and frequency**
+- Price types: fixed monthly fee, price per unit and price per kg with the actual weight recorded at delivery.
+- Frequency: fortnightly, monthly, quarterly, one-off delivery, only in certain months, or on dates chosen by the co-producer.
+- *(Could, to validate C9 and DV-24)* The producer can set a discount on extra products for those who already subscribe to a basket.
+
+**RF-CAT-04 – Capacity and waiting list**
+- Maximum capacity is set per product and per AMAP.
+- When capacity is reached, the system stops accepting subscriptions and offers the waiting list.
+
+**RF-CAT-05 – Product details sheet**
+- The sheet shows the description, certification, storage and shelf life, origin (own production or another producer's) and price with VAT included.
+- The producer's details are on the producer's public profile (RF-MEM-04).
+
+**RF-CAT-06 – One-off offers**
+- The producer can limit the offer to a maximum number of co-producers (first come, first served) and/or a maximum quantity per person.
+- The producer states the available quantity; the system deducts it as orders arrive and closes the offer when it runs out; the producer can adjust the quantity at any time.
+
+## Mapping to the previous version
+In the 28/10 review, the 15 previous requirements were grouped into 6 to reduce detail (lecturer's advice). The detail moved to the acceptance criteria.
+
+| New | Combines previous |
+|---|---|
+| RF-CAT-01 | 01, 02, 11 |
+| RF-CAT-02 | 03, 04, 12, 13 |
+| RF-CAT-03 | 05, 06, 15 |
+| RF-CAT-04 | 07 |
+| RF-CAT-05 | 08 |
+| RF-CAT-06 | 10, 14 |
+| *(RF-MEM-04)* | 09 (producer details, already covered by the producer's public profile) |

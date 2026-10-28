@@ -108,6 +108,6 @@ erDiagram
 
 ## Notas
 - **PESSOA** e **MEMBRO** estão separados porque a mesma pessoa pode ser membro de várias AMAP com papéis diferentes (RF-MEM-01, RF-MEM-06).
-- **OFERTA** liga um produto/variante a um ciclo e guarda o preço e a capacidade desse ciclo. Permite reutilizar o catálogo entre ciclos (RF-CAT-11).
+- **OFERTA** liga um produto/variante a um ciclo e guarda o preço e a capacidade desse ciclo. Permite reutilizar o catálogo entre ciclos (RF-CAT-01).
 - A **nota de pagamento** é por produtor e por coprodutor, porque cada produtor recebe diretamente (RF-PAG-03).
 - Ainda faltam: grupos de trabalho, escalas, eventos e indicadores (RF07, RF08).
