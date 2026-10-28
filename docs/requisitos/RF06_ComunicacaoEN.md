@@ -16,7 +16,7 @@ Replaces WhatsApp messages and scattered emails with automatic notices and commu
 | RF-COM-01 | The system shall send users automatic notifications about events that concern them, including a reminder before each delivery. | System | M | E-1 §3.8, §4, E-2 §4, §14, E-3 §9, D-A, D-C, N5 | Proposed |
 | RF-COM-02 | The system shall allow AMAP management to send notices to all members or to a group. | Management | M | D-C §4.6, E-3 §12 | Proposed |
 | RF-COM-03 | The system shall allow the producer to communicate with their co-producers, through messages and production news. | Producer, Co-producer | S | D-A, D-C §4.6, E-1 §3.8, E-2 §2, N19, Brainstorm 21/10 | Proposed |
-| RF-COM-04 | The system shall allow each user to choose how they receive notifications. | Co-producer, Producer | S | E-3 §12, RNF-INT-01, RNF-INT-03, RNF-INT-05, group decisions of 21/10 and 28/10 | Proposed |
+| RF-COM-04 | The system shall allow each user to choose how they receive notifications. | Co-producer, Producer | S | E-3 §12, RNF-INT-01, group decisions of 21/10 and 28/10 | Proposed |
 
 ## Acceptance criteria
 
@@ -33,7 +33,7 @@ Replaces WhatsApp messages and scattered emails with automatic notices and commu
 - A news post can be linked to a missing product (RF-ENT-03), to explain why the basket does not include that product.
 
 **RF-COM-04 – Notification channels**
-- Each user chooses the channels: email (RNF-INT-01), push notifications on the phone (RNF-INT-05) and, optionally, WhatsApp (RNF-INT-03).
+- Each user chooses the channels: email (RNF-INT-01), push notifications on the phone (RNF-INT-01) and, optionally, WhatsApp (RNF-INT-01).
 - WhatsApp is used through the official WhatsApp Business API, with individual messages, not through a bot in a group (unofficial bots break WhatsApp's rules and can get the number banned).
 
 ## Mapping to the previous version

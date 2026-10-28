@@ -46,6 +46,6 @@ flowchart LR
 ## Notas
 - **Cobrança centralizada** (proposta do grupo de 21/10): o coprodutor faz um só pagamento através de um **prestador de pagamentos licenciado**, que o divide pelos produtores; o sistema calcula, pede e regista os pagamentos, mas não guarda o dinheiro (RF-PAG-02 a 04, RNF-RES-02).
 - A **faturação está fora do âmbito** (E-6): cada produtor emite as faturas no seu próprio programa (RNF-RES-01).
-- As **notificações** chegam por email e, se o utilizador as ativar, por push no telemóvel (RNF-INT-01, RNF-INT-05).
+- As **notificações** chegam por email e, se o utilizador as ativar, por push no telemóvel (RNF-INT-01).
 - O **administrador FAIR** usa os pagamentos para calcular o valor que a FAIR cobra (RF-PAG-05).
 - A **gestão da AMAP** pode ser uma pessoa, uma comissão ou vários grupos de trabalho voluntários (D-C §4.5).

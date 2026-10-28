@@ -16,7 +16,7 @@ Substitui as mensagens de WhatsApp e os emails soltos por avisos automáticos e 
 | RF-COM-01 | O sistema deve enviar notificações automáticas aos utilizadores sobre os acontecimentos que lhes dizem respeito, incluindo um lembrete antes de cada entrega. | Sistema | M | E-1 §3.8, §4, E-2 §4, §14, E-3 §9, D-A, D-C, N5 | Proposto |
 | RF-COM-02 | O sistema deve permitir à gestão da AMAP enviar avisos a todos os membros ou a um grupo. | Gestão | M | D-C §4.6, E-3 §12 | Proposto |
 | RF-COM-03 | O sistema deve permitir ao produtor comunicar com os seus coprodutores, através de mensagens e de notícias sobre a produção. | Produtor, Coprodutor | S | D-A, D-C §4.6, E-1 §3.8, E-2 §2, N19, Brainstorm 21/10 | Proposto |
-| RF-COM-04 | O sistema deve permitir a cada utilizador escolher como recebe as notificações. | Coprodutor, Produtor | S | E-3 §12, RNF-INT-01, RNF-INT-03, RNF-INT-05, decisão do grupo de 21/10 e 28/10 | Proposto |
+| RF-COM-04 | O sistema deve permitir a cada utilizador escolher como recebe as notificações. | Coprodutor, Produtor | S | E-3 §12, RNF-INT-01, decisão do grupo de 21/10 e 28/10 | Proposto |
 
 ## Critérios de aceitação
 
@@ -33,7 +33,7 @@ Substitui as mensagens de WhatsApp e os emails soltos por avisos automáticos e 
 - Uma notícia pode ficar associada a uma falta de produto (RF-ENT-03), para explicar porque é que o cabaz não traz esse produto.
 
 **RF-COM-04 – Canais de notificação**
-- Cada utilizador escolhe os canais: email (RNF-INT-01), notificações push no telemóvel (RNF-INT-05) e, opcionalmente, WhatsApp (RNF-INT-03).
+- Cada utilizador escolhe os canais: email (RNF-INT-01), notificações push no telemóvel (RNF-INT-01) e, opcionalmente, WhatsApp (RNF-INT-01).
 - O WhatsApp é usado através da API oficial do WhatsApp Business, com mensagens individuais, e não através de um bot num grupo (os bots não oficiais violam as regras do WhatsApp e podem levar ao bloqueio do número).
 
 ## Correspondência com a versão anterior

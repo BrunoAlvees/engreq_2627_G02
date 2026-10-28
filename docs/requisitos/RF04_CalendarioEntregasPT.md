@@ -55,7 +55,7 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 
 **RF-ENT-06 – Folha de distribuição e etiquetas**
 - A folha de distribuição de cada data indica o que cada coprodutor leva, de cada produtor.
-- As etiquetas dos sacos têm o nome, "Saco x de y", o produtor e a data, sem dados de saúde (RNF-SEG-07).
+- As etiquetas dos sacos têm o nome, "Saco x de y", o produtor e a data, sem dados de saúde (RNF-SEG-03).
 
 ## Nota: brainstorm de 14/10 sobre o levantamento
 - **Lá fora** usa-se sobretudo uma **folha impressa** onde cada um marca o seu nome (a "liste d'émargement" das AMAP francesas, gerada pelo Cagette; a folha de registo da Lancaster Farm Fresh, nos EUA). Não encontrámos nenhuma solução com confirmação por QR code.

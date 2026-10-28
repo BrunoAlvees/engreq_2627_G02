@@ -1,29 +1,24 @@
 # RNF – Atributos de qualidade, interfaces e restrições
 
-**Atualizado em:** 21/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 28/10/2026 · [Convenções e fontes](README.md)
 
 Os requisitos não funcionais têm de ser **específicos e verificáveis** (template do SRS). Os valores numéricos marcados "Hip." são propostas do grupo para discutir e validar. Não foram ditos por nenhum stakeholder.
 
 ## 1. Usabilidade
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
-| RNF-USA-01 | O sistema deve ser uma aplicação web adaptável ao ecrã (telemóvel e computador), sem obrigar a instalar nada, e poder ser instalada no ecrã inicial do telemóvel como PWA (sem passar pelas lojas de aplicações). | M | E-3 (hoje usa-se WhatsApp, email e notas no telemóvel); decisão do grupo de 21/10 (evita os custos e a publicação na App Store e na Play Store) | Proposto |
-| RNF-USA-02 | Um coprodutor que já usou o sistema deve conseguir subscrever um ciclo completo em **10 minutos** ou menos, sem ajuda. | S | Hip. | A validar |
-| RNF-USA-03 | As tarefas recorrentes do produtor (publicar a composição do cabaz, registar uma falta, confirmar um pagamento) devem demorar **2 minutos** ou menos cada. | S | E-2 §3 ("só produzir"), CA ("pouco esforço para os agricultores"), Hip. (valor) | A validar |
-| RNF-USA-04 | O sistema deve cumprir as WCAG 2.1, nível AA. | S | Hip. | A validar |
-| RNF-USA-05 | O coprodutor deve conseguir ver o que vai levantar na próxima entrega e quanto deve no máximo a **2 cliques** da página inicial. | S | E-3 §1, §10, Hip. (valor) | A validar |
-| RNF-USA-06 | O sistema deve mostrar ao utilizador, de forma simples, como instalar a aplicação no ecrã inicial do telemóvel (instruções para Android e iPhone) e como ativar as notificações. | S | Decisão do grupo de 21/10 (RNF-USA-01, RNF-INT-05) | Proposto |
+| RNF-USA-01 | O sistema deve ser uma aplicação web adaptável ao ecrã (telemóvel e computador), sem obrigar a instalar nada, e poder ser instalada no ecrã inicial do telemóvel como PWA, sem passar pelas lojas de aplicações. O sistema deve explicar de forma simples como instalar a aplicação (Android e iPhone) e ativar as notificações. | M | E-3 (hoje usa-se WhatsApp, email e notas no telemóvel); decisão do grupo de 21/10 (evita os custos e a publicação na App Store e na Play Store) | Proposto |
+| RNF-USA-02 | As tarefas mais frequentes devem ser rápidas: um coprodutor que já usou o sistema subscreve um ciclo completo em **10 minutos** ou menos, sem ajuda; cada tarefa recorrente do produtor (publicar a composição do cabaz, registar uma falta, confirmar um pagamento) demora **2 minutos** ou menos; o coprodutor vê o que vai levantar e quanto deve a **2 cliques** da página inicial. | S | E-2 §3 ("só produzir"), E-3 §1, §10, CA ("pouco esforço para os agricultores"), Hip. (valores) | A validar |
+| RNF-USA-03 | O sistema deve cumprir as WCAG 2.1, nível AA. | S | Hip. | A validar |
 
 ## 2. Segurança e proteção de dados
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
 | RNF-SEG-01 | O acesso deve exigir autenticação. Cada papel só acede aos dados de que precisa: o produtor só vê os coprodutores que lhe compram. | M | D-B §3.1, RGPD | Proposto |
 | RNF-SEG-02 | Todas as comunicações devem ser cifradas (HTTPS/TLS). | M | RGPD art. 32.º | Proposto |
-| RNF-SEG-03 | As alergias e intolerâncias são dados de saúde: só devem ser guardadas com consentimento explícito e só ficar visíveis para os produtores que entregam a esse coprodutor. | M | E-2 §4, RGPD art. 9.º | A validar |
+| RNF-SEG-03 | As alergias e intolerâncias são dados de saúde: só devem ser guardadas com consentimento explícito, só ficar visíveis para os produtores que entregam a esse coprodutor e nunca aparecer em etiquetas ou folhas impressas (aí só o nome e as substituições feitas). | M | E-2 §4, RGPD art. 9.º, Brainstorm 14/10 | A validar |
 | RNF-SEG-04 | O sistema deve registar quem alterou encomendas, entregas e pagamentos, e quando (registo de auditoria). | S | Hip. (C3: valores em disputa) | Proposto |
-| RNF-SEG-05 | O sistema deve permitir cumprir o RGPD: produtores como responsáveis conjuntos, FAIR como subcontratante, registo das atividades de tratamento e notificação de violações em 72 h. | M | D-B, RGPD arts. 26.º, 28.º, 30.º, 33.º | Proposto |
-| RNF-SEG-06 | Os dados pessoais devem ser apagados ou anonimizados quando termina o prazo de conservação de cada finalidade, salvo obrigação legal (ex.: fiscal). | S | D-B §3.1, RGPD art. 5.º | Proposto |
-| RNF-SEG-07 | As etiquetas e folhas impressas não devem mostrar alergias, intolerâncias nem outros dados de saúde, só o nome e as substituições feitas. | M | RNF-SEG-03, Brainstorm 14/10 | Proposto |
+| RNF-SEG-05 | O sistema deve permitir cumprir o RGPD: produtores como responsáveis conjuntos, FAIR como subcontratante, registo das atividades de tratamento, notificação de violações em 72 h e eliminação ou anonimização dos dados pessoais quando termina o prazo de conservação de cada finalidade, salvo obrigação legal (ex.: fiscal). | M | D-B, D-B §3.1, RGPD arts. 5.º, 26.º, 28.º, 30.º, 33.º | Proposto |
 
 ## 3. Desempenho e capacidade
 | ID | Requisito | Prior. | Fonte | Estado |
@@ -34,9 +29,8 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 ## 4. Disponibilidade e fiabilidade
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
-| RNF-DIS-01 | O sistema deve estar disponível **99,5%** do tempo e não deve ter manutenções planeadas durante as distribuições nem nos últimos dias de subscrição. | S | Hip. (D-A: distribuição à terça 17h30–19h30) | A validar |
-| RNF-DIS-02 | Deve ser feita uma cópia de segurança diária, e deve ser possível recuperar os dados com uma perda máxima de 24 horas. | S | Hip. | A validar |
-| RNF-DIS-03 | A confirmação de levantamento deve funcionar com rede fraca no local de entrega: fica guardada no telemóvel e é enviada quando houver ligação. | C | Brainstorm 14/10, Hip. | Ideia (avaliar na implementação) |
+| RNF-DIS-01 | O sistema deve estar disponível durante os horários de distribuição de cada AMAP e nos últimos 3 dias de cada período de subscrição; as manutenções planeadas fazem-se fora desses períodos. Deve ser feita uma cópia de segurança diária, com perda máxima de 24 horas de dados. | S | D-A (distribuição à terça 17h30–19h30, prazos de subscrição), E-3 §9 (confirmação de levantamento), decisão do grupo de 28/10 (requisito ligado ao uso real, em vez de uma percentagem genérica) | Proposto |
+| RNF-DIS-02 | A confirmação de levantamento deve funcionar com rede fraca no local de entrega: fica guardada no telemóvel e é enviada quando houver ligação. | C | Brainstorm 14/10, Hip. | Ideia (avaliar na implementação) |
 
 ## 5. Internacionalização e localização
 | ID | Requisito | Prior. | Fonte | Estado |
@@ -47,11 +41,9 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 ## 6. Interfaces externas
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
-| RNF-INT-01 | O sistema deve enviar notificações por email. | M | D-A, D-C §4.6 | Proposto |
+| RNF-INT-01 | O sistema deve enviar notificações por **email** e, quando o utilizador as ativar, por **push** no telemóvel (através da PWA). *(Could)* Pode também enviar por **WhatsApp** (ou SMS) através da API oficial do WhatsApp Business, com mensagens individuais e não através de um bot num grupo. | M | D-A, D-C §4.6, E-2 §2, E-3 §9, §12, decisões do grupo de 21/10 e 28/10 (os bots não oficiais violam as regras do WhatsApp) | Proposto |
 | RNF-INT-02 | O sistema deve exportar dados para folha de cálculo (CSV/XLSX). | S | E-2 §2 (Excel atual) | Proposto |
-| RNF-INT-03 | O sistema deve poder enviar notificações por WhatsApp (ou SMS) através da API oficial do WhatsApp Business, com mensagens individuais e não através de um bot num grupo. | C | E-3 §12, decisão do grupo de 28/10 (os bots não oficiais violam as regras do WhatsApp) | Proposto |
-| RNF-INT-04 | O sistema deve poder integrar-se com um prestador de pagamentos licenciado (ex.: MB Way), capaz de dividir um pagamento por vários produtores. | S | Proposta do grupo (a partir de E-5), CA, PSD2, E-1 | Proposto |
-| RNF-INT-05 | O sistema deve enviar notificações push para o telemóvel (através da PWA), além do email, quando o utilizador as ativar. | S | E-2 §2, E-3 §9 (lembretes de entrega), decisão do grupo de 21/10 | Proposto |
+| RNF-INT-03 | O sistema deve poder integrar-se com um prestador de pagamentos licenciado (ex.: MB Way), capaz de dividir um pagamento por vários produtores. | S | Proposta do grupo (a partir de E-5), CA, PSD2, E-1 | Proposto |
 
 ## 7. Restrições de conceção e de negócio
 | ID | Restrição | Prior. | Fonte | Estado |
@@ -63,3 +55,19 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 | RNF-RES-05 | A solução deve ser uma plataforma partilhada por várias AMAP (multi-AMAP), com os dados de cada AMAP separados. | M | CA ("instância comum para as AMAP portuguesas"), E-2 §1 | Proposto |
 | RNF-RES-06 | A solução deve ser mantida pela FAIR ao longo do tempo (correções, atualizações de segurança e evolução). | S | E-1 (softwares de amadores deixam de ser mantidos) | Proposto |
 | RNF-RES-07 | As diferenças entre AMAP e entre produtores da mesma AMAP (duração do ciclo, datas e modo de entrega, prazos de alteração, momento do pagamento, regras de ausência) devem ser tratadas por configuração, sem desenvolvimento específico para cada AMAP ou produtor. | M | Princípio 1 do brainstorm de 14/10, E-2 §1, §11, E-3 §2–§4, §8 | Proposto |
+
+## Correspondência com a versão anterior
+Na revisão de 28/10, os 32 requisitos anteriores foram reduzidos a 22, juntando os que medem a mesma coisa (indicação do professor de reduzir o detalhe).
+
+| Novo | Junta os anteriores |
+|---|---|
+| RNF-USA-01 | USA-01, USA-06 |
+| RNF-USA-02 | USA-02, USA-03, USA-05 |
+| RNF-USA-03 | USA-04 |
+| RNF-SEG-03 | SEG-03, SEG-07 |
+| RNF-SEG-05 | SEG-05, SEG-06 |
+| RNF-DIS-01 | DIS-01 (99,5% substituído pelos períodos de uso real), DIS-02 |
+| RNF-DIS-02 | DIS-03 |
+| RNF-INT-01 | INT-01, INT-03, INT-05 |
+| RNF-INT-03 | INT-04 |
+| *(restantes)* | sem alteração |

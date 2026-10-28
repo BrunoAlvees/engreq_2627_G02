@@ -47,6 +47,6 @@ flowchart LR
 
 - **Centralised collection** (group proposal of 21/10): the co-producer makes a single payment through a **licensed payment provider**, which splits it among producers; the system calculates, requests and records payments but does not hold the money (RF-PAG-02 to 04, RNF-RES-02).
 - **Invoicing is out of scope** (E-6): each producer issues invoices in their own software (RNF-RES-01).
-- **Notifications** arrive by email and, if the user turns them on, as push notifications on the phone (RNF-INT-01, RNF-INT-05).
+- **Notifications** arrive by email and, if the user turns them on, as push notifications on the phone (RNF-INT-01).
 - The **FAIR administrator** uses payments to calculate the amount FAIR charges (RF-PAG-05).
 - **AMAP management** may be one person, a committee or several volunteer working groups (D-C §4.5).
