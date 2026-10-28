@@ -49,7 +49,7 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 |---|---|---|---|---|
 | RNF-INT-01 | The system shall send notifications by email. | M | D-A, D-C §4.6 | Proposed |
 | RNF-INT-02 | The system shall export data to spreadsheets (CSV/XLSX). | S | E-2 §2 (current Excel) | Proposed |
-| RNF-INT-03 | The system shall be able to send notifications by SMS or WhatsApp. | C | E-3 §12, Hyp. | To validate |
+| RNF-INT-03 | The system shall be able to send notifications by WhatsApp (or SMS) through the official WhatsApp Business API, with individual messages and not through a bot in a group. | C | E-3 §12, group decision of 28/10 (unofficial bots break WhatsApp's rules) | Proposed |
 | RNF-INT-04 | The system shall be able to integrate with a licensed payment provider (e.g. MB Way) able to split one payment among several producers. | S | Group proposal (based on E-5), CA, PSD2, E-1 | Proposed |
 | RNF-INT-05 | The system shall send push notifications to the phone (through the PWA), in addition to email, when the user turns them on. | S | E-2 §2, E-3 §9 (delivery reminders), group decision of 21/10 | Proposed |
 

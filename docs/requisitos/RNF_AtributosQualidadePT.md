@@ -49,7 +49,7 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 |---|---|---|---|---|
 | RNF-INT-01 | O sistema deve enviar notificações por email. | M | D-A, D-C §4.6 | Proposto |
 | RNF-INT-02 | O sistema deve exportar dados para folha de cálculo (CSV/XLSX). | S | E-2 §2 (Excel atual) | Proposto |
-| RNF-INT-03 | O sistema deve poder enviar notificações por SMS ou WhatsApp. | C | E-3 §12, Hip. | A validar |
+| RNF-INT-03 | O sistema deve poder enviar notificações por WhatsApp (ou SMS) através da API oficial do WhatsApp Business, com mensagens individuais e não através de um bot num grupo. | C | E-3 §12, decisão do grupo de 28/10 (os bots não oficiais violam as regras do WhatsApp) | Proposto |
 | RNF-INT-04 | O sistema deve poder integrar-se com um prestador de pagamentos licenciado (ex.: MB Way), capaz de dividir um pagamento por vários produtores. | S | Proposta do grupo (a partir de E-5), CA, PSD2, E-1 | Proposto |
 | RNF-INT-05 | O sistema deve enviar notificações push para o telemóvel (através da PWA), além do email, quando o utilizador as ativar. | S | E-2 §2, E-3 §9 (lembretes de entrega), decisão do grupo de 21/10 | Proposto |
 

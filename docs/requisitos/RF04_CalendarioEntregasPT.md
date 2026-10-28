@@ -37,7 +37,7 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 
 **RF-ENT-03 – Disponibilidade e faltas**
 - O produtor confirma a disponibilidade de um produto antes da entrega (ex.: cogumelos, pães sazonais) e os coprodutores afetados são avisados.
-- O produtor regista as faltas de produto e a compensação dada (desconto ou substituição noutra entrega); pode associar uma notícia que explica a falta (RF-COM-05).
+- O produtor regista as faltas de produto e a compensação dada (desconto ou substituição noutra entrega); pode associar uma notícia que explica a falta (RF-COM-03).
 - O produtor regista a quantidade ou o peso real entregue a cada coprodutor (ex.: carne).
 - *(Could)* Uma falta pode ser distribuída pelas AMAP em rotação, em vez de entregas parciais dentro da mesma AMAP.
 

@@ -37,7 +37,7 @@ Manages the distribution calendar and everything that happens at each delivery: 
 
 **RF-ENT-03 – Availability and missing items**
 - The producer confirms a product's availability before delivery (e.g. mushrooms, seasonal breads) and the affected co-producers are notified.
-- The producer records missing items and the compensation given (discount or substitution in another delivery); they can link a news post explaining the shortage (RF-COM-05).
+- The producer records missing items and the compensation given (discount or substitution in another delivery); they can link a news post explaining the shortage (RF-COM-03).
 - The producer records the actual quantity or weight delivered to each co-producer (e.g. meat).
 - *(Could)* A shortage can be spread across AMAPs in rotation, instead of partial deliveries within the same AMAP.
 
