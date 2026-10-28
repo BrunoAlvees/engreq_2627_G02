@@ -11,7 +11,7 @@ Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
 
 1. **PT:** **Cada AMAP tem as suas regras.** O sistema é configurável por AMAP e por produtor e não impõe um modelo único. **EN:** **Each AMAP has its own rules.** The system is configurable per AMAP and per producer and does not impose a single model.
 2. **PT:** **Uma AMAP é feita de pessoas.** A prioridade é o contacto direto entre produtores e coprodutores. A aplicação **simplifica e automatiza** o processo, mas não substitui essa relação: os contactos ficam sempre visíveis. **EN:** **An AMAP is made of people.** The priority is direct contact between producers and co-producers. The app **simplifies and automates** the process but does not replace that relationship: contact details are always visible.
-3. **PT:** **As entregas de uma AMAP não são semanais.** Quem quer receber todas as semanas subscreve duas AMAP (RF-MEM-20). **EN:** **AMAP deliveries are not weekly.** Those who want deliveries every week subscribe to two AMAPs (RF-MEM-20).
+3. **PT:** **As entregas de uma AMAP não são semanais.** Quem quer receber todas as semanas subscreve duas AMAP (RF-MEM-07). **EN:** **AMAP deliveries are not weekly.** Those who want deliveries every week subscribe to two AMAPs (RF-MEM-07).
 
 ## Ficheiros / Files
 
@@ -64,6 +64,7 @@ Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
 | E-3 | Sessão de 06/10 (coprodutora da AMAP UPTEC Baixa) — [resumo](../interviews/06-10-2026/LevantamentoInfo06_10PT.md), [complemento](../interviews/06-10-2026/Complemento06_10PT.md) |
 | E-4 | Aula de 07/10 (professor, processo de adesão; a confirmar se como cliente) |
 | E-5 | Aula da semana de 12/10 (professor, em conversa com outro grupo sobre o modelo de negócio; ouvido pelo Bruno, não gravado): o dinheiro das subscrições é recolhido num só ponto e distribuído pelos produtores, com um resumo de quem pagou e quanto / Class in the week of 12/10 (lecturer, talking to another group about the business model; overheard by Bruno, not recorded): subscription money is collected in one place and distributed among producers, with a summary of who paid and how much |
+| E-6 | Aula da semana de 19/10 (professor como cliente FAIR, em resposta a uma pergunta do Bruno sobre como os produtores passam as faturas): a faturação está fora do âmbito / Class in the week of 19/10 (lecturer as FAIR client, answering Bruno's question on how producers issue invoices): invoicing is out of scope |
 | D-A … D-F | Documentos da AMAP Porto e da rede — [análise](../doc_AMAP/AnaliseDocumentosAMAPPT.md), [resultados](../tecnicas/ResultadosAnaliseDocumentalPT.md) |
 | DOC-nn | Requisitos candidatos da análise documental (técnica 2) |
 | N-nn | Necessidades da [análise de diferenciação](../tecnicas/AnaliseDiferenciacaoPT.md) (técnica 4) |

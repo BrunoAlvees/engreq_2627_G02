@@ -25,7 +25,7 @@ Organises the work in cycles (currently six-monthly at AMAP Porto; quarterly or 
 | RF-SUB-09 | The system shall send the co-producer a subscription confirmation with the products, dates and amounts per producer. | System | M | D-C §4.2, E-3 §1, DOC-17 | Proposed |
 | RF-SUB-10 | The system shall allow the co-producer to view, at any time, their current subscriptions and history. | Co-producer | M | E-3 §1, N6, DOC-17 | Proposed |
 | RF-SUB-11 | The system shall ask co-producers, with a configurable lead time (e.g. 3 months before the new cycle), whether they will renew, starting from their previous order. Each AMAP chooses the mode: **(A) intention**, indicative only, so the producer can plan; or **(B) mandatory confirmation** by a deadline, with those who do not confirm losing their place to the waiting list. | Co-producer, Management | S | E-2 §7, N12, DV-11, C8, Brainstorm 14/10 | To validate (DV-12) |
-| RF-SUB-12 | *(Rejected in the 14/10 brainstorm: new members already have trial deliveries, RF-MEM-07.)* | — | — | — | Rejected |
+| RF-SUB-12 | *(Rejected in the 14/10 brainstorm: new members already have trial deliveries, RF-MEM-03.)* | — | — | — | Rejected |
 | RF-SUB-13 | The system shall allow the producer to ask for an order to be confirmed or changed before a future delivery (e.g. December olive oil same as September). | Producer | C | D-A, DOC-13, N18 | Proposed |
 | RF-SUB-14 | The system shall show the producer the total ordered per product, variant, delivery date and AMAP, to plan production and harvesting. | Producer | M | E-2 §2, §13, E-1 §3.5 | Proposed |
 | RF-SUB-15 | The system shall allow the producer to view aggregated preferences and exclusions to plan the next cycle's production. | Producer | C | E-1 (class 1) | Proposed |

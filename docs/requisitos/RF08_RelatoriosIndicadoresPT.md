@@ -17,4 +17,4 @@ Produz relatórios de trabalho para os produtores e a gestão (encomendas, pagam
 | RF-REL-02 | O sistema deve mostrar ao produtor, por mês, os valores devidos, recebidos e em atraso. | Produtor | S | E-2 §2, DV-19 | Proposto |
 | RF-REL-03 | O sistema deve calcular indicadores dos benefícios da AMAP: número de coprodutores, pessoas alimentadas, produtores apoiados e retenção entre ciclos. | Gestão | S | D-D, D-E, E-1 §3.4, DOC-37, N15 | A validar (prioridade) |
 | RF-REL-04 | O sistema deve calcular indicadores ambientais (ex.: quilómetros percorridos, CO2, desperdício evitado). | Gestão | C | E-1 (aula 1) | A validar (prioridade) |
-| RF-REL-05 | O sistema deve permitir exportar dados para organizações da rede e investigadores, só anonimizados ou de membros que deram consentimento. | Gestão | C | E-1 §3.4, D-A (consentimento), RF-MEM-13 | Proposto |
+| RF-REL-05 | O sistema deve permitir exportar dados para organizações da rede e investigadores, só anonimizados ou de membros que deram consentimento. | Gestão | C | E-1 §3.4, D-A (consentimento), RF-MEM-05 | Proposto |

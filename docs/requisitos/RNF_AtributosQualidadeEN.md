@@ -56,7 +56,7 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 ## 7. Design and business constraints
 | ID | Constraint | Prio. | Source | Status |
 |---|---|---|---|---|
-| RNF-RES-01 | The system shall not issue invoices, because that would require software certified by the Tax Authority (AT). Each producer invoices in their own software. | M | Technique 2 results §5, C4 | To validate (C6) |
+| RNF-RES-01 | The system shall not issue invoices: invoicing is out of scope. Each producer invoices in their own software. | M | E-6; Technique 2 results §5, C4 | Validated |
 | RNF-RES-02 | The system shall not hold co-producers' money directly (PSD2). Collection is centralised: the co-producer makes a single payment, split among producers through a licensed payment provider (group option on 21/10). | M | Group proposal (based on E-5), PSD2, E-1, E-2 §13 | Proposed |
 | RNF-RES-03 | The solution shall respect the AMAP Charter of Principles: it must not act as a commercial intermediary between producer and co-producer. | M | D-E (Charter of Principles), D-C §4.1, E-2, E-3 §5, CA; group interpretation (technique 2, results §5) | To validate (C6) |
 | RNF-RES-04 | FAIR charges a minimum fee per producer plus a percentage of the payment volume that goes through the platform; the amounts are set by FAIR. | S | Group proposal (based on E-1 §4, E-5); CA and D-E favoured no commission | Proposed |

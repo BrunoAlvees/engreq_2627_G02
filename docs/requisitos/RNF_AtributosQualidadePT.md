@@ -56,7 +56,7 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 ## 7. Restrições de conceção e de negócio
 | ID | Restrição | Prior. | Fonte | Estado |
 |---|---|---|---|---|
-| RNF-RES-01 | O sistema não deve emitir faturas, porque isso exigiria software certificado pela AT. Cada produtor fatura no seu programa. | M | Resultados técnica 2 §5, C4 | A validar (C6) |
+| RNF-RES-01 | O sistema não deve emitir faturas: a faturação está fora do âmbito. Cada produtor fatura no seu programa. | M | E-6; Resultados técnica 2 §5, C4 | Validado |
 | RNF-RES-02 | O sistema não deve guardar diretamente o dinheiro dos coprodutores (PSD2). A cobrança é centralizada: o coprodutor faz um só pagamento, dividido pelos produtores através de um prestador de pagamentos licenciado (opção do grupo em 21/10). | M | Proposta do grupo (a partir de E-5), PSD2, E-1, E-2 §13 | Proposto |
 | RNF-RES-03 | A solução deve respeitar a Carta de Princípios das AMAP: não pode atuar como intermediário comercial entre produtor e coprodutor. | M | D-E (Carta de Princípios), D-C §4.1, E-2, E-3 §5, CA; interpretação do grupo (técnica 2, resultados §5) | A validar (C6) |
 | RNF-RES-04 | A FAIR cobra uma fee mínima por produtor mais uma percentagem sobre o volume de pagamentos que passa pela plataforma; os valores são definidos pela FAIR. | S | Proposta do grupo (a partir de E-1 §4, E-5); CA e D-E preferiam sem comissão | Proposto |

@@ -9,5 +9,5 @@ Who to ask: **FAIR** (client) · **Producer** (BioGoods) · **Co-producer / mana
 
 | ID | Question | Requirements | Who to ask | Status |
 |---|---|---|---|---|
-| PA-01 | Who checks the evidence of the production method (certificates or photos)? FAIR, AMAP management, or nobody (it is only shown to co-producers, following the direct-trust logic of the Charter of Principles)? | RF-MEM-11 | FAIR, Group | Open |
+| PA-01 | Who checks the evidence of the production method (certificates or photos)? FAIR, AMAP management, or nobody (it is only shown to co-producers, following the direct-trust logic of the Charter of Principles)? | RF-MEM-04 | FAIR, Group | Open |
 | PA-02 | What did the client mean by "the offer cycle and the commitment period are not necessarily the same"? Is there any case besides new members (already covered by trial deliveries)? | RF-SUB-02 | FAIR | Open |

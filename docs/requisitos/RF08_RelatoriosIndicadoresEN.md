@@ -17,4 +17,4 @@ Produces working reports for producers and management (orders, payments) and ind
 | RF-REL-02 | The system shall show the producer, per month, the amounts due, received and overdue. | Producer | S | E-2 §2, DV-19 | Proposed |
 | RF-REL-03 | The system shall calculate indicators of the AMAP's benefits: number of co-producers, people fed, producers supported and retention between cycles. | Management | S | D-D, D-E, E-1 §3.4, DOC-37, N15 | To validate (priority) |
 | RF-REL-04 | The system shall calculate environmental indicators (e.g. kilometres travelled, CO2, waste avoided). | Management | C | E-1 (class 1) | To validate (priority) |
-| RF-REL-05 | The system shall allow exporting data for network organisations and researchers, only anonymised or from members who gave consent. | Management | C | E-1 §3.4, D-A (consent), RF-MEM-13 | Proposed |
+| RF-REL-05 | The system shall allow exporting data for network organisations and researchers, only anonymised or from members who gave consent. | Management | C | E-1 §3.4, D-A (consent), RF-MEM-05 | Proposed |
