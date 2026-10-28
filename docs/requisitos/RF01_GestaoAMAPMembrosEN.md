@@ -21,6 +21,7 @@ Lets users create and configure independent AMAPs (with one or several producers
 | RF-MEM-05 | The system shall collect members' acceptance of the terms and their consents, and allow them to exercise their personal data rights (GDPR). | Co-producer, Management | M | D-A, D-B §3.1, DOC-19, DOC-20, DOC-21, DOC-40, GDPR arts. 7, 12, 26 | Proposed |
 | RF-MEM-06 | The system shall allow assigning roles with different permissions, and one person may have several roles. | FAIR admin, Management | M | E-1 §3.2, D-C §4.5, CA (AMAPJ) | Proposed |
 | RF-MEM-07 | The system shall allow a co-producer to belong to several AMAPs and record their departure in the middle of a subscription. | Co-producer, Management | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposed |
+| RF-MEM-08 | The system shall manage a new producer joining an AMAP, from the application until they state what they can deliver and when. | Producer, Management | M | E-7 (class of 28/10), E-2 §1 (BioGoods joined when the previous producer left), E-2 §3 | Proposed |
 
 ## Acceptance criteria
 
@@ -45,7 +46,7 @@ Lets users create and configure independent AMAPs (with one or several producers
 **RF-MEM-04 – Co-producer registration and producer profile**
 - The co-producer registers with name, email and phone; the tax number (NIF) is only requested if they want an invoice with NIF (CIVA art. 40).
 - The producer has a public profile with a description, location, contacts and evidence of how they produce (certificates or photos and a description of the farm).
-- The evidence is not verified by the platform or by AMAP management: it is visible to co-producers, who judge it directly (trust logic of the Charter of Principles; PA-01 resolved by the group on 21/10).
+- The evidence is visible to co-producers (trust logic of the Charter of Principles). The AMAP may, if it wishes, check it during a visit to the farm (RF-MEM-08, E-7).
 
 **RF-MEM-05 – Terms, consents and GDPR**
 - Registration requires accepting the AMAP's Terms and Conditions and Guide, with a declaration of legal age; the system stores the accepted version and date.
@@ -62,6 +63,12 @@ Lets users create and configure independent AMAPs (with one or several producers
 - A mid-subscription departure is recorded with the reason; the next deliveries can be transferred to a substitute or donated to an organisation.
 - Payment adjustments are handled case by case.
 
+**RF-MEM-08 – New producer joining**
+- The producer applies to an AMAP and creates their public profile (RF-MEM-04). *(How the application is made: to be confirmed, PA-03.)*
+- *(Optional)* AMAP members may visit the farm to check how they produce; if the visit takes place, it is recorded (date, who went, notes).
+- Management or the assembly approves or rejects the application.
+- Once approved, the producer states the dates they can deliver (RF-ENT-01) and what they can deliver (RF-CAT-01).
+
 ## Mapping to the previous version
 In the 28/10 review, the 21 previous requirements were grouped into 7 to reduce detail (lecturer's advice). The detail moved to the acceptance criteria.
 
@@ -74,3 +81,4 @@ In the 28/10 review, the 21 previous requirements were grouped into 7 to reduce 
 | RF-MEM-05 | 12, 13, 14, 15 |
 | RF-MEM-06 | 16 |
 | RF-MEM-07 | 17, 18 (already merged into 17), 20 |
+| RF-MEM-08 | *(new, 28/10: producer joining, E-7)* |

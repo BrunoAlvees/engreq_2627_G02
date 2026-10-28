@@ -21,6 +21,7 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 | RF-MEM-05 | O sistema deve recolher a aceitação dos termos e os consentimentos dos membros e permitir-lhes exercer os seus direitos sobre os dados pessoais (RGPD). | Coprodutor, Gestão | M | D-A, D-B §3.1, DOC-19, DOC-20, DOC-21, DOC-40, RGPD arts. 7.º, 12.º, 26.º | Proposto |
 | RF-MEM-06 | O sistema deve permitir atribuir papéis com permissões diferentes, podendo uma pessoa ter vários papéis. | Admin FAIR, Gestão | M | E-1 §3.2, D-C §4.5, CA (AMAPJ) | Proposto |
 | RF-MEM-07 | O sistema deve permitir que um coprodutor pertença a várias AMAP e registar a sua saída a meio de uma subscrição. | Coprodutor, Gestão | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposto |
+| RF-MEM-08 | O sistema deve gerir a entrada de um novo produtor numa AMAP, desde a candidatura até à definição do que pode entregar e quando. | Produtor, Gestão | M | E-7 (aula de 28/10), E-2 §1 (a BioGoods entrou quando o produtor anterior saiu), E-2 §3 | Proposto |
 
 ## Critérios de aceitação
 
@@ -45,7 +46,7 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 **RF-MEM-04 – Registo de coprodutores e perfil do produtor**
 - O coprodutor regista-se com nome, email e telemóvel; o NIF só é pedido se quiser fatura com NIF (CIVA art. 40.º).
 - O produtor tem um perfil público com descrição, localização, contactos e evidências da forma de produção (certificados ou fotografias e descrição da exploração).
-- As evidências não são verificadas pela plataforma nem pela gestão da AMAP: ficam visíveis aos coprodutores, que avaliam diretamente (lógica de confiança da Carta de Princípios; PA-01 resolvida pelo grupo em 21/10).
+- As evidências ficam visíveis aos coprodutores (lógica de confiança da Carta de Princípios). A AMAP pode, se quiser, verificá-las numa visita ao local de produção (RF-MEM-08, E-7).
 
 **RF-MEM-05 – Termos, consentimentos e RGPD**
 - A inscrição exige aceitar os Termos e Condições e o Guia da AMAP, com declaração de maioridade; o sistema guarda a versão e a data aceites.
@@ -62,6 +63,12 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 - A saída a meio da subscrição fica registada com o motivo; escolhe-se o que acontece às entregas seguintes: transferir a subscrição para um substituto ou doar as entregas restantes a uma instituição.
 - Os acertos de pagamento são tratados caso a caso.
 
+**RF-MEM-08 – Entrada de um novo produtor**
+- O produtor candidata-se a uma AMAP e cria o seu perfil público (RF-MEM-04). *(Como é feita a candidatura: a confirmar, PA-03.)*
+- *(Opcional)* Membros da AMAP podem visitar o local de produção para verificar como se produz; se a visita for feita, fica registada (data, quem foi, observações).
+- A gestão ou a assembleia aprova ou recusa a candidatura.
+- Depois de aprovado, o produtor indica as datas em que pode entregar (RF-ENT-01) e o que pode entregar (RF-CAT-01).
+
 ## Correspondência com a versão anterior
 Na revisão de 28/10, os 21 requisitos anteriores foram agrupados em 7, para reduzir o detalhe (indicação do professor). O detalhe passou para os critérios de aceitação.
 
@@ -74,3 +81,4 @@ Na revisão de 28/10, os 21 requisitos anteriores foram agrupados em 7, para red
 | RF-MEM-05 | 12, 13, 14, 15 |
 | RF-MEM-06 | 16 |
 | RF-MEM-07 | 17, 18 (já fundido no 17), 20 |
+| RF-MEM-08 | *(novo, 28/10: entrada de produtores, E-7)* |

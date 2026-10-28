@@ -11,3 +11,4 @@ A quem perguntar: **FAIR** (cliente) · **Produtor** (BioGoods) · **Coprodutor 
 |---|---|---|---|---|
 | PA-01 | Quem verifica as evidências da forma de produção (certificados ou fotografias)? A FAIR, a gestão da AMAP, ou ninguém (ficam só visíveis aos coprodutores, na lógica de confiança direta da Carta de Princípios)? | RF-MEM-04 | FAIR, Grupo | Aberta |
 | PA-02 | O que quis dizer o cliente com "o ciclo de ofertas e a duração do compromisso não são necessariamente iguais"? Há algum caso, além dos novos membros (já cobertos pelas entregas experimentais)? | RF-SUB-01 | FAIR | Aberta |
+| PA-03 | Como é feita a candidatura de um novo produtor a uma AMAP (quem recebe, que informação é pedida, quem decide)? | RF-MEM-08 | FAIR (professor) | Aberta |
