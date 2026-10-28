@@ -32,8 +32,8 @@ Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
 ## Convenções / Conventions
 
 ### Identificadores / Identifiers
-- **PT:** `RF-<ÁREA>-<nn>` para requisitos funcionais e `RNF-<TIPO>-<nn>` para não funcionais. **Um ID nunca é reutilizado**: se um requisito for rejeitado, fica na tabela com o estado "Rejeitado".
-- **EN:** `RF-<AREA>-<nn>` for functional requirements and `RNF-<TYPE>-<nn>` for non-functional ones. **An ID is never reused**: if a requirement is rejected, it stays in the table with status "Rejected".
+- **PT:** `RF-<ÁREA>-<nn>` para requisitos funcionais e `RNF-<TIPO>-<nn>` para não funcionais. **Um ID nunca é reutilizado** depois de publicado: se um requisito for rejeitado, fica na tabela com o estado "Rejeitado". **Exceção:** na revisão de 28/10 os requisitos foram agrupados para reduzir o detalhe e os IDs foram renumerados; cada ficheiro tem uma tabela de correspondência com os IDs anteriores.
+- **EN:** `RF-<AREA>-<nn>` for functional requirements and `RNF-<TYPE>-<nn>` for non-functional ones. **An ID is never reused** once published: if a requirement is rejected, it stays in the table with status "Rejected". **Exception:** in the 28/10 review, requirements were grouped to reduce detail and IDs were renumbered; each file has a mapping table to the previous IDs.
 
 ### Formato / Format
 - **PT:** "O sistema deve…" (um requisito por linha, verificável). Colunas: **ID · Requisito · Ator · Prioridade · Fonte · Estado**.
