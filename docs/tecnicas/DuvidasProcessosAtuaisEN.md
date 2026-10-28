@@ -36,8 +36,8 @@ Status: **Open** · **Answered** (state the source) · **Dropped**.
 | DV-15 | What happens to baskets left outside after 19:30? Who collects them? | Medium | Open |
 | DV-16 | During absences, who handles donating or sharing out the basket? Which organisations receive it? | Low | Open |
 | DV-17 | When a product is missing, how and when is the co-producer told? | Medium | Open |
-| DV-27 | Would the producer print bag labels every week? Do they have a printer? (RF-ENT-18, RF-ENT-19) | Medium | Open |
-| DV-28 | Would co-producers confirm collection in an app or by scanning a QR code? Would they rather install an app or open a link? (RF-ENT-13, RF-ENT-19) | Medium | Open |
+| DV-27 | Would the producer print bag labels every week? Do they have a printer? (RF-ENT-06, RF-ENT-05) | Medium | Open |
+| DV-28 | Would co-producers confirm collection in an app or by scanning a QR code? Would they rather install an app or open a link? (RF-ENT-05, RF-ENT-05) | Medium | Open |
 
 ## P4. Monthly payment
 | ID | Question | Priority | Status |

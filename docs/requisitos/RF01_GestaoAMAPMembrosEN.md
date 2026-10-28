@@ -28,7 +28,7 @@ Lets users create and configure independent AMAPs (with one or several producers
 - An AMAP has a name, delivery point, distribution day and time, contact and operating rules.
 - There can be several independent AMAPs on the platform, and a producer can take part in several.
 - An AMAP can have a single producer or several, with the same or different products.
-- A rules panel lets management configure what varies between AMAPs: cycle length, subscription deadlines, number of trial deliveries, renewal mode (RF-SUB-06), possible destinations for the basket during absences (RF-ENT-11) and documents (Terms, Guide).
+- A rules panel lets management configure what varies between AMAPs: cycle length, subscription deadlines, number of trial deliveries, renewal mode (RF-SUB-06), possible destinations for the basket during absences (RF-ENT-04) and documents (Terms, Guide).
 
 **RF-MEM-02 – Public page and portal**
 - The AMAP page shows the presentation, principles, producers and products, place and time, and whether there are places.

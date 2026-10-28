@@ -28,7 +28,7 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 - Uma AMAP tem nome, ponto de entrega, dia e horário de distribuição, contacto e regras de funcionamento.
 - Pode haver várias AMAP independentes na plataforma, e um produtor pode participar em várias.
 - Uma AMAP pode ter um só produtor ou vários, com produtos iguais ou diferentes.
-- Um painel de regras permite à gestão configurar o que varia entre AMAP: duração do ciclo, prazos de subscrição, número de entregas experimentais, modo de renovação (RF-SUB-06), destinos possíveis do cabaz nas ausências (RF-ENT-11) e documentos (Termos, Guia).
+- Um painel de regras permite à gestão configurar o que varia entre AMAP: duração do ciclo, prazos de subscrição, número de entregas experimentais, modo de renovação (RF-SUB-06), destinos possíveis do cabaz nas ausências (RF-ENT-04) e documentos (Termos, Guia).
 
 **RF-MEM-02 – Página pública e portal**
 - A página da AMAP mostra a apresentação, os princípios, os produtores e produtos, o local e horário e se há vagas.
