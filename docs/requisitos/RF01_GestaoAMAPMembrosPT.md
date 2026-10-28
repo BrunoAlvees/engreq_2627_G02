@@ -10,6 +10,8 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 - O interessado pede para aderir → o sistema regista o pedido e avisa quem o trata. Se não houver vaga, coloca-o na lista de espera.
 - A gestão aceita o pedido → o interessado passa a "em experiência" e, depois das entregas experimentais, recebe o convite para subscrever o ciclo.
 - O coprodutor pede para eliminar os seus dados → o sistema regista o pedido e controla o prazo de resposta.
+- O produtor indica que vai sair da AMAP → o sistema regista a data de saída, avisa a gestão e os coprodutores e deixa de o incluir em novos ciclos.
+- A gestão pede para a AMAP deixar a plataforma → o sistema permite exportar os dados, avisa os membros e, na data de fim, passa a AMAP a inativa.
 
 ## Requisitos funcionais
 | ID | Requisito | Ator | Prior. | Fonte | Estado |
@@ -22,6 +24,8 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 | RF-MEM-06 | O sistema deve permitir atribuir papéis com permissões diferentes, podendo uma pessoa ter vários papéis. | Admin FAIR, Gestão | M | E-1 §3.2, D-C §4.5, CA (AMAPJ) | Proposto |
 | RF-MEM-07 | O sistema deve permitir que um coprodutor pertença a várias AMAP e registar a sua saída a meio de uma subscrição. | Coprodutor, Gestão | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposto |
 | RF-MEM-08 | O sistema deve gerir a entrada de um novo produtor numa AMAP, desde a candidatura até à definição do que pode entregar e quando. | Produtor, Gestão | M | E-7 (aula de 28/10), E-2 §1 (a BioGoods entrou quando o produtor anterior saiu), E-2 §3 | Proposto |
+| RF-MEM-09 | O sistema deve gerir a saída de um produtor de uma AMAP, garantindo que as entregas já pagas pelos coprodutores são cumpridas ou compensadas. | Produtor, Gestão | S | E-2 §1 (o produtor anterior da AMAP Baixa deixou de participar), D-C, D-E (partilha de riscos), proposta do grupo de 28/10 | A validar (PA-04) |
+| RF-MEM-10 | O sistema deve permitir a uma AMAP deixar de usar a plataforma, exportando os seus dados antes de serem anonimizados. | Gestão, Admin FAIR | C | RNF-RES-05, RNF-SEG-06, RGPD art. 20.º, proposta do grupo de 28/10 | A validar (PA-04) |
 
 ## Critérios de aceitação
 
@@ -69,6 +73,23 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 - A gestão ou a assembleia aprova ou recusa a candidatura.
 - Depois de aprovado, o produtor indica as datas em que pode entregar (RF-ENT-01) e o que pode entregar (RF-CAT-01).
 
+**RF-MEM-09 – Saída de um produtor**
+- O produtor indica a saída com o aviso prévio definido pela AMAP nos Termos que aceitou ao entrar (RF-MEM-08). Por defeito, continua a entregar até ao fim do período já pago e, se possível, sai no fim do ciclo.
+- A partir da data de saída, o produtor deixa de aparecer em novos ciclos, no catálogo e no calendário da AMAP, e as cobranças futuras são canceladas no prestador. Os coprodutores afetados são avisados.
+- **Saída sem aviso:** o sistema calcula, para cada coprodutor, o valor pago e não entregue. Os outros produtores da AMAP podem oferecer produtos seus para compensar esse valor (é voluntário); o sistema regista a compensação dada a cada coprodutor.
+- O valor compensado continua a ser devido pelo produtor que saiu a quem compensou, porque o dinheiro já lhe foi transferido (RNF-RES-02). O sistema regista o acerto até ficar resolvido; a gestão trata-o caso a caso.
+- Se ninguém compensar, a gestão pede a devolução ao produtor que saiu (através do prestador ou diretamente) e o sistema regista o estado: pendente ou devolvido.
+- O produtor passa a **inativo** nessa AMAP: o perfil e o histórico (entregas, pagamentos) são mantidos para as contas e os relatórios, e podem ser reativados se voltar. Se estiver noutras AMAP, continua ativo nelas.
+- Os dados só são eliminados se o produtor o pedir (RF-MEM-05) ou no fim do prazo de conservação (RNF-SEG-06); o histórico de pagamentos fica anonimizado, não eliminado.
+- Se a AMAP ficar sem produtor de um tipo de produto, a gestão pode abrir uma nova candidatura (RF-MEM-08).
+
+**RF-MEM-10 – Saída de uma AMAP da plataforma**
+- A gestão pede a saída e indica a data de fim, de preferência no fim de um ciclo. Os membros são avisados com antecedência.
+- Antes da data de fim, a gestão pode exportar todos os dados da AMAP (membros, subscrições, entregas, pagamentos) em CSV ou XLSX (RNF-INT-02).
+- Na data de fim, a AMAP passa a **inativa**: a página pública deixa de estar visível e param as cobranças aos coprodutores e as da FAIR (RF-PAG-05). Os dados ficam guardados durante um período de carência, para a AMAP poder exportá-los ou voltar atrás.
+- No fim do período de carência, os dados pessoais são eliminados ou anonimizados (RNF-SEG-06); ficam só números agregados para os indicadores (RF-REL-02). A duração do período de carência é a definir com a FAIR (PA-04).
+- Os membros que pertencem a outras AMAP mantêm a conta (RF-MEM-07).
+
 ## Correspondência com a versão anterior
 Na revisão de 28/10, os 21 requisitos anteriores foram agrupados em 7, para reduzir o detalhe (indicação do professor). O detalhe passou para os critérios de aceitação.
 
@@ -82,3 +103,5 @@ Na revisão de 28/10, os 21 requisitos anteriores foram agrupados em 7, para red
 | RF-MEM-06 | 16 |
 | RF-MEM-07 | 17, 18 (já fundido no 17), 20 |
 | RF-MEM-08 | *(novo, 28/10: entrada de produtores, E-7)* |
+| RF-MEM-09 | *(novo, 28/10: saída de produtores)* |
+| RF-MEM-10 | *(novo, 28/10: saída de uma AMAP da plataforma)* |
