@@ -1,8 +1,8 @@
 # Context and actors diagram
 
-**Updated on:** 14/10/2026 · SRS section: 2.1 Product perspective
+**Updated on:** 28/10/2026 · SRS section: 2.1 Product perspective
 
-Shows who uses FAIR-AMAP, which features each actor uses and which external systems the platform communicates with. Payments and invoices stay **outside the system**, following scope proposal C6 (to validate).
+Shows who uses FAIR-AMAP, which features each actor uses and which external systems the platform communicates with. Collection is **centralised through a licensed payment provider** (group proposal of 21/10) and **invoicing is out of scope** (E-6).
 
 **Image (for the SRS):** [imagens/DiagramaContextoEN.png](imagens/DiagramaContextoEN.png)
 
@@ -27,24 +27,26 @@ flowchart LR
     end
 
     EMAIL[[Email service]]
-    BANCO[[MB Way / bank<br/>outside the system]]
-    FAT[[Producer's invoicing<br/>software]]
+    PUSH[[Push notifications<br/>on the phone - PWA]]
+    PSP[[Licensed payment<br/>provider - MB Way,<br/>Multibanco, card]]
 
     INT --> MEM
     COP --> SUB & ENT & PAG & CMD
     PROD --> CAT & SUB & ENT & PAG & COM
     GEST --> MEM & SUB & ENT & COM & CMD & REL
-    ADM --> MEM
+    ADM --> MEM & PAG
     REL -. anonymised data .-> INV
-    COM --> EMAIL
-    COP -. pays directly .-> BANCO
-    BANCO -. receives .-> PROD
-    PROD -. issues invoice .-> FAT
-    PAG -. records invoice number .- FAT
+    COM --> EMAIL & PUSH
+    PAG -- payment request --> PSP
+    COP -. pays once .-> PSP
+    PSP -. confirms payment .-> PAG
+    PSP -. splits and transfers .-> PROD
 ```
 
 ## Notes
 
 - **Centralised collection** (group proposal of 21/10): the co-producer makes a single payment through a **licensed payment provider**, which splits it among producers; the system calculates, requests and records payments but does not hold the money (RF-PAG-02 to 04, RNF-RES-02).
 - **Invoicing is out of scope** (E-6): each producer issues invoices in their own software (RNF-RES-01).
+- **Notifications** arrive by email and, if the user turns them on, as push notifications on the phone (RNF-INT-01, RNF-INT-05).
+- The **FAIR administrator** uses payments to calculate the amount FAIR charges (RF-PAG-05).
 - **AMAP management** may be one person, a committee or several volunteer working groups (D-C §4.5).

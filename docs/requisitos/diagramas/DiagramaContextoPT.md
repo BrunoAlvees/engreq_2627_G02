@@ -1,8 +1,8 @@
 # Diagrama de contexto e atores
 
-**Atualizado em:** 14/10/2026 · Secção do SRS: 2.1 Product perspective
+**Atualizado em:** 28/10/2026 · Secção do SRS: 2.1 Product perspective
 
-Mostra quem usa a FAIR-AMAP, que funcionalidades usa cada ator e com que sistemas externos a plataforma comunica. Os pagamentos e as faturas ficam **fora do sistema**, segundo a proposta de âmbito C6 (a validar).
+Mostra quem usa a FAIR-AMAP, que funcionalidades usa cada ator e com que sistemas externos a plataforma comunica. A cobrança é **centralizada através de um prestador de pagamentos licenciado** (proposta do grupo de 21/10) e a **faturação está fora do âmbito** (E-6).
 
 **Imagem (para o SRS):** [imagens/DiagramaContextoPT.png](imagens/DiagramaContextoPT.png)
 
@@ -27,23 +27,25 @@ flowchart LR
     end
 
     EMAIL[[Serviço de email]]
-    BANCO[[MB Way / banco<br/>fora do sistema]]
-    FAT[[Programa de faturação<br/>do produtor]]
+    PUSH[[Notificações push<br/>no telemóvel - PWA]]
+    PSP[[Prestador de pagamentos<br/>licenciado - MB Way,<br/>Multibanco, cartão]]
 
     INT --> MEM
     COP --> SUB & ENT & PAG & CMD
     PROD --> CAT & SUB & ENT & PAG & COM
     GEST --> MEM & SUB & ENT & COM & CMD & REL
-    ADM --> MEM
+    ADM --> MEM & PAG
     REL -. dados anonimizados .-> INV
-    COM --> EMAIL
-    COP -. paga diretamente .-> BANCO
-    BANCO -. recebe .-> PROD
-    PROD -. emite fatura .-> FAT
-    PAG -. regista nº da fatura .- FAT
+    COM --> EMAIL & PUSH
+    PAG -- pedido de pagamento --> PSP
+    COP -. paga uma vez .-> PSP
+    PSP -. confirma o pagamento .-> PAG
+    PSP -. divide e transfere .-> PROD
 ```
 
 ## Notas
 - **Cobrança centralizada** (proposta do grupo de 21/10): o coprodutor faz um só pagamento através de um **prestador de pagamentos licenciado**, que o divide pelos produtores; o sistema calcula, pede e regista os pagamentos, mas não guarda o dinheiro (RF-PAG-02 a 04, RNF-RES-02).
 - A **faturação está fora do âmbito** (E-6): cada produtor emite as faturas no seu próprio programa (RNF-RES-01).
+- As **notificações** chegam por email e, se o utilizador as ativar, por push no telemóvel (RNF-INT-01, RNF-INT-05).
+- O **administrador FAIR** usa os pagamentos para calcular o valor que a FAIR cobra (RF-PAG-05).
 - A **gestão da AMAP** pode ser uma pessoa, uma comissão ou vários grupos de trabalho voluntários (D-C §4.5).
