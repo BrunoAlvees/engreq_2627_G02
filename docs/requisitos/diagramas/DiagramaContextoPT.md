@@ -44,6 +44,6 @@ flowchart LR
 ```
 
 ## Notas
-- O **coprodutor paga diretamente ao produtor** (transferência, MB Way ou numerário). O sistema só calcula, mostra e regista os pagamentos (RF-PAG-03 a 05).
-- O **produtor emite as faturas no seu próprio programa**. O sistema só regista a referência da fatura (RF-PAG-07).
+- **Cobrança centralizada** (proposta do grupo de 21/10): o coprodutor faz um só pagamento através de um **prestador de pagamentos licenciado**, que o divide pelos produtores; o sistema calcula, pede e regista os pagamentos, mas não guarda o dinheiro (RF-PAG-02 a 04, RNF-RES-02).
+- A **faturação está fora do âmbito** (E-6): cada produtor emite as faturas no seu próprio programa (RNF-RES-01).
 - A **gestão da AMAP** pode ser uma pessoa, uma comissão ou vários grupos de trabalho voluntários (D-C §4.5).

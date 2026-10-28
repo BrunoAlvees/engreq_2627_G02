@@ -45,6 +45,6 @@ flowchart LR
 
 ## Notes
 
-- The **co-producer pays the producer directly** (bank transfer, MB Way or cash). The system only calculates, shows and records payments (RF-PAG-03 to 05).
-- The **producer issues invoices in their own software**. The system only records the invoice reference (RF-PAG-07).
+- **Centralised collection** (group proposal of 21/10): the co-producer makes a single payment through a **licensed payment provider**, which splits it among producers; the system calculates, requests and records payments but does not hold the money (RF-PAG-02 to 04, RNF-RES-02).
+- **Invoicing is out of scope** (E-6): each producer issues invoices in their own software (RNF-RES-01).
 - **AMAP management** may be one person, a committee or several volunteer working groups (D-C §4.5).

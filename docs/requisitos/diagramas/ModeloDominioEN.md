@@ -109,5 +109,5 @@ erDiagram
 ## Notes
 - **PERSON** and **MEMBER** are separate because the same person can be a member of several AMAPs with different roles (RF-MEM-01, RF-MEM-06).
 - **OFFER** links a product/variant to a cycle and stores that cycle's price and capacity. This allows reusing the catalogue across cycles (RF-CAT-01).
-- The **payment note** is per producer and per co-producer, because each producer is paid directly (RF-PAG-03).
+- The **payment note** is per co-producer and period, broken down by producer; the amount is collected in a single payment and split among producers by the provider (RF-PAG-02, RF-PAG-03).
 - Still missing: working groups, rotas, events and indicators (RF07, RF08).
