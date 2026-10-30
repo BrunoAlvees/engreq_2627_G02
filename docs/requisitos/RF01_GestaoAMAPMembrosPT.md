@@ -19,7 +19,7 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 | RF-MEM-03 | O sistema deve gerir o processo de adesão de um interessado, do pedido até se tornar membro ativo, incluindo a lista de espera e as entregas experimentais. | Interessado, Gestão, Sistema | M | E-1 §3.1, E-4, D-A, D-B §3.2, D-C, DOC-22, DOC-23, DOC-38, N16 | Proposto |
 | RF-MEM-04 | O sistema deve permitir registar os coprodutores e dar a cada produtor um perfil público com a sua forma de produção. | Coprodutor, Produtor | M | E-1 §3.6, D-A, D-B, D-E, DOC-16, DOC-18, DOC-39 | Proposto |
 | RF-MEM-05 | O sistema deve recolher a aceitação dos termos e os consentimentos dos membros e permitir-lhes exercer os seus direitos sobre os dados pessoais (RGPD). | Coprodutor, Gestão | M | D-A, D-B §3.1, DOC-19, DOC-20, DOC-21, DOC-40, RGPD arts. 7.º, 12.º, 26.º | Proposto |
-| RF-MEM-06 | O sistema deve permitir atribuir papéis com permissões diferentes, podendo uma pessoa ter vários papéis. | Admin FAIR, Gestão | M | E-1 §3.2, D-C §4.5, CA (AMAPJ) | Proposto |
+| RF-MEM-06 | O sistema deve permitir à gestão de cada AMAP atribuir os papéis dentro da AMAP, com permissões diferentes, podendo uma pessoa ter vários papéis. | Gestão, Admin FAIR | M | E-1 §3.2, D-C §4.5, CA (AMAPJ), princípio 1 (cada AMAP tem as suas regras), decisão do grupo de 30/10 | Proposto |
 | RF-MEM-07 | O sistema deve permitir que um coprodutor pertença a várias AMAP e registar a sua saída a meio de uma subscrição. | Coprodutor, Gestão | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposto |
 | RF-MEM-08 | O sistema deve gerir a entrada de um novo produtor numa AMAP, desde a candidatura até à definição do que pode entregar e quando. | Produtor, Gestão | M | E-7 (aula de 28/10), E-2 §1 (a BioGoods entrou quando o produtor anterior saiu), E-2 §3 | Proposto |
 
@@ -56,6 +56,8 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 
 **RF-MEM-06 – Papéis e permissões**
 - Papéis: coprodutor, produtor, gestão da AMAP e administrador FAIR, cada um com permissões diferentes.
+- Dentro de cada AMAP, é a **gestão da AMAP** que atribui e retira os papéis (quem é gestão, produtor ou coprodutor); a FAIR não decide sobre a organização interna das AMAP (princípio 1, RNF-RES-07).
+- O **administrador FAIR** só atua ao nível da plataforma: regista uma AMAP nova, atribui-lhe o primeiro gestor e dá suporte.
 - Uma pessoa pode ter vários papéis (ex.: coprodutor e membro da gestão).
 
 **RF-MEM-07 – Várias AMAP e saída a meio**

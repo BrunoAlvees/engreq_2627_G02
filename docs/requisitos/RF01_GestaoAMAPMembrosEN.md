@@ -19,7 +19,7 @@ Lets users create and configure independent AMAPs (with one or several producers
 | RF-MEM-03 | The system shall manage a prospective member's joining process, from the request until they become an active member, including the waiting list and trial deliveries. | Prospective member, Management, System | M | E-1 §3.1, E-4, D-A, D-B §3.2, D-C, DOC-22, DOC-23, DOC-38, N16 | Proposed |
 | RF-MEM-04 | The system shall allow registering co-producers and give each producer a public profile showing how they produce. | Co-producer, Producer | M | E-1 §3.6, D-A, D-B, D-E, DOC-16, DOC-18, DOC-39 | Proposed |
 | RF-MEM-05 | The system shall collect members' acceptance of the terms and their consents, and allow them to exercise their personal data rights (GDPR). | Co-producer, Management | M | D-A, D-B §3.1, DOC-19, DOC-20, DOC-21, DOC-40, GDPR arts. 7, 12, 26 | Proposed |
-| RF-MEM-06 | The system shall allow assigning roles with different permissions, and one person may have several roles. | FAIR admin, Management | M | E-1 §3.2, D-C §4.5, CA (AMAPJ) | Proposed |
+| RF-MEM-06 | The system shall allow each AMAP's management to assign roles within the AMAP, with different permissions, and one person may have several roles. | Management, FAIR admin | M | E-1 §3.2, D-C §4.5, CA (AMAPJ), principle 1 (each AMAP has its own rules), group decision of 30/10 | Proposed |
 | RF-MEM-07 | The system shall allow a co-producer to belong to several AMAPs and record their departure in the middle of a subscription. | Co-producer, Management | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposed |
 | RF-MEM-08 | The system shall manage a new producer joining an AMAP, from the application until they state what they can deliver and when. | Producer, Management | M | E-7 (class of 28/10), E-2 §1 (BioGoods joined when the previous producer left), E-2 §3 | Proposed |
 
@@ -56,6 +56,8 @@ Lets users create and configure independent AMAPs (with one or several producers
 
 **RF-MEM-06 – Roles and permissions**
 - Roles: co-producer, producer, AMAP management and FAIR administrator, each with different permissions.
+- Within each AMAP, **AMAP management** assigns and removes roles (who is management, producer or co-producer); FAIR does not decide on the AMAPs' internal organisation (principle 1, RNF-RES-07).
+- The **FAIR administrator** only acts at platform level: registers a new AMAP, assigns its first manager and provides support.
 - One person can have several roles (e.g. co-producer and management member).
 
 **RF-MEM-07 – Several AMAPs and mid-subscription departure**

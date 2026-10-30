@@ -80,7 +80,7 @@ Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
 | Coprodutor | Co-producer | Consumidor que subscreve produtos da AMAP / Consumer who subscribes to AMAP products |
 | Produtor | Producer | Agricultor ou transformador que oferece produtos / Farmer or processor who offers products |
 | Gestão da AMAP | AMAP management | Pessoa, comissão ou grupos de trabalho que organizam a AMAP / Person, committee or working groups that run the AMAP |
-| Interessado | Prospective member | Pessoa que quer aderir a uma AMAP / Person who wants to join an AMAP |
+| Interessado (futuro coprodutor) | Prospective co-producer | Pessoa que quer aderir a uma AMAP como coprodutor; um produtor que quer entrar numa AMAP candidata-se como Produtor (RF-MEM-08) / Person who wants to join an AMAP as a co-producer; a producer who wants to join an AMAP applies as a Producer (RF-MEM-08) |
 | Administrador FAIR | FAIR administrator | Gere a plataforma e as AMAP clientes / Manages the platform and client AMAPs |
 | Sistema | System | Ações automáticas (notificações, cálculos) / Automatic actions (notifications, calculations) |
 
