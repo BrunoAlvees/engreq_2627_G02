@@ -10,6 +10,8 @@ Lets users create and configure independent AMAPs (with one or several producers
 - The prospective member asks to join → the system records the request and notifies whoever handles it. If there is no place, it puts them on the waiting list.
 - Management accepts the request → the person becomes "on trial" and, after the trial deliveries, is invited to subscribe to the cycle.
 - The co-producer asks for their data to be deleted → the system records the request and tracks the response deadline.
+- The producer states they will leave the AMAP → the system records the leaving date, notifies management and the co-producers and stops including them in new cycles.
+- Management asks for the AMAP to leave the platform → the system allows exporting the data, notifies the members and, on the end date, sets the AMAP to inactive.
 
 ## Functional requirements
 | ID | Requirement | Actor | Prio. | Source | Status |
@@ -22,6 +24,8 @@ Lets users create and configure independent AMAPs (with one or several producers
 | RF-MEM-06 | The system shall allow each AMAP's management to assign roles within the AMAP, with different permissions, and one person may have several roles. | Management, FAIR admin | M | E-1 §3.2, D-C §4.5, CA (AMAPJ), principle 1 (each AMAP has its own rules), group decision of 30/10 | Proposed |
 | RF-MEM-07 | The system shall allow a co-producer to belong to several AMAPs and record their departure in the middle of a subscription. | Co-producer, Management | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposed |
 | RF-MEM-08 | The system shall manage a new producer joining an AMAP, from the application until they state what they can deliver and when. | Producer, Management | M | E-7 (class of 28/10), E-2 §1 (BioGoods joined when the previous producer left), E-2 §3 | Proposed |
+| RF-MEM-09 | The system shall manage a producer leaving an AMAP, ensuring that deliveries already paid for by co-producers are either made or compensated. | Producer, Management | S | E-2 §1 (the previous producer of AMAP Baixa stopped taking part), D-C, D-E (risk sharing), group proposal of 28/10 | To validate (PA-04) |
+| RF-MEM-10 | The system shall allow an AMAP to stop using the platform, exporting its data before it is anonymised. | Management, FAIR admin | C | RNF-RES-05, RNF-SEG-06, GDPR art. 20, group proposal of 28/10 | To validate (PA-04) |
 
 ## Acceptance criteria
 
@@ -71,6 +75,23 @@ Lets users create and configure independent AMAPs (with one or several producers
 - Management or the assembly approves or rejects the application.
 - Once approved, the producer states the dates they can deliver (RF-ENT-01) and what they can deliver (RF-CAT-01).
 
+**RF-MEM-09 – Producer leaving**
+- The producer announces their departure with the notice period set by the AMAP in the Terms they accepted when joining (RF-MEM-08). By default, they keep delivering until the end of the period already paid for and, if possible, leave at the end of the cycle.
+- From the leaving date, the producer no longer appears in new cycles, in the catalogue or in the AMAP's calendar, and future charges are cancelled with the provider. The affected co-producers are notified.
+- **Leaving without notice:** the system calculates, for each co-producer, the amount paid and not delivered. The AMAP's other producers may offer their own products to compensate for that amount (this is voluntary); the system records the compensation given to each co-producer.
+- The compensated amount is still owed by the producer who left to whoever compensated, because the money has already been transferred to them (RNF-RES-02). The system records the settlement until it is resolved; management handles it case by case.
+- If nobody compensates, management asks the producer who left for a refund (through the provider or directly) and the system records the status: pending or refunded.
+- The producer becomes **inactive** in that AMAP: the profile and history (deliveries, payments) are kept for the accounts and reports, and can be reactivated if they return. If they belong to other AMAPs, they stay active there.
+- The data is only deleted if the producer asks (RF-MEM-05) or at the end of the retention period (RNF-SEG-06); the payment history is anonymised, not deleted.
+- If the AMAP is left without a producer for a type of product, management can open a new application (RF-MEM-08).
+
+**RF-MEM-10 – AMAP leaving the platform**
+- Management asks to leave and sets the end date, preferably at the end of a cycle. Members are notified in advance.
+- Before the end date, management can export all the AMAP's data (members, subscriptions, deliveries, payments) in CSV or XLSX (RNF-INT-02).
+- On the end date, the AMAP becomes **inactive**: the public page is no longer visible and both the charges to co-producers and FAIR's charges stop (RF-PAG-05). The data is kept for a grace period, so the AMAP can export it or change its mind.
+- At the end of the grace period, personal data is deleted or anonymised (RNF-SEG-06); only aggregate figures remain for the indicators (RF-REL-02). The length of the grace period is to be defined with FAIR (PA-04).
+- Members who belong to other AMAPs keep their account (RF-MEM-07).
+
 ## Mapping to the previous version
 In the 28/10 review, the 21 previous requirements were grouped into 7 to reduce detail (lecturer's advice). The detail moved to the acceptance criteria.
 
@@ -84,3 +105,5 @@ In the 28/10 review, the 21 previous requirements were grouped into 7 to reduce 
 | RF-MEM-06 | 16 |
 | RF-MEM-07 | 17, 18 (already merged into 17), 20 |
 | RF-MEM-08 | *(new, 28/10: producer joining, E-7)* |
+| RF-MEM-09 | *(new, 28/10: producer leaving)* |
+| RF-MEM-10 | *(new, 28/10: AMAP leaving the platform)* |
