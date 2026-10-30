@@ -11,7 +11,7 @@ Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
 
 1. **PT:** **Cada AMAP tem as suas regras.** O sistema é configurável por AMAP e por produtor e não impõe um modelo único. **EN:** **Each AMAP has its own rules.** The system is configurable per AMAP and per producer and does not impose a single model.
 2. **PT:** **Uma AMAP é feita de pessoas.** A prioridade é o contacto direto entre produtores e coprodutores. A aplicação **simplifica e automatiza** o processo, mas não substitui essa relação: os contactos ficam sempre visíveis. **EN:** **An AMAP is made of people.** The priority is direct contact between producers and co-producers. The app **simplifies and automates** the process but does not replace that relationship: contact details are always visible.
-3. **PT:** **As entregas de uma AMAP não são semanais.** Quem quer receber todas as semanas subscreve duas AMAP (RF-MEM-07). **EN:** **AMAP deliveries are not weekly.** Those who want deliveries every week subscribe to two AMAPs (RF-MEM-07).
+3. **PT:** **As entregas de uma AMAP não são semanais.** Quem quer receber todas as semanas subscreve duas AMAP (FR-07). **EN:** **AMAP deliveries are not weekly.** Those who want deliveries every week subscribe to two AMAPs (FR-07).
 
 ## Ficheiros / Files
 
@@ -32,8 +32,56 @@ Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
 ## Convenções / Conventions
 
 ### Identificadores / Identifiers
-- **PT:** `RF-<ÁREA>-<nn>` para requisitos funcionais e `RNF-<TIPO>-<nn>` para não funcionais. **Um ID nunca é reutilizado** depois de publicado: se um requisito for rejeitado, fica na tabela com o estado "Rejeitado". **Exceção:** na revisão de 28/10 os requisitos foram agrupados para reduzir o detalhe e os IDs foram renumerados; cada ficheiro tem uma tabela de correspondência com os IDs anteriores.
-- **EN:** `RF-<AREA>-<nn>` for functional requirements and `RNF-<TYPE>-<nn>` for non-functional ones. **An ID is never reused** once published: if a requirement is rejected, it stays in the table with status "Rejected". **Exception:** in the 28/10 review, requirements were grouped to reduce detail and IDs were renumbered; each file has a mapping table to the previous IDs.
+- **PT:** `FR-<nn>` para requisitos funcionais (FR-01 a FR-44, numerados de seguida pela ordem das funcionalidades) e `NFR-<nn>` para não funcionais (NFR-01 a NFR-24). As **funcionalidades** identificam-se pela secção do SRS (3.1 a 3.8); os ficheiros `RF01`…`RF08` são só ficheiros de trabalho. **Um ID nunca é reutilizado** depois de publicado: se um requisito for rejeitado, fica na tabela com o estado "Rejeitado". **Exceções:** na revisão de 28/10 os requisitos foram agrupados e renumerados (cada ficheiro tem uma tabela de correspondência); a 30/10 passaram do formato `RF-<ÁREA>-<nn>` / `RNF-<TIPO>-<nn>` para `FR-<nn>` / `NFR-<nn>`, porque o relatório é em inglês (tabela abaixo).
+- **EN:** `FR-<nn>` for functional requirements (FR-01 to FR-44, numbered in sequence following the order of the features) and `NFR-<nn>` for non-functional ones (NFR-01 to NFR-24). **Features** are identified by their SRS section (3.1 to 3.8); the `RF01`…`RF08` files are only working files. **An ID is never reused** once published: if a requirement is rejected, it stays in the table with status "Rejected". **Exceptions:** in the 28/10 review requirements were grouped and renumbered (each file has a mapping table); on 30/10 they moved from the `RF-<AREA>-<nn>` / `RNF-<TYPE>-<nn>` format to `FR-<nn>` / `NFR-<nn>`, because the report is in English (table below).
+
+#### Correspondência de IDs (30/10) / ID mapping (30/10)
+| Novo / New | Anterior / Previous | Novo / New | Anterior / Previous |
+|---|---|---|---|
+| FR-01 | RF-MEM-01 | NFR-01 | RNF-USA-01 |
+| FR-02 | RF-MEM-02 | NFR-02 | RNF-USA-02 |
+| FR-03 | RF-MEM-03 | NFR-03 | RNF-USA-03 |
+| FR-04 | RF-MEM-04 | NFR-04 | RNF-SEG-01 |
+| FR-05 | RF-MEM-05 | NFR-05 | RNF-SEG-02 |
+| FR-06 | RF-MEM-06 | NFR-06 | RNF-SEG-03 |
+| FR-07 | RF-MEM-07 | NFR-07 | RNF-SEG-04 |
+| FR-08 | RF-MEM-08 | NFR-08 | RNF-SEG-05 |
+| FR-09 | RF-MEM-09 | NFR-09 | RNF-DES-01 |
+| FR-10 | RF-MEM-10 | NFR-10 | RNF-DES-02 |
+| FR-11 | RF-CAT-01 | NFR-11 | RNF-DIS-01 |
+| FR-12 | RF-CAT-02 | NFR-12 | RNF-DIS-02 |
+| FR-13 | RF-CAT-03 | NFR-13 | RNF-I18N-01 |
+| FR-14 | RF-CAT-04 | NFR-14 | RNF-I18N-02 |
+| FR-15 | RF-CAT-05 | NFR-15 | RNF-INT-01 |
+| FR-16 | RF-CAT-06 | NFR-16 | RNF-INT-02 |
+| FR-17 | RF-SUB-01 | NFR-17 | RNF-INT-03 |
+| FR-18 | RF-SUB-02 | NFR-18 | RNF-RES-01 |
+| FR-19 | RF-SUB-03 | NFR-19 | RNF-RES-02 |
+| FR-20 | RF-SUB-04 | NFR-20 | RNF-RES-03 |
+| FR-21 | RF-SUB-05 | NFR-21 | RNF-RES-04 |
+| FR-22 | RF-SUB-06 | NFR-22 | RNF-RES-05 |
+| FR-23 | RF-SUB-07 | NFR-23 | RNF-RES-06 |
+| FR-24 | RF-ENT-01 | NFR-24 | RNF-RES-07 |
+| FR-25 | RF-ENT-02 | | |
+| FR-26 | RF-ENT-03 | | |
+| FR-27 | RF-ENT-04 | | |
+| FR-28 | RF-ENT-05 | | |
+| FR-29 | RF-ENT-06 | | |
+| FR-30 | RF-PAG-01 | | |
+| FR-31 | RF-PAG-02 | | |
+| FR-32 | RF-PAG-03 | | |
+| FR-33 | RF-PAG-04 | | |
+| FR-34 | RF-PAG-05 | | |
+| FR-35 | RF-COM-01 | | |
+| FR-36 | RF-COM-02 | | |
+| FR-37 | RF-COM-03 | | |
+| FR-38 | RF-COM-04 | | |
+| FR-39 | RF-CMD-01 | | |
+| FR-40 | RF-CMD-02 | | |
+| FR-41 | RF-CMD-03 | | |
+| FR-42 | RF-REL-01 | | |
+| FR-43 | RF-REL-02 | | |
+| FR-44 | RF-REL-03 | | |
 
 ### Formato / Format
 - **PT:** "O sistema deve…" (um requisito por linha, verificável). Colunas: **ID · Requisito · Ator · Prioridade · Fonte · Estado**.
@@ -80,14 +128,14 @@ Definidos no brainstorm de 14/10 / Defined in the 14/10 brainstorm.
 | Coprodutor | Co-producer | Consumidor que subscreve produtos da AMAP / Consumer who subscribes to AMAP products |
 | Produtor | Producer | Agricultor ou transformador que oferece produtos / Farmer or processor who offers products |
 | Gestão da AMAP | AMAP management | Pessoa, comissão ou grupos de trabalho que organizam a AMAP / Person, committee or working groups that run the AMAP |
-| Interessado (futuro coprodutor) | Prospective co-producer | Pessoa que quer aderir a uma AMAP como coprodutor; um produtor que quer entrar numa AMAP candidata-se como Produtor (RF-MEM-08) / Person who wants to join an AMAP as a co-producer; a producer who wants to join an AMAP applies as a Producer (RF-MEM-08) |
+| Interessado (futuro coprodutor) | Prospective co-producer | Pessoa que quer aderir a uma AMAP como coprodutor; um produtor que quer entrar numa AMAP candidata-se como Produtor (FR-08) / Person who wants to join an AMAP as a co-producer; a producer who wants to join an AMAP applies as a Producer (FR-08) |
 | Administrador FAIR | FAIR administrator | Gere a plataforma e as AMAP clientes / Manages the platform and client AMAPs |
 | Sistema | System | Ações automáticas (notificações, cálculos) / Automatic actions (notifications, calculations) |
 
 ## Decisões de âmbito em aberto / Open scope decisions
-- **C6 – Intermediação / Intermediation:** **PT:** a Carta de Princípios das AMAP exclui intermediários. As regras de faturação (software certificado pela AT) e de pagamentos (PSD2) apontam no mesmo sentido. A proposta é uma ferramenta de organização que **não recebe dinheiro nem emite faturas**. Os requisitos afetados estão marcados "A validar (C6)". **EN:** the AMAP Charter of Principles excludes intermediaries. Invoicing rules (AT-certified software) and payment rules (PSD2) point the same way. The proposal is an organisation tool that **neither handles money nor issues invoices**. Affected requirements are marked "To validate (C6)". **Atualização 21/10 / Update 21/10 (E-5):** **PT:** o professor referiu que, neste tipo de aplicação, o dinheiro das subscrições é recolhido num só ponto e distribuído pelos produtores. Fica em aberto um **modelo B**: cobrança centralizada através de um prestador de pagamentos licenciado, sem o sistema guardar o dinheiro nem emitir faturas (RNF-RES-02, RNF-INT-03, RF-PAG-03, 04). **EN:** the lecturer mentioned that, in this kind of app, subscription money is collected in one place and distributed among producers. A **model B** remains open: centralised collection through a licensed payment provider, without the system holding the money or issuing invoices (RNF-RES-02, RNF-INT-03, RF-PAG-03, 04).
+- **C6 – Intermediação / Intermediation:** **PT:** a Carta de Princípios das AMAP exclui intermediários. As regras de faturação (software certificado pela AT) e de pagamentos (PSD2) apontam no mesmo sentido. A proposta é uma ferramenta de organização que **não recebe dinheiro nem emite faturas**. Os requisitos afetados estão marcados "A validar (C6)". **EN:** the AMAP Charter of Principles excludes intermediaries. Invoicing rules (AT-certified software) and payment rules (PSD2) point the same way. The proposal is an organisation tool that **neither handles money nor issues invoices**. Affected requirements are marked "To validate (C6)". **Atualização 21/10 / Update 21/10 (E-5):** **PT:** o professor referiu que, neste tipo de aplicação, o dinheiro das subscrições é recolhido num só ponto e distribuído pelos produtores. Fica em aberto um **modelo B**: cobrança centralizada através de um prestador de pagamentos licenciado, sem o sistema guardar o dinheiro nem emitir faturas (NFR-19, NFR-17, FR-32, 04). **EN:** the lecturer mentioned that, in this kind of app, subscription money is collected in one place and distributed among producers. A **model B** remains open: centralised collection through a licensed payment provider, without the system holding the money or issuing invoices (NFR-19, NFR-17, FR-32, 04).
 - **Modelo de cobrança da FAIR / FAIR pricing model:** **PT:** fee mínima + volume (E-1) vs. ética das AMAP (CA). **EN:** minimum fee + volume (E-1) vs. AMAP ethics (CA).
-- **N19 – Automatização vs. relação pessoal / Automation vs. personal relationship:** **PT:** os stakeholders valorizam a relação pessoal entre produtores e coprodutores (E-3, D-D). A automatização da composição do cabaz (RF-ENT-02) e da confirmação de levantamento (RF-ENT-05, RF-ENT-05) **foi pedida** pelos stakeholders (E-2, E-3) e não está em causa. Falta validar: (1) se as exclusões e preferências, hoje tratadas de forma informal porque a produtora conhece cada coprodutor (E-3), devem passar a ser registadas no sistema (RF-SUB-03) ou continuar a ser combinadas diretamente; (2) como evitar que a AMAP fique mais impessoal, já que os sacos com nome tornaram a distribuição viável mas "desumanizaram um bocadinho" a AMAP (E-3), e o RF-ENT-06 gera as etiquetas desses sacos; (3) se preferem manter o WhatsApp para a comunicação informal e usar o sistema só para a gestão. **EN:** stakeholders value the personal relationship between producers and co-producers (E-3, D-D). Automating the basket contents (RF-ENT-02) and collection confirmation (RF-ENT-05, RF-ENT-05) **was requested** by the stakeholders (E-2, E-3) and is not in question. Still to validate: (1) whether exclusions and preferences, currently handled informally because the producer knows each co-producer (E-3), should be recorded in the system (RF-SUB-03) or keep being agreed directly; (2) how to avoid making the AMAP more impersonal, since named bags made distribution viable but made the AMAP "a little dehumanised" (E-3), and RF-ENT-06 generates the labels for those bags; (3) whether they would rather keep WhatsApp for informal communication and use the system only for management.
+- **N19 – Automatização vs. relação pessoal / Automation vs. personal relationship:** **PT:** os stakeholders valorizam a relação pessoal entre produtores e coprodutores (E-3, D-D). A automatização da composição do cabaz (FR-25) e da confirmação de levantamento (FR-28, FR-28) **foi pedida** pelos stakeholders (E-2, E-3) e não está em causa. Falta validar: (1) se as exclusões e preferências, hoje tratadas de forma informal porque a produtora conhece cada coprodutor (E-3), devem passar a ser registadas no sistema (FR-19) ou continuar a ser combinadas diretamente; (2) como evitar que a AMAP fique mais impessoal, já que os sacos com nome tornaram a distribuição viável mas "desumanizaram um bocadinho" a AMAP (E-3), e o FR-29 gera as etiquetas desses sacos; (3) se preferem manter o WhatsApp para a comunicação informal e usar o sistema só para a gestão. **EN:** stakeholders value the personal relationship between producers and co-producers (E-3, D-D). Automating the basket contents (FR-25) and collection confirmation (FR-28, FR-28) **was requested** by the stakeholders (E-2, E-3) and is not in question. Still to validate: (1) whether exclusions and preferences, currently handled informally because the producer knows each co-producer (E-3), should be recorded in the system (FR-19) or keep being agreed directly; (2) how to avoid making the AMAP more impersonal, since named bags made distribution viable but made the AMAP "a little dehumanised" (E-3), and FR-29 generates the labels for those bags; (3) whether they would rather keep WhatsApp for informal communication and use the system only for management.
 
 ## Como passar para o SRS / Moving to the SRS
 | Pasta / Folder | Secção do template / Template section |

@@ -14,40 +14,40 @@ Lets each producer maintain their catalogue (baskets, extra products and one-off
 ## Functional requirements
 | ID | Requirement | Actor | Prio. | Source | Status |
 |---|---|---|---|---|---|
-| RF-CAT-01 | The system shall allow the producer to manage their catalogue of baskets, extra products and one-off items, without a closed list of products. | Producer | M | E-1 (class 1), E-2 §4–5, E-3 §11, D-A, N13 | Proposed |
-| RF-CAT-02 | The system shall allow the producer to offer several basket types and variants of each product. | Producer | M | E-2 §4, E-3 §3, §11, D-A, DOC-06, DOC-07, DOC-15 | Proposed |
-| RF-CAT-03 | The system shall allow setting each product's price type and frequency. | Producer | M | D-A, E-1 §3.3, E-2 §7, DOC-04, DOC-05, C9 | Proposed |
-| RF-CAT-04 | The system shall allow setting a maximum capacity per product and per AMAP and manage a waiting list when it is reached. | Producer | M | D-A, E-1 §3.5, DOC-08, N16 | Proposed |
-| RF-CAT-05 | The system shall show the co-producer each product's details sheet. | Co-producer | S | D-A, DOC-16 | Proposed |
-| RF-CAT-06 | The system shall allow the producer to publish one-off offers (e.g. surpluses or new products), which co-producers can order outside their subscription. | Producer, Co-producer | S | E-3 §11, N10, Brainstorm 14/10 | Proposed |
+| FR-11 | The system shall allow the producer to manage their catalogue of baskets, extra products and one-off items, without a closed list of products. | Producer | M | E-1 (class 1), E-2 §4–5, E-3 §11, D-A, N13 | Proposed |
+| FR-12 | The system shall allow the producer to offer several basket types and variants of each product. | Producer | M | E-2 §4, E-3 §3, §11, D-A, DOC-06, DOC-07, DOC-15 | Proposed |
+| FR-13 | The system shall allow setting each product's price type and frequency. | Producer | M | D-A, E-1 §3.3, E-2 §7, DOC-04, DOC-05, C9 | Proposed |
+| FR-14 | The system shall allow setting a maximum capacity per product and per AMAP and manage a waiting list when it is reached. | Producer | M | D-A, E-1 §3.5, DOC-08, N16 | Proposed |
+| FR-15 | The system shall show the co-producer each product's details sheet. | Co-producer | S | D-A, DOC-16 | Proposed |
+| FR-16 | The system shall allow the producer to publish one-off offers (e.g. surpluses or new products), which co-producers can order outside their subscription. | Producer, Co-producer | S | E-3 §11, N10, Brainstorm 14/10 | Proposed |
 
 ## Acceptance criteria
 
-**RF-CAT-01 – Manage the catalogue**
+**FR-11 – Manage the catalogue**
 - The producer creates, edits and deactivates products; there is no closed list (it is one thing today and may be another tomorrow).
 - Each product is one of three types: basket, extra or one-off.
 - When preparing a new cycle, the producer can reuse the previous cycle's catalogue and only adjust prices and dates.
 
-**RF-CAT-02 – Basket types and variants**
+**FR-12 – Basket types and variants**
 - A producer can offer several basket types (e.g. farm basket, fruit basket), each with a name, description, approximate weight, number of varieties and price.
 - A product can have variants (e.g. price level, size, variety, gluten-free), each with its own price.
 - *(Could)* The producer can state alternatives to a product (e.g. dried mushrooms when there are no fresh ones).
 - *(Could)* The system avoids duplication between basket and one-off items (e.g. reducing one-off blueberries when the basket already includes them).
 
-**RF-CAT-03 – Price and frequency**
+**FR-13 – Price and frequency**
 - Price types: fixed monthly fee, price per unit and price per kg with the actual weight recorded at delivery.
 - Frequency: fortnightly, monthly, quarterly, one-off delivery, only in certain months, or on dates chosen by the co-producer.
 - *(Could, to validate C9 and DV-24)* The producer can set a discount on extra products for those who already subscribe to a basket.
 
-**RF-CAT-04 – Capacity and waiting list**
+**FR-14 – Capacity and waiting list**
 - Maximum capacity is set per product and per AMAP.
 - When capacity is reached, the system stops accepting subscriptions and offers the waiting list.
 
-**RF-CAT-05 – Product details sheet**
+**FR-15 – Product details sheet**
 - The sheet shows the description, certification, storage and shelf life, origin (own production or another producer's) and price with VAT included.
-- The producer's details are on the producer's public profile (RF-MEM-04).
+- The producer's details are on the producer's public profile (FR-04).
 
-**RF-CAT-06 – One-off offers**
+**FR-16 – One-off offers**
 - The producer can limit the offer to a maximum number of co-producers (first come, first served) and/or a maximum quantity per person.
 - The producer states the available quantity; the system deducts it as orders arrive and closes the offer when it runs out; the producer can adjust the quantity at any time.
 
@@ -56,10 +56,10 @@ In the 28/10 review, the 15 previous requirements were grouped into 6 to reduce 
 
 | New | Combines previous |
 |---|---|
-| RF-CAT-01 | 01, 02, 11 |
-| RF-CAT-02 | 03, 04, 12, 13 |
-| RF-CAT-03 | 05, 06, 15 |
-| RF-CAT-04 | 07 |
-| RF-CAT-05 | 08 |
-| RF-CAT-06 | 10, 14 |
-| *(RF-MEM-04)* | 09 (producer details, already covered by the producer's public profile) |
+| FR-11 | 01, 02, 11 |
+| FR-12 | 03, 04, 12, 13 |
+| FR-13 | 05, 06, 15 |
+| FR-14 | 07 |
+| FR-15 | 08 |
+| FR-16 | 10, 14 |
+| *(FR-04)* | 09 (producer details, already covered by the producer's public profile) |

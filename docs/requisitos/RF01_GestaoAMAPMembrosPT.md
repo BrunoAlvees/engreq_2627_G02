@@ -16,94 +16,94 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 ## Requisitos funcionais
 | ID | Requisito | Ator | Prior. | Fonte | Estado |
 |---|---|---|---|---|---|
-| RF-MEM-01 | O sistema deve permitir criar e configurar AMAP independentes, com um ou vários produtores e as suas próprias regras de funcionamento. | Gestão da AMAP, Admin FAIR | M | D-A, E-2 §1, §3, §6, §11, CA, N14, DOC-33, princípio 1 | Proposto |
-| RF-MEM-02 | O sistema deve disponibilizar uma página pública de cada AMAP e um portal com todas as AMAP da plataforma, a partir dos quais um interessado pode pedir a adesão. | Interessado | S | E-1 §3.1, D-C, D-D, CA, Brainstorm 14/10 | Proposto |
-| RF-MEM-03 | O sistema deve gerir o processo de adesão de um interessado, do pedido até se tornar membro ativo, incluindo a lista de espera e as entregas experimentais. | Interessado, Gestão, Sistema | M | E-1 §3.1, E-4, D-A, D-B §3.2, D-C, DOC-22, DOC-23, DOC-38, N16 | Proposto |
-| RF-MEM-04 | O sistema deve permitir registar os coprodutores e dar a cada produtor um perfil público com a sua forma de produção. | Coprodutor, Produtor | M | E-1 §3.6, D-A, D-B, D-E, DOC-16, DOC-18, DOC-39 | Proposto |
-| RF-MEM-05 | O sistema deve recolher a aceitação dos termos e os consentimentos dos membros e permitir-lhes exercer os seus direitos sobre os dados pessoais (RGPD). | Coprodutor, Gestão | M | D-A, D-B §3.1, DOC-19, DOC-20, DOC-21, DOC-40, RGPD arts. 7.º, 12.º, 26.º | Proposto |
-| RF-MEM-06 | O sistema deve permitir à gestão de cada AMAP atribuir os papéis dentro da AMAP, com permissões diferentes, podendo uma pessoa ter vários papéis. | Gestão, Admin FAIR | M | E-1 §3.2, D-C §4.5, CA (AMAPJ), princípio 1 (cada AMAP tem as suas regras), decisão do grupo de 30/10 | Proposto |
-| RF-MEM-07 | O sistema deve permitir que um coprodutor pertença a várias AMAP e registar a sua saída a meio de uma subscrição. | Coprodutor, Gestão | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposto |
-| RF-MEM-08 | O sistema deve gerir a entrada de um novo produtor numa AMAP, desde a candidatura até à definição do que pode entregar e quando. | Produtor, Gestão | M | E-7 (aula de 28/10), E-2 §1 (a BioGoods entrou quando o produtor anterior saiu), E-2 §3 | Proposto |
-| RF-MEM-09 | O sistema deve gerir a saída de um produtor de uma AMAP, garantindo que as entregas já pagas pelos coprodutores são cumpridas ou compensadas. | Produtor, Gestão | S | E-2 §1 (o produtor anterior da AMAP Baixa deixou de participar), D-C, D-E (partilha de riscos), proposta do grupo de 28/10 | A validar (PA-04) |
-| RF-MEM-10 | O sistema deve permitir a uma AMAP deixar de usar a plataforma, exportando os seus dados antes de serem anonimizados. | Gestão, Admin FAIR | C | RNF-RES-05, RNF-SEG-06, RGPD art. 20.º, proposta do grupo de 28/10 | A validar (PA-04) |
+| FR-01 | O sistema deve permitir criar e configurar AMAP independentes, com um ou vários produtores e as suas próprias regras de funcionamento. | Gestão da AMAP, Admin FAIR | M | D-A, E-2 §1, §3, §6, §11, CA, N14, DOC-33, princípio 1 | Proposto |
+| FR-02 | O sistema deve disponibilizar uma página pública de cada AMAP e um portal com todas as AMAP da plataforma, a partir dos quais um interessado pode pedir a adesão. | Interessado | S | E-1 §3.1, D-C, D-D, CA, Brainstorm 14/10 | Proposto |
+| FR-03 | O sistema deve gerir o processo de adesão de um interessado, do pedido até se tornar membro ativo, incluindo a lista de espera e as entregas experimentais. | Interessado, Gestão, Sistema | M | E-1 §3.1, E-4, D-A, D-B §3.2, D-C, DOC-22, DOC-23, DOC-38, N16 | Proposto |
+| FR-04 | O sistema deve permitir registar os coprodutores e dar a cada produtor um perfil público com a sua forma de produção. | Coprodutor, Produtor | M | E-1 §3.6, D-A, D-B, D-E, DOC-16, DOC-18, DOC-39 | Proposto |
+| FR-05 | O sistema deve recolher a aceitação dos termos e os consentimentos dos membros e permitir-lhes exercer os seus direitos sobre os dados pessoais (RGPD). | Coprodutor, Gestão | M | D-A, D-B §3.1, DOC-19, DOC-20, DOC-21, DOC-40, RGPD arts. 7.º, 12.º, 26.º | Proposto |
+| FR-06 | O sistema deve permitir à gestão de cada AMAP atribuir os papéis dentro da AMAP, com permissões diferentes, podendo uma pessoa ter vários papéis. | Gestão, Admin FAIR | M | E-1 §3.2, D-C §4.5, CA (AMAPJ), princípio 1 (cada AMAP tem as suas regras), decisão do grupo de 30/10 | Proposto |
+| FR-07 | O sistema deve permitir que um coprodutor pertença a várias AMAP e registar a sua saída a meio de uma subscrição. | Coprodutor, Gestão | S | E-2 §6, §7, §9, D-F, DOC-32, C5, Brainstorm 14/10 | Proposto |
+| FR-08 | O sistema deve gerir a entrada de um novo produtor numa AMAP, desde a candidatura até à definição do que pode entregar e quando. | Produtor, Gestão | M | E-7 (aula de 28/10), E-2 §1 (a BioGoods entrou quando o produtor anterior saiu), E-2 §3 | Proposto |
+| FR-09 | O sistema deve gerir a saída de um produtor de uma AMAP, garantindo que as entregas já pagas pelos coprodutores são cumpridas ou compensadas. | Produtor, Gestão | S | E-2 §1 (o produtor anterior da AMAP Baixa deixou de participar), D-C, D-E (partilha de riscos), proposta do grupo de 28/10 | A validar (PA-04) |
+| FR-10 | O sistema deve permitir a uma AMAP deixar de usar a plataforma, exportando os seus dados antes de serem anonimizados. | Gestão, Admin FAIR | C | NFR-22, NFR-08, RGPD art. 20.º, proposta do grupo de 28/10 | A validar (PA-04) |
 
 ## Critérios de aceitação
 
-**RF-MEM-01 – Criar e configurar AMAP**
+**FR-01 – Criar e configurar AMAP**
 - Uma AMAP tem nome, ponto de entrega, dia e horário de distribuição, contacto e regras de funcionamento.
 - Pode haver várias AMAP independentes na plataforma, e um produtor pode participar em várias.
 - Uma AMAP pode ter um só produtor ou vários, com produtos iguais ou diferentes.
-- Um painel de regras permite à gestão configurar o que varia entre AMAP: duração do ciclo, prazos de subscrição, número de entregas experimentais, modo de renovação (RF-SUB-06), destinos possíveis do cabaz nas ausências (RF-ENT-04) e documentos (Termos, Guia).
+- Um painel de regras permite à gestão configurar o que varia entre AMAP: duração do ciclo, prazos de subscrição, número de entregas experimentais, modo de renovação (FR-22), destinos possíveis do cabaz nas ausências (FR-27) e documentos (Termos, Guia).
 
-**RF-MEM-02 – Página pública e portal**
+**FR-02 – Página pública e portal**
 - A página da AMAP mostra a apresentação, os princípios, os produtores e produtos, o local e horário e se há vagas.
-- A página tem a opção "Quero aderir", que inicia o pedido de adesão (RF-MEM-03).
+- A página tem a opção "Quero aderir", que inicia o pedido de adesão (FR-03).
 - *(Could)* O portal lista todas as AMAP da plataforma, com pesquisa por localização e ligação para a página de cada uma.
 
-**RF-MEM-03 – Processo de adesão**
+**FR-03 – Processo de adesão**
 - O interessado pede a adesão e o sistema regista quem trata o pedido (produtor principal ou gestão).
 - Se não houver vagas, o interessado entra numa lista de espera ordenada por ordem de chegada; a gestão pode alterar a ordem, registando o motivo; o interessado é avisado quando houver vaga (decisão do grupo de 21/10).
 - Antes de subscrever, pode fazer entregas experimentais; o número é configurável por AMAP (ex.: 1 ou 2), o que resolve a diferença entre E-4 e D-C (DV-01).
 - A gestão pode aprovar ou recusar o pedido.
 - O sistema guarda o estado de cada pessoa: interessado, em lista de espera, em experiência, ativo ou saído.
 
-**RF-MEM-04 – Registo de coprodutores e perfil do produtor**
+**FR-04 – Registo de coprodutores e perfil do produtor**
 - O coprodutor regista-se com nome, email e telemóvel; o NIF só é pedido se quiser fatura com NIF (CIVA art. 40.º).
 - O produtor tem um perfil público com descrição, localização, contactos e evidências da forma de produção (certificados ou fotografias e descrição da exploração).
-- As evidências ficam visíveis aos coprodutores (lógica de confiança da Carta de Princípios). A AMAP pode, se quiser, verificá-las numa visita ao local de produção (RF-MEM-08, E-7).
+- As evidências ficam visíveis aos coprodutores (lógica de confiança da Carta de Princípios). A AMAP pode, se quiser, verificá-las numa visita ao local de produção (FR-08, E-7).
 
-**RF-MEM-05 – Termos, consentimentos e RGPD**
+**FR-05 – Termos, consentimentos e RGPD**
 - A inscrição exige aceitar os Termos e Condições e o Guia da AMAP, com declaração de maioridade; o sistema guarda a versão e a data aceites.
 - O membro pode dar e retirar consentimentos opcionais (ex.: uso dos dados em estudos), com prova da data e da versão.
 - O titular pode consultar, exportar, corrigir e pedir a eliminação dos seus dados; o sistema controla o prazo de resposta (1 mês).
 - Cada AMAP indica os responsáveis pelo tratamento dos dados (os produtores) e o ponto de contacto.
 
-**RF-MEM-06 – Papéis e permissões**
+**FR-06 – Papéis e permissões**
 - Papéis: coprodutor, produtor, gestão da AMAP e administrador FAIR, cada um com permissões diferentes.
-- Dentro de cada AMAP, é a **gestão da AMAP** que atribui e retira os papéis (quem é gestão, produtor ou coprodutor); a FAIR não decide sobre a organização interna das AMAP (princípio 1, RNF-RES-07).
+- Dentro de cada AMAP, é a **gestão da AMAP** que atribui e retira os papéis (quem é gestão, produtor ou coprodutor); a FAIR não decide sobre a organização interna das AMAP (princípio 1, NFR-24).
 - O **administrador FAIR** só atua ao nível da plataforma: regista uma AMAP nova, atribui-lhe o primeiro gestor e dá suporte.
 - Uma pessoa pode ter vários papéis (ex.: coprodutor e membro da gestão).
 
-**RF-MEM-07 – Várias AMAP e saída a meio**
+**FR-07 – Várias AMAP e saída a meio**
 - Um coprodutor pode ser membro de várias AMAP (ex.: para ter entregas todas as semanas) e ver as entregas de todas num só calendário.
 - A saída a meio da subscrição fica registada com o motivo; escolhe-se o que acontece às entregas seguintes: transferir a subscrição para um substituto ou doar as entregas restantes a uma instituição.
 - Os acertos de pagamento são tratados caso a caso.
 
-**RF-MEM-08 – Entrada de um novo produtor**
-- O produtor candidata-se a uma AMAP e cria o seu perfil público (RF-MEM-04). *(Como é feita a candidatura: a confirmar, PA-03.)*
+**FR-08 – Entrada de um novo produtor**
+- O produtor candidata-se a uma AMAP e cria o seu perfil público (FR-04). *(Como é feita a candidatura: a confirmar, PA-03.)*
 - *(Opcional)* Membros da AMAP podem visitar o local de produção para verificar como se produz; se a visita for feita, fica registada (data, quem foi, observações).
 - A gestão ou a assembleia aprova ou recusa a candidatura.
-- Depois de aprovado, o produtor indica as datas em que pode entregar (RF-ENT-01) e o que pode entregar (RF-CAT-01).
+- Depois de aprovado, o produtor indica as datas em que pode entregar (FR-24) e o que pode entregar (FR-11).
 
-**RF-MEM-09 – Saída de um produtor**
-- O produtor indica a saída com o aviso prévio definido pela AMAP nos Termos que aceitou ao entrar (RF-MEM-08). Por defeito, continua a entregar até ao fim do período já pago e, se possível, sai no fim do ciclo.
+**FR-09 – Saída de um produtor**
+- O produtor indica a saída com o aviso prévio definido pela AMAP nos Termos que aceitou ao entrar (FR-08). Por defeito, continua a entregar até ao fim do período já pago e, se possível, sai no fim do ciclo.
 - A partir da data de saída, o produtor deixa de aparecer em novos ciclos, no catálogo e no calendário da AMAP, e as cobranças futuras são canceladas no prestador. Os coprodutores afetados são avisados.
 - **Saída sem aviso:** o sistema calcula, para cada coprodutor, o valor pago e não entregue. Os outros produtores da AMAP podem oferecer produtos seus para compensar esse valor (é voluntário); o sistema regista a compensação dada a cada coprodutor.
-- O valor compensado continua a ser devido pelo produtor que saiu a quem compensou, porque o dinheiro já lhe foi transferido (RNF-RES-02). O sistema regista o acerto até ficar resolvido; a gestão trata-o caso a caso.
+- O valor compensado continua a ser devido pelo produtor que saiu a quem compensou, porque o dinheiro já lhe foi transferido (NFR-19). O sistema regista o acerto até ficar resolvido; a gestão trata-o caso a caso.
 - Se ninguém compensar, a gestão pede a devolução ao produtor que saiu (através do prestador ou diretamente) e o sistema regista o estado: pendente ou devolvido.
 - O produtor passa a **inativo** nessa AMAP: o perfil e o histórico (entregas, pagamentos) são mantidos para as contas e os relatórios, e podem ser reativados se voltar. Se estiver noutras AMAP, continua ativo nelas.
-- Os dados só são eliminados se o produtor o pedir (RF-MEM-05) ou no fim do prazo de conservação (RNF-SEG-06); o histórico de pagamentos fica anonimizado, não eliminado.
-- Se a AMAP ficar sem produtor de um tipo de produto, a gestão pode abrir uma nova candidatura (RF-MEM-08).
+- Os dados só são eliminados se o produtor o pedir (FR-05) ou no fim do prazo de conservação (NFR-08); o histórico de pagamentos fica anonimizado, não eliminado.
+- Se a AMAP ficar sem produtor de um tipo de produto, a gestão pode abrir uma nova candidatura (FR-08).
 
-**RF-MEM-10 – Saída de uma AMAP da plataforma**
+**FR-10 – Saída de uma AMAP da plataforma**
 - A gestão pede a saída e indica a data de fim, de preferência no fim de um ciclo. Os membros são avisados com antecedência.
-- Antes da data de fim, a gestão pode exportar todos os dados da AMAP (membros, subscrições, entregas, pagamentos) em CSV ou XLSX (RNF-INT-02).
-- Na data de fim, a AMAP passa a **inativa**: a página pública deixa de estar visível e param as cobranças aos coprodutores e as da FAIR (RF-PAG-05). Os dados ficam guardados durante um período de carência, para a AMAP poder exportá-los ou voltar atrás.
-- No fim do período de carência, os dados pessoais são eliminados ou anonimizados (RNF-SEG-06); ficam só números agregados para os indicadores (RF-REL-02). A duração do período de carência é a definir com a FAIR (PA-04).
-- Os membros que pertencem a outras AMAP mantêm a conta (RF-MEM-07).
+- Antes da data de fim, a gestão pode exportar todos os dados da AMAP (membros, subscrições, entregas, pagamentos) em CSV ou XLSX (NFR-16).
+- Na data de fim, a AMAP passa a **inativa**: a página pública deixa de estar visível e param as cobranças aos coprodutores e as da FAIR (FR-34). Os dados ficam guardados durante um período de carência, para a AMAP poder exportá-los ou voltar atrás.
+- No fim do período de carência, os dados pessoais são eliminados ou anonimizados (NFR-08); ficam só números agregados para os indicadores (FR-43). A duração do período de carência é a definir com a FAIR (PA-04).
+- Os membros que pertencem a outras AMAP mantêm a conta (FR-07).
 
 ## Correspondência com a versão anterior
 Na revisão de 28/10, os 21 requisitos anteriores foram agrupados em 7, para reduzir o detalhe (indicação do professor). O detalhe passou para os critérios de aceitação.
 
 | Novo | Junta os anteriores |
 |---|---|
-| RF-MEM-01 | 01, 02, 03, 21 |
-| RF-MEM-02 | 04, 19 |
-| RF-MEM-03 | 05, 06, 07, 08, 09 |
-| RF-MEM-04 | 10, 11 |
-| RF-MEM-05 | 12, 13, 14, 15 |
-| RF-MEM-06 | 16 |
-| RF-MEM-07 | 17, 18 (já fundido no 17), 20 |
-| RF-MEM-08 | *(novo, 28/10: entrada de produtores, E-7)* |
-| RF-MEM-09 | *(novo, 28/10: saída de produtores)* |
-| RF-MEM-10 | *(novo, 28/10: saída de uma AMAP da plataforma)* |
+| FR-01 | 01, 02, 03, 21 |
+| FR-02 | 04, 19 |
+| FR-03 | 05, 06, 07, 08, 09 |
+| FR-04 | 10, 11 |
+| FR-05 | 12, 13, 14, 15 |
+| FR-06 | 16 |
+| FR-07 | 17, 18 (já fundido no 17), 20 |
+| FR-08 | *(novo, 28/10: entrada de produtores, E-7)* |
+| FR-09 | *(novo, 28/10: saída de produtores)* |
+| FR-10 | *(novo, 28/10: saída de uma AMAP da plataforma)* |

@@ -13,22 +13,22 @@ Supports the community side of the AMAP: accessible rules and documents, volunte
 ## Functional requirements
 | ID | Requirement | Actor | Prio. | Source | Status |
 |---|---|---|---|---|---|
-| RF-CMD-01 | The system shall make the AMAP's documents and rules available to members, always in their current version. | Management, Co-producer | M | E-3 §12, D-C, D-E, DOC-29, N11 | Proposed |
-| RF-CMD-02 | The system shall support the AMAP's volunteer organisation: working groups, distribution rotas and assemblies. | Management, Co-producer | C | D-A, D-B §3.3, D-C §4.5, E-2 §11, E-3, CA (Juntagrico), DOC-28 | To validate (DV-14) |
-| RF-CMD-03 | The system shall allow organising AMAP events and gathering co-producers' feedback. | Management, Producer | C | E-1 §3.7, E-2 §11, D-C §4.5, DOC-30 | Proposed |
+| FR-39 | The system shall make the AMAP's documents and rules available to members, always in their current version. | Management, Co-producer | M | E-3 §12, D-C, D-E, DOC-29, N11 | Proposed |
+| FR-40 | The system shall support the AMAP's volunteer organisation: working groups, distribution rotas and assemblies. | Management, Co-producer | C | D-A, D-B §3.3, D-C §4.5, E-2 §11, E-3, CA (Juntagrico), DOC-28 | To validate (DV-14) |
+| FR-41 | The system shall allow organising AMAP events and gathering co-producers' feedback. | Management, Producer | C | E-1 §3.7, E-2 §11, D-C §4.5, DOC-30 | Proposed |
 
 ## Acceptance criteria
 
-**RF-CMD-01 – Documents and rules**
+**FR-39 – Documents and rules**
 - Members can easily find the Terms and Conditions, the AMAP Guide and the Charter of Principles.
-- The current version is always shown; the versions each member accepted are stored (RF-MEM-05).
+- The current version is always shown; the versions each member accepted are stored (FR-05).
 
-**RF-CMD-02 – Volunteer organisation**
+**FR-40 – Volunteer organisation**
 - Management creates working groups, assigns members (producers and co-producers) and defines their tasks *(to validate DV-14: only appears in the old Guide, D-C)*.
 - Management creates rotating volunteer rotas for distribution, with sign-up and reminders *(to validate DV-14)*.
 - Management calls assemblies and meetings and shares the minutes (assembly confirmed at AMAP Baixa, E-2 and E-3).
 
-**RF-CMD-03 – Events and feedback**
+**FR-41 – Events and feedback**
 - Management or the producer creates events (farm visits, production help days, workshops, social gatherings) and members sign up.
 - Management gathers co-producers' feedback on the quality, variety, schedule and format of deliveries.
 
@@ -37,6 +37,6 @@ In the 28/10 review, the 6 previous requirements were grouped into 3 to reduce d
 
 | New | Combines previous |
 |---|---|
-| RF-CMD-01 | 01 |
-| RF-CMD-02 | 02, 03, 04 |
-| RF-CMD-03 | 05, 06 |
+| FR-39 | 01 |
+| FR-40 | 02, 03, 04 |
+| FR-41 | 05, 06 |

@@ -13,30 +13,30 @@ Produz relatórios de trabalho para os produtores e indicadores sobre os benefí
 ## Requisitos funcionais
 | ID | Requisito | Ator | Prior. | Fonte | Estado |
 |---|---|---|---|---|---|
-| RF-REL-01 | O sistema deve permitir ao produtor exportar as encomendas e entregas para uma folha de cálculo. | Produtor | S | E-2 §2 (contas e planeamento em Excel) | Proposto |
-| RF-REL-02 | O sistema deve calcular indicadores sobre os benefícios sociais e ambientais da AMAP. | Gestão | C | E-1 §3.4 ("nice to have, not a must"), D-D, D-E, DOC-37, N15 | Proposto |
-| RF-REL-03 | O sistema deve permitir exportar dados para organizações da rede e investigadores, só anonimizados ou de membros que deram consentimento. | Gestão | C | E-1 §3.4, D-A (consentimento), RF-MEM-05, RGPD | Proposto |
+| FR-42 | O sistema deve permitir ao produtor exportar as encomendas e entregas para uma folha de cálculo. | Produtor | S | E-2 §2 (contas e planeamento em Excel) | Proposto |
+| FR-43 | O sistema deve calcular indicadores sobre os benefícios sociais e ambientais da AMAP. | Gestão | C | E-1 §3.4 ("nice to have, not a must"), D-D, D-E, DOC-37, N15 | Proposto |
+| FR-44 | O sistema deve permitir exportar dados para organizações da rede e investigadores, só anonimizados ou de membros que deram consentimento. | Gestão | C | E-1 §3.4, D-A (consentimento), FR-05, RGPD | Proposto |
 
 ## Critérios de aceitação
 
-**RF-REL-01 – Exportar encomendas e entregas**
-- A exportação pode ser filtrada por ciclo, data, AMAP e produto, em CSV ou XLSX (RNF-INT-02).
-- Os valores devidos, recebidos e em atraso estão no RF-PAG-04.
+**FR-42 – Exportar encomendas e entregas**
+- A exportação pode ser filtrada por ciclo, data, AMAP e produto, em CSV ou XLSX (NFR-16).
+- Os valores devidos, recebidos e em atraso estão no FR-33.
 
-**RF-REL-02 – Indicadores**
+**FR-43 – Indicadores**
 - Indicadores sociais: número de coprodutores, pessoas alimentadas, produtores apoiados e retenção entre ciclos.
 - Indicadores ambientais (ex.: quilómetros percorridos, CO2, desperdício evitado).
 - Servem os relatórios exigidos pelos projetos financiados das organizações que gerem as AMAP (E-1) e a avaliação de benefícios pedida pela Carta de Princípios (D-E).
 
-**RF-REL-03 – Dados para a rede e investigadores**
-- Só são exportados dados anonimizados ou de membros que deram consentimento (RF-MEM-05).
+**FR-44 – Dados para a rede e investigadores**
+- Só são exportados dados anonimizados ou de membros que deram consentimento (FR-05).
 
 ## Correspondência com a versão anterior
 Na revisão de 28/10, os 5 requisitos anteriores foram reduzidos a 3, para reduzir o detalhe (indicação do professor). O detalhe passou para os critérios de aceitação.
 
 | Novo | Junta os anteriores |
 |---|---|
-| RF-REL-01 | 01 |
-| RF-REL-02 | 03, 04 |
-| RF-REL-03 | 05 |
-| *(RF-PAG-04)* | 02 (valores devidos, recebidos e em atraso, já cobertos pelo acompanhamento de pagamentos) |
+| FR-42 | 01 |
+| FR-43 | 03, 04 |
+| FR-44 | 05 |
+| *(FR-33)* | 02 (valores devidos, recebidos e em atraso, já cobertos pelo acompanhamento de pagamentos) |

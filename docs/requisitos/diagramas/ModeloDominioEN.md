@@ -107,7 +107,7 @@ erDiagram
 ```
 
 ## Notes
-- **PERSON** and **MEMBER** are separate because the same person can be a member of several AMAPs with different roles (RF-MEM-01, RF-MEM-06).
-- **OFFER** links a product/variant to a cycle and stores that cycle's price and capacity. This allows reusing the catalogue across cycles (RF-CAT-01).
-- The **payment note** is per co-producer and period, broken down by producer; the amount is collected in a single payment and split among producers by the provider (RF-PAG-02, RF-PAG-03).
+- **PERSON** and **MEMBER** are separate because the same person can be a member of several AMAPs with different roles (FR-01, FR-06).
+- **OFFER** links a product/variant to a cycle and stores that cycle's price and capacity. This allows reusing the catalogue across cycles (FR-11).
+- The **payment note** is per co-producer and period, broken down by producer; the amount is collected in a single payment and split among producers by the provider (FR-31, FR-32).
 - Still missing: working groups, rotas, events and indicators (RF07, RF08).
