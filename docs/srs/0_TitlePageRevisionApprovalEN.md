@@ -33,7 +33,7 @@
 | 0.1 | Group 02 | First consolidated list of requirements by feature (RF01–RF08, NFR), with sources | 21/10/2026 |
 | 0.2 | Bruno Alves | Requirements reduced and grouped (lecturer's advice); section 2.4 | 28/10/2026 |
 | 0.3 | Bruno Alves | Identifiers changed to `FR-nn` / `NFR-nn` (report in English) | 30/10/2026 |
-| 0.4 | Leonor Marinho | Draft of section 6 and sections 10.1 to 10.3 | 04/11/2026 |
+| 0.4 | Leonor Marinho | Draft of section 6 and sections 10 to 10.2 | 04/11/2026 |
 | 1.0 | Group 02 | Final version | *(to fill in)* |
 
 > **Note:** the dates of versions 0.1 to 0.3 follow the repository history and the dates in `docs/requisitos/README.md`. Add one line to this table whenever a section is merged into the Word document.

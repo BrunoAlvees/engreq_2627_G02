@@ -1,9 +1,9 @@
-# 10.1 Processo e metodologia de elicitação
+# 10 Processo e metodologia de elicitação
 
 **Responsável:** Leonor Marinho · **Atualizado em:** 04/11/2026 · **Estado:** rascunho para revisão
 **Fontes:** enunciado ([engreq_tp1_2026_27_v2_EN.pdf](../engreq_tp1_2026_27_v2_EN.pdf)), [interviews/](../interviews/), [tecnicas/](../tecnicas/README.md), [requisitos/README.md](../requisitos/README.md), [divisão do trabalho do SRS](../SRSWorkSplitEN.md), histórico do git
 
-## 10.1.1 Abordagem
+## Abordagem
 
 O enunciado pede a metodologia de elicitação apresentada na unidade curricular, sendo todas as técnicas válidas e combináveis. O grupo trabalhou em **cinco passos**, repetidos à medida que chegava nova informação (abordagem iterativa):
 
@@ -15,7 +15,7 @@ O enunciado pede a metodologia de elicitação apresentada na unidade curricular
 | 4. Analisar e especificar | Consolidar o que foi ouvido em requisitos candidatos com uma **fonte** para cada um; atribuir prioridade (MoSCoW); marcar o que não está validado; reduzir e agrupar requisitos | [Requisitos por funcionalidade](../requisitos/README.md) |
 | 5. Validar | Levar os requisitos marcados "A validar" e as perguntas em aberto (DV, PA) às sessões seguintes; atualizar os documentos com as respostas | [Perguntas da semana de 02/11](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) |
 
-## 10.1.2 Princípios seguidos
+## Princípios seguidos
 
 - **Primeiro perguntas abertas, depois específicas.** As primeiras sessões perguntaram como funciona a AMAP no dia a dia, as pessoas envolvidas, os documentos e o que corre mal. As perguntas técnicas vieram depois, com o stakeholder certo (conselho de 23/09).
 - **Os documentos dizem o que as pessoas não dizem.** O grupo pediu e analisou documentos reais (formulário de encomenda, termos e condições, guia para novos coprodutores, carta de princípios) e comparou-os com as entrevistas para encontrar diferenças e lacunas ([resultados da técnica 2](../tecnicas/ResultadosAnaliseDocumentalPT.md)).
@@ -24,7 +24,7 @@ O enunciado pede a metodologia de elicitação apresentada na unidade curricular
 - **Cada AMAP tem as suas regras** e **uma AMAP é feita de pessoas** (princípios orientadores do brainstorm de 14/10): o sistema é configurável e não substitui a relação pessoal.
 - **Tudo fica registado no repositório** (planeamento, sessões, tarefas, artefactos), como o enunciado exige, em **português e inglês**.
 
-## 10.1.3 Cronologia
+## Cronologia
 
 | Data | Atividade | Tipo | Evidência |
 |---|---|---|---|
@@ -41,11 +41,11 @@ O enunciado pede a metodologia de elicitação apresentada na unidade curricular
 | 30/10 | Identificadores alterados para `FR-nn` / `NFR-nn` | Análise | [README dos requisitos](../requisitos/README.md) |
 | semana de 02/11 | Sessões de validação com o cliente, o produtor e a gestão da AMAP (30 min) | Entrevista | [Perguntas](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) *(sessão ainda não realizada à data de escrita)* |
 
-## 10.1.4 Papéis no processo
+## Papéis no processo
 
-Cada analista de negócio é responsável por uma ou mais técnicas ou secções (ver [10.3](10.3_AppliedTechniquesPT.md) e a [divisão do trabalho do SRS](../SRSWorkSplitEN.md)). Durante as sessões o grupo usou três papéis: **quem pergunta**, **quem toma notas** e **quem controla o tempo** (ver o guião de perguntas da semana de 02/11). As decisões sobre âmbito e prioridades são tomadas **em conjunto** nas reuniões de grupo e registadas no repositório.
+Cada analista de negócio é responsável por uma ou mais técnicas ou secções (ver [10.2](10.2_AppliedTechniquesPT.md) e a [divisão do trabalho do SRS](../SRSWorkSplitEN.md)). Durante as sessões o grupo usou três papéis: **quem pergunta**, **quem toma notas** e **quem controla o tempo** (ver o guião de perguntas da semana de 02/11). As decisões sobre âmbito e prioridades são tomadas **em conjunto** nas reuniões de grupo e registadas no repositório.
 
-## 10.1.5 Como os requisitos foram tratados
+## Como os requisitos foram tratados
 
 1. **Recolher** declarações, documentos e observações, com data e fonte.
 2. **Separar** o que foi dito pelo stakeholder do que o grupo concluiu. As dúvidas passam a uma lista de perguntas (DV, PA).
