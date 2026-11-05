@@ -109,11 +109,12 @@ Esboços de baixa fidelidade (em texto) de três ecrãs-chave. Mostram apenas o 
 |---|---|---|---|---|---|
 | SI-1 | **Prestador de pagamentos licenciado** (por exemplo, MB Way), capaz de dividir um pagamento por vários produtores | Saída: pedido de pagamento com valores por produtor. Entrada: confirmação e estado do pagamento | Um pagamento por coprodutor por período, sem o sistema guardar o dinheiro | NFR-17, NFR-19, FR-32, FR-33 | Proposto (C6) |
 | SI-2 | **Serviço de email** | Saída: notificações, lembretes e avisos. Entrada: estado de entrega (opcional) | Lembretes, confirmações, avisos da gestão | NFR-15, FR-35, FR-36 | Proposto |
-| SI-3 | **Web push** através da PWA | Saída: notificações push para telemóveis | As mesmas notificações no telemóvel, quando o utilizador as ativa | NFR-01, NFR-15 | Proposto |
+| SI-3 | **Web push** através da PWA | Saída: notificações push para telemóveis | As mesmas notificações no telemóvel, quando o utilizador as ativa. **No iPhone, o push só funciona se a PWA estiver instalada no ecrã principal**; caso contrário, o utilizador só recebe email | NFR-01, NFR-15 | Proposto |
 | SI-4 | **WhatsApp Business API** (ou SMS) | Saída: mensagens individuais (não um bot num grupo) | Canal opcional, porque o WhatsApp é o canal usado hoje | NFR-15 *(Could)* | Ideia |
 | SI-5 | **Exportação para folha de cálculo** (CSV/XLSX) | Saída: encomendas, entregas e pagamentos | Para quem trabalha hoje em Excel | NFR-16, FR-42 | Proposto |
 | SI-6 | **Geração de PDF** (A4) | Saída: folha de distribuição e etiquetas dos sacos | Impressos no ponto de distribuição | FR-29 | Proposto |
 | SI-7 | **Exportação de dados anonimizados** para organizações da rede e investigadores | Saída: dados anonimizados, ou dados de membros que deram consentimento | Relatórios e indicadores | FR-44, FR-05 | Proposto |
+| SI-8 | **Importação de dados existentes** de folhas de cálculo (CSV/XLSX) e de respostas de formulários | Entrada: membros, subscrições e produtos que já estão em Excel e Google Forms | Evitar que cada AMAP tenha de reintroduzir tudo à mão quando começa a usar a plataforma | FR-01, FR-04 *(ainda sem requisito de importação)*, pressuposto DE-08 em [2.5](2.5_PressupostosDependenciasPT.md) | Ideia |
 
 **Fora do âmbito:** software de faturação. O sistema não emite faturas; cada produtor mantém a faturação no seu próprio software (NFR-18, E-6), pelo que não existe interface com esse software.
 
