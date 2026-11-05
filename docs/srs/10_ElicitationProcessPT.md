@@ -51,7 +51,7 @@ Cada analista de negócio é responsável por uma ou mais técnicas ou secções
 2. **Separar** o que foi dito pelo stakeholder do que o grupo concluiu. As dúvidas passam a uma lista de perguntas (DV, PA).
 3. **Escrever** cada requisito como "O sistema deve…", uma afirmação verificável por linha, com ator, prioridade, fonte e estado.
 4. **Priorizar** com MoSCoW. As prioridades são uma proposta até o cliente confirmar.
-5. **Rever e reduzir:** os requisitos que mediam o mesmo foram agrupados (de 103 para 42 funcionais e de 32 para 22 não funcionais a 28/10, seguindo o conselho do docente para reduzir o detalhe; os novos requisitos acrescentados depois elevam o total atual para 44 FR e 24 NFR).
+5. **Rever e reduzir:** os requisitos que mediam o mesmo foram agrupados (de 103 para 42 funcionais e de 32 para 22 não funcionais a 28/10, seguindo o conselho do docente para reduzir o detalhe; os novos requisitos acrescentados depois elevam o total atual para 45 FR e 24 NFR).
 6. **Validar** na sessão seguinte e marcar o estado "Validado" só com uma fonte.
 
 ## Pontos em aberto
