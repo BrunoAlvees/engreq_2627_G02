@@ -26,6 +26,7 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 | FR-08 | O sistema deve gerir a entrada de um novo produtor numa AMAP, desde a candidatura até à definição do que pode entregar e quando. | Produtor, Gestão | M | E-7 (aula de 28/10), E-2 §1 (a BioGoods entrou quando o produtor anterior saiu), E-2 §3 | Proposto |
 | FR-09 | O sistema deve gerir a saída de um produtor de uma AMAP, garantindo que as entregas já pagas pelos coprodutores são cumpridas ou compensadas. | Produtor, Gestão | S | E-2 §1 (o produtor anterior da AMAP Baixa deixou de participar), D-C, D-E (partilha de riscos), proposta do grupo de 28/10 | A validar (PA-04) |
 | FR-10 | O sistema deve permitir a uma AMAP deixar de usar a plataforma, exportando os seus dados antes de serem anonimizados. | Gestão, Admin FAIR | C | NFR-22, NFR-08, RGPD art. 20.º, proposta do grupo de 28/10 | A validar (PA-04) |
+| FR-45 | O sistema deve permitir a uma AMAP importar os dados que já tem (membros, subscrições e produtos guardados em folhas de cálculo ou respostas de formulários) quando começa a usar a plataforma. | Gestão, Produtor | C | DE-08 ([2.5](../srs/2.5_PressupostosDependenciasPT.md)), SI-8 ([6](../srs/6_ExternalInterfacesPT.md)), E-2 §2 (Excel por AMAP), E-3 §2 (Google Forms), acordo do grupo de 05/11 | Proposto |
 
 ## Critérios de aceitação
 
@@ -92,6 +93,12 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 - No fim do período de carência, os dados pessoais são eliminados ou anonimizados (NFR-08); ficam só números agregados para os indicadores (FR-43). A duração do período de carência é a definir com a FAIR (PA-04).
 - Os membros que pertencem a outras AMAP mantêm a conta (FR-07).
 
+**FR-45 – Importação de dados existentes**
+- A gestão ou o produtor carrega um ficheiro CSV/XLSX (membros, subscrições, produtos) e o sistema mostra uma pré-visualização com as linhas que não conseguiu ler antes de guardar seja o que for.
+- As pessoas importadas só são membros ativos depois de aceitarem os termos e consentimentos (FR-05); os dados pessoais só são importados de pessoas que a AMAP tem direito a contactar (NFR-08).
+- O formato esperado é um modelo fornecido pelo sistema. As respostas do Google Forms importam-se através da exportação para folha de cálculo. A ligação direta a outras ferramentas está fora do âmbito.
+- Prioridade *Could*: sem este requisito, cada AMAP reintroduz os dados à mão (pressuposto DE-08 na 2.5).
+
 ## Correspondência com a versão anterior
 Na revisão de 28/10, os 21 requisitos anteriores foram agrupados em 7, para reduzir o detalhe (indicação do professor). O detalhe passou para os critérios de aceitação.
 
@@ -107,3 +114,4 @@ Na revisão de 28/10, os 21 requisitos anteriores foram agrupados em 7, para red
 | FR-08 | *(novo, 28/10: entrada de produtores, E-7)* |
 | FR-09 | *(novo, 28/10: saída de produtores)* |
 | FR-10 | *(novo, 28/10: saída de uma AMAP da plataforma)* |
+| FR-45 | *(novo, 05/11: importação de dados existentes, SI-8)* |

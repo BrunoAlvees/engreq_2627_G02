@@ -114,7 +114,7 @@ Esboços de baixa fidelidade (em texto) de três ecrãs-chave. Mostram apenas o 
 | SI-5 | **Exportação para folha de cálculo** (CSV/XLSX) | Saída: encomendas, entregas e pagamentos | Para quem trabalha hoje em Excel | NFR-16, FR-42 | Proposto |
 | SI-6 | **Geração de PDF** (A4) | Saída: folha de distribuição e etiquetas dos sacos | Impressos no ponto de distribuição | FR-29 | Proposto |
 | SI-7 | **Exportação de dados anonimizados** para organizações da rede e investigadores | Saída: dados anonimizados, ou dados de membros que deram consentimento | Relatórios e indicadores | FR-44, FR-05 | Proposto |
-| SI-8 | **Importação de dados existentes** de folhas de cálculo (CSV/XLSX) e de respostas de formulários | Entrada: membros, subscrições e produtos que já estão em Excel e Google Forms | Evitar que cada AMAP tenha de reintroduzir tudo à mão quando começa a usar a plataforma | FR-01, FR-04 *(ainda sem requisito de importação)*, pressuposto DE-08 em [2.5](2.5_PressupostosDependenciasPT.md) | Ideia |
+| SI-8 | **Importação de dados existentes** de folhas de cálculo (CSV/XLSX) e de respostas de formulários | Entrada: membros, subscrições e produtos que já estão em Excel e Google Forms | Evitar que cada AMAP tenha de reintroduzir tudo à mão quando começa a usar a plataforma | FR-45, pressuposto DE-08 em [2.5](2.5_PressupostosDependenciasPT.md) | Ideia |
 
 **Fora do âmbito:** software de faturação. O sistema não emite faturas; cada produtor mantém a faturação no seu próprio software (NFR-18, E-6), pelo que não existe interface com esse software.
 

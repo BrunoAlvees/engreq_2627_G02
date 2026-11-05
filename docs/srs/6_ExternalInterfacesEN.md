@@ -114,7 +114,7 @@ Low-fidelity sketches (text) of three key screens. They show content and order o
 | SI-5 | **Spreadsheet export** (CSV/XLSX) | Out: orders, deliveries and payments | For those who work in Excel today | NFR-16, FR-42 | Proposed |
 | SI-6 | **PDF generation** (A4) | Out: distribution sheet and bag labels | Printed at the distribution point | FR-29 | Proposed |
 | SI-7 | **Anonymised data export** to network organisations and researchers | Out: anonymised data, or data from members who gave consent | Reports and indicators | FR-44, FR-05 | Proposed |
-| SI-8 | **Import of existing data** from spreadsheets (CSV/XLSX) and form answers | In: members, subscriptions and products already kept in Excel and Google Forms | Avoid each AMAP re-entering everything by hand when it starts using the platform | FR-01, FR-04 *(no import requirement yet)*, assumption DE-08 in [2.5](2.5_PressupostosDependenciasEN.md) | Idea |
+| SI-8 | **Import of existing data** from spreadsheets (CSV/XLSX) and form answers | In: members, subscriptions and products already kept in Excel and Google Forms | Avoid each AMAP re-entering everything by hand when it starts using the platform | FR-45, assumption DE-08 in [2.5](2.5_PressupostosDependenciasEN.md) | Idea |
 
 **Not in scope:** invoicing software. The system does not issue invoices; each producer keeps invoicing in their own software (NFR-18, E-6), so there is no interface to it.
 
