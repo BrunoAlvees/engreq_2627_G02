@@ -33,7 +33,7 @@
 | 0.1 | Grupo 02 | Primeira lista consolidada de requisitos por funcionalidade (RF01–RF08, NFR), com fontes | 21/10/2026 |
 | 0.2 | Bruno Alves | Requisitos reduzidos e agrupados (conselho do docente); secção 2.4 | 28/10/2026 |
 | 0.3 | Bruno Alves | Identificadores alterados para `FR-nn` / `NFR-nn` (relatório em inglês) | 30/10/2026 |
-| 0.4 | Leonor Marinho | Rascunho da secção 6 e das secções 10.1 a 10.3 | 04/11/2026 |
+| 0.4 | Leonor Marinho | Rascunho da secção 6 e das secções 10 a 10.2 | 04/11/2026 |
 | 1.0 | Grupo 02 | Versão final | *(a preencher)* |
 
 > **Nota:** as datas das versões 0.1 a 0.3 seguem o histórico do repositório e as datas em `docs/requisitos/README.md`. Acrescentar uma linha a esta tabela sempre que uma secção for integrada no documento Word.

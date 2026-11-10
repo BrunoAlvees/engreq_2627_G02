@@ -1,9 +1,9 @@
-# 10.1 Elicitation process and methodology
+# 10 Elicitation process and methodology
 
 **Owner:** Leonor Marinho · **Updated on:** 04/11/2026 · **Status:** draft for review
 **Sources:** assignment ([engreq_tp1_2026_27_v2_EN.pdf](../engreq_tp1_2026_27_v2_EN.pdf)), [interviews/](../interviews/), [tecnicas/](../tecnicas/README.md), [requisitos/README.md](../requisitos/README.md), [SRS work split](../SRSWorkSplitEN.md), git history
 
-## 10.1.1 Approach
+## Approach
 
 The assignment asks for the elicitation methodology presented in the course, with all techniques valid and combinable. The group worked in **five steps**, repeated as new information arrived (iterative approach):
 
@@ -15,7 +15,7 @@ The assignment asks for the elicitation methodology presented in the course, wit
 | 4. Analyse and specify | Consolidate what was heard into candidate requirements with a **source** for each one; give priority (MoSCoW); mark what is not validated; reduce and group requirements | [Requirements by feature](../requisitos/README.md) |
 | 5. Validate | Take the requirements marked "To validate" and the open questions (DV, PA) to the next sessions; update the documents with the answers | [Questions for the week of 02/11](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) |
 
-## 10.1.2 Principles followed
+## Principles followed
 
 - **Open questions first, specific ones later.** The first sessions asked about how the AMAP works day to day, the people involved, the documents and what goes wrong. Technical questions came after, with the right stakeholder (advice of 23/09).
 - **Documents say what people do not say.** The group asked for and analysed real documents (order form, terms and conditions, guide for new co-producers, charter of principles), and compared them with the interviews to find differences and gaps ([results of technique 2](../tecnicas/ResultadosAnaliseDocumentalEN.md)).
@@ -24,7 +24,7 @@ The assignment asks for the elicitation methodology presented in the course, wit
 - **Each AMAP has its own rules** and **an AMAP is made of people** (guiding principles of the 14/10 brainstorm): the system is configurable and does not replace the personal relationship.
 - **Everything is recorded in the repository** (planning, sessions, tasks, artefacts), as the assignment requires, in **Portuguese and English**.
 
-## 10.1.3 Timeline
+## Timeline
 
 | Date | Activity | Type | Evidence |
 |---|---|---|---|
@@ -41,17 +41,17 @@ The assignment asks for the elicitation methodology presented in the course, wit
 | 30/10 | Identifiers changed to `FR-nn` / `NFR-nn` | Analysis | [Requirements README](../requisitos/README.md) |
 | week of 02/11 | Validation sessions with client, producer and AMAP management (30 min) | Interview | [Questions](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) *(session not yet held when this was written)* |
 
-## 10.1.4 Roles in the process
+## Roles in the process
 
-Each business analyst owns one or more techniques or sections (see [10.3](10.3_AppliedTechniquesEN.md) and the [SRS work split](../SRSWorkSplitEN.md)). During sessions the group used three roles: **who asks**, **who takes notes** and **who keeps time** (see the question guide for the week of 02/11). Decisions on scope and priorities are taken **together** in group meetings and recorded in the repository.
+Each business analyst owns one or more techniques or sections (see [10.2](10.2_AppliedTechniquesEN.md) and the [SRS work split](../SRSWorkSplitEN.md)). During sessions the group used three roles: **who asks**, **who takes notes** and **who keeps time** (see the question guide for the week of 02/11). Decisions on scope and priorities are taken **together** in group meetings and recorded in the repository.
 
-## 10.1.5 How requirements were treated
+## How requirements were treated
 
 1. **Collect** statements, documents and observations, with date and source.
 2. **Separate** what was said by the stakeholder from what the group concluded. Doubts become a list of questions (DV, PA).
 3. **Write** each requirement as "The system shall…", one verifiable statement per row, with actor, priority, source and status.
 4. **Prioritise** with MoSCoW. The priorities are a proposal until the client confirms.
-5. **Review and reduce:** requirements that measured the same thing were grouped (103 to 42 functional and 32 to 22 non-functional on 28/10, following the lecturer's advice to reduce detail; new requirements added afterwards bring the current total to 44 FR and 24 NFR).
+5. **Review and reduce:** requirements that measured the same thing were grouped (103 to 42 functional and 32 to 22 non-functional on 28/10, following the lecturer's advice to reduce detail; new requirements added afterwards bring the current total to 45 FR and 24 NFR).
 6. **Validate** in the next session and mark the status "Validated" only with a source.
 
 ## Open points
