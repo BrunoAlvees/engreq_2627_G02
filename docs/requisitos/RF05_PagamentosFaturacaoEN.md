@@ -1,6 +1,6 @@
 # RF05 – Payments and invoicing
 
-**Updated on:** 28/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 10/11/2026 · [Conventions and sources](README.md)
 
 ## Description
 Calculates how much each co-producer has to pay, collects it in a single payment and distributes it among producers. Today, at AMAP Porto, each producer is paid directly, with their own methods and timing (monthly fee for baskets, meat after weighing, mushrooms at each delivery). BioGoods does the maths in Excel and sends the amount by message, and the co-producer has no simple way to know how much they owe.
@@ -21,9 +21,9 @@ Calculates how much each co-producer has to pay, collects it in a single payment
 |---|---|---|---|---|---|
 | FR-30 | The system shall allow configuring payments for each AMAP and each producer: available methods, the account where each producer is paid and when each product is charged. | Management, Producer | M | D-A, D-C §4.3, E-1 §3.9, E-3 §4, CA, DOC-10, N7, group proposal (based on E-5) | To validate (C3) |
 | FR-31 | The system shall calculate the amount each co-producer pays in each period, broken down by producer, and send them the payment request. | System, Co-producer | M | E-2 §2, D-A, E-3 §4, DOC-09, DOC-17, N6, N8 | Proposed |
-| FR-32 | The system shall collect in a single payment a co-producer's amount for several producers, with the amount split among producers through a licensed payment provider (the system does not hold the money). | Co-producer, System | M | Group proposal (based on E-5), E-1 §3.9, E-2 §13, PSD2, D-C §4.3, DOC-11 | Proposed |
+| FR-32 | The system shall collect in a single payment a co-producer's amount for several producers, with the amount split among producers through a licensed payment provider (the system does not hold the money). | Co-producer, System | M | Group proposal (based on E-5), E-8, E-1 §3.9, E-2 §13, PSD2, D-C §4.3, DOC-11 | Validated (E-8) |
 | FR-33 | The system shall allow tracking payments: status per co-producer, late payments and a summary of payments received by each producer. | System, Management, Producer | M | Group proposal (based on E-5), E-2 §2, DOC-09, DV-19, DV-20 | Proposed |
-| FR-34 | The system shall calculate the amount FAIR charges each producer or AMAP, according to the defined pricing model. | FAIR administrator | C | E-1 §4, E-5, NFR-21 | To validate (DV-25) |
+| FR-34 | The system shall calculate the amount FAIR charges each AMAP, according to the defined pricing model. | FAIR administrator | C | E-1 §4, E-5, E-8, NFR-21 | Validated (E-8) |
 
 ## Acceptance criteria
 
@@ -38,7 +38,8 @@ Calculates how much each co-producer has to pay, collects it in a single payment
 
 **FR-32 – Centralised collection**
 - The co-producer makes one online payment per period through the licensed provider.
-- The provider splits the amount among producers; the system does not hold the money (NFR-19).
+- The provider splits the amount among producers; the system does not hold the money (NFR-19). FAIR accepted this model (E-8).
+- Payment method fees (e.g. MB Way) are a producer cost, to be reflected in their prices; alternatively, they may be deducted from the amount transferred to the producer, as long as this is visible in the summary (FR-33) (E-8).
 - Payments confirmed by the provider are recorded automatically; management can manually record payments made outside the platform (e.g. cash).
 
 **FR-33 – Track payments**
@@ -46,7 +47,8 @@ Calculates how much each co-producer has to pay, collects it in a single payment
 - Each producer receives, per period, the summary of payments received: who paid, how much, when, and which subscription, products or deliveries it covers.
 
 **FR-34 – Amount charged by FAIR**
-- The pricing model is a minimum fee per producer plus a percentage of payment volume (NFR-21); the amounts are set by FAIR.
+- The pricing model is a **minimum fee per AMAP** plus a **percentage of the transaction value** (transactions are payments to producers) (NFR-21, E-8); the amounts are set by FAIR.
+- During the **pilot in Portugal**, the platform is almost free, to collect feedback from AMAPs; FAIR must be able to configure the amounts (including zero) (E-8).
 
 ## Out of scope for this version
 | Previous | Requirement | Reason |

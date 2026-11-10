@@ -1,6 +1,6 @@
 # RF05 – Pagamentos e faturação
 
-**Atualizado em:** 28/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 10/11/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Calcula quanto cada coprodutor tem de pagar, cobra esse valor num só pagamento e distribui-o pelos produtores. Hoje, na AMAP Porto, cada produtor recebe diretamente, com meios e momentos próprios (quota mensal dos cabazes, carne depois da pesagem, cogumelos a cada entrega). A BioGoods faz as contas em Excel e envia o valor por mensagem, e o coprodutor não tem forma simples de saber quanto deve.
@@ -21,9 +21,9 @@ Calcula quanto cada coprodutor tem de pagar, cobra esse valor num só pagamento 
 |---|---|---|---|---|---|
 | FR-30 | O sistema deve permitir configurar os pagamentos de cada AMAP e de cada produtor: meios disponíveis, conta onde cada produtor recebe e momento da cobrança de cada produto. | Gestão, Produtor | M | D-A, D-C §4.3, E-1 §3.9, E-3 §4, CA, DOC-10, N7, proposta do grupo (a partir de E-5) | A validar (C3) |
 | FR-31 | O sistema deve calcular o valor a pagar por cada coprodutor em cada período, discriminado por produtor, e enviar-lhe o pedido de pagamento. | Sistema, Coprodutor | M | E-2 §2, D-A, E-3 §4, DOC-09, DOC-17, N6, N8 | Proposto |
-| FR-32 | O sistema deve cobrar num só pagamento o valor de um coprodutor a vários produtores, sendo o valor dividido pelos produtores através de um prestador de pagamentos licenciado (o sistema não guarda o dinheiro). | Coprodutor, Sistema | M | Proposta do grupo (a partir de E-5), E-1 §3.9, E-2 §13, PSD2, D-C §4.3, DOC-11 | Proposto |
+| FR-32 | O sistema deve cobrar num só pagamento o valor de um coprodutor a vários produtores, sendo o valor dividido pelos produtores através de um prestador de pagamentos licenciado (o sistema não guarda o dinheiro). | Coprodutor, Sistema | M | Proposta do grupo (a partir de E-5), E-8, E-1 §3.9, E-2 §13, PSD2, D-C §4.3, DOC-11 | Validado (E-8) |
 | FR-33 | O sistema deve permitir acompanhar os pagamentos: estado por coprodutor, atrasos e resumo dos pagamentos recebidos por cada produtor. | Sistema, Gestão, Produtor | M | Proposta do grupo (a partir de E-5), E-2 §2, DOC-09, DV-19, DV-20 | Proposto |
-| FR-34 | O sistema deve calcular o valor a cobrar pela FAIR a cada produtor ou AMAP, segundo o modelo de cobrança definido. | Administrador FAIR | C | E-1 §4, E-5, NFR-21 | A validar (DV-25) |
+| FR-34 | O sistema deve calcular o valor a cobrar pela FAIR a cada AMAP, segundo o modelo de cobrança definido. | Administrador FAIR | C | E-1 §4, E-5, E-8, NFR-21 | Validado (E-8) |
 
 ## Critérios de aceitação
 
@@ -38,7 +38,8 @@ Calcula quanto cada coprodutor tem de pagar, cobra esse valor num só pagamento 
 
 **FR-32 – Cobrança centralizada**
 - O coprodutor faz um só pagamento por período, online, através do prestador licenciado.
-- O prestador divide o valor pelos produtores; o sistema não guarda o dinheiro (NFR-19).
+- O prestador divide o valor pelos produtores; o sistema não guarda o dinheiro (NFR-19). A FAIR aceitou este modelo (E-8).
+- As taxas do meio de pagamento (ex.: MB Way) são um custo do produtor, que as deve ter em conta nos preços; em alternativa, podem ser descontadas no valor transferido ao produtor, desde que isso seja visível no resumo (FR-33) (E-8).
 - Os pagamentos confirmados pelo prestador ficam registados automaticamente; a gestão pode registar à mão pagamentos feitos fora da plataforma (ex.: numerário).
 
 **FR-33 – Acompanhar os pagamentos**
@@ -46,7 +47,8 @@ Calcula quanto cada coprodutor tem de pagar, cobra esse valor num só pagamento 
 - Cada produtor recebe, por período, o resumo dos pagamentos recebidos: quem pagou, quanto, quando e a que subscrição, produtos ou entregas corresponde.
 
 **FR-34 – Valor cobrado pela FAIR**
-- O modelo de cobrança é uma fee mínima por produtor mais uma percentagem sobre o volume de pagamentos (NFR-21); os valores são definidos pela FAIR.
+- O modelo de cobrança é uma **fee mínima por AMAP** mais uma **percentagem sobre o valor das transações** (que são pagamentos aos produtores) (NFR-21, E-8); os valores são definidos pela FAIR.
+- Na **experiência piloto em Portugal**, a plataforma é quase gratuita, para recolher feedback das AMAP; os valores têm de poder ser configurados pela FAIR (incluindo zero) (E-8).
 
 ## Fora do âmbito desta versão
 | Antigo | Requisito | Motivo |

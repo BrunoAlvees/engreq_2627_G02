@@ -40,7 +40,7 @@ Lets each producer maintain their catalogue (baskets, extra products and one-off
 - *(Could, to validate C9 and DV-24)* The producer can set a discount on extra products for those who already subscribe to a basket.
 
 **FR-14 – Capacity and waiting list**
-- Maximum capacity is set per product and per AMAP.
+- Maximum capacity is set at two levels (E-8): the **AMAP** has a maximum number of co-producers (premises, transport, space; FR-01), and **each producer** states how many co-producers they accept per product (e.g. two fruit producers with 25 and 30 baskets -> 55 co-producers can subscribe to fruit).
 - When capacity is reached, the system stops accepting subscriptions and offers the waiting list.
 
 **FR-15 – Product details sheet**

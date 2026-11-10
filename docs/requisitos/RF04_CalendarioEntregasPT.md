@@ -1,6 +1,6 @@
 # RF04 – Calendário e entregas
 
-**Atualizado em:** 28/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 10/11/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Gere o calendário de distribuição e tudo o que acontece em cada entrega: composição do cabaz, disponibilidade, faltas, ausências, levantamento e cabazes esquecidos. É a área com mais problemas no sistema atual: não há confirmação de levantamento, os cabazes ficam no exterior depois das 19h30 e as ausências e faltas são combinadas por mensagem.
@@ -18,8 +18,8 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 | FR-25 | O sistema deve permitir ao produtor publicar a composição do cabaz antes de cada entrega e mostrar a cada coprodutor o que vai levantar. | Produtor, Coprodutor | M | E-2 §4, E-3 §10, N1, N2, N9 | Proposto |
 | FR-26 | O sistema deve permitir ao produtor confirmar a disponibilidade dos produtos e registar as faltas, as compensações e as quantidades reais entregues. | Produtor | M | D-A, E-3 §3, §7, DOC-12, DOC-34, N18 | Proposto |
 | FR-27 | O sistema deve permitir ao coprodutor indicar uma ausência, escolher o destino do cabaz e indicar quem o levanta em seu nome. | Coprodutor | M | E-2 §9, §10, E-3 §6, §9, N4, DOC-25 | Proposto |
-| FR-28 | O sistema deve permitir confirmar o levantamento de cada cabaz e assinalar os cabazes não levantados. | Coprodutor, Gestão, Produtor, Sistema | M | D-B §3.3, E-2 §10, E-3 §9, N3, DOC-26, Brainstorm 14/10 | A validar (obrigatória?) |
-| FR-29 | O sistema deve gerar, em PDF A4 para imprimir, a folha de distribuição de cada data e as etiquetas dos sacos. | Gestão, Produtor, Sistema | S | D-C §4.5, E-3 §8, CA (CSAware: etiquetas), DOC-27, DOC-35, Brainstorm 14/10 | A validar (DV-13) |
+| FR-28 | O sistema deve permitir confirmar o levantamento de cada cabaz e assinalar os cabazes não levantados. | Coprodutor, Gestão, Produtor, Sistema | M | D-B §3.3, E-2 §10, E-3 §9, E-8, N3, DOC-26, Brainstorm 14/10 | Validado (E-8) |
+| FR-29 | O sistema deve gerar, em PDF A4 para imprimir, a folha de distribuição de cada data e as etiquetas dos sacos. | Gestão, Produtor, Sistema | S | D-C §4.5, E-3 §8, E-8, CA (CSAware: etiquetas), DOC-27, DOC-35, Brainstorm 14/10 | Validado (E-8) |
 
 ## Critérios de aceitação
 
@@ -47,20 +47,20 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 - O produtor é avisado da ausência e do destino escolhido.
 
 **FR-28 – Confirmação de levantamento**
-- O coprodutor, ou quem levanta em seu nome, confirma o levantamento na aplicação.
+- O coprodutor, ou quem levanta em seu nome, confirma o levantamento na aplicação, com um botão. Esta é a forma essencial e obrigatória (E-8).
 - Depois do horário de distribuição, o sistema pede a confirmação a quem ainda não a fez.
 - No fim do horário, o sistema assinala os cabazes não confirmados e avisa o coprodutor e o produtor.
 - Um voluntário, a gestão ou o produtor pode confirmar em nome de um coprodutor sem telemóvel.
-- *(Ideia, avaliar na implementação)* Cada etiqueta pode ter um QR code individual: ao lê-lo, o coprodutor confirma o levantamento desse saco e o sistema avisa se o saco não for dele.
+- *(Opcional, E-8)* Quem tiver impressora pode imprimir etiquetas com o nome e um QR code individual: ao lê-lo, o coprodutor confirma o levantamento desse saco e o sistema avisa se o saco não for dele. Quem não tiver impressora usa só o botão na aplicação.
 
 **FR-29 – Folha de distribuição e etiquetas**
 - A folha de distribuição de cada data indica o que cada coprodutor leva, de cada produtor.
-- As etiquetas dos sacos têm o nome, "Saco x de y", o produtor e a data, sem dados de saúde (NFR-06).
+- As etiquetas dos sacos têm o nome, "Saco x de y", o produtor e a data, sem dados de saúde (NFR-06). Hoje as etiquetas são umas vezes impressas, outras escritas à mão; imprimi-las é opcional (E-8).
 
 ## Nota: brainstorm de 14/10 sobre o levantamento
 - **Lá fora** usa-se sobretudo uma **folha impressa** onde cada um marca o seu nome (a "liste d'émargement" das AMAP francesas, gerada pelo Cagette; a folha de registo da Lancaster Farm Fresh, nos EUA). Não encontrámos nenhuma solução com confirmação por QR code.
 - **Decisão do grupo:** a base é a **confirmação na aplicação** (FR-28), com lembrete para quem se esquece. Uma folha única não traz vantagem sobre a aplicação.
-- O **QR individual por saco** evitaria trocas de sacos, mas obriga o produtor a imprimir e colar etiquetas todas as semanas. Fica como **ideia**, a avaliar na implementação e a validar com os stakeholders (DV-27, DV-28).
+- O **QR individual por saco** evitaria trocas de sacos, mas obriga o produtor a imprimir e colar etiquetas todas as semanas. Ficou como **ideia** a validar (DV-27, DV-28). **Validado em 10/11 (E-8):** o essencial é o botão na aplicação; o QR na etiqueta é opcional, para quem tem impressora.
 
 ## Correspondência com a versão anterior
 Na revisão de 28/10, os 20 requisitos anteriores foram agrupados em 6, para reduzir o detalhe (indicação do professor). O detalhe passou para os critérios de aceitação.

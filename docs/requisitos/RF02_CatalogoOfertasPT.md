@@ -40,7 +40,7 @@ Permite a cada produtor manter o seu catálogo (cabazes, produtos extra e avulso
 - *(Could, a validar C9 e DV-24)* O produtor pode definir um desconto nos produtos extra para quem já subscreve um cabaz.
 
 **FR-14 – Capacidade e lista de espera**
-- A capacidade máxima é definida por produto e por AMAP.
+- A capacidade máxima é definida a dois níveis (E-8): a **AMAP** tem uma capacidade máxima de coprodutores (instalações, transporte, espaço; FR-01), e **cada produtor** indica quantos coprodutores aceita por produto (ex.: dois produtores de fruta com 25 e 30 cabazes → 55 coprodutores podem subscrever fruta).
 - Quando a capacidade é atingida, o sistema deixa de aceitar subscrições e propõe a lista de espera.
 
 **FR-15 – Ficha do produto**

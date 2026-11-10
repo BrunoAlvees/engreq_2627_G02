@@ -1,6 +1,6 @@
 # Open questions about the requirements
 
-**Updated on:** 14/10/2026 · [Conventions](README.md)
+**Updated on:** 10/11/2026 · [Conventions](README.md)
 
 Questions raised while reviewing the requirements that the group cannot answer yet. They are about **how the system should work**. Questions about **how the AMAP works today** are in [DuvidasProcessosAtuais](../tecnicas/DuvidasProcessosAtuaisEN.md) (DV-xx).
 
@@ -9,7 +9,7 @@ Who to ask: **FAIR** (client) · **Producer** (BioGoods) · **Co-producer / mana
 
 | ID | Question | Requirements | Who to ask | Status |
 |---|---|---|---|---|
-| PA-01 | Who checks the evidence of the production method (certificates or photos)? FAIR, AMAP management, or nobody (it is only shown to co-producers, following the direct-trust logic of the Charter of Principles)? | FR-04 | FAIR, Group | Open |
+| PA-01 | Who checks the evidence of the production method (certificates or photos)? FAIR, AMAP management, or nobody (it is only shown to co-producers, following the direct-trust logic of the Charter of Principles)? | FR-04 | FAIR, Group | **Answered (E-8):** AMAP management assesses the documents in the producer's application (e.g. organic certificate or other certifications), typically with a farm visit; they are then visible on the profile. |
 | PA-02 | What did the client mean by "the offer cycle and the commitment period are not necessarily the same"? Is there any case besides new members (already covered by trial deliveries)? | FR-17 | FAIR | Open |
-| PA-03 | How does a new producer apply to an AMAP (who receives it, what information is asked, who decides)? | FR-08 | FAIR (lecturer) | Open |
-| PA-04 | Departures: (1) what is the minimum notice period for a producer to leave an AMAP? (2) if they leave without notice, will the other producers agree to compensate with their own products what was paid and not delivered, and how is this settled with whoever left? (3) how long is the data of an inactive producer or AMAP kept before being anonymised? | FR-09, FR-10 | FAIR (lecturer), Producer | Open |
+| PA-03 | How does a new producer apply to an AMAP (who receives it, what information is asked, who decides)? | FR-08 | FAIR (lecturer) | **Answered (E-8):** the producer applies or is invited; the application has name, location, products, farming method and documents; management assesses it, typically with a visit, and decides. See FR-08. |
+| PA-04 | Departures: (1) what is the minimum notice period for a producer to leave an AMAP? (2) if they leave without notice, will the other producers agree to compensate with their own products what was paid and not delivered, and how is this settled with whoever left? (3) how long is the data of an inactive producer or AMAP kept before being anonymised? | FR-09, FR-10 | FAIR (lecturer), Producer | **Partly answered (E-8):** producers rarely leave; at the end of the period they become inactive; mid-period, deliveries are cancelled and accounts settled or refunded. The notice period (1) and data retention (3) are still open. |
