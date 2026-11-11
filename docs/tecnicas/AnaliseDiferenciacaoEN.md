@@ -21,7 +21,7 @@
 - Summaries and addenda of the 23/09, 29/09 and 06/10 sessions (`docs/interviews`).
 - Analysed documents (`docs/doc_AMAP`): [AMAP Porto Baixa order form](../doc_AMAP/FormularioEncomendas_AMAPPortoBaixa_PT.md) and [Público report on AMAP Porto](../doc_AMAP/ReportagemPublico_AMAPPorto_PT.md) (both in Portuguese).
 - Feature matrix from competitor analysis (technique 1, Jakub Piwko) and market dynamics (technique 3, João Mata).
-- List of example software (`docs/ExampleSoftwares.md`): GrownBy, Farmigo, CSAware, Local Food Marketplace.
+- List of example software ("Other solutions considered" section of [technique 1](CompetitorAnalysis.md)): GrownBy, Farmigo, CSAware, Local Food Marketplace.
 - Current system described by stakeholders: Excel, Google Forms, email and WhatsApp (technique 2, Bruno Alves).
 
 ## Method
@@ -151,5 +151,6 @@ The following proposals still depend on the competitor analysis. They are not de
 ## Work log
 | Date | Member | Task | Hours |
 |---|---|---|---|
+| 30/09 | Liane Duarte | Search for examples of similar software (GrownBy, Farmigo, CSAware, Local Food Marketplace) | 0.5 |
 | 07/10 | Liane Duarte | Objectives, method, needs from interviews and initial proposals | 2.0 |
 | 14/10 | Liane Duarte | PT/EN sync, provisional classification of N10–N19, proposals D4 and D5 | 1.0 |

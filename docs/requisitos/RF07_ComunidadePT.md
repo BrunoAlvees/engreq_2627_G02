@@ -1,6 +1,6 @@
 # RF07 – Comunidade e organização
 
-**Atualizado em:** 28/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 11/11/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Apoia o lado comunitário da AMAP: regras e documentos acessíveis, grupos de trabalho voluntários, escalas de distribuição, assembleias e eventos (visitas à quinta, workshops). Na AMAP Porto a gestão é feita por produtores e coprodutores voluntários (Equipa Dinamizadora e 6 grupos de trabalho). Os documentos existem, mas são difíceis de encontrar.
@@ -14,7 +14,7 @@ Apoia o lado comunitário da AMAP: regras e documentos acessíveis, grupos de tr
 | ID | Requisito | Ator | Prior. | Fonte | Estado |
 |---|---|---|---|---|---|
 | FR-39 | O sistema deve disponibilizar aos membros os documentos e as regras da AMAP, sempre na versão atual. | Gestão, Coprodutor | M | E-3 §12, D-C, D-E, DOC-29, N11 | Proposto |
-| FR-40 | O sistema deve apoiar a organização voluntária da AMAP: grupos de trabalho, escalas de distribuição e assembleias. | Gestão, Coprodutor | C | D-A, D-B §3.3, D-C §4.5, E-2 §11, E-3, CA (Juntagrico), DOC-28 | A validar (DV-14) |
+| FR-40 | O sistema deve apoiar a organização voluntária da AMAP: grupos de trabalho, escalas de distribuição e assembleias. | Gestão, Coprodutor | C | D-A, D-B §3.3, D-C §4.5, E-2 §11, E-3, CA (Juntagrico), DOC-28 | Proposto (DV-14) |
 | FR-41 | O sistema deve permitir organizar eventos da AMAP e recolher a opinião dos coprodutores. | Gestão, Produtor | C | E-1 §3.7, E-2 §11, D-C §4.5, DOC-30 | Proposto |
 
 ## Critérios de aceitação

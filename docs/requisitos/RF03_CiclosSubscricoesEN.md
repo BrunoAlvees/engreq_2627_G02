@@ -1,6 +1,6 @@
 # RF03 – Cycles and subscriptions
 
-**Updated on:** 28/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 11/11/2026 · [Conventions and sources](README.md)
 
 ## Description
 Organises the work in cycles (currently six-monthly at AMAP Porto; quarterly or yearly in others) and lets the co-producer subscribe to each cycle's products, with their options and exclusions. It replaces the Google Form and the email copy that co-producers keep to remember what they ordered. It also gives the producer a view of the orders to plan production.
@@ -19,7 +19,7 @@ Organises the work in cycles (currently six-monthly at AMAP Porto; quarterly or 
 | FR-19 | The system shall allow the co-producer to record exclusions (allergies, intolerances, dislikes) and the producer to record the substitution made. | Co-producer, Producer | M | E-2 §4, E-3 §14, N2 | Proposed |
 | FR-20 | The system shall apply subscription deadlines and each producer's rules for changing orders during the cycle. | Co-producer, Producer, Management | S | D-A, E-3 §3, DOC-13, N18, Brainstorm 14/10 | Proposed |
 | FR-21 | The system shall allow the co-producer to view, at any time, their current subscriptions and history. | Co-producer | M | E-3 §1, N6, DOC-17 | Proposed |
-| FR-22 | The system shall ask co-producers in advance whether they will renew, starting from their previous order. | Co-producer, Management | S | E-2 §7, N12, DV-11, C8, Brainstorm 14/10 | To validate (DV-12) |
+| FR-22 | The system shall ask co-producers in advance whether they will renew, starting from their previous order. | Co-producer, Management | S | E-2 §7, N12, DV-11, C8, Brainstorm 14/10 | Proposed (DV-12) |
 | FR-23 | The system shall give the producer the information needed to plan production: totals ordered and aggregated preferences. | Producer | M | E-1 §3.5, E-1 (class 1), E-2 §2, §13 | Proposed |
 
 ## Acceptance criteria

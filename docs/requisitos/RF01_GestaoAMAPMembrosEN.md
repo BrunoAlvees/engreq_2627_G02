@@ -1,6 +1,6 @@
 # RF01 – AMAP and member management
 
-**Updated on:** 10/11/2026 · [Conventions and sources](README.md)
+**Updated on:** 11/11/2026 · [Conventions and sources](README.md)
 
 ## Description
 Lets users create and configure independent AMAPs (with one or several producers) and manage each person's path: membership request, trial deliveries, waiting list, registration, personal data and consents. Today, joining is done by contacting the main producer directly, data arrives through Google Forms and there is no record of each member's status.
@@ -25,7 +25,7 @@ Lets users create and configure independent AMAPs (with one or several producers
 | FR-07 | The system shall allow a co-producer to belong to several AMAPs and record their departure in the middle of a subscription. | Co-producer, Management | S | E-2 §6, §7, §9, E-8, D-F, DOC-32, C5, Brainstorm 14/10 | Validated (E-8) |
 | FR-08 | The system shall manage a new producer joining an AMAP, from the application until they state what they can deliver and when. | Producer, Management | M | E-7 (class of 28/10), E-2 §1 (BioGoods joined when the previous producer left), E-2 §3, E-8 | Validated (E-8) |
 | FR-09 | The system shall manage a producer leaving an AMAP, ensuring that deliveries already paid for by co-producers are either made or compensated. | Producer, Management | S | E-2 §1 (the previous producer of AMAP Baixa stopped taking part), D-C, D-E (risk sharing), group proposal of 28/10, E-8 | Partly validated (E-8; notice period still open, PA-04) |
-| FR-10 | The system shall allow an AMAP to stop using the platform, exporting its data before it is anonymised. | Management, FAIR admin | C | NFR-22, NFR-08, GDPR art. 20, group proposal of 28/10 | To validate (PA-04) |
+| FR-10 | The system shall allow an AMAP to stop using the platform, exporting its data before it is anonymised. | Management, FAIR admin | C | NFR-22, NFR-08, GDPR art. 20, group proposal of 28/10 | Proposed (PA-04) |
 | FR-45 | The system shall allow an AMAP to import its existing data (members, subscriptions and products kept in spreadsheets or form answers) when it starts using the platform. | Management, Producer | C | DE-08 ([2.5](../srs/2.5_PressupostosDependenciasEN.md)), SI-8 ([6](../srs/6_ExternalInterfacesEN.md)), E-2 §2 (Excel per AMAP), E-3 §2 (Google Forms), group agreement of 05/11 | Proposed |
 
 ## Acceptance criteria

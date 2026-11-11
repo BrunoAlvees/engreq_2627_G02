@@ -1,6 +1,6 @@
 # RF05 – Pagamentos e faturação
 
-**Atualizado em:** 10/11/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 11/11/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Calcula quanto cada coprodutor tem de pagar, cobra esse valor num só pagamento e distribui-o pelos produtores. Hoje, na AMAP Porto, cada produtor recebe diretamente, com meios e momentos próprios (quota mensal dos cabazes, carne depois da pesagem, cogumelos a cada entrega). A BioGoods faz as contas em Excel e envia o valor por mensagem, e o coprodutor não tem forma simples de saber quanto deve.
@@ -19,7 +19,7 @@ Calcula quanto cada coprodutor tem de pagar, cobra esse valor num só pagamento 
 ## Requisitos funcionais
 | ID | Requisito | Ator | Prior. | Fonte | Estado |
 |---|---|---|---|---|---|
-| FR-30 | O sistema deve permitir configurar os pagamentos de cada AMAP e de cada produtor: meios disponíveis, conta onde cada produtor recebe e momento da cobrança de cada produto. | Gestão, Produtor | M | D-A, D-C §4.3, E-1 §3.9, E-3 §4, CA, DOC-10, N7, proposta do grupo (a partir de E-5) | A validar (C3) |
+| FR-30 | O sistema deve permitir configurar os pagamentos de cada AMAP e de cada produtor: meios disponíveis, conta onde cada produtor recebe e momento da cobrança de cada produto. | Gestão, Produtor | M | D-A, D-C §4.3, E-1 §3.9, E-3 §4, CA, DOC-10, N7, proposta do grupo (a partir de E-5) | Proposto (C3) |
 | FR-31 | O sistema deve calcular o valor a pagar por cada coprodutor em cada período, discriminado por produtor, e enviar-lhe o pedido de pagamento. | Sistema, Coprodutor | M | E-2 §2, D-A, E-3 §4, DOC-09, DOC-17, N6, N8 | Proposto |
 | FR-32 | O sistema deve cobrar num só pagamento o valor de um coprodutor a vários produtores, sendo o valor dividido pelos produtores através de um prestador de pagamentos licenciado (o sistema não guarda o dinheiro). | Coprodutor, Sistema | M | Proposta do grupo (a partir de E-5), E-8, E-1 §3.9, E-2 §13, PSD2, D-C §4.3, DOC-11 | Validado (E-8) |
 | FR-33 | O sistema deve permitir acompanhar os pagamentos: estado por coprodutor, atrasos e resumo dos pagamentos recebidos por cada produtor. | Sistema, Gestão, Produtor | M | Proposta do grupo (a partir de E-5), E-2 §2, DOC-09, DV-19, DV-20 | Proposto |
