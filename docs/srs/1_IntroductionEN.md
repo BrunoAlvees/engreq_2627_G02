@@ -18,15 +18,17 @@ The requirements were gathered through interviews with stakeholders and through 
 
 ## 1.2 Document conventions
 
-**Requirement wording.** Each requirement is one verifiable sentence written as "The system shall…". Functional requirements are listed in tables with the columns **ID · Requirement · Actor · Priority**.
+**Requirement wording**
 
-**Identifiers.**
+Each requirement is one verifiable sentence written as "The system shall…". Functional requirements are listed in tables with the columns **ID · Requirement · Actor · Priority**.
+
+**Identifiers**
 - `FR-nn`: functional requirements (FR-01 to FR-45), numbered in sequence following the order of the features in section 3.
 - `NFR-nn`: non-functional requirements (NFR-01 to NFR-24), in sections 2.4, 6, 7, 8 and 9.
 - Features are identified by their section number (3.1 to 3.8).
 - `AS-nn` and `DE-nn`: assumptions and dependencies (section 2.5). `L-n`: elicitation limitations (section 10.4).
 
-**Priority (MoSCoW).**
+**Priority (MoSCoW)**
 
 | Code | Meaning |
 |---|---|
@@ -36,7 +38,9 @@ The requirements were gathered through interviews with stakeholders and through 
 
 What is out of scope is listed in section 1.3.
 
-**Status.** Sections 2.4, 6 and 10.4 state how far a requirement or constraint has been confirmed, using the following values. Section 2.5 uses its own values for assumptions.
+**Status**
+
+Sections 2.4, 6 and 10.4 state how far a requirement or constraint has been confirmed, using the following values. Section 2.5 uses its own values for assumptions.
 
 | Status | Meaning |
 |---|---|
@@ -45,7 +49,9 @@ What is out of scope is listed in section 1.3.
 | Idea | Group proposal to assess during implementation |
 | Validated | Confirmed by the client or a stakeholder, with the source |
 
-**Sources.** Sections 2.4, 2.5, 6, 10 and appendix 12.3 cite their sources with the codes below. The sessions are detailed in appendix 12.3; the other sources are listed in section 1.4.
+**Sources**
+
+Sections 2.4, 2.5, 6, 10 and appendix 12.3 cite their sources with the codes below. The sessions are detailed in appendix 12.3; the other sources are listed in section 1.4.
 
 | Code | Source |
 |---|---|
@@ -58,23 +64,29 @@ What is out of scope is listed in section 1.3.
 | PA-nn | Open questions to the client (repository [24]) |
 | Hyp. | Group hypothesis without a stakeholder source |
 
-**Terms.** "AMAP" and "CSA" are used as synonyms. A **co-producer** is a consumer who subscribes to an AMAP's products; a **producer** is a farmer or processor who supplies them; **AMAP management** is the person, committee or working group that runs an AMAP. Other terms are defined in the glossary (appendix 12.1).
+**Terms**
 
-**Typography and dates.** Bold marks key terms and decisions. Dates are written as dd/mm/yyyy (or dd/mm when the year is 2026).
+"AMAP" and "CSA" are used as synonyms. A **co-producer** is a consumer who subscribes to an AMAP's products; a **producer** is a farmer or processor who supplies them; **AMAP management** is the person, committee or working group that runs an AMAP. Other terms are defined in the glossary (appendix 12.1).
+
+**Typography and dates**
+
+Bold marks key terms and decisions. Dates are written as dd/mm/yyyy (or dd/mm when the year is 2026).
 
 ## 1.3 Project scope
 
 FAIR-AMAP is a web platform, also installable on mobile phones (PWA), that helps existing AMAPs organise their work. Each AMAP keeps its own rules: the platform serves several independent AMAPs, each with one or several producers, and the differences between them are handled by configuration.
 
-**Problem.** Today producers and AMAP managers run each AMAP with spreadsheets, online forms and WhatsApp messages. The burden is not one hard process but the **number of small tasks**: opening and closing orders, confirming them, reminding people of delivery dates, following payments and checking who collected their basket.
+**Problem**
 
-**Objectives.**
+Today producers and AMAP managers run each AMAP with spreadsheets, online forms and WhatsApp messages. The burden is not one hard process but the **number of small tasks**: opening and closing orders, confirming them, reminding people of delivery dates, following payments and checking who collected their basket.
+
+**Objectives**
 - Reduce the manual work of producers and AMAP management in each subscription cycle.
 - Give co-producers clear information on what they ordered, what they will collect, when, and how much they owe.
 - Simplify payments: the co-producer makes a single payment per period, split among the producers through a licensed payment provider.
 - Keep the direct relationship between producers and co-producers, which is central to AMAPs: the platform simplifies the process but does not replace that contact.
 
-**Main features** (section 3):
+**Main features (section 3)**
 1. AMAP and member management (3.1)
 2. Catalogue and offers (3.2)
 3. Cycles and subscriptions (3.3)
@@ -84,13 +96,15 @@ FAIR-AMAP is a web platform, also installable on mobile phones (PWA), that helps
 7. Community and organisation (3.7)
 8. Reports and indicators (3.8)
 
-**Out of scope.**
+**Out of scope**
 - Founding or promoting new AMAPs: FAIR-AMAP supports AMAPs that already exist and register to use it.
 - Issuing invoices: each producer keeps invoicing as today (NFR-18).
 - Holding the co-producers' money: payments go through a licensed provider (NFR-19).
 - Baskets that combine products from several producers.
 
-**Business goals.** FAIR plans a pilot in Portugal, with the platform offered almost free of charge to collect feedback, and later a minimum fee per AMAP plus a percentage of the transactions (NFR-21). The product supports local, seasonal and fair food distribution, in line with the SDGs that guide FAIR's mission.
+**Business goals**
+
+FAIR plans a pilot in Portugal, with the platform offered almost free of charge to collect feedback, and later a minimum fee per AMAP plus a percentage of the transactions (NFR-21). The product supports local, seasonal and fair food distribution, in line with the SDGs that guide FAIR's mission.
 
 ## 1.4 References
 

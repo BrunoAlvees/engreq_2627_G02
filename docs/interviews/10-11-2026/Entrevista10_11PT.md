@@ -2,7 +2,7 @@
 
 **Atualizado em:** 10/11/2026 · Fonte nos requisitos: **E-8**
 
-Este documento resume a entrevista feita na aula PL de 10/11/2026 (cerca de 17 minutos). O professor fez o papel dos stakeholders: **representante da FAIR** (cliente) e **gestão de uma AMAP**. O guião está em [PerguntasEntrevista10_11PT](PerguntasEntrevista10_11PT.md).
+Este documento resume a entrevista feita na aula PL de 10/11/2026 (30 minutos). O professor fez o papel dos stakeholders: **representante da FAIR** (cliente) e **gestão de uma AMAP**. O guião está em [PerguntasEntrevista10_11PT](PerguntasEntrevista10_11PT.md).
 
 A informação foi registada durante a entrevista. Os pontos pouco claros estão assinalados como "a confirmar".
 

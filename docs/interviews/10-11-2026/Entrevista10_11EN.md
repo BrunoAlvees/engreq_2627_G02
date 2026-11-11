@@ -2,7 +2,7 @@
 
 **Updated on:** 10/11/2026 · Source in the requirements: **E-8**
 
-This document summarises the interview held in the PL class of 10/11/2026 (about 17 minutes). The lecturer played the stakeholders: **FAIR representative** (client) and **AMAP management**. The interview guide is in [PerguntasEntrevista10_11PT](PerguntasEntrevista10_11PT.md).
+This document summarises the interview held in the PL class of 10/11/2026 (30 minutes). The lecturer played the stakeholders: **FAIR representative** (client) and **AMAP management**. The interview guide is in [PerguntasEntrevista10_11PT](PerguntasEntrevista10_11PT.md).
 
 The information was noted down during the interview. Unclear points are marked "to confirm".
 

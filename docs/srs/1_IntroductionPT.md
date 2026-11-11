@@ -18,15 +18,17 @@ Os requisitos foram levantados através de entrevistas com stakeholders e da an�
 
 ## 1.2 Convenções do documento
 
-**Redação dos requisitos.** Cada requisito é uma frase verificável, escrita como "O sistema deve…" ("The system shall…" na versão inglesa). Os requisitos funcionais estão em tabelas com as colunas **ID · Requisito · Ator · Prioridade**.
+**Redação dos requisitos**
 
-**Identificadores.**
+Cada requisito é uma frase verificável, escrita como "O sistema deve…" ("The system shall…" na versão inglesa). Os requisitos funcionais estão em tabelas com as colunas **ID · Requisito · Ator · Prioridade**.
+
+**Identificadores**
 - `FR-nn`: requisitos funcionais (FR-01 a FR-45), numerados de seguida pela ordem das funcionalidades da secção 3.
 - `NFR-nn`: requisitos não funcionais (NFR-01 a NFR-24), nas secções 2.4, 6, 7, 8 e 9.
 - As funcionalidades identificam-se pelo número da secção (3.1 a 3.8).
 - `AS-nn` e `DE-nn`: pressupostos e dependências (secção 2.5). `L-n`: limitações da elicitação (secção 10.4).
 
-**Prioridade (MoSCoW).**
+**Prioridade (MoSCoW)**
 
 | Código | Significado |
 |---|---|
@@ -36,7 +38,9 @@ Os requisitos foram levantados através de entrevistas com stakeholders e da an�
 
 O que fica fora do âmbito está indicado na secção 1.3.
 
-**Estado.** As secções 2.4, 6 e 10.4 indicam até que ponto um requisito ou restrição foi confirmado, com os valores seguintes. A secção 2.5 usa valores próprios para os pressupostos.
+**Estado**
+
+As secções 2.4, 6 e 10.4 indicam até que ponto um requisito ou restrição foi confirmado, com os valores seguintes. A secção 2.5 usa valores próprios para os pressupostos.
 
 | Estado | Significado |
 |---|---|
@@ -45,7 +49,9 @@ O que fica fora do âmbito está indicado na secção 1.3.
 | Ideia | Proposta do grupo a avaliar na implementação |
 | Validado | Confirmado pelo cliente ou por um stakeholder, com a fonte |
 
-**Fontes.** As secções 2.4, 2.5, 6, 10 e o anexo 12.3 indicam as suas fontes com os códigos abaixo. As sessões estão detalhadas no anexo 12.3; as outras fontes estão nas referências da secção 1.4.
+**Fontes**
+
+As secções 2.4, 2.5, 6, 10 e o anexo 12.3 indicam as suas fontes com os códigos abaixo. As sessões estão detalhadas no anexo 12.3; as outras fontes estão nas referências da secção 1.4.
 
 | Código | Fonte |
 |---|---|
@@ -58,23 +64,29 @@ O que fica fora do âmbito está indicado na secção 1.3.
 | PA-nn | Perguntas em aberto ao cliente (repositório [24]) |
 | Hip. | Hipótese do grupo, sem fonte de stakeholder |
 
-**Termos.** "AMAP" e "CSA" usam-se como sinónimos. Um **coprodutor** é um consumidor que subscreve os produtos de uma AMAP; um **produtor** é um agricultor ou transformador que os fornece; a **gestão da AMAP** é a pessoa, comissão ou grupo de trabalho que organiza a AMAP. Os outros termos estão definidos no glossário (anexo 12.1).
+**Termos**
 
-**Tipografia e datas.** O negrito assinala termos e decisões importantes. As datas escrevem-se dd/mm/aaaa (ou dd/mm quando o ano é 2026).
+"AMAP" e "CSA" usam-se como sinónimos. Um **coprodutor** é um consumidor que subscreve os produtos de uma AMAP; um **produtor** é um agricultor ou transformador que os fornece; a **gestão da AMAP** é a pessoa, comissão ou grupo de trabalho que organiza a AMAP. Os outros termos estão definidos no glossário (anexo 12.1).
+
+**Tipografia e datas**
+
+O negrito assinala termos e decisões importantes. As datas escrevem-se dd/mm/aaaa (ou dd/mm quando o ano é 2026).
 
 ## 1.3 Âmbito do projeto
 
 A FAIR-AMAP é uma plataforma web, que também se pode instalar no telemóvel (PWA), para ajudar as AMAP que já existem a organizar o seu trabalho. Cada AMAP mantém as suas regras: a plataforma serve várias AMAP independentes, cada uma com um ou vários produtores, e as diferenças entre elas resolvem-se por configuração.
 
-**Problema.** Hoje os produtores e a gestão gerem cada AMAP com folhas de cálculo, formulários online e mensagens de WhatsApp. O peso não está num processo difícil, mas no **número de pequenas tarefas**: abrir e fechar encomendas, confirmá-las, lembrar as datas de entrega, acompanhar os pagamentos e saber quem levantou o cabaz.
+**Problema**
 
-**Objetivos.**
+Hoje os produtores e a gestão gerem cada AMAP com folhas de cálculo, formulários online e mensagens de WhatsApp. O peso não está num processo difícil, mas no **número de pequenas tarefas**: abrir e fechar encomendas, confirmá-las, lembrar as datas de entrega, acompanhar os pagamentos e saber quem levantou o cabaz.
+
+**Objetivos**
 - Reduzir o trabalho manual dos produtores e da gestão da AMAP em cada ciclo de subscrição.
 - Dar aos coprodutores informação clara sobre o que encomendaram, o que vão levantar, quando e quanto devem.
 - Simplificar os pagamentos: o coprodutor faz um só pagamento por período, dividido pelos produtores através de um prestador de pagamentos licenciado.
 - Manter a relação direta entre produtores e coprodutores, que é central nas AMAP: a plataforma simplifica o processo, mas não substitui esse contacto.
 
-**Funcionalidades principais** (secção 3):
+**Funcionalidades principais (secção 3)**
 1. Gestão da AMAP e dos membros (3.1)
 2. Catálogo e ofertas (3.2)
 3. Ciclos e subscrições (3.3)
@@ -84,13 +96,15 @@ A FAIR-AMAP é uma plataforma web, que também se pode instalar no telemóvel (P
 7. Comunidade e organização (3.7)
 8. Relatórios e indicadores (3.8)
 
-**Fora do âmbito.**
+**Fora do âmbito**
 - Fundar ou promover novas AMAP: a FAIR-AMAP apoia as AMAP que já existem e se registam para a usar.
 - Emitir faturas: cada produtor continua a faturar como hoje (NFR-18).
 - Guardar o dinheiro dos coprodutores: os pagamentos passam por um prestador licenciado (NFR-19).
 - Cabazes que juntam produtos de vários produtores.
 
-**Objetivos de negócio.** A FAIR prevê uma experiência piloto em Portugal, com a plataforma quase gratuita para recolher feedback, e mais tarde uma fee mínima por AMAP mais uma percentagem das transações (NFR-21). O produto apoia uma distribuição alimentar local, sazonal e justa, em linha com os ODS que orientam a missão da FAIR.
+**Objetivos de negócio**
+
+A FAIR prevê uma experiência piloto em Portugal, com a plataforma quase gratuita para recolher feedback, e mais tarde uma fee mínima por AMAP mais uma percentagem das transações (NFR-21). O produto apoia uma distribuição alimentar local, sazonal e justa, em linha com os ODS que orientam a missão da FAIR.
 
 ## 1.4 Referências
 
