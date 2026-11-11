@@ -13,7 +13,7 @@ O enunciado pede a metodologia de elicitação apresentada na unidade curricular
 | 2. Preparar | Estudar as fontes existentes antes de reunir com os stakeholders: documentos, concorrentes, mercado, diferenciação. Escrever primeiro perguntas abertas e depois específicas (conselho do docente) | [Técnicas 1 a 4](../tecnicas/README.md), listas de perguntas |
 | 3. Elicitar | Sessões com stakeholders (cliente, produtor, coprodutor) e notas das aulas; brainstorms de grupo | [Notas das sessões e complementos](../interviews/) |
 | 4. Analisar e especificar | Consolidar o que foi ouvido em requisitos candidatos com uma **fonte** para cada um; atribuir prioridade (MoSCoW); marcar o que não está validado; reduzir e agrupar requisitos | [Requisitos por funcionalidade](../requisitos/README.md) |
-| 5. Validar | Levar os requisitos marcados "A validar" e as perguntas em aberto (DV, PA) às sessões seguintes; atualizar os documentos com as respostas | [Perguntas da semana de 02/11](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) |
+| 5. Validar | Levar os requisitos marcados "A validar" e as perguntas em aberto (DV, PA) às sessões seguintes; atualizar os documentos com as respostas | [Perguntas da semana de 02/11](../interviews/10-11-2026/PerguntasEntrevista10_11PT.md) |
 
 ## Princípios seguidos
 
@@ -39,7 +39,7 @@ O enunciado pede a metodologia de elicitação apresentada na unidade curricular
 | semana de 19/10 | Aula: a faturação está fora do âmbito (E-6) | Entrevista (cliente) | [README dos requisitos](../requisitos/README.md) |
 | 28/10 | Aula: como um produtor entra numa AMAP (E-7); requisitos reduzidos (conselho do docente) | Entrevista (cliente), análise | [requisitos/](../requisitos/README.md) |
 | 30/10 | Identificadores alterados para `FR-nn` / `NFR-nn` | Análise | [README dos requisitos](../requisitos/README.md) |
-| semana de 02/11 | Sessões de validação com o cliente, o produtor e a gestão da AMAP (30 min) | Entrevista | [Perguntas](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) *(sessão ainda não realizada à data de escrita)* |
+| semana de 02/11 | Sessões de validação com o cliente, o produtor e a gestão da AMAP (30 min) | Entrevista | [Perguntas](../interviews/10-11-2026/PerguntasEntrevista10_11PT.md) *(sessão ainda não realizada à data de escrita)* |
 
 ## Papéis no processo
 

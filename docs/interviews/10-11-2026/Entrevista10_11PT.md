@@ -2,9 +2,9 @@
 
 **Atualizado em:** 10/11/2026 · Fonte nos requisitos: **E-8**
 
-Este documento resume a entrevista feita na aula PL de 10/11/2026 (cerca de 17 minutos). O professor fez o papel dos stakeholders: **representante da FAIR** (cliente) e **gestão de uma AMAP**. O guião está em [PerguntasEntrevistas](../semana-02-11-2026/PerguntasEntrevistasPT.md).
+Este documento resume a entrevista feita na aula PL de 10/11/2026 (cerca de 17 minutos). O professor fez o papel dos stakeholders: **representante da FAIR** (cliente) e **gestão de uma AMAP**. O guião está em [PerguntasEntrevista10_11PT](PerguntasEntrevista10_11PT.md).
 
-A informação foi registada durante a entrevista e confirmada com a gravação. Os pontos pouco claros estão assinalados como "a confirmar".
+A informação foi registada durante a entrevista. Os pontos pouco claros estão assinalados como "a confirmar".
 
 ## 1. Representante da FAIR
 
@@ -30,7 +30,7 @@ A informação foi registada durante a entrevista e confirmada com a gravação.
   - nome e localização;
   - os produtos que o caracterizam e os mais importantes;
   - o modo de produção (biológico ou não).
-- Pode carregar documentos, por exemplo o certificado de produção biológica, Demeter, GRASP ou GlobalG.A.P. *(nomes pouco percetíveis na gravação; a confirmar)*.
+- Pode carregar documentos, por exemplo o certificado de produção biológica, Demeter, GRASP ou GlobalG.A.P. *(nomes a confirmar)*.
 - Estes elementos servem para a **gestão da AMAP avaliar** a candidatura. Tipicamente há uma **visita** às instalações e depois o produtor é selecionado ou não.
 - O produtor selecionado passa a **produtor ativo**.
 - O processo pode variar de AMAP para AMAP, mas há sempre um **registo de produtor**.
@@ -81,6 +81,6 @@ A informação foi registada durante a entrevista e confirmada com a gravação.
 | Levantamento | FR-28, FR-29 | Botão na aplicação obrigatório; etiqueta com QR opcional. Validado. |
 
 ## 4. Perguntas que ficaram por fazer
-- Ao **produtor**: antecedência para planear, faltas de produto, compensação quando um produtor sai.
-- À **gestão**: renovação (intenção ou confirmação obrigatória), verificação de pagamentos e atrasos.
-- À **FAIR**: prazo de conservação dos dados depois da saída (PA-04) e PA-02 (ciclo e compromisso).
+- Ao **produtor** (não foi entrevistado): antecedência para planear, faltas de produto, compensação quando um produtor sai, aviso prévio para sair (PA-04), quando cobra cada produto (DV-18 a DV-20), mudança de preço a meio do ciclo e cancelamento de entregas (DV-17).
+- À **gestão**: renovação (intenção ou confirmação obrigatória), verificação de pagamentos e atrasos, quem monta o formulário de encomenda e o calendário (DV-07, DV-08), entregas experimentais pagas e entrada a meio do ciclo (DV-01, DV-03, DV-05), app ou link e rede no ponto de entrega (DV-28), voluntários e cabazes por levantar (DV-14, DV-15), registo de alergias na aplicação (FR-19), adesão só a produtos de outros produtores (DV-04), confirmação da encomenda ao coprodutor (DV-10).
+- À **FAIR**: prazo de conservação dos dados depois da saída (PA-04), PA-02 (ciclo e compromisso), compatibilidade do pagamento centralizado com a Carta de Princípios (C6), contrato ou período de experiência e suporte dado às AMAP, metas de desempenho (NFR-02, NFR-10).

@@ -59,7 +59,7 @@ Effort scale: 1 = small (a few paragraphs, or moving existing text), 2 = medium,
 | Appendix: Analysis models – subscription cycle flow and delivery day flow | to do in [diagramas/](requisitos/diagramas/README.md) | 2 | Bruno | 10/11 |
 | Appendix: Analysis models – joining flow (co-producers and producers) and member/delivery state diagrams | to do in [diagramas/](requisitos/diagramas/README.md) | 2 | João | 10/11 |
 | Appendix: Elicitation data detail | draft: [srs/12.3](srs/12.3_DetalheDadosElicitacaoEN.md); add the next session | 1 | Liane | 10/11 |
-| Prepare and run the next client session (DV questions, 8 marked High) | [questions](interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) (done) | 3 | Liane | session date (to confirm); summary the next day |
+| Prepare and run the next client session (DV questions, 8 marked High) | [questions](interviews/10-11-2026/PerguntasEntrevista10_11PT.md) (done) | 3 | Liane | session date (to confirm); summary the next day |
 | Assemble the final Word document and check consistency | — | 3 | Bruno | 13/11 |
 | Competitor analysis: PT version | [EN version](tecnicas/CompetitorAnalysis.md) | 1 | Jakub | 11/11 |
 
