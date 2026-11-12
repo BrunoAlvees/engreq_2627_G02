@@ -1,6 +1,6 @@
 # 6 Requisitos de interfaces externas
 
-**Responsável:** Leonor Marinho · **Atualizado em:** 04/11/2026 · **Estado:** rascunho para revisão
+**Responsável:** Leonor Marinho · **Atualizado em:** 12/11/2026 · **Estado:** atualizado com a E-8, para revisão
 **Fontes:** [NFR](../requisitos/RNF_AtributosQualidadePT.md) §1 e §6, [diagrama de contexto](../requisitos/diagramas/DiagramaContextoPT.md), ficheiros de funcionalidades [RF01–RF08](../requisitos/README.md); códigos de fonte em [requisitos/README.md](../requisitos/README.md)
 
 Esta secção descreve como a FAIR-AMAP se liga aos seus **utilizadores** (6.1), a outro **software** (6.2), a **hardware** (6.3) e aos **canais de comunicação** (6.4). Os requisitos propriamente ditos estão no ficheiro dos NFR; aqui são apenas referenciados (`NFR-nn`) e explicados. As escolhas de interface que nenhum stakeholder confirmou estão marcadas como *Proposto* ou *A validar*.
@@ -29,7 +29,7 @@ Esta secção descreve como a FAIR-AMAP se liga aos seus **utilizadores** (6.1),
 | Coprodutor | **Início** | Próxima entrega (data, local, o que vai levantar, peso aproximado), valor em dívida, lembretes pendentes | FR-21, FR-25, FR-31, FR-35 |
 | Coprodutor | **Subscrever um ciclo** | Produtos de todos os produtores da AMAP num só formulário, com opções, data-limite e confirmação no fim | FR-17, FR-18, FR-19 |
 | Coprodutor | **Ausência** | Comunicar uma ausência, escolher o que acontece ao cabaz entre as opções definidas pela AMAP, indicar quem o levanta | FR-27 |
-| Coprodutor | **Levantamento** | Confirmar o levantamento do cabaz (também com rede fraca) | FR-28, NFR-12 |
+| Coprodutor | **Levantamento** | Confirmar o levantamento do cabaz com um **botão** (obrigatório, também com rede fraca); opcionalmente, ler o código QR da etiqueta do saco | FR-28, FR-29, NFR-12 |
 | Coprodutor | **Pagamentos** | Valor por produtor e por período, um só pagamento, histórico | FR-31, FR-32, FR-21 |
 | Produtor | **Cabaz e catálogo** | Gerir o catálogo, publicar o conteúdo do próximo cabaz, publicar ofertas pontuais | FR-11 a FR-16, FR-25 |
 | Produtor | **Planeamento e entregas** | Totais encomendados e preferências agregadas; registar faltas, compensações e quantidades efetivamente entregues | FR-23, FR-26 |
@@ -107,12 +107,12 @@ Esboços de baixa fidelidade (em texto) de três ecrãs-chave. Mostram apenas o 
 
 | # | Interface | Direção e dados | Finalidade | Requisitos relacionados | Estado |
 |---|---|---|---|---|---|
-| SI-1 | **Prestador de pagamentos licenciado** (por exemplo, MB Way), capaz de dividir um pagamento por vários produtores | Saída: pedido de pagamento com valores por produtor. Entrada: confirmação e estado do pagamento | Um pagamento por coprodutor por período, sem o sistema guardar o dinheiro | NFR-17, NFR-19, FR-32, FR-33 | Proposto (C6) |
+| SI-1 | **Prestador de pagamentos licenciado** (por exemplo, Stripe; MB Way como meio de pagamento), capaz de dividir um pagamento por vários produtores | Saída: pedido de pagamento com valores por produtor. Entrada: confirmação e estado do pagamento | Um pagamento por coprodutor por período, sem o sistema guardar o dinheiro. As comissões dos meios de pagamento são um custo do produtor ou são deduzidas de forma transparente do valor transferido (E-8) | NFR-17, NFR-19, FR-32, FR-33 | Validado (E-8) |
 | SI-2 | **Serviço de email** | Saída: notificações, lembretes e avisos. Entrada: estado de entrega (opcional) | Lembretes, confirmações, avisos da gestão | NFR-15, FR-35, FR-36 | Proposto |
 | SI-3 | **Web push** através da PWA | Saída: notificações push para telemóveis | As mesmas notificações no telemóvel, quando o utilizador as ativa. **No iPhone, o push só funciona se a PWA estiver instalada no ecrã principal**; caso contrário, o utilizador só recebe email | NFR-01, NFR-15 | Proposto |
 | SI-4 | **WhatsApp Business API** (ou SMS) | Saída: mensagens individuais (não um bot num grupo) | Canal opcional, porque o WhatsApp é o canal usado hoje | NFR-15 *(Could)* | Ideia |
 | SI-5 | **Exportação para folha de cálculo** (CSV/XLSX) | Saída: encomendas, entregas e pagamentos | Para quem trabalha hoje em Excel | NFR-16, FR-42 | Proposto |
-| SI-6 | **Geração de PDF** (A4) | Saída: folha de distribuição e etiquetas dos sacos | Impressos no ponto de distribuição | FR-29 | Proposto |
+| SI-6 | **Geração de PDF** (A4) | Saída: folha de distribuição e etiquetas dos sacos | Impressos no ponto de distribuição. A etiqueta com o nome pode ter um **código QR opcional**, lido para confirmar o levantamento (E-8) | FR-28, FR-29 | Proposto |
 | SI-7 | **Exportação de dados anonimizados** para organizações da rede e investigadores | Saída: dados anonimizados, ou dados de membros que deram consentimento | Relatórios e indicadores | FR-44, FR-05 | Proposto |
 | SI-8 | **Importação de dados existentes** de folhas de cálculo (CSV/XLSX) e de respostas de formulários | Entrada: membros, subscrições e produtos que já estão em Excel e Google Forms | Evitar que cada AMAP tenha de reintroduzir tudo à mão quando começa a usar a plataforma | FR-45, pressuposto DE-08 em [2.5](2.5_PressupostosDependenciasPT.md) | Ideia |
 
@@ -124,9 +124,8 @@ A FAIR-AMAP é uma aplicação web e **não tem interface direta com hardware es
 
 - **Telemóveis e tablets** (Android e iPhone), com um navegador atual, para a PWA, as notificações push e a confirmação do levantamento (NFR-01, NFR-12).
 - **Computadores** com um navegador atual, para a gestão e os produtores.
-- **Impressoras** (A4) para a folha de distribuição e as etiquetas dos sacos (FR-29). O sistema apenas gera o PDF.
-
-*Possíveis itens futuros (não pedidos por nenhum stakeholder):* câmara para códigos QR no levantamento. A avaliar apenas se o grupo assim o decidir.
+- **Impressoras** (A4) para a folha de distribuição e as etiquetas dos sacos (FR-29). O sistema apenas gera o PDF. Nem todos os produtores têm impressora, pelo que imprimir é opcional (E-8).
+- **Câmara do telemóvel** (opcional), para ler o código QR da etiqueta do saco e confirmar o levantamento. O docente chamou-lhe "uma funcionalidade gira" (E-8). Quem não tem impressora ou não lê o código toca apenas no botão da aplicação (FR-28).
 
 ## 6.4 Interfaces de comunicação
 
@@ -141,6 +140,6 @@ A FAIR-AMAP é uma aplicação web e **não tem interface direta com hardware es
 
 ## Pontos em aberto
 
-- **Prestador de pagamentos e canais:** que prestador(es) são aceitáveis e que canais querem de facto os coprodutores (muitos usam hoje o WhatsApp)? Depende de **C6** e da confirmação de E-5 com o docente.
+- **Prestador de pagamentos e canais:** o cliente aceitou a cobrança através de um prestador como o Stripe (E-8, pelo que a C6 está resolvida). Continua em aberto: que prestador e se o MB Way é oferecido como meio, e que canais querem os coprodutores (muitos usam hoje o WhatsApp).
 - **Esboços de interface:** são suficientes para o SRS, ou o docente espera maquetas? A perguntar na próxima sessão.
 - **Novos identificadores:** `UI-n`, `SI-n` e `CI-n` são locais a esta secção. Se o grupo preferir, podem passar a `NFR-nn` (o próximo número livre é NFR-25), atualizando PT e EN.
