@@ -65,6 +65,7 @@ The information was noted down during the interview. Unclear points are marked "
 ### 2.7. Collection confirmation and labels
 - In Porto there is always a **label with the name**. Sometimes it is **printed**, sometimes **handwritten** (like the one on Luisa's basket).
 - **Essential:** the application must let the co-producer **report that the basket was collected**.
+- The lecturer called the QR code idea **"a nice feature"** ("funcionalidade gira"), but warned that not every producer has a printer.
 - **Optional:** whoever has a printer prints the label with the name and a **QR code**, which is scanned to confirm collection. Whoever has no printer just **taps a button** in the application.
 
 ## 3. Impact on the requirements

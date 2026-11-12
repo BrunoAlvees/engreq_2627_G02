@@ -8,7 +8,7 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 ## Sequências estímulo/resposta
 - O produtor publica a composição do cabaz → cada coprodutor vê o que vai levantar, já com as suas exclusões e o peso aproximado.
 - O coprodutor indica que vai faltar → escolhe o destino do cabaz entre as opções da AMAP e o produtor é avisado.
-- O coprodutor levanta o cabaz → confirma o levantamento na aplicação (ou, se a ideia do QR code avançar, lê o QR do saco).
+- O coprodutor levanta o cabaz → confirma o levantamento com um botão na aplicação ou, se o produtor imprimiu as etiquetas com QR, lendo o QR do saco.
 - O horário de distribuição termina com cabazes por confirmar → o sistema avisa o coprodutor e o produtor.
 
 ## Requisitos funcionais
@@ -51,16 +51,17 @@ Gere o calendário de distribuição e tudo o que acontece em cada entrega: comp
 - Depois do horário de distribuição, o sistema pede a confirmação a quem ainda não a fez.
 - No fim do horário, o sistema assinala os cabazes não confirmados e avisa o coprodutor e o produtor.
 - Um voluntário, a gestão ou o produtor pode confirmar em nome de um coprodutor sem telemóvel.
-- *(Opcional, E-8)* Quem tiver impressora pode imprimir etiquetas com o nome e um QR code individual: ao lê-lo, o coprodutor confirma o levantamento desse saco e o sistema avisa se o saco não for dele. Quem não tiver impressora usa só o botão na aplicação.
+- *(Opcional, E-8)* O produtor com impressora pode imprimir as etiquetas com QR code (FR-29): ao ler o QR, o coprodutor confirma o levantamento desse saco e o sistema avisa se o saco não for dele. Se o produtor não tiver impressora, os coprodutores carregam só no botão na aplicação, sem ler nada.
 
 **FR-29 – Folha de distribuição e etiquetas**
 - A folha de distribuição de cada data indica o que cada coprodutor leva, de cada produtor.
-- As etiquetas dos sacos têm o nome, "Saco x de y", o produtor e a data, sem dados de saúde (NFR-06). Hoje as etiquetas são umas vezes impressas, outras escritas à mão; imprimi-las é opcional (E-8).
+- As etiquetas dos sacos têm o nome, "Saco x de y", o produtor e a data, sem dados de saúde (NFR-06). 
+- Para cada entrega, o sistema gera automaticamente folhas A4 de etiquetas, cada uma com um QR code individual e, por baixo, o nome do coprodutor correspondente, para o produtor só ter de as imprimir (E-8). Imprimir é opcional: hoje as etiquetas são umas vezes impressas, outras escritas à mão.
 
 ## Nota: brainstorm de 14/10 sobre o levantamento
 - **Lá fora** usa-se sobretudo uma **folha impressa** onde cada um marca o seu nome (a "liste d'émargement" das AMAP francesas, gerada pelo Cagette; a folha de registo da Lancaster Farm Fresh, nos EUA). Não encontrámos nenhuma solução com confirmação por QR code.
 - **Decisão do grupo:** a base é a **confirmação na aplicação** (FR-28), com lembrete para quem se esquece. Uma folha única não traz vantagem sobre a aplicação.
-- O **QR individual por saco** evitaria trocas de sacos, mas obriga o produtor a imprimir e colar etiquetas todas as semanas. Ficou como **ideia** a validar (DV-27, DV-28). **Validado em 10/11 (E-8):** o essencial é o botão na aplicação; o QR na etiqueta é opcional, para quem tem impressora.
+- O **QR individual por saco** evitaria trocas de sacos, mas obriga o produtor a imprimir e colar etiquetas todas as semanas. Ficou como **ideia** a validar (DV-27, DV-28). **Validado em 10/11 (E-8):** o professor achou "uma funcionalidade gira"; o essencial é o botão na aplicação, e as etiquetas com QR, geradas automaticamente em folhas A4, são opcionais para os produtores com impressora.
 
 ## Correspondência com a versão anterior
 Na revisão de 28/10, os 20 requisitos anteriores foram agrupados em 6, para reduzir o detalhe (indicação do professor). O detalhe passou para os critérios de aceitação.

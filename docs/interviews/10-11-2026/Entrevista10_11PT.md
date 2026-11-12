@@ -65,6 +65,7 @@ A informação foi registada durante a entrevista. Os pontos pouco claros estão
 ### 2.7. Confirmação de levantamento e etiquetas
 - No Porto há sempre uma **etiqueta com o nome**. Umas vezes é **impressa**, outras **escrita à mão** (como a do cabaz da Luisa).
 - **Essencial:** a aplicação deve permitir **comunicar o recebimento** do cabaz.
+- O professor achou a ideia do QR code **"uma funcionalidade gira"**, mas avisou que nem todos os produtores têm impressora.
 - **Opcional:** quem tem impressora imprime a etiqueta com o nome e um **QR code**, que se lê para confirmar o levantamento. Quem não tem impressora confirma só **carregando num botão** na aplicação.
 
 ## 3. Impacto nos requisitos
