@@ -1,6 +1,6 @@
 # RF05 – Payments and invoicing
 
-**Updated on:** 10/11/2026 · [Conventions and sources](README.md)
+**Updated on:** 11/11/2026 · [Conventions and sources](README.md)
 
 ## Description
 Calculates how much each co-producer has to pay, collects it in a single payment and distributes it among producers. Today, at AMAP Porto, each producer is paid directly, with their own methods and timing (monthly fee for baskets, meat after weighing, mushrooms at each delivery). BioGoods does the maths in Excel and sends the amount by message, and the co-producer has no simple way to know how much they owe.
@@ -19,7 +19,7 @@ Calculates how much each co-producer has to pay, collects it in a single payment
 ## Functional requirements
 | ID | Requirement | Actor | Prio. | Source | Status |
 |---|---|---|---|---|---|
-| FR-30 | The system shall allow configuring payments for each AMAP and each producer: available methods, the account where each producer is paid and when each product is charged. | Management, Producer | M | D-A, D-C §4.3, E-1 §3.9, E-3 §4, CA, DOC-10, N7, group proposal (based on E-5) | To validate (C3) |
+| FR-30 | The system shall allow configuring payments for each AMAP and each producer: available methods, the account where each producer is paid and when each product is charged. | Management, Producer | M | D-A, D-C §4.3, E-1 §3.9, E-3 §4, CA, DOC-10, N7, group proposal (based on E-5) | Proposed (C3) |
 | FR-31 | The system shall calculate the amount each co-producer pays in each period, broken down by producer, and send them the payment request. | System, Co-producer | M | E-2 §2, D-A, E-3 §4, DOC-09, DOC-17, N6, N8 | Proposed |
 | FR-32 | The system shall collect in a single payment a co-producer's amount for several producers, with the amount split among producers through a licensed payment provider (the system does not hold the money). | Co-producer, System | M | Group proposal (based on E-5), E-8, E-1 §3.9, E-2 §13, PSD2, D-C §4.3, DOC-11 | Validated (E-8) |
 | FR-33 | The system shall allow tracking payments: status per co-producer, late payments and a summary of payments received by each producer. | System, Management, Producer | M | Group proposal (based on E-5), E-2 §2, DOC-09, DV-19, DV-20 | Proposed |

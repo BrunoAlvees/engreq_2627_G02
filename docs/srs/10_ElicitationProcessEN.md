@@ -13,7 +13,7 @@ The assignment asks for the elicitation methodology presented in the course, wit
 | 2. Prepare | Study existing sources before meeting stakeholders: documents, competitors, market, differentiation. Write open questions first and specific ones afterwards (lecturer's advice) | [Techniques 1 to 4](../tecnicas/README.md), question lists |
 | 3. Elicit | Sessions with stakeholders (client, producer, co-producer) and notes from classes; group brainstorms | [Session notes and supplements](../interviews/) |
 | 4. Analyse and specify | Consolidate what was heard into candidate requirements with a **source** for each one; give priority (MoSCoW); mark what is not validated; reduce and group requirements | [Requirements by feature](../requisitos/README.md) |
-| 5. Validate | Take the requirements marked "To validate" and the open questions (DV, PA) to the next sessions; update the documents with the answers | [Questions for the week of 02/11](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) |
+| 5. Validate | Take the requirements marked "To validate" and the open questions (DV, PA) to the next sessions; update the documents with the answers | [Questions for the week of 02/11](../interviews/10-11-2026/PerguntasEntrevista10_11PT.md) |
 
 ## Principles followed
 
@@ -39,7 +39,7 @@ The assignment asks for the elicitation methodology presented in the course, wit
 | week of 19/10 | Class: invoicing is out of scope (E-6) | Interview (client) | [Requirements README](../requisitos/README.md) |
 | 28/10 | Class: how a producer joins an AMAP (E-7); requirements reduced (lecturer's advice) | Interview (client), analysis | [requisitos/](../requisitos/README.md) |
 | 30/10 | Identifiers changed to `FR-nn` / `NFR-nn` | Analysis | [Requirements README](../requisitos/README.md) |
-| week of 02/11 | Validation sessions with client, producer and AMAP management (30 min) | Interview | [Questions](../interviews/semana-02-11-2026/PerguntasEntrevistasPT.md) *(session not yet held when this was written)* |
+| week of 02/11 | Validation sessions with client, producer and AMAP management (30 min) | Interview | [Questions](../interviews/10-11-2026/PerguntasEntrevista10_11PT.md) *(session not yet held when this was written)* |
 
 ## Roles in the process
 

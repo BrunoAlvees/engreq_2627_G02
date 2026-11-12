@@ -1,6 +1,6 @@
 # RF01 – Gestão da AMAP e dos membros
 
-**Atualizado em:** 10/11/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 11/11/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Permite criar e configurar AMAP independentes (com um ou vários produtores) e gerir o percurso de cada pessoa: pedido de adesão, entregas experimentais, lista de espera, inscrição, dados pessoais e consentimentos. Hoje, a adesão é feita por contacto direto com a produtora principal, os dados chegam por Google Forms e não há registo do estado de cada membro.
@@ -25,7 +25,7 @@ Permite criar e configurar AMAP independentes (com um ou vários produtores) e g
 | FR-07 | O sistema deve permitir que um coprodutor pertença a várias AMAP e registar a sua saída a meio de uma subscrição. | Coprodutor, Gestão | S | E-2 §6, §7, §9, E-8, D-F, DOC-32, C5, Brainstorm 14/10 | Validado (E-8) |
 | FR-08 | O sistema deve gerir a entrada de um novo produtor numa AMAP, desde a candidatura até à definição do que pode entregar e quando. | Produtor, Gestão | M | E-7 (aula de 28/10), E-2 §1 (a BioGoods entrou quando o produtor anterior saiu), E-2 §3, E-8 | Validado (E-8) |
 | FR-09 | O sistema deve gerir a saída de um produtor de uma AMAP, garantindo que as entregas já pagas pelos coprodutores são cumpridas ou compensadas. | Produtor, Gestão | S | E-2 §1 (o produtor anterior da AMAP Baixa deixou de participar), D-C, D-E (partilha de riscos), proposta do grupo de 28/10, E-8 | Validado em parte (E-8; falta o aviso prévio, PA-04) |
-| FR-10 | O sistema deve permitir a uma AMAP deixar de usar a plataforma, exportando os seus dados antes de serem anonimizados. | Gestão, Admin FAIR | C | NFR-22, NFR-08, RGPD art. 20.º, proposta do grupo de 28/10 | A validar (PA-04) |
+| FR-10 | O sistema deve permitir a uma AMAP deixar de usar a plataforma, exportando os seus dados antes de serem anonimizados. | Gestão, Admin FAIR | C | NFR-22, NFR-08, RGPD art. 20.º, proposta do grupo de 28/10 | Proposto (PA-04) |
 | FR-45 | O sistema deve permitir a uma AMAP importar os dados que já tem (membros, subscrições e produtos guardados em folhas de cálculo ou respostas de formulários) quando começa a usar a plataforma. | Gestão, Produtor | C | DE-08 ([2.5](../srs/2.5_PressupostosDependenciasPT.md)), SI-8 ([6](../srs/6_ExternalInterfacesPT.md)), E-2 §2 (Excel por AMAP), E-3 §2 (Google Forms), acordo do grupo de 05/11 | Proposto |
 
 ## Critérios de aceitação

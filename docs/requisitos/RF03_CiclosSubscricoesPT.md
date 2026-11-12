@@ -1,6 +1,6 @@
 # RF03 – Ciclos e subscrições
 
-**Atualizado em:** 28/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 11/11/2026 · [Convenções e fontes](README.md)
 
 ## Descrição
 Organiza o trabalho em ciclos (hoje semestrais na AMAP Porto; trimestrais ou anuais noutras) e permite ao coprodutor subscrever os produtos de cada ciclo, com as suas opções e exclusões. Substitui o formulário Google e a cópia por email que os coprodutores guardam para saber o que encomendaram. Também dá ao produtor a visão das encomendas para planear a produção.
@@ -19,7 +19,7 @@ Organiza o trabalho em ciclos (hoje semestrais na AMAP Porto; trimestrais ou anu
 | FR-19 | O sistema deve permitir ao coprodutor registar exclusões (alergias, intolerâncias, gostos) e ao produtor indicar a substituição feita. | Coprodutor, Produtor | M | E-2 §4, E-3 §14, N2 | Proposto |
 | FR-20 | O sistema deve aplicar os prazos de subscrição e as regras de cada produtor para alterar encomendas durante o ciclo. | Coprodutor, Produtor, Gestão | S | D-A, E-3 §3, DOC-13, N18, Brainstorm 14/10 | Proposto |
 | FR-21 | O sistema deve permitir ao coprodutor consultar, a qualquer momento, as subscrições em curso e o histórico. | Coprodutor | M | E-3 §1, N6, DOC-17 | Proposto |
-| FR-22 | O sistema deve perguntar aos coprodutores, com antecedência, se renovam, partindo da encomenda anterior. | Coprodutor, Gestão | S | E-2 §7, N12, DV-11, C8, Brainstorm 14/10 | A validar (DV-12) |
+| FR-22 | O sistema deve perguntar aos coprodutores, com antecedência, se renovam, partindo da encomenda anterior. | Coprodutor, Gestão | S | E-2 §7, N12, DV-11, C8, Brainstorm 14/10 | Proposto (DV-12) |
 | FR-23 | O sistema deve dar ao produtor a informação para planear a produção: totais encomendados e preferências agregadas. | Produtor | M | E-1 §3.5, E-1 (aula 1), E-2 §2, §13 | Proposto |
 
 ## Critérios de aceitação

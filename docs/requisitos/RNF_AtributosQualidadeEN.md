@@ -1,6 +1,6 @@
 # NFR – Quality attributes, interfaces and constraints
 
-**Updated on:** 28/10/2026 · [Conventions and sources](README.md)
+**Updated on:** 11/11/2026 · [Conventions and sources](README.md)
 
 Non-functional requirements must be **specific and verifiable** (SRS template). Numerical values marked "Hyp." are group proposals to be discussed and validated. No stakeholder stated them.
 
@@ -8,15 +8,15 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 | ID | Requirement | Prio. | Source | Status |
 |---|---|---|---|---|
 | NFR-01 | The system shall be a responsive web application (mobile and desktop) that requires nothing to be installed, and can be installed on the phone's home screen as a PWA, without going through app stores. The system shall explain simply how to install the app (Android and iPhone) and turn on notifications. | M | E-3 (WhatsApp, email and phone notes are used today); group decision of 21/10 (avoids App Store and Play Store costs and publishing) | Proposed |
-| NFR-02 | The most frequent tasks shall be quick: a co-producer who has used the system before subscribes to a full cycle in **10 minutes** or less, without help; each recurring producer task (publishing the basket contents, recording a missing item, confirming a payment) takes **2 minutes** or less; the co-producer sees what they will collect and how much they owe within **2 clicks** of the home page. | S | E-2 §3 ("just produce"), E-3 §1, §10, CA ("minimal effort for farmers"), Hyp. (values) | To validate |
-| NFR-03 | The system shall comply with WCAG 2.1, level AA. | S | Hyp. | To validate |
+| NFR-02 | The most frequent tasks shall be quick: a co-producer who has used the system before subscribes to a full cycle in **10 minutes** or less, without help; each recurring producer task (publishing the basket contents, recording a missing item, confirming a payment) takes **2 minutes** or less; the co-producer sees what they will collect and how much they owe within **2 clicks** of the home page. | S | E-2 §3 ("just produce"), E-3 §1, §10, CA ("minimal effort for farmers"), Hyp. (values) | Proposed |
+| NFR-03 | The system shall comply with WCAG 2.1, level AA. | S | Hyp. | Proposed |
 
 ## 2. Security and data protection
 | ID | Requirement | Prio. | Source | Status |
 |---|---|---|---|---|
 | NFR-04 | Access shall require authentication. Each role only accesses the data it needs: a producer only sees the co-producers who buy from them. | M | D-B §3.1, GDPR | Proposed |
 | NFR-05 | All communications shall be encrypted (HTTPS/TLS). | M | GDPR art. 32 | Proposed |
-| NFR-06 | Allergies and intolerances are health data: they shall only be stored with explicit consent, only be visible to the producers who deliver to that co-producer, and never appear on printed labels or sheets (which show only the name and the substitutions made). | M | E-2 §4, GDPR art. 9, Brainstorm 14/10 | To validate |
+| NFR-06 | Allergies and intolerances are health data: they shall only be stored with explicit consent, only be visible to the producers who deliver to that co-producer, and never appear on printed labels or sheets (which show only the name and the substitutions made). | M | E-2 §4, GDPR art. 9, Brainstorm 14/10 | Proposed |
 | NFR-07 | The system shall record who changed orders, deliveries and payments, and when (audit log). | S | Hyp. (C3: disputed amounts) | Proposed |
 | NFR-08 | The system shall make GDPR compliance possible: producers as joint controllers, FAIR as processor, records of processing activities, breach notification within 72 h, and erasure or anonymisation of personal data when the retention period for each purpose ends, unless a legal obligation applies (e.g. tax). | M | D-B, D-B §3.1, GDPR arts. 5, 26, 28, 30, 33 | Proposed |
 
@@ -24,7 +24,7 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 | ID | Requirement | Prio. | Source | Status |
 |---|---|---|---|---|
 | NFR-09 | The system shall support AMAPs with up to **200 co-producers** and several AMAPs in the same installation. | M | E-2 §3, §6 (up to ~50 per AMAP; one CSA with ~200), D-D (34 in 2023) | Proposed |
-| NFR-10 | Main pages shall load in **2 seconds** or less for 95% of requests, even on the last subscription day. | S | Hyp. | To validate |
+| NFR-10 | Main pages shall load in **2 seconds** or less for 95% of requests, even on the last subscription day. | S | Hyp. | Proposed |
 
 ## 4. Availability and reliability
 | ID | Requirement | Prio. | Source | Status |
@@ -36,7 +36,7 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 | ID | Requirement | Prio. | Source | Status |
 |---|---|---|---|---|
 | NFR-13 | The interface shall be in **European Portuguese** and ready for other languages (e.g. English, French). | M | CA (none of the solutions analysed has a Portuguese interface) | Proposed |
-| NFR-14 | Amounts in euros with VAT included, dates in dd/mm/yyyy format and the Portuguese time zone. | M | D-A | Proposed |
+| NFR-14 | The system shall show amounts in euros with VAT included, dates in dd/mm/yyyy format and times in the Portuguese time zone. | M | D-A | Proposed |
 
 ## 6. External interfaces
 | ID | Requirement | Prio. | Source | Status |
@@ -50,8 +50,8 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 |---|---|---|---|---|
 | NFR-18 | The system shall not issue invoices: invoicing is out of scope. Each producer invoices in their own software. | M | E-6; Technique 2 results §5, C4 | Validated |
 | NFR-19 | The system shall not hold co-producers' money directly (PSD2). Collection is centralised: the co-producer makes a single payment, split among producers through a licensed payment provider (group option on 21/10, accepted by FAIR on 10/11). | M | Group proposal (based on E-5), E-8, PSD2, E-1, E-2 §13 | Validated (E-8) |
-| NFR-20 | The solution shall respect the AMAP Charter of Principles: it must not act as a commercial intermediary between producer and co-producer. | M | D-E (Charter of Principles), D-C §4.1, E-2, E-3 §5, CA; group interpretation (technique 2, results §5) | To validate (C6) |
-| NFR-21 | FAIR charges a minimum fee per AMAP plus a percentage of the value of the transactions that go through the platform; the amounts are set by FAIR and, during the pilot in Portugal, the platform is almost free. | S | E-8; group proposal (based on E-1 §4, E-5); CA and D-E favoured no commission | Validated (E-8) |
+| NFR-20 | The solution shall respect the AMAP Charter of Principles: it must not act as a commercial intermediary between producer and co-producer. | M | D-E (Charter of Principles), D-C §4.1, E-2, E-3 §5, CA; group interpretation (technique 2, results §5) | Proposed (group decision, C6) |
+| NFR-21 | The system shall support FAIR's pricing model: a minimum fee per AMAP plus a percentage of the value of the transactions that go through the platform, with the amounts set by FAIR (almost free during the pilot in Portugal). | S | E-8; group proposal (based on E-1 §4, E-5); CA and D-E favoured no commission | Validated (E-8) |
 | NFR-22 | The solution shall be a platform shared by several AMAPs (multi-AMAP), with each AMAP's data kept separate. | M | CA ("one shared instance for Portuguese AMAPs"), E-2 §1, E-8 | Validated (E-8) |
 | NFR-23 | The solution shall be maintained by FAIR over time (fixes, security updates and evolution). | S | E-1 (software built by amateurs stops being maintained) | Proposed |
 | NFR-24 | Differences between AMAPs and between producers in the same AMAP (cycle length, delivery dates and mode, change deadlines, payment timing, absence rules) shall be handled through configuration, without specific development for each AMAP or producer. | M | Principle 1 of the 14/10 brainstorm, E-2 §1, §11, E-3 §2–§4, §8, E-8 | Validated (E-8) |

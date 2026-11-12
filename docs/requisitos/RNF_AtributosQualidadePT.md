@@ -1,6 +1,6 @@
 # RNF – Atributos de qualidade, interfaces e restrições
 
-**Atualizado em:** 28/10/2026 · [Convenções e fontes](README.md)
+**Atualizado em:** 11/11/2026 · [Convenções e fontes](README.md)
 
 Os requisitos não funcionais têm de ser **específicos e verificáveis** (template do SRS). Os valores numéricos marcados "Hip." são propostas do grupo para discutir e validar. Não foram ditos por nenhum stakeholder.
 
@@ -8,15 +8,15 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
 | NFR-01 | O sistema deve ser uma aplicação web adaptável ao ecrã (telemóvel e computador), sem obrigar a instalar nada, e poder ser instalada no ecrã inicial do telemóvel como PWA, sem passar pelas lojas de aplicações. O sistema deve explicar de forma simples como instalar a aplicação (Android e iPhone) e ativar as notificações. | M | E-3 (hoje usa-se WhatsApp, email e notas no telemóvel); decisão do grupo de 21/10 (evita os custos e a publicação na App Store e na Play Store) | Proposto |
-| NFR-02 | As tarefas mais frequentes devem ser rápidas: um coprodutor que já usou o sistema subscreve um ciclo completo em **10 minutos** ou menos, sem ajuda; cada tarefa recorrente do produtor (publicar a composição do cabaz, registar uma falta, confirmar um pagamento) demora **2 minutos** ou menos; o coprodutor vê o que vai levantar e quanto deve a **2 cliques** da página inicial. | S | E-2 §3 ("só produzir"), E-3 §1, §10, CA ("pouco esforço para os agricultores"), Hip. (valores) | A validar |
-| NFR-03 | O sistema deve cumprir as WCAG 2.1, nível AA. | S | Hip. | A validar |
+| NFR-02 | As tarefas mais frequentes devem ser rápidas: um coprodutor que já usou o sistema subscreve um ciclo completo em **10 minutos** ou menos, sem ajuda; cada tarefa recorrente do produtor (publicar a composição do cabaz, registar uma falta, confirmar um pagamento) demora **2 minutos** ou menos; o coprodutor vê o que vai levantar e quanto deve a **2 cliques** da página inicial. | S | E-2 §3 ("só produzir"), E-3 §1, §10, CA ("pouco esforço para os agricultores"), Hip. (valores) | Proposto |
+| NFR-03 | O sistema deve cumprir as WCAG 2.1, nível AA. | S | Hip. | Proposto |
 
 ## 2. Segurança e proteção de dados
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
 | NFR-04 | O acesso deve exigir autenticação. Cada papel só acede aos dados de que precisa: o produtor só vê os coprodutores que lhe compram. | M | D-B §3.1, RGPD | Proposto |
 | NFR-05 | Todas as comunicações devem ser cifradas (HTTPS/TLS). | M | RGPD art. 32.º | Proposto |
-| NFR-06 | As alergias e intolerâncias são dados de saúde: só devem ser guardadas com consentimento explícito, só ficar visíveis para os produtores que entregam a esse coprodutor e nunca aparecer em etiquetas ou folhas impressas (aí só o nome e as substituições feitas). | M | E-2 §4, RGPD art. 9.º, Brainstorm 14/10 | A validar |
+| NFR-06 | As alergias e intolerâncias são dados de saúde: só devem ser guardadas com consentimento explícito, só ficar visíveis para os produtores que entregam a esse coprodutor e nunca aparecer em etiquetas ou folhas impressas (aí só o nome e as substituições feitas). | M | E-2 §4, RGPD art. 9.º, Brainstorm 14/10 | Proposto |
 | NFR-07 | O sistema deve registar quem alterou encomendas, entregas e pagamentos, e quando (registo de auditoria). | S | Hip. (C3: valores em disputa) | Proposto |
 | NFR-08 | O sistema deve permitir cumprir o RGPD: produtores como responsáveis conjuntos, FAIR como subcontratante, registo das atividades de tratamento, notificação de violações em 72 h e eliminação ou anonimização dos dados pessoais quando termina o prazo de conservação de cada finalidade, salvo obrigação legal (ex.: fiscal). | M | D-B, D-B §3.1, RGPD arts. 5.º, 26.º, 28.º, 30.º, 33.º | Proposto |
 
@@ -24,7 +24,7 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
 | NFR-09 | O sistema deve suportar AMAP com até **200 coprodutores** e várias AMAP na mesma instalação. | M | E-2 §3, §6 (até ~50 por AMAP; uma CSA com ~200), D-D (34 em 2023) | Proposto |
-| NFR-10 | As páginas principais devem abrir em **2 segundos** ou menos em 95% dos pedidos, mesmo no último dia de subscrição. | S | Hip. | A validar |
+| NFR-10 | As páginas principais devem abrir em **2 segundos** ou menos em 95% dos pedidos, mesmo no último dia de subscrição. | S | Hip. | Proposto |
 
 ## 4. Disponibilidade e fiabilidade
 | ID | Requisito | Prior. | Fonte | Estado |
@@ -36,7 +36,7 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
 | NFR-13 | A interface deve estar em **português europeu** e preparada para outras línguas (ex.: inglês, francês). | M | CA (nenhuma solução analisada tem interface em português) | Proposto |
-| NFR-14 | Valores em euros com IVA incluído, datas no formato dd/mm/aaaa e fuso horário de Portugal. | M | D-A | Proposto |
+| NFR-14 | O sistema deve mostrar os valores em euros com IVA incluído, as datas no formato dd/mm/aaaa e as horas no fuso horário de Portugal. | M | D-A | Proposto |
 
 ## 6. Interfaces externas
 | ID | Requisito | Prior. | Fonte | Estado |
@@ -50,8 +50,8 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 |---|---|---|---|---|
 | NFR-18 | O sistema não deve emitir faturas: a faturação está fora do âmbito. Cada produtor fatura no seu programa. | M | E-6; Resultados técnica 2 §5, C4 | Validado |
 | NFR-19 | O sistema não deve guardar diretamente o dinheiro dos coprodutores (PSD2). A cobrança é centralizada: o coprodutor faz um só pagamento, dividido pelos produtores através de um prestador de pagamentos licenciado (opção do grupo em 21/10, aceite pela FAIR em 10/11). | M | Proposta do grupo (a partir de E-5), E-8, PSD2, E-1, E-2 §13 | Validado (E-8) |
-| NFR-20 | A solução deve respeitar a Carta de Princípios das AMAP: não pode atuar como intermediário comercial entre produtor e coprodutor. | M | D-E (Carta de Princípios), D-C §4.1, E-2, E-3 §5, CA; interpretação do grupo (técnica 2, resultados §5) | A validar (C6) |
-| NFR-21 | A FAIR cobra uma fee mínima por AMAP mais uma percentagem sobre o valor das transações que passam pela plataforma; os valores são definidos pela FAIR e, na experiência piloto em Portugal, a plataforma é quase gratuita. | S | E-8; proposta do grupo (a partir de E-1 §4, E-5); CA e D-E preferiam sem comissão | Validado (E-8) |
+| NFR-20 | A solução deve respeitar a Carta de Princípios das AMAP: não pode atuar como intermediário comercial entre produtor e coprodutor. | M | D-E (Carta de Princípios), D-C §4.1, E-2, E-3 §5, CA; interpretação do grupo (técnica 2, resultados §5) | Proposto (decisão do grupo, C6) |
+| NFR-21 | O sistema deve suportar o modelo de cobrança da FAIR: uma fee mínima por AMAP mais uma percentagem sobre o valor das transações que passam pela plataforma, com os valores definidos pela FAIR (quase gratuita na experiência piloto em Portugal). | S | E-8; proposta do grupo (a partir de E-1 §4, E-5); CA e D-E preferiam sem comissão | Validado (E-8) |
 | NFR-22 | A solução deve ser uma plataforma partilhada por várias AMAP (multi-AMAP), com os dados de cada AMAP separados. | M | CA ("instância comum para as AMAP portuguesas"), E-2 §1, E-8 | Validado (E-8) |
 | NFR-23 | A solução deve ser mantida pela FAIR ao longo do tempo (correções, atualizações de segurança e evolução). | S | E-1 (softwares de amadores deixam de ser mantidos) | Proposto |
 | NFR-24 | As diferenças entre AMAP e entre produtores da mesma AMAP (duração do ciclo, datas e modo de entrega, prazos de alteração, momento do pagamento, regras de ausência) devem ser tratadas por configuração, sem desenvolvimento específico para cada AMAP ou produtor. | M | Princípio 1 do brainstorm de 14/10, E-2 §1, §11, E-3 §2–§4, §8, E-8 | Validado (E-8) |

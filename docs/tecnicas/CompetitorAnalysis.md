@@ -36,6 +36,17 @@ We compared four solutions, one from each category:
   - One shared instance for all Portuguese AMAPs.
   - Minimal effort required from farmers.
 
+## Other solutions considered
+
+Besides the four solutions compared above, four other tools were listed as examples of similar software and used as input for technique 4 (differentiation analysis). They were not compared in detail.
+
+| Solution | Link | Use in this project |
+|---|---|---|
+| GrownBy | https://grownby.com/ | Listed as an example of similar software (input for technique 4) |
+| Farmigo | https://farmigo.com/ | Listed as an example of similar software (input for technique 4) |
+| CSAware | https://www.csaware.com/ | Printed labels for the bags and a distribution sheet per delivery (FR-29) |
+| Local Food Marketplace | https://home.localfoodmarketplace.com/ | Listed as an example of similar software (input for technique 4) |
+
 ## Sources
 
 - AMAPJ: https://agritechobservatory.review.fao.org/es/amapj
@@ -43,9 +54,10 @@ We compared four solutions, one from each category:
 - Katuma / OFN: https://katuma.org/en, https://openfoodnetwork.org/
 - Local Line: https://localline.co/pricing-for-farms
 - REGENERAR: https://ppl.pt/en/causas/agroecologiadoc
+- Other solutions considered: https://grownby.com/, https://farmigo.com/, https://www.csaware.com/, https://home.localfoodmarketplace.com/
 
 ## Work log
 | Date | Member | Task | Hours |
 |---|---|---|---|
+| 30/09 | Liane Duarte | Examples of similar software (GrownBy, Farmigo, CSAware, Local Food Marketplace) | 0.5 |
 | 07/10 | Jakub Piwko | First version with basic analysis of 4 solutions | 2.0 |
-| | | | |

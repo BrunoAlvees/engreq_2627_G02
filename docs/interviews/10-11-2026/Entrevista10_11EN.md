@@ -2,9 +2,9 @@
 
 **Updated on:** 10/11/2026 · Source in the requirements: **E-8**
 
-This document summarises the interview held in the PL class of 10/11/2026 (about 17 minutes). The lecturer played the stakeholders: **FAIR representative** (client) and **AMAP management**. The interview guide is in [PerguntasEntrevistas](../semana-02-11-2026/PerguntasEntrevistasPT.md).
+This document summarises the interview held in the PL class of 10/11/2026 (30 minutes). The lecturer played the stakeholders: **FAIR representative** (client) and **AMAP management**. The interview guide is in [PerguntasEntrevista10_11PT](PerguntasEntrevista10_11PT.md).
 
-The information was recorded during the interview and checked against the recording. Unclear points are marked "to confirm".
+The information was noted down during the interview. Unclear points are marked "to confirm".
 
 ## 1. FAIR representative
 
@@ -30,7 +30,7 @@ The information was recorded during the interview and checked against the record
   - name and location;
   - the products that characterise them and the most important ones;
   - the farming method (organic or not).
-- They can upload documents, such as an organic certificate, Demeter, GRASP or GlobalG.A.P. *(names hard to hear in the recording; to confirm)*.
+- They can upload documents, such as an organic certificate, Demeter, GRASP or GlobalG.A.P. *(names to confirm)*.
 - These are used by the **AMAP management to assess** the application. Typically there is a **visit** to the farm, and then the producer is selected or not.
 - A selected producer becomes an **active producer**.
 - The process may vary between AMAPs, but there is always a **producer registration**.
@@ -81,6 +81,6 @@ The information was recorded during the interview and checked against the record
 | Collection | FR-28, FR-29 | In-app button mandatory; label with QR optional. Validated. |
 
 ## 4. Questions not asked
-- To the **producer**: notice needed for planning, product shortages, compensation when a producer leaves.
-- To **management**: renewal (intention or mandatory confirmation), checking payments and late payments.
-- To **FAIR**: data retention after leaving (PA-04) and PA-02 (cycle and commitment).
+- To the **producer** (not interviewed): notice needed for planning, product shortages, compensation when a producer leaves, notice period for leaving (PA-04), when each product is charged (DV-18 to DV-20), price changes mid-cycle and cancelled deliveries (DV-17).
+- To **management**: renewal (intention or mandatory confirmation), checking payments and late payments, who builds the order form and the calendar (DV-07, DV-08), paid trial deliveries and joining mid-cycle (DV-01, DV-03, DV-05), app or link and mobile coverage at the delivery point (DV-28), volunteers and uncollected baskets (DV-14, DV-15), recording allergies in the app (FR-19), joining only for other producers' products (DV-04), order confirmation to the co-producer (DV-10).
+- To **FAIR**: data retention after leaving (PA-04), PA-02 (cycle and commitment), whether centralized payment fits the Charter of Principles (C6), contract or trial period and support given to AMAPs, performance targets (NFR-02, NFR-10).
