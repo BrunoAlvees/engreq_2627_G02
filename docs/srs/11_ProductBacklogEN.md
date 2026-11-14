@@ -1,6 +1,6 @@
 # 11 Product backlog
 
-**Owner:** Jakub Piwko · **Updated on:** 14/11/2026 · **Status:** draft, features 3.1–3.5; story points to be agreed by the group (Planning Poker)
+**Owner:** Jakub Piwko · **Updated on:** 14/11/2026 · **Status:** draft, features 3.1–3.8; story points to be agreed by the group (Planning Poker)
 **Sources:** functional requirements in section 3 and [requisitos/](../requisitos/README.md), acceptance criteria in [12.4](12.4_AcceptanceCriteriaEN.md), user classes in [2.2](2.2_UserClassesEN.md)
 
 This section summarises the features as **user stories**: *As a <user class (2.2)>, I want <goal>, so that <benefit>*. Stories are numbered 1, 2, 3… across the whole backlog. One requirement (IR Nr.) may result in several stories, and one story may cover more than one requirement. The detail of each story is in the acceptance criteria of its requirements (appendix 12.4).
@@ -139,4 +139,66 @@ This section summarises the features as **user stories**: *As a <user class (2.2
 - Invoicing is out of scope (E-6, NFR-18), so there are no invoicing stories.
 - **Story 68 (C, R3):** the platform is almost free during the pilot (E-8), so FAIR charges are not needed in the MVP.
 
-**Running total (3.1–3.5):** 223 SP ≈ 892 hours · MVP 153 SP (612 h) · R2 53 SP (212 h) · R3 17 SP (68 h).
+## 11.6 Feature 3.6 – Communication and notifications
+
+| US Nr. | IR Nr. | User story | SP | Hours | Priority | Release |
+|---|---|---|---|---|---|---|
+| 69 | FR-35 | As a co-producer, I want a reminder before each delivery, with the lead time set by my AMAP, showing what I will collect, so that I do not forget my basket. | 3 | 12 | M | MVP |
+| 70 | FR-35, NFR-15 | As a user, I want to be notified automatically of the events that concern me (cycle opening, new offers, basket contents, date changes, missing items, uncollected basket, payment request), so that I do not have to check the app. | 5 | 20 | M | MVP |
+| 71 | FR-36 | As AMAP management, I want to send a notice to all members or to a group (e.g. only producers), so that I no longer depend on WhatsApp groups. | 3 | 12 | M | MVP |
+| 72 | FR-37 | As a producer, I want to exchange messages with a co-producer and write to all my co-producers, so that I can answer questions in one place. | 5 | 20 | S | R2 |
+| 73 | FR-37 | As a producer, I want to post production news on my profile, sent to my co-producers and linkable to a missing product, so that they understand why a product is missing. | 3 | 12 | S | R2 |
+| 74 | FR-38, NFR-15 | As a user, I want to choose whether I receive notifications by email, push or both, so that I get them where I read them. | 3 | 12 | S | R2 |
+| 75 | FR-38, NFR-15 | As a user, I want to receive individual notifications on WhatsApp through the official WhatsApp Business API, so that I get them in the app I use most. | 5 | 20 | C | R3 |
+
+**Feature 3.6 total:** 27 SP ≈ 108 hours · MVP 11 SP (44 h) · R2 11 SP (44 h) · R3 5 SP (20 h).
+
+**Notes:**
+- **Story 70** builds the shared notification mechanism (email in the MVP); other stories (e.g. 9, 31, 48, 54) only define when a notification is sent.
+- **Story 75 (C):** FR-38 is Should, but WhatsApp is optional in its acceptance criteria and depends on the WhatsApp Business API (DE-04).
+
+## 11.7 Feature 3.7 – Community and organisation
+
+| US Nr. | IR Nr. | User story | SP | Hours | Priority | Release |
+|---|---|---|---|---|---|---|
+| 76 | FR-39, FR-05 | As a member, I want to find the current Terms and Conditions, Guide and Charter of Principles, with the versions I accepted stored, so that I always know the rules in force. | 3 | 12 | M | MVP |
+| 77 | FR-40 | As AMAP management, I want to create working groups, assign members and define their tasks, so that volunteer work is organised. | 3 | 12 | C | R3 |
+| 78 | FR-40 | As a co-producer, I want to sign up for a distribution rota and get a reminder, so that distribution always has volunteers. | 5 | 20 | C | R3 |
+| 79 | FR-40 | As AMAP management, I want to call assemblies and meetings and share the minutes, so that every member can take part and stay informed. | 3 | 12 | C | R3 |
+| 80 | FR-41 | As AMAP management or a producer, I want to create events (e.g. farm visits, workshops) with member sign-up, so that the community meets beyond deliveries. | 3 | 12 | C | R3 |
+| 81 | FR-41 | As AMAP management, I want to gather co-producers' feedback on quality, variety, schedule and format of deliveries, so that the AMAP can improve. | 3 | 12 | C | R3 |
+
+**Feature 3.7 total:** 20 SP ≈ 80 hours · MVP 3 SP (12 h) · R3 17 SP (68 h).
+
+**Note:** stories 77–78 are still to be validated with the client (DV-14): working groups and rotas appear only in the old AMAP Porto Guide (D-C).
+
+## 11.8 Feature 3.8 – Reports and indicators
+
+| US Nr. | IR Nr. | User story | SP | Hours | Priority | Release |
+|---|---|---|---|---|---|---|
+| 82 | FR-42, NFR-16 | As a producer, I want to export orders and deliveries to CSV or XLSX, filtered by cycle, date, AMAP and product, so that I can keep working in my own spreadsheets. | 3 | 12 | S | R2 |
+| 83 | FR-43 | As AMAP management, I want to see social indicators (co-producers, people fed, producers supported, retention between cycles), so that I can report to funded projects. | 3 | 12 | C | R3 |
+| 84 | FR-43 | As AMAP management, I want to see environmental indicators (e.g. kilometres travelled, CO2, waste avoided), so that I can show the AMAP's benefits. | 5 | 20 | C | R3 |
+| 85 | FR-44, FR-05 | As AMAP management, I want to export data for network organisations and researchers, only anonymised or from members who gave consent, so that research is possible without breaking the GDPR. | 5 | 20 | C | R3 |
+
+**Feature 3.8 total:** 16 SP ≈ 64 hours · R2 3 SP (12 h) · R3 13 SP (52 h).
+
+**Note:** story 84 needs data the platform does not collect yet (e.g. distances), so its estimate is the least certain.
+
+## 11.9 Summary
+
+| Feature | Stories | SP | Hours | MVP | R2 | R3 |
+|---|---|---|---|---|---|---|
+| 3.1 AMAP and member management | 1–21 | 73 | 292 | 40 | 22 | 11 |
+| 3.2 Catalogue and offers | 22–30 | 31 | 124 | 22 | 9 | 0 |
+| 3.3 Cycles and subscriptions | 31–42 | 38 | 152 | 24 | 14 | 0 |
+| 3.4 Calendar and deliveries | 43–57 | 46 | 184 | 35 | 8 | 3 |
+| 3.5 Payments | 58–68 | 35 | 140 | 32 | 0 | 3 |
+| 3.6 Communication and notifications | 69–75 | 27 | 108 | 11 | 11 | 5 |
+| 3.7 Community and organisation | 76–81 | 20 | 80 | 3 | 0 | 17 |
+| 3.8 Reports and indicators | 82–85 | 16 | 64 | 0 | 3 | 13 |
+| **Total** | **85** | **286** | **1144** | **167 SP (668 h)** | **67 SP (268 h)** | **52 SP (208 h)** |
+
+**MVP path.** The MVP (167 SP ≈ 668 h) follows the subscription cycle: the AMAP is authorised and configured (3.1) → producers set up their catalogue (3.2) → management opens a cycle and co-producers subscribe (3.3) → baskets are delivered and collected (3.4) → co-producers pay once and producers receive their share (3.5), with reminders and notices (3.6) and the AMAP's rules available (3.7). R2 makes the cycle easier to repeat (renewal, catalogue copy, order changes, messages); R3 adds community and reporting features.
+
+**Not included:** the technical foundation shared by all stories (project setup, login, PWA installation, hosting and backups, translations; e.g. NFR-01, NFR-05, NFR-11, NFR-13). The group should decide whether to add it as separate stories.
