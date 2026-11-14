@@ -1,6 +1,6 @@
 # 11 Product backlog
 
-**Owner:** Jakub Piwko · **Updated on:** 14/11/2026 · **Status:** draft, feature 3.1 only; story points to be agreed by the group (Planning Poker)
+**Owner:** Jakub Piwko · **Updated on:** 14/11/2026 · **Status:** draft, features 3.1–3.3; story points to be agreed by the group (Planning Poker)
 **Sources:** functional requirements in section 3 and [requisitos/](../requisitos/README.md), acceptance criteria in [12.4](12.4_AcceptanceCriteriaEN.md), user classes in [2.2](2.2_UserClassesEN.md)
 
 This section summarises the features as **user stories**: *As a <user class (2.2)>, I want <goal>, so that <benefit>*. Stories are numbered 1, 2, 3… across the whole backlog. One requirement (IR Nr.) may result in several stories, and one story may cover more than one requirement. The detail of each story is in the acceptance criteria of its requirements (appendix 12.4).
@@ -43,3 +43,50 @@ This section summarises the features as **user stories**: *As a <user class (2.2
 - **Story 4** covers the general rules panel of FR-01. The rules of other features are configured in their own stories (trial deliveries in story 10, renewal in feature 3.3), so that no story is larger than 8 SP.
 - **Story 10 (S):** FR-03 is Must, but trial deliveries were not confirmed by the client in E-8 (AS-11). The waiting list (story 9) was confirmed and stays in the MVP.
 - After approval (story 17), the producer states the dates and products they can deliver through the catalogue (feature 3.2) and the calendar (feature 3.4).
+
+## 11.2 Feature 3.2 – Catalogue and offers
+
+| US Nr. | IR Nr. | User story | SP | Hours | Priority | Release |
+|---|---|---|---|---|---|---|
+| 22 | FR-11 | As a producer, I want to create, edit and deactivate products of three types (basket, extra, one-off), with no closed list, so that my catalogue matches what I produce. | 3 | 12 | M | MVP |
+| 23 | FR-11 | As a producer, I want to copy the previous cycle's catalogue and only adjust prices and dates, so that I do not rebuild it every cycle. | 2 | 8 | M | R2 |
+| 24 | FR-12 | As a producer, I want to offer several basket types, each with a name, description, approximate weight, number of varieties and price, so that co-producers can choose the basket that suits them. | 3 | 12 | M | MVP |
+| 25 | FR-12 | As a producer, I want to add variants to a product (e.g. size, variety, gluten-free), each with its own price, so that co-producers do not have to ask for them in free text. | 3 | 12 | M | MVP |
+| 26 | FR-13 | As a producer, I want to set each product's price type (fixed monthly fee, per unit, or per kg with the actual weight recorded at delivery), so that co-producers are charged correctly. | 5 | 20 | M | MVP |
+| 27 | FR-13 | As a producer, I want to set each product's frequency (fortnightly, monthly, quarterly, one-off, certain months or dates chosen by the co-producer), so that deliveries follow my production. | 5 | 20 | M | MVP |
+| 28 | FR-14 | As a producer, I want to set how many co-producers I accept per product, so that subscriptions close and the waiting list opens when I reach my limit. | 3 | 12 | M | MVP |
+| 29 | FR-15 | As a co-producer, I want to see a product's details sheet (description, certification, storage, origin, price with VAT), so that I know what I am buying. | 2 | 8 | S | R2 |
+| 30 | FR-16 | As a producer, I want to publish a one-off offer with an available quantity and a limit per person or number of co-producers, which closes when it runs out, so that I can sell surpluses. | 5 | 20 | S | R2 |
+
+**Feature 3.2 total:** 31 SP ≈ 124 hours · MVP 22 SP (88 h) · R2 9 SP (36 h).
+
+**Notes:**
+- **Story 23 (M, R2):** copying the catalogue is only needed from the second cycle, so it is not part of the MVP, although FR-11 is Must.
+- The AMAP's own capacity is set in story 3; story 28 adds the capacity per producer (FR-14, E-8) and reuses the waiting list of story 9.
+- The *(Could)* items in the acceptance criteria of FR-12 and FR-13 (alternatives, duplicates, discount on extras) are not in the backlog until they are validated with the client (C9, DV-24).
+
+## 11.3 Feature 3.3 – Cycles and subscriptions
+
+| US Nr. | IR Nr. | User story | SP | Hours | Priority | Release |
+|---|---|---|---|---|---|---|
+| 31 | FR-17 | As AMAP management, I want to open a cycle with its length, opening date and subscription deadline, so that members are notified and can subscribe until the deadline. | 3 | 12 | M | MVP |
+| 32 | FR-18 | As a co-producer, I want to choose products from several producers of my AMAP in one step, with quantity and variant, so that I do not fill in one form per producer. | 5 | 20 | M | MVP |
+| 33 | FR-18 | As a co-producer, I want to choose delivery dates and structured options where a product needs them (e.g. meat, loose instead of basket), so that I do not have to write them as free text. | 3 | 12 | M | MVP |
+| 34 | FR-18 | As a co-producer, I want to see a summary with the estimated monthly amount per producer and receive a confirmation, so that I know what I ordered and what I will pay. | 3 | 12 | M | MVP |
+| 35 | FR-19, NFR-06 | As a co-producer, I want to record my exclusions (allergies, intolerances, dislikes), visible only to my producers, so that my basket is adapted. | 3 | 12 | M | MVP |
+| 36 | FR-19 | As a producer, I want to see my co-producers' exclusions and record the substitution I made, so that I can adapt each basket. | 2 | 8 | M | MVP |
+| 37 | FR-20 | As AMAP management, I want subscription requests after the deadline to stay pending until I approve or refuse them, so that late members can still join when possible. | 3 | 12 | S | R2 |
+| 38 | FR-20 | As a producer, I want to set until when co-producers can change their order before each delivery, so that they can change it during the cycle without contacting me. | 5 | 20 | S | R2 |
+| 39 | FR-21 | As a co-producer, I want to see my current subscriptions and history at any time, so that I no longer need the email copy of my form. | 2 | 8 | M | MVP |
+| 40 | FR-22 | As a co-producer, I want to be asked in advance whether I will renew, with my previous order pre-filled, so that renewing takes one step and producers can plan. | 3 | 12 | S | R2 |
+| 41 | FR-22 | As AMAP management, I want to choose whether renewal is an intention or a mandatory confirmation by a deadline, after which unconfirmed places go to the waiting list, so that the rule fits my AMAP. | 3 | 12 | S | R2 |
+| 42 | FR-23 | As a producer, I want to see the totals ordered per product, variant, delivery date and AMAP, so that I can plan production and harvesting. | 3 | 12 | M | MVP |
+
+**Feature 3.3 total:** 38 SP ≈ 152 hours · MVP 24 SP (96 h) · R2 14 SP (56 h).
+
+**Notes:**
+- **Stories 32–34:** FR-18 (subscribe in a single step) is the core of the MVP and would be larger than 8 SP as one story, so it is split into choosing products, choosing dates and options, and the summary with confirmation.
+- In the MVP, subscriptions simply close at the deadline set in story 31; late requests (story 37) and order changes during the cycle (story 38) come in R2.
+- **Stories 40–41 (R2):** renewal is only needed at the end of the first cycle, and the renewal mode is still to be validated (DV-12).
+
+**Running total (3.1–3.3):** 142 SP ≈ 568 hours · MVP 86 SP (344 h) · R2 45 SP (180 h) · R3 11 SP (44 h).
