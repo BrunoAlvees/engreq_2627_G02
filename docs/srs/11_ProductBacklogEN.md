@@ -1,6 +1,6 @@
 # 11 Product backlog
 
-**Owner:** Jakub Piwko · **Updated on:** 14/11/2026 · **Status:** draft, features 3.1–3.3; story points to be agreed by the group (Planning Poker)
+**Owner:** Jakub Piwko · **Updated on:** 14/11/2026 · **Status:** draft, features 3.1–3.5; story points to be agreed by the group (Planning Poker)
 **Sources:** functional requirements in section 3 and [requisitos/](../requisitos/README.md), acceptance criteria in [12.4](12.4_AcceptanceCriteriaEN.md), user classes in [2.2](2.2_UserClassesEN.md)
 
 This section summarises the features as **user stories**: *As a <user class (2.2)>, I want <goal>, so that <benefit>*. Stories are numbered 1, 2, 3… across the whole backlog. One requirement (IR Nr.) may result in several stories, and one story may cover more than one requirement. The detail of each story is in the acceptance criteria of its requirements (appendix 12.4).
@@ -89,4 +89,54 @@ This section summarises the features as **user stories**: *As a <user class (2.2
 - In the MVP, subscriptions simply close at the deadline set in story 31; late requests (story 37) and order changes during the cycle (story 38) come in R2.
 - **Stories 40–41 (R2):** renewal is only needed at the end of the first cycle, and the renewal mode is still to be validated (DV-12).
 
-**Running total (3.1–3.3):** 142 SP ≈ 568 hours · MVP 86 SP (344 h) · R2 45 SP (180 h) · R3 11 SP (44 h).
+## 11.4 Feature 3.4 – Calendar and deliveries
+
+| US Nr. | IR Nr. | User story | SP | Hours | Priority | Release |
+|---|---|---|---|---|---|---|
+| 43 | FR-24 | As AMAP management, I want the cycle's distribution dates to be created from the AMAP's day and time, and to change single dates (e.g. public holidays), so that everyone knows when distribution takes place. | 3 | 12 | M | MVP |
+| 44 | FR-24 | As a producer, I want to set my delivery dates for the cycle within the AMAP's distribution time, with my own frequency, product-specific dates and delivery mode, so that co-producers know when I deliver. | 5 | 20 | M | MVP |
+| 45 | FR-24 | As a co-producer, I want to see in one calendar the delivery dates of all producers I buy from, so that I know what arrives on each date. | 3 | 12 | M | MVP |
+| 46 | FR-25 | As a producer, I want to publish the basket contents before each delivery, so that I no longer send them by WhatsApp. | 3 | 12 | M | MVP |
+| 47 | FR-25 | As a co-producer, I want to see what I will collect on each date from all producers, adjusted for my exclusions and with the approximate weight, so that I can plan how to carry it home. | 3 | 12 | M | MVP |
+| 48 | FR-26 | As a producer, I want to confirm a product's availability before delivery, so that the affected co-producers are notified in time. | 3 | 12 | M | MVP |
+| 49 | FR-26 | As a producer, I want to record missing items and the compensation given (discount or substitution), so that co-producers do not pay for what they did not receive. | 3 | 12 | M | MVP |
+| 50 | FR-26 | As a producer, I want to record the actual quantity or weight delivered to each co-producer (e.g. meat), so that products priced per kg are charged correctly. | 2 | 8 | M | MVP |
+| 51 | FR-27 | As a co-producer, I want to report an absence, choose what happens to my basket from my AMAP's options and say who collects it, so that the basket is not wasted and the producer is notified. | 3 | 12 | M | MVP |
+| 52 | FR-28 | As a co-producer, or someone collecting for them, I want to confirm the collection with one button in the app, so that the producer knows the basket was collected. | 2 | 8 | M | MVP |
+| 53 | NFR-12 | As a co-producer at a pick-up point with weak coverage, I want my confirmation to be stored on the phone and sent later, so that I do not have to wait for a signal. | 3 | 12 | C | R3 |
+| 54 | FR-28 | As a producer, I want the system to remind those who have not confirmed and to flag uncollected baskets at the end of the distribution slot, so that I know the same day. | 3 | 12 | M | MVP |
+| 55 | FR-28 | As a volunteer, AMAP management or a producer, I want to confirm a collection on behalf of a co-producer without a phone, so that every collection is recorded. | 2 | 8 | M | MVP |
+| 56 | FR-29 | As AMAP management, I want to print the distribution sheet for each date as an A4 PDF, showing what each co-producer takes from each producer, so that distribution works without phones. | 3 | 12 | S | R2 |
+| 57 | FR-29, FR-28 | As a producer with a printer, I want A4 sheets of bag labels with a QR code each, so that co-producers confirm by scanning and are warned if the bag is not theirs. | 5 | 20 | S | R2 |
+
+**Feature 3.4 total:** 46 SP ≈ 184 hours · MVP 35 SP (140 h) · R2 8 SP (32 h) · R3 3 SP (12 h).
+
+**Notes:**
+- Story 43 builds on the AMAP's day, time and place set in story 3; story 45 shows one AMAP, and story 14 (R2) extends it to several AMAPs.
+- **Stories 52–55:** FR-28 is the only requirement of this feature validated by the client (E-8): the in-app button is essential, so it is in the MVP; the QR labels (story 57) are optional (E-8).
+- **Story 53** comes from NFR-12, which is Could and still an idea to assess during implementation.
+
+## 11.5 Feature 3.5 – Payments
+
+| US Nr. | IR Nr. | User story | SP | Hours | Priority | Release |
+|---|---|---|---|---|---|---|
+| 58 | FR-30 | As AMAP management, I want to choose which payment methods of the provider are available (e.g. MB Way, Multibanco reference, card), so that members pay in ways they already use. | 2 | 8 | M | MVP |
+| 59 | FR-30, NFR-17 | As a producer, I want to link the account where I receive my share, so that I am paid directly by the payment provider. | 3 | 12 | M | MVP |
+| 60 | FR-30 | As a producer, I want to set when each product is charged (in advance for the cycle, monthly, or after delivery or weighing), so that payments follow how I sell. | 3 | 12 | M | MVP |
+| 61 | FR-31 | As a co-producer, I want the system to calculate my amount for each period (basket fees + extras + weighed products − compensated missing items), broken down by producer, so that I know exactly what I owe. | 5 | 20 | M | MVP |
+| 62 | FR-31 | As a co-producer, I want to receive the payment request and see the total, the breakdown by producer and my payment history in one view, so that I no longer copy prices into a note. | 3 | 12 | M | MVP |
+| 63 | FR-32, NFR-19 | As a co-producer, I want to make one online payment per period that is recorded automatically when the provider confirms it, so that I do not pay each producer separately. | 5 | 20 | M | MVP |
+| 64 | FR-32, NFR-19 | As a producer, I want the provider to split each payment among producers and show any method fees deducted, so that I receive my share without the platform holding the money. | 3 | 12 | M | MVP |
+| 65 | FR-32 | As AMAP management, I want to record payments made outside the platform (e.g. cash), so that every member's status is correct. | 2 | 8 | M | MVP |
+| 66 | FR-33 | As AMAP management or a producer, I want to see the payment status of each co-producer and be notified of late payments, so that I can follow them up. | 3 | 12 | M | MVP |
+| 67 | FR-33 | As a producer, I want a summary for each period of who paid, how much, when and what it covers, so that I no longer do the maths in Excel. | 3 | 12 | M | MVP |
+| 68 | FR-34 | As a FAIR administrator, I want to set the pricing model (minimum fee per AMAP plus a percentage, which can be zero during the pilot) and see the amount for each AMAP, so that FAIR can charge for the platform. | 3 | 12 | C | R3 |
+
+**Feature 3.5 total:** 35 SP ≈ 140 hours · MVP 32 SP (128 h) · R3 3 SP (12 h).
+
+**Notes:**
+- **Stories 63–64:** FR-32 (centralised collection, validated in E-8) is split into the co-producer's payment and the split among producers. The split is done by the licensed provider (NFR-19); the stories cover the integration only.
+- Invoicing is out of scope (E-6, NFR-18), so there are no invoicing stories.
+- **Story 68 (C, R3):** the platform is almost free during the pilot (E-8), so FAIR charges are not needed in the MVP.
+
+**Running total (3.1–3.5):** 223 SP ≈ 892 hours · MVP 153 SP (612 h) · R2 53 SP (212 h) · R3 17 SP (68 h).
