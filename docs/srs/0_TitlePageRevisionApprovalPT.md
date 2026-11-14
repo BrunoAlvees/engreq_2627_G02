@@ -1,6 +1,6 @@
 # Página de título, aprovação do documento e histórico de revisões
 
-**Responsável:** Leonor Marinho · **Atualizado em:** 04/11/2026 · **Estado:** rascunho para revisão
+**Responsável:** Leonor Marinho · **Atualizado em:** 12/11/2026 · **Estado:** rascunho para revisão
 **Secção do SRS:** parte inicial do modelo (página de título, *Aprovação do documento*, *Histórico de revisões*)
 
 ## Página de título
@@ -34,6 +34,7 @@
 | 0.2 | Bruno Alves | Requisitos reduzidos e agrupados (conselho do docente); secção 2.4 | 28/10/2026 |
 | 0.3 | Bruno Alves | Identificadores alterados para `FR-nn` / `NFR-nn` (relatório em inglês) | 30/10/2026 |
 | 0.4 | Leonor Marinho | Rascunho da secção 6 e das secções 10 a 10.2 | 04/11/2026 |
+| 0.5 | Leonor Marinho | Secções 6, 10, 10.1 e 10.2 atualizadas com a entrevista de 10/11 (E-8) | 12/11/2026 |
 | 1.0 | Grupo 02 | Versão final | *(a preencher)* |
 
 > **Nota:** as datas das versões 0.1 a 0.3 seguem o histórico do repositório e as datas em `docs/requisitos/README.md`. Acrescentar uma linha a esta tabela sempre que uma secção for integrada no documento Word.

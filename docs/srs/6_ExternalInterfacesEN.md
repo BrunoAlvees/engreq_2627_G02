@@ -1,6 +1,6 @@
 # 6 External interface requirements
 
-**Owner:** Leonor Marinho · **Updated on:** 04/11/2026 · **Status:** draft for review
+**Owner:** Leonor Marinho · **Updated on:** 12/11/2026 · **Status:** updated with E-8, for review
 **Sources:** [NFR](../requisitos/RNF_AtributosQualidadeEN.md) §1 and §6, [context diagram](../requisitos/diagramas/DiagramaContextoEN.md), feature files [RF01–RF08](../requisitos/README.md); source codes in [requisitos/README.md](../requisitos/README.md)
 
 This section describes how FAIR-AMAP connects to its **users** (6.1), to other **software** (6.2), to **hardware** (6.3) and to **communication channels** (6.4). The requirements themselves are in the NFR file; here they are only referenced (`NFR-nn`) and explained. Interface choices that no stakeholder confirmed are marked *Proposed* or *To validate*.
@@ -29,7 +29,7 @@ This section describes how FAIR-AMAP connects to its **users** (6.1), to other *
 | Co-producer | **Home** | Next delivery (date, place, what they will collect, approximate weight), amount due, pending reminders | FR-21, FR-25, FR-31, FR-35 |
 | Co-producer | **Subscribe to a cycle** | Products of all producers of the AMAP in one form, with options, deadline and a confirmation at the end | FR-17, FR-18, FR-19 |
 | Co-producer | **Absence** | Report an absence, choose what happens to the basket from the options the AMAP defined, say who collects it | FR-27 |
-| Co-producer | **Collect** | Confirm collection of the basket (also with a weak network) | FR-28, NFR-12 |
+| Co-producer | **Collect** | Confirm collection of the basket with a **button** (mandatory, also with a weak network); optionally scan the QR code on the bag label | FR-28, FR-29, NFR-12 |
 | Co-producer | **Payments** | Amount per producer and per period, one payment, history | FR-31, FR-32, FR-21 |
 | Producer | **Basket and catalogue** | Manage catalogue, publish the contents of the next basket, publish one-off offers | FR-11 to FR-16, FR-25 |
 | Producer | **Planning and deliveries** | Totals ordered and aggregated preferences; record missing items, compensations and quantities actually delivered | FR-23, FR-26 |
@@ -107,12 +107,12 @@ Low-fidelity sketches (text) of three key screens. They show content and order o
 
 | # | Interface | Direction and data | Purpose | Related requirements | Status |
 |---|---|---|---|---|---|
-| SI-1 | **Licensed payment provider** (e.g. MB Way), able to split one payment among several producers | Out: payment request with amounts per producer. In: payment confirmation and status | One payment per co-producer per period, without the system holding the money | NFR-17, NFR-19, FR-32, FR-33 | Proposed (C6) |
+| SI-1 | **Licensed payment provider** (e.g. Stripe; MB Way as a payment method), able to split one payment among several producers | Out: payment request with amounts per producer. In: payment confirmation and status | One payment per co-producer per period, without the system holding the money. Payment method fees are a producer cost or are deducted transparently from the amount transferred (E-8) | NFR-17, NFR-19, FR-32, FR-33 | Validated (E-8) |
 | SI-2 | **Email service** | Out: notifications, reminders and notices. In: delivery status (optional) | Reminders, confirmations, notices from management | NFR-15, FR-35, FR-36 | Proposed |
 | SI-3 | **Web push** through the PWA | Out: push notifications to phones | Same notifications on the phone, when the user turns them on. **On iPhone, push only works if the PWA is installed on the home screen**; otherwise the user only gets email | NFR-01, NFR-15 | Proposed |
 | SI-4 | **WhatsApp Business API** (or SMS) | Out: individual messages (not a bot in a group) | Optional channel, because WhatsApp is the channel in use today | NFR-15 *(Could)* | Idea |
 | SI-5 | **Spreadsheet export** (CSV/XLSX) | Out: orders, deliveries and payments | For those who work in Excel today | NFR-16, FR-42 | Proposed |
-| SI-6 | **PDF generation** (A4) | Out: distribution sheet and bag labels | Printed at the distribution point | FR-29 | Proposed |
+| SI-6 | **PDF generation** (A4) | Out: distribution sheet and bag labels | Printed at the distribution point. The label with the name may carry an **optional QR code**, scanned to confirm collection (E-8) | FR-28, FR-29 | Proposed |
 | SI-7 | **Anonymised data export** to network organisations and researchers | Out: anonymised data, or data from members who gave consent | Reports and indicators | FR-44, FR-05 | Proposed |
 | SI-8 | **Import of existing data** from spreadsheets (CSV/XLSX) and form answers | In: members, subscriptions and products already kept in Excel and Google Forms | Avoid each AMAP re-entering everything by hand when it starts using the platform | FR-45, assumption DE-08 in [2.5](2.5_PressupostosDependenciasEN.md) | Idea |
 
@@ -124,9 +124,8 @@ FAIR-AMAP is a web application and has **no direct interface with specific hardw
 
 - **Phones and tablets** (Android and iPhone), with a current browser, for the PWA, push notifications and collection confirmation (NFR-01, NFR-12).
 - **Computers** with a current browser, for management and producers.
-- **Printers** (A4) for the distribution sheet and bag labels (FR-29). The system only generates the PDF.
-
-*Possible future items (not requested by any stakeholder):* camera for QR codes at collection. To be assessed only if the group decides so.
+- **Printers** (A4) for the distribution sheet and bag labels (FR-29). The system only generates the PDF. Not every producer has a printer, so printing is optional (E-8).
+- **Phone camera** (optional), to scan the QR code on the bag label and confirm collection. The lecturer called it "a nice feature" (E-8). Whoever has no printer or does not scan just taps the button in the app (FR-28).
 
 ## 6.4 Communication interfaces
 
@@ -141,6 +140,6 @@ FAIR-AMAP is a web application and has **no direct interface with specific hardw
 
 ## Open points
 
-- **Payment provider and channels:** which provider(s) are acceptable and which channels do co-producers actually want (many use WhatsApp today)? Depends on **C6** and on the confirmation of E-5 with the lecturer.
+- **Payment provider and channels:** the client accepted collection through a provider such as Stripe (E-8, so C6 is resolved). Still open: which provider and whether MB Way is offered as a method, and which channels co-producers want (many use WhatsApp today).
 - **UI sketches:** are they enough for the SRS, or does the lecturer expect mock-ups? To ask in the next session.
 - **New identifiers:** `UI-n`, `SI-n` and `CI-n` are local to this section. If the group prefers, they can become `NFR-nn` (the next free number is NFR-25), updating PT and EN.
