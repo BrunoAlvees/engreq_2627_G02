@@ -35,7 +35,7 @@ Os requisitos não funcionais têm de ser **específicos e verificáveis** (temp
 ## 5. Internacionalização e localização
 | ID | Requisito | Prior. | Fonte | Estado |
 |---|---|---|---|---|
-| NFR-13 | A interface deve estar em **português europeu** e preparada para outras línguas (ex.: inglês, francês). | M | CA (nenhuma solução analisada tem interface em português) | Proposto |
+| NFR-13 | A interface deve estar em **português europeu** e **inglês**, e preparada para outras línguas (ex.: francês). | M | CA (nenhuma solução analisada tem interface em português), E-8 (coprodutores estrangeiros) | Proposto |
 | NFR-14 | O sistema deve mostrar os valores em euros com IVA incluído, as datas no formato dd/mm/aaaa e as horas no fuso horário de Portugal. | M | D-A | Proposto |
 
 ## 6. Interfaces externas

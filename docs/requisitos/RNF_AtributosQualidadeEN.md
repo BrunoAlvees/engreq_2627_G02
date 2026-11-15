@@ -35,7 +35,7 @@ Non-functional requirements must be **specific and verifiable** (SRS template). 
 ## 5. Internationalisation and localisation
 | ID | Requirement | Prio. | Source | Status |
 |---|---|---|---|---|
-| NFR-13 | The interface shall be in **European Portuguese** and ready for other languages (e.g. English, French). | M | CA (none of the solutions analysed has a Portuguese interface) | Proposed |
+| NFR-13 | The interface shall be in **European Portuguese** and **English**, and ready for other languages (e.g. French). | M | CA (none of the solutions analysed has a Portuguese interface), E-8 (foreign co-producers) | Proposed |
 | NFR-14 | The system shall show amounts in euros with VAT included, dates in dd/mm/yyyy format and times in the Portuguese time zone. | M | D-A | Proposed |
 
 ## 6. External interfaces
