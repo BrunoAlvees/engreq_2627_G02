@@ -1,2 +1,6 @@
 # Local Word exports of the SRS (not versioned)
 docs/word_srs/
+
+# BMAD personal settings (each member has their own)
+_bmad/config.user.toml
+_bmad/custom/*.user.toml
